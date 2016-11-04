@@ -57,12 +57,12 @@ name = Languagesystems;
 features = (
 {
 automatic = 1;
-code = "feature locl;\012feature subs;\012feature sinf;\012feature sups;\012feature numr;\012feature dnom;\012feature frac;\012feature ordn;\012feature ccmp;\012";
+code = "feature ccmp;\012feature locl;\012feature subs;\012feature sinf;\012feature sups;\012feature numr;\012feature dnom;\012feature frac;\012feature ordn;\012feature pnum;\012feature tnum;\012";
 name = aalt;
 },
 {
 automatic = 1;
-code = "lookup latn_comb1 {\012	script latn;\012@CombiningTopAccents = [acutecomb brevecomb breveinvertedcomb caroncomb circumflexcomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];\012@CombiningNonTopAccents = [cedillacomb dotbelowcomb ogonekcomb];\012	sub [i j]' @CombiningTopAccents by [idotless jdotless];\012	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];\012} latn_comb1;\012";
+code = "lookup ccmp_latn_1 {\012	script latn;\012	@CombiningTopAccents = [acutecomb brevecomb breveinvertedcomb caroncomb circumflexcomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];\012	@CombiningNonTopAccents = [cedillacomb dotbelowcomb ogonekcomb];\012	sub [i j]' @CombiningTopAccents by [idotless jdotless];\012	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];\012} ccmp_latn_1;\012";
 name = ccmp;
 },
 {
@@ -104,6 +104,16 @@ name = frac;
 automatic = 1;
 code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;\012sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;\012sub N o period by numero;\012";
 name = ordn;
+},
+{
+automatic = 1;
+code = "sub zero.tf by zero;\012sub one.tf by one;\012sub two.tf by two;\012sub three.tf by three;\012sub four.tf by four;\012sub five.tf by five;\012sub six.tf by six;\012sub seven.tf by seven;\012sub eight.tf by eight;\012sub nine.tf by nine;\012sub comma.tf by comma;\012sub period.tf by period;\012";
+name = pnum;
+},
+{
+automatic = 1;
+code = "sub zero by zero.tf;\012sub one by one.tf;\012sub two by two.tf;\012sub three by three.tf;\012sub four by four.tf;\012sub five by five.tf;\012sub six by six.tf;\012sub seven by seven.tf;\012sub eight by eight.tf;\012sub nine by nine.tf;\012sub comma by comma.tf;\012sub period by period.tf;\012";
+name = tnum;
 },
 {
 automatic = 1;
