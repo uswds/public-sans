@@ -545,3 +545,17 @@ code {
 	font: 11px "Courier New", Courier, mono;
 	vertical-align: middle;
 }
+
+.tabular {
+  font-feature-settings: 'tnum';
+  -webkit-font-feature-settings: 'tnum';
+  -moz-font-feature-settings: 'tnum';`
+}
+
+h3 {
+  margin-top: 32px;
+  font-weight: 400;
+  border-bottom: 1px solid #bbb;
+  margin-bottom: 8px;
+  padding-bottom: 8px;
+}
