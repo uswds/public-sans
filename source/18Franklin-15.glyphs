@@ -59,7 +59,7 @@ name = Languagesystems;
 features = (
 {
 automatic = 1;
-code = "feature ccmp;\012feature locl;\012feature subs;\012feature sinf;\012feature sups;\012feature numr;\012feature dnom;\012feature frac;\012feature ordn;\012feature pnum;\012feature tnum;\012";
+code = "feature ccmp;\012feature locl;\012feature subs;\012feature sinf;\012feature sups;\012feature numr;\012feature dnom;\012feature frac;\012feature ordn;\012feature pnum;\012feature tnum;\012feature lnum;\012feature onum;\012";
 name = aalt;
 },
 {
@@ -109,6 +109,11 @@ name = ordn;
 },
 {
 automatic = 1;
+code = "sub zero.osf by zero;\012sub one.osf by one;\012sub two.osf by two;\012sub three.osf by three;\012sub four.osf by four;\012sub five.osf by five;\012sub six.osf by six;\012sub seven.osf by seven;\012sub eight.osf by eight;\012sub nine.osf by nine;\012";
+name = lnum;
+},
+{
+automatic = 1;
 code = "sub zero.tf by zero;\012sub one.tf by one;\012sub two.tf by two;\012sub three.tf by three;\012sub four.tf by four;\012sub five.tf by five;\012sub six.tf by six;\012sub seven.tf by seven;\012sub eight.tf by eight;\012sub nine.tf by nine;\012sub comma.tf by comma;\012sub period.tf by period;\012";
 name = pnum;
 },
@@ -116,6 +121,11 @@ name = pnum;
 automatic = 1;
 code = "sub zero by zero.tf;\012sub one by one.tf;\012sub two by two.tf;\012sub three by three.tf;\012sub four by four.tf;\012sub five by five.tf;\012sub six by six.tf;\012sub seven by seven.tf;\012sub eight by eight.tf;\012sub nine by nine.tf;\012sub comma by comma.tf;\012sub period by period.tf;\012";
 name = tnum;
+},
+{
+automatic = 1;
+code = "sub zero by zero.osf;\012sub one by one.osf;\012sub two by two.osf;\012sub three by three.osf;\012sub four by four.osf;\012sub five by five.osf;\012sub six by six.osf;\012sub seven by seven.osf;\012sub eight by eight.osf;\012sub nine by nine.osf;\012";
+name = onum;
 },
 {
 automatic = 1;
@@ -32179,13 +32189,13 @@ rightMetricsKey = two;
 },
 {
 glyphname = three.osf;
-lastChange = "2016-11-04 21:15:27 +0000";
+lastChange = "2016-11-04 21:20:57 +0000";
 layers = (
 {
 components = (
 {
 name = three;
-transform = "{1, 0, 0, 1, 0, -194}";
+transform = "{1, 0, 0, 1, 0, 5}";
 }
 );
 layerId = "91AB5BCA-6A50-42DA-B2F7-8181BF189245";
