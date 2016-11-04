@@ -202,6 +202,24 @@ h2{
 	font: 10px Arial, sans-serif;
 }
 
+.tabs { overflow: auto; }
+.intro {
+  padding-top: 48px;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+p + p { padding-top: 32px; }
+
+a.heavy {
+  border-bottom: 4px solid #056DD4;
+  color: black;
+}
+
+a.heavy:hover {
+  color: #056DD4;
+}
+
 .tabs li {
 	float:  left;
 	margin: 0;
