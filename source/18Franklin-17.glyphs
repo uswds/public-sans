@@ -10,7 +10,7 @@ $,
 "/zero.tf/one.tf/comma.tf/two.tf/three.tf/four.tf/comma.tf/five.tf/six.tf/seven.tf/period.tf/eight.tf/nine.tf \012/four.tf/five.tf/comma.tf/two.tf/one.tf/seven.tf/comma.tf/six.tf/four.tf/five.tf/period.tf/seven.tf/five.tf/zero.osf",
 "/two.osf pm",
 "3/three.osf pm",
-l
+"l/Jcircumflex jpq\U00E7/Abreve"
 );
 customParameters = (
 {
@@ -44,12 +44,12 @@ value = "Based on Libre Franklin";
 },
 {
 name = vsuffix;
-value = "-v.016";
+value = "-v.018";
 }
 );
-date = "2016-11-07 04:52:40 +0000";
+date = "2016-11-06 03:52:40 +0000";
 designer = "Pablo Impallari, Rodrigo Fuenzalida (Modified by Dan O. Williams)";
-familyName = 18Franklin;
+familyName = "18Franklin-18";
 featurePrefixes = (
 {
 automatic = 1;
@@ -253,11 +253,11 @@ value = -246;
 },
 {
 name = parametroArea;
-value = "480";
+value = 220;
 },
 {
 name = parametroProfundidad;
-value = "6";
+value = 6;
 },
 {
 name = parametroExcedente;
@@ -58184,5 +58184,5 @@ tH = 35;
 };
 };
 versionMajor = 0;
-versionMinor = 17;
+versionMinor = 18;
 }
