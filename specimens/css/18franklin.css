@@ -1,162 +1,162 @@
 @import url('grid_12-825-55-15.css');
 @font-face {
     font-family: '18franklin-webfont';
-    src: url('../../fonts/webfonts/18Franklin-15-Black.woff2') format('woff2'),
-         url('../../fonts/webfonts/18Franklin-15-Black.woff') format('woff'),
-         url('../../fonts/webfonts/18Franklin-15-Black.ttf') format('truetype');
+    src: url('../../fonts/webfonts/18Franklin-16-Black.woff2') format('woff2'),
+         url('../../fonts/webfonts/18Franklin-16-Black.woff') format('woff'),
+         url('../../fonts/webfonts/18Franklin-16-Black.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
 
 }
 @font-face {
     font-family: '18franklin-webfont';
-    src: url('../../fonts/webfonts/18Franklin-15-BlackItalic.woff2') format('woff2'),
-         url('../../fonts/webfonts/18Franklin-15-BlackItalic.woff') format('woff'),
-         url('../../fonts/webfonts/18Franklin-15-BlackItalic.ttf') format('truetype');
+    src: url('../../fonts/webfonts/18Franklin-16-BlackItalic.woff2') format('woff2'),
+         url('../../fonts/webfonts/18Franklin-16-BlackItalic.woff') format('woff'),
+         url('../../fonts/webfonts/18Franklin-16-BlackItalic.ttf') format('truetype');
     font-weight: 900;
     font-style: italic;
 
 }
 @font-face {
     font-family: '18franklin-webfont';
-    src: url('../../fonts/webfonts/18Franklin-15-Bold.woff2') format('woff2'),
-         url('../../fonts/webfonts/18Franklin-15-Bold.woff') format('woff'),
-         url('../../fonts/webfonts/18Franklin-15-Bold.ttf') format('truetype');
+    src: url('../../fonts/webfonts/18Franklin-16-Bold.woff2') format('woff2'),
+         url('../../fonts/webfonts/18Franklin-16-Bold.woff') format('woff'),
+         url('../../fonts/webfonts/18Franklin-16-Bold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
 
 }
 @font-face {
     font-family: '18franklin-webfont';
-    src: url('../../fonts/webfonts/18Franklin-15-BoldItalic.woff2') format('woff2'),
-         url('../../fonts/webfonts/18Franklin-15-BoldItalic.woff') format('woff'),
-         url('../../fonts/webfonts/18Franklin-15-BoldItalic.ttf') format('truetype');
+    src: url('../../fonts/webfonts/18Franklin-16-BoldItalic.woff2') format('woff2'),
+         url('../../fonts/webfonts/18Franklin-16-BoldItalic.woff') format('woff'),
+         url('../../fonts/webfonts/18Franklin-16-BoldItalic.ttf') format('truetype');
     font-weight: 700;
     font-style: italic;
 
 }
 @font-face {
     font-family: '18franklin-webfont';
-    src: url('../../fonts/webfonts/18Franklin-15-ExtraBold.woff2') format('woff2'),
-         url('../../fonts/webfonts/18Franklin-15-ExtraBold.woff') format('woff'),
-         url('../../fonts/webfonts/18Franklin-15-ExtraBold.ttf') format('truetype');
+    src: url('../../fonts/webfonts/18Franklin-16-ExtraBold.woff2') format('woff2'),
+         url('../../fonts/webfonts/18Franklin-16-ExtraBold.woff') format('woff'),
+         url('../../fonts/webfonts/18Franklin-16-ExtraBold.ttf') format('truetype');
     font-weight: 800;
     font-style: normal;
 
 }
 @font-face {
     font-family: '18franklin-webfont';
-    src: url('../../fonts/webfonts/18Franklin-15-ExtraBoldItalic.woff2') format('woff2'),
-         url('../../fonts/webfonts/18Franklin-15-ExtraBoldItalic.woff') format('woff'),
-         url('../../fonts/webfonts/18Franklin-15-ExtraBoldItalic.ttf') format('truetype');
+    src: url('../../fonts/webfonts/18Franklin-16-ExtraBoldItalic.woff2') format('woff2'),
+         url('../../fonts/webfonts/18Franklin-16-ExtraBoldItalic.woff') format('woff'),
+         url('../../fonts/webfonts/18Franklin-16-ExtraBoldItalic.ttf') format('truetype');
     font-weight: 800;
     font-style: italic;
 
 }
 @font-face {
     font-family: '18franklin-webfont';
-    src: url('../../fonts/webfonts/18Franklin-15-Medium.woff2') format('woff2'),
-         url('../../fonts/webfonts/18Franklin-15-Medium.woff') format('woff'),
-         url('../../fonts/webfonts/18Franklin-15-Medium.ttf') format('truetype');
+    src: url('../../fonts/webfonts/18Franklin-16-Medium.woff2') format('woff2'),
+         url('../../fonts/webfonts/18Franklin-16-Medium.woff') format('woff'),
+         url('../../fonts/webfonts/18Franklin-16-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
 
 }
 @font-face {
     font-family: '18franklin-webfont';
-    src: url('../../fonts/webfonts/18Franklin-15-MediumItalic.woff2') format('woff2'),
-         url('../../fonts/webfonts/18Franklin-15-MediumItalic.woff') format('woff'),
-         url('../../fonts/webfonts/18Franklin-15-MediumItalic.ttf') format('truetype');
+    src: url('../../fonts/webfonts/18Franklin-16-MediumItalic.woff2') format('woff2'),
+         url('../../fonts/webfonts/18Franklin-16-MediumItalic.woff') format('woff'),
+         url('../../fonts/webfonts/18Franklin-16-MediumItalic.ttf') format('truetype');
     font-weight: 500;
     font-style: italic;
 
 }
 @font-face {
     font-family: '18franklin-webfont';
-    src: url('../../fonts/webfonts/18Franklin-15-SemiBold.woff2') format('woff2'),
-         url('../../fonts/webfonts/18Franklin-15-SemiBold.woff') format('woff'),
-         url('../../fonts/webfonts/18Franklin-15-SemiBold.ttf') format('truetype');
+    src: url('../../fonts/webfonts/18Franklin-16-SemiBold.woff2') format('woff2'),
+         url('../../fonts/webfonts/18Franklin-16-SemiBold.woff') format('woff'),
+         url('../../fonts/webfonts/18Franklin-16-SemiBold.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
 
 }
 @font-face {
     font-family: '18franklin-webfont';
-    src: url('../../fonts/webfonts/18Franklin-15-SemiBoldItalic.woff2') format('woff2'),
-         url('../../fonts/webfonts/18Franklin-15-SemiBoldItalic.woff') format('woff'),
-         url('../../fonts/webfonts/18Franklin-15-SemiBoldItalic.ttf') format('truetype');
+    src: url('../../fonts/webfonts/18Franklin-16-SemiBoldItalic.woff2') format('woff2'),
+         url('../../fonts/webfonts/18Franklin-16-SemiBoldItalic.woff') format('woff'),
+         url('../../fonts/webfonts/18Franklin-16-SemiBoldItalic.ttf') format('truetype');
     font-weight: 600;
     font-style: italic;
 
 }
 @font-face {
     font-family: '18franklin-webfont';
-    src: url('../../fonts/webfonts/18Franklin-15-ExtraLight.woff2') format('woff2'),
-         url('../../fonts/webfonts/18Franklin-15-ExtraLight.woff') format('woff'),
-         url('../../fonts/webfonts/18Franklin-15-ExtraLight.ttf') format('truetype');
+    src: url('../../fonts/webfonts/18Franklin-16-ExtraLight.woff2') format('woff2'),
+         url('../../fonts/webfonts/18Franklin-16-ExtraLight.woff') format('woff'),
+         url('../../fonts/webfonts/18Franklin-16-ExtraLight.ttf') format('truetype');
     font-weight: 200;
     font-style: normal;
 
 }
 @font-face {
     font-family: '18franklin-webfont';
-    src: url('../../fonts/webfonts/18Franklin-15-ExtraLightItalic.woff2') format('woff2'),
-         url('../../fonts/webfonts/18Franklin-15-ExtraLightItalic.woff') format('woff'),
-         url('../../fonts/webfonts/18Franklin-15-ExtraLightItalic.ttf') format('truetype');
+    src: url('../../fonts/webfonts/18Franklin-16-ExtraLightItalic.woff2') format('woff2'),
+         url('../../fonts/webfonts/18Franklin-16-ExtraLightItalic.woff') format('woff'),
+         url('../../fonts/webfonts/18Franklin-16-ExtraLightItalic.ttf') format('truetype');
     font-weight: 200;
     font-style: italic;
 
 }
 @font-face {
     font-family: '18franklin-webfont';
-    src: url('../../fonts/webfonts/18Franklin-15-Light.woff2') format('woff2'),
-         url('../../fonts/webfonts/18Franklin-15-Light.woff') format('woff'),
-         url('../../fonts/webfonts/18Franklin-15-Light.ttf') format('truetype');
+    src: url('../../fonts/webfonts/18Franklin-16-Light.woff2') format('woff2'),
+         url('../../fonts/webfonts/18Franklin-16-Light.woff') format('woff'),
+         url('../../fonts/webfonts/18Franklin-16-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
 
 }
 @font-face {
     font-family: '18franklin-webfont';
-    src: url('../../fonts/webfonts/18Franklin-15-LightItalic.woff2') format('woff2'),
-         url('../../fonts/webfonts/18Franklin-15-LightItalic.woff') format('woff'),
-         url('../../fonts/webfonts/18Franklin-15-LightItalic.ttf') format('truetype');
+    src: url('../../fonts/webfonts/18Franklin-16-LightItalic.woff2') format('woff2'),
+         url('../../fonts/webfonts/18Franklin-16-LightItalic.woff') format('woff'),
+         url('../../fonts/webfonts/18Franklin-16-LightItalic.ttf') format('truetype');
     font-weight: 300;
     font-style: italic;
 
 }
 @font-face {
     font-family: '18franklin-webfont';
-    src: url('../../fonts/webfonts/18Franklin-15-Regular.woff2') format('woff2'),
-         url('../../fonts/webfonts/18Franklin-15-Regular.woff') format('woff'),
-         url('../../fonts/webfonts/18Franklin-15-Regular.ttf') format('truetype');
+    src: url('../../fonts/webfonts/18Franklin-16-Regular.woff2') format('woff2'),
+         url('../../fonts/webfonts/18Franklin-16-Regular.woff') format('woff'),
+         url('../../fonts/webfonts/18Franklin-16-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
 
 }
 @font-face {
     font-family: '18franklin-webfont';
-    src: url('../../fonts/webfonts/18Franklin-15-Italic.woff2') format('woff2'),
-         url('../../fonts/webfonts/18Franklin-15-Italic.woff') format('woff'),
-         url('../../fonts/webfonts/18Franklin-15-Italic.ttf') format('truetype');
+    src: url('../../fonts/webfonts/18Franklin-16-Italic.woff2') format('woff2'),
+         url('../../fonts/webfonts/18Franklin-16-Italic.woff') format('woff'),
+         url('../../fonts/webfonts/18Franklin-16-Italic.ttf') format('truetype');
     font-weight: 400;
     font-style: italic;
 
 }
 @font-face {
     font-family: '18franklin-webfont';
-    src: url('../../fonts/webfonts/18Franklin-15-Thin.woff2') format('woff2'),
-         url('../../fonts/webfonts/18Franklin-15-Thin.woff') format('woff'),
-         url('../../fonts/webfonts/18Franklin-15-Thin.ttf') format('truetype');
+    src: url('../../fonts/webfonts/18Franklin-16-Thin.woff2') format('woff2'),
+         url('../../fonts/webfonts/18Franklin-16-Thin.woff') format('woff'),
+         url('../../fonts/webfonts/18Franklin-16-Thin.ttf') format('truetype');
     font-weight: 100;
     font-style: normal;
 
 }
 @font-face {
     font-family: '18franklin-webfont';
-    src: url('../../fonts/webfonts/18Franklin-15-ThinItalic.woff2') format('woff2'),
-         url('../../fonts/webfonts/18Franklin-15-ThinItalic.woff') format('woff'),
-         url('../../fonts/webfonts/18Franklin-15-ThinItalic.ttf') format('truetype');
+    src: url('../../fonts/webfonts/18Franklin-16-ThinItalic.woff2') format('woff2'),
+         url('../../fonts/webfonts/18Franklin-16-ThinItalic.woff') format('woff'),
+         url('../../fonts/webfonts/18Franklin-16-ThinItalic.ttf') format('truetype');
     font-weight: 100;
     font-style: italic;
 }
@@ -641,4 +641,17 @@ h3 {
   opacity: 0;
   visibility: hidden;
   position: absolute;
+}
+
+.footer {
+  margin-top: 48px;
+  padding-bottom: 48px;
+}
+
+.footer a {
+  color: #000;
+}
+
+.footer a:hover {
+  color: #056DD4;
 }
