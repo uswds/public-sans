@@ -11,12 +11,13 @@ cloud.gov,
 "/two.osf pm",
 "3/three.osf pm",
 "l/Jcircumflex jpq\U00E7/Abreve",
-"No Help",
+"threes No Help",
 "Mnemonic Nos Eisley",
 "EG Marshall",
 "powers awe ewe windward",
 "\U00A3",
-"e/quoteright re/quoteright body mus/quoteright  get stun."
+"e/quoteright re/quoteright body mus/quoteright  get stun.",
+789012938371713
 );
 customParameters = (
 {
@@ -4034,7 +4035,7 @@ unicode = 0120;
 },
 {
 glyphname = H;
-lastChange = "2016-11-10 18:46:59 +0000";
+lastChange = "2016-11-14 18:49:50 +0000";
 layers = (
 {
 anchors = (
@@ -4134,7 +4135,7 @@ nodes = (
 );
 }
 );
-width = 731;
+width = 746;
 },
 {
 anchors = (
@@ -4234,7 +4235,7 @@ nodes = (
 );
 }
 );
-width = 709;
+width = 725;
 }
 );
 unicode = 0048;
@@ -15993,7 +15994,7 @@ unicode = 01C6;
 },
 {
 glyphname = e;
-lastChange = "2016-11-02 00:47:50 +0000";
+lastChange = "2016-11-14 19:07:08 +0000";
 layers = (
 {
 anchors = (
@@ -16093,9 +16094,9 @@ nodes = (
 "21 426 OFFCURVE",
 "21 256 CURVE SMOOTH",
 "21 99 OFFCURVE",
-"143 -10 OFFCURVE",
-"303 -10 CURVE SMOOTH",
-"420 -10 OFFCURVE",
+"139 -10 OFFCURVE",
+"299 -10 CURVE SMOOTH",
+"413 -10 OFFCURVE",
 "492 21 OFFCURVE",
 "567 135 CURVE",
 "446 185 LINE",
@@ -16126,7 +16127,7 @@ width = 599;
 anchors = (
 {
 name = bottom;
-position = "{300, 0}";
+position = "{288, 0}";
 },
 {
 name = ogonek;
@@ -16207,6 +16208,12 @@ nodes = (
 }
 );
 };
+guideLines = (
+{
+angle = 88.4926;
+position = "{299, 521}";
+}
+);
 layerId = "91AB5BCA-6A50-42DA-B2F7-8181BF189245";
 paths = (
 {
@@ -16220,16 +16227,16 @@ nodes = (
 "56 436 OFFCURVE",
 "56 261 CURVE SMOOTH",
 "56 100 OFFCURVE",
-"155 -10 OFFCURVE",
-"299 -10 CURVE SMOOTH",
-"395 -10 OFFCURVE",
+"147 -10 OFFCURVE",
+"287 -10 CURVE SMOOTH",
+"403 -10 OFFCURVE",
 "466 29 OFFCURVE",
 "513 107 CURVE",
 "479 129 LINE",
 "442 64 OFFCURVE",
-"381 28 OFFCURVE",
-"299 28 CURVE SMOOTH",
-"187 28 OFFCURVE",
+"387 27 OFFCURVE",
+"287 27 CURVE SMOOTH",
+"171 27 OFFCURVE",
 "98 134 OFFCURVE",
 "98 254 CURVE"
 );
@@ -24056,7 +24063,7 @@ unicode = 0071;
 },
 {
 glyphname = r;
-lastChange = "2016-11-14 15:22:16 +0000";
+lastChange = "2016-11-14 18:54:10 +0000";
 layers = (
 {
 anchors = (
@@ -24218,13 +24225,13 @@ paths = (
 closed = 1;
 nodes = (
 "131 0 LINE",
-"131 354 LINE SMOOTH",
-"131 421 OFFCURVE",
-"236 501 OFFCURVE",
+"131 351 LINE SMOOTH",
+"131 422 OFFCURVE",
+"240 501 OFFCURVE",
 "330 499 CURVE",
 "330 540 LINE",
 "261 540 OFFCURVE",
-"204 514 OFFCURVE",
+"191 511 OFFCURVE",
 "128 444 CURVE",
 "128 530 LINE",
 "91 530 LINE",
@@ -25552,7 +25559,7 @@ unicode = 0259;
 },
 {
 glyphname = t;
-lastChange = "2016-11-02 00:47:50 +0000";
+lastChange = "2016-11-14 18:52:26 +0000";
 layers = (
 {
 anchors = (
@@ -25680,7 +25687,7 @@ nodes = (
 );
 }
 );
-width = 472;
+width = 484;
 },
 {
 anchors = (
@@ -25808,7 +25815,7 @@ nodes = (
 );
 }
 );
-width = 358;
+width = 382;
 }
 );
 leftKerningGroup = t;
@@ -31454,7 +31461,7 @@ unicode = 0036;
 },
 {
 glyphname = seven;
-lastChange = "2016-11-02 00:47:50 +0000";
+lastChange = "2016-11-14 18:37:41 +0000";
 layers = (
 {
 background = {
@@ -31504,10 +31511,10 @@ paths = (
 closed = 1;
 nodes = (
 "24 562 LINE",
-"375 562 LINE",
-"169 337 OFFCURVE",
-"110 107 OFFCURVE",
-"110 0 CURVE",
+"409 562 LINE",
+"203 337 OFFCURVE",
+"144 107 OFFCURVE",
+"144 0 CURVE",
 "374 0 LINE",
 "370 183 OFFCURVE",
 "504 423 OFFCURVE",
@@ -33418,7 +33425,7 @@ width = 704;
 },
 {
 glyphname = seven.tf;
-lastChange = "2016-11-04 21:18:09 +0000";
+lastChange = "2016-11-14 18:38:11 +0000";
 layers = (
 {
 background = {
@@ -33465,7 +33472,7 @@ nodes = (
 components = (
 {
 name = seven;
-transform = "{1, 0, 0, 1, 53, 0}";
+transform = "{1, 0, 0, 1, 49, 0}";
 }
 );
 layerId = "258ED206-D907-4350-8EBA-CBDDA1C16BF7";
@@ -58124,6 +58131,7 @@ t = {
 "@MMK_R_o" = -20;
 "@MMK_R_quoteright" = 20;
 q = -20;
+h = 1;
 };
 H = {
 "@MMK_R_a" = 0;
