@@ -1,10 +1,5 @@
 {
 .appVersion = "939";
-DisplayStrings = (
-"l/quoteright \U00E9cole moderne",
-/bracketleft_one_eight_F_bracketright.liga,
-hol/ydotbelow
-);
 customParameters = (
 {
 name = fsType;
@@ -7719,7 +7714,7 @@ unicode = 004C;
 },
 {
 glyphname = Lacute;
-lastChange = "2016-11-06 13:02:13 +0000";
+lastChange = "2016-11-29 14:23:22 +0000";
 layers = (
 {
 background = {
@@ -7739,7 +7734,7 @@ name = L;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 115, 212}";
+transform = "{1, 0, 0, 1, 38, 212}";
 }
 );
 layerId = "258ED206-D907-4350-8EBA-CBDDA1C16BF7";
@@ -7763,7 +7758,7 @@ name = L;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 175, 212}";
+transform = "{1, 0, 0, 1, 31, 212}";
 }
 );
 layerId = "91AB5BCA-6A50-42DA-B2F7-8181BF189245";
@@ -7775,7 +7770,7 @@ unicode = 0139;
 },
 {
 glyphname = Lcaron;
-lastChange = "2016-11-06 13:02:13 +0000";
+lastChange = "2016-11-29 14:23:22 +0000";
 layers = (
 {
 background = {
@@ -7795,7 +7790,7 @@ name = L;
 },
 {
 name = caroncomb.alt;
-transform = "{1, 0, 0, 1, 361, 0}";
+transform = "{1, 0, 0, 1, 358, 0}";
 }
 );
 layerId = "258ED206-D907-4350-8EBA-CBDDA1C16BF7";
@@ -7819,7 +7814,7 @@ name = L;
 },
 {
 name = caroncomb.alt;
-transform = "{1, 0, 0, 1, 363, 0}";
+transform = "{1, 0, 0, 1, 350, 0}";
 }
 );
 layerId = "91AB5BCA-6A50-42DA-B2F7-8181BF189245";
@@ -7830,7 +7825,7 @@ unicode = 013D;
 },
 {
 glyphname = Lcommaaccent;
-lastChange = "2016-11-06 13:02:13 +0000";
+lastChange = "2016-11-29 14:23:22 +0000";
 layers = (
 {
 background = {
@@ -7850,7 +7845,7 @@ name = L;
 },
 {
 name = commaaccentcomb;
-transform = "{1, 0, 0, 1, 226, 0}";
+transform = "{1, 0, 0, 1, 239, 0}";
 }
 );
 layerId = "258ED206-D907-4350-8EBA-CBDDA1C16BF7";
@@ -7874,7 +7869,7 @@ name = L;
 },
 {
 name = commaaccentcomb;
-transform = "{1, 0, 0, 1, 226, 0}";
+transform = "{1, 0, 0, 1, 277, 0}";
 }
 );
 layerId = "91AB5BCA-6A50-42DA-B2F7-8181BF189245";
@@ -7886,7 +7881,7 @@ unicode = 013B;
 },
 {
 glyphname = Ldot;
-lastChange = "2016-11-06 13:02:13 +0000";
+lastChange = "2016-11-29 14:23:22 +0000";
 layers = (
 {
 background = {
@@ -7904,7 +7899,6 @@ transform = "{1, 0, 0, 1, 310, 43}";
 components = (
 {
 name = L;
-transform = "{1, 0, 0, 1, -37, 0}";
 },
 {
 name = periodcentered;
@@ -7930,7 +7924,6 @@ transform = "{1, 0, 0, 1, 337, 23}";
 components = (
 {
 name = L;
-transform = "{1, 0, 0, 1, -37, 0}";
 },
 {
 name = periodcentered;
@@ -8555,7 +8548,7 @@ unicode = 0147;
 },
 {
 glyphname = Ncommaaccent;
-lastChange = "2016-11-06 13:02:13 +0000";
+lastChange = "2016-11-29 14:23:22 +0000";
 layers = (
 {
 background = {
@@ -8575,7 +8568,7 @@ name = N;
 },
 {
 name = commaaccentcomb;
-transform = "{1, 0, 0, 1, 277, 0}";
+transform = "{1, 0, 0, 1, 306, 0}";
 }
 );
 layerId = "258ED206-D907-4350-8EBA-CBDDA1C16BF7";
