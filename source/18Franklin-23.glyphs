@@ -251,6 +251,18 @@ name = typoLineGap;
 value = 238;
 },
 {
+name = hheaAscender;
+value = 847;
+},
+{
+name = hheaDescender;
+value = -165;
+},
+{
+name = hheaLineGap;
+value = 238;
+},
+{
 name = winAscent;
 value = 1167;
 },
@@ -269,18 +281,6 @@ value = 6;
 {
 name = parametroExcedente;
 value = 2;
-},
-{
-name = hheaAscender;
-value = 847;
-},
-{
-name = hheaDescender;
-value = -165;
-},
-{
-name = hheaLineGap;
-value = 238;
 }
 );
 descender = -165;
@@ -57742,10 +57742,10 @@ name = weightClass;
 value = 600;
 }
 );
-interpolationWeight = 130;
+interpolationWeight = 138;
 instanceInterpolations = {
-"91AB5BCA-6A50-42DA-B2F7-8181BF189245" = 0.4375;
-"258ED206-D907-4350-8EBA-CBDDA1C16BF7" = 0.5625;
+"91AB5BCA-6A50-42DA-B2F7-8181BF189245" = 0.3875;
+"258ED206-D907-4350-8EBA-CBDDA1C16BF7" = 0.6125;
 };
 name = SemiBold;
 },
@@ -57764,10 +57764,10 @@ name = weightClass;
 value = 700;
 }
 );
-interpolationWeight = 154;
+interpolationWeight = 160;
 instanceInterpolations = {
-"91AB5BCA-6A50-42DA-B2F7-8181BF189245" = 0.2875;
-"258ED206-D907-4350-8EBA-CBDDA1C16BF7" = 0.7125;
+"91AB5BCA-6A50-42DA-B2F7-8181BF189245" = 0.25;
+"258ED206-D907-4350-8EBA-CBDDA1C16BF7" = 0.75;
 };
 isBold = 1;
 name = Bold;
