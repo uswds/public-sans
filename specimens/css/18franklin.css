@@ -196,6 +196,8 @@ body {
   font-family: '18franklin-webfont';
   text-rendering: optimizeLegibility;
   font-variant-ligatures: common-ligatures;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
   -webkit-font-variant-ligatures: common-ligatures;
   -webkit-font-feature-settings: "kern";
 	font-feature-settings: "kern";
