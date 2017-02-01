@@ -1,5 +1,8 @@
 {
 .appVersion = "939";
+DisplayStrings = (
+text
+);
 customParameters = (
 {
 name = fsType;
@@ -25557,7 +25560,7 @@ unicode = 00DF;
 },
 {
 glyphname = t;
-lastChange = "2017-01-22 07:12:05 +0000";
+lastChange = "2017-02-01 18:20:37 +0000";
 layers = (
 {
 anchors = (
@@ -27659,7 +27662,7 @@ unicode = 1E81;
 },
 {
 glyphname = x;
-lastChange = "2017-01-31 17:50:06 +0000";
+lastChange = "2017-02-01 18:20:22 +0000";
 layers = (
 {
 background = {
@@ -59554,7 +59557,7 @@ two.osf = 5;
 };
 t = {
 "@MMK_R_a" = 0;
-"@MMK_R_o" = 0;
+"@MMK_R_o" = -10;
 "@MMK_R_quoteright" = 30;
 "@MMK_R_quotesingle" = 10;
 l = -10;
@@ -61067,7 +61070,7 @@ q = -30;
 "@MMK_R_s" = -20;
 "@MMK_R_slash" = 10;
 "@MMK_R_space" = -30;
-"@MMK_R_t" = 10;
+"@MMK_R_t" = -10;
 "@MMK_R_u" = -15;
 "@MMK_R_v" = 10;
 "@MMK_R_w" = -40;
