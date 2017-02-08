@@ -6,10 +6,11 @@ DisplayStrings = (
 "Armin Hoffman\012Arnold",
 tl,
 "IllfhMNDAJLSWFliested United",
-"Calaverats oetu text Jet",
+"Calaverats oetu text Jet/quoteleft/quoteright/quotedblright",
 WillRevCall,
 /l.ss01,
-"attack dog"
+"attack dog",
+"Coretta Scott King"
 );
 customParameters = (
 {
@@ -1577,7 +1578,7 @@ unicode = 01FC;
 },
 {
 glyphname = B;
-lastChange = "2017-02-02 23:42:18 +0000";
+lastChange = "2017-02-08 20:09:24 +0000";
 layers = (
 {
 background = {
@@ -9973,7 +9974,7 @@ unicode = 018F;
 },
 {
 glyphname = T;
-lastChange = "2017-02-03 00:13:11 +0000";
+lastChange = "2017-02-08 20:07:38 +0000";
 layers = (
 {
 anchors = (
@@ -12921,7 +12922,7 @@ unicode = 1E92;
 },
 {
 glyphname = a;
-lastChange = "2017-02-06 21:46:27 +0000";
+lastChange = "2017-02-08 20:07:22 +0000";
 layers = (
 {
 anchors = (
@@ -16049,7 +16050,7 @@ unicode = 01C6;
 },
 {
 glyphname = e;
-lastChange = "2017-02-08 01:02:54 +0000";
+lastChange = "2017-02-08 20:10:36 +0000";
 layers = (
 {
 anchors = (
@@ -20928,7 +20929,7 @@ unicode = 0142;
 },
 {
 glyphname = m;
-lastChange = "2017-01-22 07:11:21 +0000";
+lastChange = "2017-02-08 20:07:03 +0000";
 layers = (
 {
 background = {
@@ -21212,7 +21213,7 @@ unicode = 006D;
 },
 {
 glyphname = n;
-lastChange = "2017-02-02 23:47:13 +0000";
+lastChange = "2017-02-08 20:07:12 +0000";
 layers = (
 {
 anchors = (
@@ -22022,7 +22023,7 @@ unicode = 00F1;
 },
 {
 glyphname = o;
-lastChange = "2017-02-08 00:50:28 +0000";
+lastChange = "2017-02-08 20:10:40 +0000";
 layers = (
 {
 anchors = (
@@ -24144,7 +24145,7 @@ unicode = 0071;
 },
 {
 glyphname = r;
-lastChange = "2017-02-03 05:44:12 +0000";
+lastChange = "2017-02-08 20:09:38 +0000";
 layers = (
 {
 anchors = (
@@ -26193,7 +26194,7 @@ unicode = 1E6D;
 },
 {
 glyphname = u;
-lastChange = "2017-02-02 23:47:52 +0000";
+lastChange = "2017-02-08 20:09:12 +0000";
 layers = (
 {
 anchors = (
@@ -57910,6 +57911,7 @@ k = -20;
 "@MMK_R_question" = -16;
 "@MMK_R_v" = -7;
 "@MMK_R_z" = -9;
+"@MMK_R_o" = -5;
 };
 "@MMK_L_C" = {
 "@MMK_R_A" = -18;
@@ -58248,7 +58250,7 @@ p = -20;
 "@MMK_R_t" = -30;
 "@MMK_R_u" = -49;
 "@MMK_R_v" = -40;
-"@MMK_R_w" = -75;
+"@MMK_R_w" = -90;
 "@MMK_R_x" = -50;
 "@MMK_R_y" = -70;
 "@MMK_R_z" = -40;
@@ -58839,13 +58841,13 @@ q = -20;
 "@MMK_R_V" = -60;
 "@MMK_R_W" = -60;
 "@MMK_R_f" = -10;
-"@MMK_R_n" = -10;
+"@MMK_R_n" = -15;
 "@MMK_R_o" = 10;
 "@MMK_R_period" = -30;
 "@MMK_R_quotesingle" = -40;
-"@MMK_R_r" = -10;
+"@MMK_R_r" = -25;
 "@MMK_R_s" = 0;
-"@MMK_R_t" = -10;
+"@MMK_R_t" = -15;
 "@MMK_R_u" = -10;
 "@MMK_R_v" = -10;
 "@MMK_R_w" = 0;
@@ -59008,7 +59010,7 @@ zero = -30;
 "@MMK_R_question" = 14;
 "@MMK_R_quotesingle" = 10;
 "@MMK_R_r" = 0;
-"@MMK_R_s" = -70;
+"@MMK_R_s" = -30;
 "@MMK_R_space" = -40;
 "@MMK_R_t" = 10;
 "@MMK_R_two" = 5;
@@ -59018,6 +59020,7 @@ zero = -30;
 i = -15;
 q = -10;
 space = -20;
+k = -20;
 };
 "@MMK_L_s" = {
 "@MMK_R_ampersand" = -5;
@@ -59499,6 +59502,7 @@ e = {
 "@MMK_R_x" = -10;
 space = 0;
 "@MMK_R_r" = -10;
+"@MMK_R_t" = -5;
 };
 eight = {
 six = -20;
@@ -59638,7 +59642,7 @@ two.osf = -9;
 zero.osf = -14;
 };
 u = {
-"@MMK_R_r" = 0;
+"@MMK_R_r" = -5;
 };
 z = {
 "@MMK_R_a" = 5;
