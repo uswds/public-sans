@@ -10,7 +10,7 @@ tl,
 WillRevCall,
 /l.ss01,
 "attack dog",
-"Coretta Scott King"
+"Coretta Scott King\012Mark Twain"
 );
 customParameters = (
 {
@@ -5981,7 +5981,7 @@ unicode = 0141;
 },
 {
 glyphname = M;
-lastChange = "2017-02-06 22:32:04 +0000";
+lastChange = "2017-02-08 20:13:26 +0000";
 layers = (
 {
 background = {
@@ -24145,7 +24145,7 @@ unicode = 0071;
 },
 {
 glyphname = r;
-lastChange = "2017-02-08 20:09:38 +0000";
+lastChange = "2017-02-08 20:13:32 +0000";
 layers = (
 {
 anchors = (
@@ -59020,7 +59020,7 @@ zero = -30;
 i = -15;
 q = -10;
 space = -20;
-k = -20;
+k = -28;
 };
 "@MMK_L_s" = {
 "@MMK_R_ampersand" = -5;
@@ -59661,6 +59661,9 @@ one = 10;
 seven.osf = -19;
 sterling = -9;
 two.osf = -9;
+};
+M = {
+"@MMK_R_a" = -5;
 };
 };
 "258ED206-D907-4350-8EBA-CBDDA1C16BF7" = {
