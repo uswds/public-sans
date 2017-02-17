@@ -8,7 +8,8 @@ DisplayStrings = (
 QWERTYUIOPASDFGHJKLZXCVBNM,
 "stateless engineering",
 Personas,
-"President Donald J. Trump\012commissioned\012a baseball diamond"
+"President Donald J. Trump\012commissioned\012a baseball diamond",
+"hate all J suffixes"
 );
 customParameters = (
 {
@@ -1807,7 +1808,7 @@ unicode = 0042;
 },
 {
 glyphname = C;
-lastChange = "2017-02-17 19:25:49 +0000";
+lastChange = "2017-02-17 19:32:03 +0000";
 layers = (
 {
 anchors = (
@@ -5187,7 +5188,7 @@ unicode = 0134;
 },
 {
 glyphname = K;
-lastChange = "2017-02-17 19:23:55 +0000";
+lastChange = "2017-02-17 19:36:54 +0000";
 layers = (
 {
 anchors = (
@@ -5314,7 +5315,7 @@ nodes = (
 );
 }
 );
-width = 760;
+width = 749;
 },
 {
 anchors = (
@@ -5457,7 +5458,7 @@ unicode = 0136;
 },
 {
 glyphname = L;
-lastChange = "2017-02-17 19:23:59 +0000";
+lastChange = "2017-02-17 19:32:34 +0000";
 layers = (
 {
 anchors = (
@@ -11297,7 +11298,7 @@ unicode = 0168;
 },
 {
 glyphname = V;
-lastChange = "2017-02-17 19:24:19 +0000";
+lastChange = "2017-02-17 19:34:49 +0000";
 layers = (
 {
 background = {
@@ -11418,7 +11419,7 @@ unicode = 0056;
 },
 {
 glyphname = W;
-lastChange = "2017-02-17 19:22:28 +0000";
+lastChange = "2017-02-17 19:33:47 +0000";
 layers = (
 {
 anchors = (
@@ -11871,7 +11872,7 @@ unicode = 1E80;
 },
 {
 glyphname = X;
-lastChange = "2017-02-17 19:24:13 +0000";
+lastChange = "2017-02-17 19:38:32 +0000";
 layers = (
 {
 background = {
@@ -22017,7 +22018,7 @@ unicode = 00F1;
 },
 {
 glyphname = o;
-lastChange = "2017-02-17 18:26:05 +0000";
+lastChange = "2017-02-17 19:31:40 +0000";
 layers = (
 {
 anchors = (
@@ -41537,7 +41538,7 @@ width = 1000;
 },
 {
 glyphname = space;
-lastChange = "2017-02-17 17:09:21 +0000";
+lastChange = "2017-02-17 19:38:58 +0000";
 layers = (
 {
 layerId = "258ED206-D907-4350-8EBA-CBDDA1C16BF7";
@@ -59078,7 +59079,7 @@ q = -20;
 "@MMK_R_r" = 0;
 "@MMK_R_s" = 0;
 "@MMK_R_t" = -20;
-"@MMK_R_u" = -10;
+"@MMK_R_u" = -15;
 "@MMK_R_v" = 0;
 "@MMK_R_w" = 0;
 "@MMK_R_x" = -10;
@@ -59669,6 +59670,7 @@ q = -10;
 };
 C = {
 "@MMK_R_A" = -20;
+"@MMK_R_o" = -5;
 };
 E = {
 "@MMK_R_O" = -40;
@@ -60130,7 +60132,7 @@ q = -80;
 "@MMK_R_s" = -20;
 "@MMK_R_space" = -65;
 "@MMK_R_t" = -75;
-"@MMK_R_u" = -40;
+"@MMK_R_u" = -50;
 "@MMK_R_v" = -65;
 "@MMK_R_w" = -50;
 "@MMK_R_x" = -20;
@@ -60149,7 +60151,7 @@ q = -80;
 "@MMK_R_W" = -60;
 "@MMK_R_X" = 20;
 "@MMK_R_Y" = -120;
-"@MMK_R_a" = 25;
+"@MMK_R_a" = 5;
 "@MMK_R_c" = 10;
 "@MMK_R_d" = -10;
 "@MMK_R_guilsinglright" = 20;
@@ -60338,7 +60340,7 @@ p = -5;
 "@MMK_R_X" = 30;
 "@MMK_R_Y" = 50;
 "@MMK_R_Z" = 20;
-"@MMK_R_a" = -40;
+"@MMK_R_a" = -90;
 "@MMK_R_ampersand" = -60;
 "@MMK_R_c" = -60;
 "@MMK_R_colon" = -40;
@@ -60391,7 +60393,7 @@ i = -10;
 "@MMK_R_m" = -40;
 "@MMK_R_n" = -40;
 "@MMK_R_napostrophe" = 30;
-"@MMK_R_o" = -70;
+"@MMK_R_o" = -80;
 "@MMK_R_p" = -50;
 "@MMK_R_parenright" = 30;
 "@MMK_R_period" = -100;
@@ -60436,6 +60438,7 @@ I = 0;
 "@MMK_R_w" = -50;
 "@MMK_R_x" = 20;
 "@MMK_R_y" = -80;
+space = -50;
 };
 "@MMK_L_Y" = {
 "@MMK_R_A" = -95;
@@ -61496,7 +61499,7 @@ igrave = 30;
 C = {
 "@MMK_R_A" = -30;
 "@MMK_R_a" = -30;
-"@MMK_R_o" = -10;
+"@MMK_R_o" = -15;
 };
 E = {
 "@MMK_R_O" = -60;
@@ -62004,7 +62007,7 @@ two.osf = 10;
 };
 space = {
 "@MMK_R_A" = -10;
-"@MMK_R_J" = -30;
+"@MMK_R_J" = -20;
 };
 sterling = {
 four.osf = 20;
