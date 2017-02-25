@@ -3,7 +3,7 @@
 DisplayStrings = (
 "/q.001 wertyuiopasdfghjklzxcvbnm",
 united,
-"prototypes\012Colors\012Scale\012Text"
+"prototypes\012Colors\012Scale\012Text\012Type"
 );
 customParameters = (
 {
@@ -9218,7 +9218,7 @@ unicode = 0212;
 },
 {
 glyphname = S;
-lastChange = "2017-02-25 02:49:09 +0000";
+lastChange = "2017-02-25 02:53:38 +0000";
 layers = (
 {
 anchors = (
@@ -14624,7 +14624,7 @@ unicode = 0062;
 },
 {
 glyphname = c;
-lastChange = "2017-02-25 02:49:06 +0000";
+lastChange = "2017-02-25 02:53:30 +0000";
 layers = (
 {
 anchors = (
@@ -23458,7 +23458,7 @@ unicode = 0153;
 },
 {
 glyphname = p;
-lastChange = "2017-02-24 22:50:43 +0000";
+lastChange = "2017-02-25 02:55:38 +0000";
 layers = (
 {
 background = {
@@ -25591,7 +25591,7 @@ unicode = 00DF;
 },
 {
 glyphname = t;
-lastChange = "2017-02-25 02:44:22 +0000";
+lastChange = "2017-02-25 02:55:01 +0000";
 layers = (
 {
 anchors = (
@@ -27696,7 +27696,7 @@ unicode = 1E81;
 },
 {
 glyphname = x;
-lastChange = "2017-02-25 02:49:45 +0000";
+lastChange = "2017-02-25 02:54:14 +0000";
 layers = (
 {
 background = {
@@ -27875,7 +27875,7 @@ unicode = 0078;
 },
 {
 glyphname = y;
-lastChange = "2017-02-24 23:19:37 +0000";
+lastChange = "2017-02-25 02:54:45 +0000";
 layers = (
 {
 anchors = (
@@ -58424,7 +58424,7 @@ p = -20;
 "@MMK_R_four" = 5;
 "@MMK_R_four.osf" = 5;
 "@MMK_R_guilsinglright" = -9;
-"@MMK_R_o" = -20;
+"@MMK_R_o" = -6;
 "@MMK_R_one.ss02" = -25;
 "@MMK_R_parenright" = -5;
 "@MMK_R_question" = 5;
@@ -59587,7 +59587,7 @@ q = -30;
 "@MMK_R_s" = -9;
 "@MMK_R_seven" = -14;
 "@MMK_R_space" = -20;
-"@MMK_R_t" = 0;
+"@MMK_R_t" = -2;
 "@MMK_R_u" = -5;
 "@MMK_R_v" = 12;
 "@MMK_R_w" = -10;
@@ -59608,7 +59608,7 @@ q = -10;
 "@MMK_R_w" = -10;
 "@MMK_R_x" = -10;
 "@MMK_R_y" = -10;
-p = 0;
+p = -5;
 };
 "@MMK_L_yen" = {
 "@MMK_R_eight" = -5;
@@ -59721,7 +59721,7 @@ bracketleft = {
 j = 120;
 };
 c = {
-"@MMK_R_a" = 10;
+"@MMK_R_a" = -7;
 "@MMK_R_r" = -10;
 "@MMK_R_t" = -5;
 h = -15;
@@ -59815,7 +59815,7 @@ zero.osf = -14;
 p = {
 "@MMK_R_a" = 0;
 "@MMK_R_f" = -10;
-"@MMK_R_o" = 0;
+"@MMK_R_o" = 2;
 "@MMK_R_v" = -30;
 "@MMK_R_x" = -10;
 };
@@ -59872,7 +59872,7 @@ t = {
 "@MMK_R_quotesingle" = 10;
 "@MMK_R_r" = 0;
 "@MMK_R_t" = 0;
-"@MMK_R_y" = 10;
+"@MMK_R_y" = 5;
 l = -10;
 };
 three.osf = {
