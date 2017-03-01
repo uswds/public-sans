@@ -10,7 +10,7 @@ DisplayStrings = (
 "qwertyuiopasdfghjklzxcvbnm hey there",
 QWERTYUIOPASDFGHJKLZXCVBNM,
 "Cancel/quoteleft/quoteright ,./quotedblright/quotedblleft s\012;:<>[]{}()",
-"market research"
+"market research\012Text"
 );
 customParameters = (
 {
@@ -9957,7 +9957,7 @@ unicode = 018F;
 },
 {
 glyphname = T;
-lastChange = "2017-03-01 19:53:04 +0000";
+lastChange = "2017-03-01 23:34:22 +0000";
 layers = (
 {
 anchors = (
@@ -25605,7 +25605,7 @@ unicode = 00DF;
 },
 {
 glyphname = t;
-lastChange = "2017-03-01 19:43:11 +0000";
+lastChange = "2017-03-01 23:35:03 +0000";
 layers = (
 {
 anchors = (
@@ -25836,7 +25836,7 @@ paths = (
 {
 closed = 1;
 nodes = (
-"343 530 LINE",
+"323 530 LINE",
 "191 530 LINE",
 "191 710 LINE",
 "151 710 LINE",
@@ -25849,15 +25849,15 @@ nodes = (
 "176 0 OFFCURVE",
 "256 0 CURVE SMOOTH",
 "271 0 OFFCURVE",
-"335 1 OFFCURVE",
-"349 5 CURVE",
-"349 35 LINE",
+"315 1 OFFCURVE",
+"329 5 CURVE",
+"329 35 LINE",
 "253 35 LINE SMOOTH",
 "213 35 OFFCURVE",
 "191 50 OFFCURVE",
 "191 124 CURVE SMOOTH",
 "191 495 LINE",
-"343 495 LINE"
+"323 495 LINE"
 );
 }
 );
@@ -27711,7 +27711,7 @@ unicode = 1E81;
 },
 {
 glyphname = x;
-lastChange = "2017-03-01 22:59:55 +0000";
+lastChange = "2017-03-01 23:50:45 +0000";
 layers = (
 {
 background = {
@@ -27774,11 +27774,11 @@ nodes = (
 guideLines = (
 {
 angle = -53.7931;
-position = "{412, 0}";
+position = "{422, 0}";
 },
 {
 angle = 53.793;
-position = "{227, 0}";
+position = "{217, 0}";
 }
 );
 layerId = "258ED206-D907-4350-8EBA-CBDDA1C16BF7";
@@ -27788,15 +27788,15 @@ closed = 1;
 nodes = (
 "431 277 LINE",
 "617 530 LINE",
-"395 530 LINE",
-"315 421 LINE",
-"236 530 LINE",
+"405 530 LINE",
+"315 408 LINE",
+"226 530 LINE",
 "14 530 LINE",
 "205 269 LINE",
 "5 0 LINE",
-"227 0 LINE",
-"320 126 LINE",
-"412 0 LINE",
+"217 0 LINE",
+"320 141 LINE",
+"422 0 LINE",
 "634 0 LINE"
 );
 }
@@ -27861,22 +27861,32 @@ nodes = (
 }
 );
 };
+guideLines = (
+{
+angle = -126.663;
+position = "{105, 0}";
+},
+{
+angle = 126.663;
+position = "{467, 0}";
+}
+);
 layerId = "91AB5BCA-6A50-42DA-B2F7-8181BF189245";
 paths = (
 {
 closed = 1;
 nodes = (
-"314 273 LINE",
-"508 530 LINE",
-"463 530 LINE",
-"294 301 LINE",
-"121 530 LINE",
-"71 530 LINE",
-"267 267 LINE",
+"312 275 LINE",
+"502 530 LINE",
+"452 530 LINE",
+"286 307 LINE",
+"120 530 LINE",
+"70 530 LINE",
+"260 275 LINE",
 "55 0 LINE",
-"104 0 LINE",
-"288 238 LINE",
-"464 0 LINE",
+"105 0 LINE",
+"286 243 LINE",
+"467 0 LINE",
 "517 0 LINE"
 );
 }
@@ -58478,7 +58488,7 @@ p = -20;
 "@MMK_R_hyphen" = -75;
 "@MMK_R_m" = -52;
 "@MMK_R_n" = -70;
-"@MMK_R_o" = -110;
+"@MMK_R_o" = -100;
 "@MMK_R_p" = -70;
 "@MMK_R_period" = -140;
 "@MMK_R_question" = 19;
@@ -60325,7 +60335,7 @@ p = -5;
 "@MMK_R_m" = -70;
 "@MMK_R_n" = -100;
 "@MMK_R_napostrophe" = 25;
-"@MMK_R_o" = -140;
+"@MMK_R_o" = -155;
 "@MMK_R_p" = -100;
 "@MMK_R_parenright" = 40;
 "@MMK_R_period" = -130;
