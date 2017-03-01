@@ -143,10 +143,13 @@ fontMaster = (
 {
 alignmentZones = (
 "{847, 10}",
+"{825, 16}",
 "{742, 10}",
 "{530, 10}",
 "{0, -10}",
-"{-165, -10}"
+"{-165, -10}",
+"{-190, -16}",
+"{-300, -16}"
 );
 ascender = 825;
 capHeight = 742;
@@ -157,7 +160,7 @@ value = 825;
 },
 {
 name = typoDescender;
-value = -165;
+value = -300;
 },
 {
 name = typoLineGap;
@@ -169,7 +172,7 @@ value = 1025;
 },
 {
 name = winDescent;
-value = 165;
+value = 300;
 },
 {
 name = hheaAscender;
@@ -177,10 +180,10 @@ value = 1025;
 },
 {
 name = hheaDescender;
-value = -165;
+value = -300;
 }
 );
-descender = -165;
+descender = -300;
 guideLines = (
 {
 position = "{-255, 847}";
@@ -213,21 +216,24 @@ xHeight = 530;
 {
 alignmentZones = (
 "{847, 10}",
+"{825, 16}",
 "{742, 10}",
 "{530, 10}",
 "{0, -10}",
-"{-165, -10}"
+"{-165, -10}",
+"{-190, -16}",
+"{-300, -16}"
 );
 ascender = 825;
 capHeight = 742;
 customParameters = (
 {
 name = typoAscender;
-value = 847;
+value = 825;
 },
 {
 name = typoDescender;
-value = -165;
+value = -300;
 },
 {
 name = typoLineGap;
@@ -235,22 +241,22 @@ value = 200;
 },
 {
 name = winAscent;
-value = 1047;
+value = 1025;
 },
 {
 name = winDescent;
-value = 165;
+value = 300;
 },
 {
 name = hheaAscender;
-value = 1047;
+value = 1025;
 },
 {
 name = hheaDescender;
-value = -165;
+value = -300;
 }
 );
-descender = -165;
+descender = -300;
 guideLines = (
 {
 position = "{-40, -286}";
