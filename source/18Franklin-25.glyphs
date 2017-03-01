@@ -9,7 +9,8 @@ DisplayStrings = (
 "witchey case food\012oddity dozens",
 "qwertyuiopasdfghjklzxcvbnm hey there",
 QWERTYUIOPASDFGHJKLZXCVBNM,
-"Cancel/quoteleft/quoteright ,./quotedblright/quotedblleft s\012;:<>[]{}()"
+"Cancel/quoteleft/quoteright ,./quotedblright/quotedblleft s\012;:<>[]{}()",
+"comfortably\012compliance"
 );
 customParameters = (
 {
@@ -17083,7 +17084,7 @@ unicode = 0259;
 },
 {
 glyphname = f;
-lastChange = "2017-03-01 19:43:28 +0000";
+lastChange = "2017-03-01 20:32:31 +0000";
 layers = (
 {
 background = {
@@ -20928,7 +20929,7 @@ unicode = 0142;
 },
 {
 glyphname = m;
-lastChange = "2017-03-01 20:24:03 +0000";
+lastChange = "2017-03-01 20:32:41 +0000";
 layers = (
 {
 background = {
@@ -21204,7 +21205,7 @@ nodes = (
 );
 }
 );
-width = 922;
+width = 927;
 }
 );
 leftKerningGroup = n;
@@ -24152,7 +24153,7 @@ unicode = 0071;
 },
 {
 glyphname = r;
-lastChange = "2017-03-01 19:43:05 +0000";
+lastChange = "2017-03-01 20:31:55 +0000";
 layers = (
 {
 anchors = (
@@ -24328,7 +24329,7 @@ nodes = (
 );
 }
 );
-width = 374;
+width = 379;
 }
 );
 leftKerningGroup = r;
@@ -58855,7 +58856,7 @@ E = 0;
 "@MMK_R_g" = 0;
 "@MMK_R_hyphen" = -14;
 "@MMK_R_napostrophe" = 24;
-"@MMK_R_o" = 0;
+"@MMK_R_o" = -10;
 "@MMK_R_one" = 9;
 "@MMK_R_parenright" = 9;
 "@MMK_R_period" = -50;
@@ -59937,6 +59938,9 @@ one = 10;
 seven.osf = -19;
 sterling = -9;
 two.osf = -9;
+};
+m = {
+"@MMK_R_f" = -10;
 };
 };
 "258ED206-D907-4350-8EBA-CBDDA1C16BF7" = {
