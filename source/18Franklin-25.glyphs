@@ -11,7 +11,7 @@ qwertyuiopasdfghjklzxcvbnm,
 QWERTYUIOPASDFGHJKLZXCVBNM,
 "Cancel/quoteleft/quoteright ,./quotedblright/quotedblleft s\012;:<>[]{}()",
 "simplicity hd\012compliance\012friend with",
-"weathe\012turned\012has\012States\012waver\012personally\012Ezra\012Equanimity\012Faucet"
+"narrative\012Angel/quoteright s"
 );
 customParameters = (
 {
@@ -284,7 +284,7 @@ xHeight = 530;
 glyphs = (
 {
 glyphname = A;
-lastChange = "2017-03-01 19:53:20 +0000";
+lastChange = "2017-03-02 22:01:21 +0000";
 layers = (
 {
 anchors = (
@@ -17280,7 +17280,7 @@ unicode = 0066;
 },
 {
 glyphname = g;
-lastChange = "2017-03-02 21:56:00 +0000";
+lastChange = "2017-03-02 22:01:39 +0000";
 layers = (
 {
 anchors = (
@@ -18579,7 +18579,7 @@ unicode = 1E25;
 },
 {
 glyphname = i;
-lastChange = "2017-03-02 21:55:45 +0000";
+lastChange = "2017-03-02 21:59:39 +0000";
 layers = (
 {
 background = {
@@ -24146,7 +24146,7 @@ unicode = 0071;
 },
 {
 glyphname = r;
-lastChange = "2017-03-02 21:55:33 +0000";
+lastChange = "2017-03-02 22:00:12 +0000";
 layers = (
 {
 anchors = (
@@ -27152,7 +27152,7 @@ unicode = 0169;
 },
 {
 glyphname = v;
-lastChange = "2017-03-02 21:56:20 +0000";
+lastChange = "2017-03-02 21:59:52 +0000";
 layers = (
 {
 background = {
@@ -28541,7 +28541,7 @@ unicode = 017A;
 },
 {
 glyphname = zcaron;
-lastChange = "2017-03-01 19:44:02 +0000";
+lastChange = "2017-03-02 21:56:57 +0000";
 layers = (
 {
 background = {
@@ -28585,11 +28585,11 @@ name = z;
 },
 {
 name = caroncomb;
-transform = "{1, 0, 0, 1, 158, 0}";
+transform = "{1, 0, 0, 1, 153, 0}";
 }
 );
 layerId = "91AB5BCA-6A50-42DA-B2F7-8181BF189245";
-width = 564;
+width = 554;
 }
 );
 leftKerningGroup = z;
@@ -59238,7 +59238,7 @@ zero = -30;
 "@MMK_R_s" = -50;
 };
 "@MMK_L_r" = {
-"@MMK_R_a" = -15;
+"@MMK_R_a" = -5;
 "@MMK_R_ampersand" = -9;
 "@MMK_R_c" = -18;
 "@MMK_R_comma" = -40;
@@ -59557,7 +59557,7 @@ space = -20;
 "@MMK_R_guilsinglright" = 5;
 "@MMK_R_hyphen" = -9;
 "@MMK_R_napostrophe" = 45;
-"@MMK_R_o" = 0;
+"@MMK_R_o" = -10;
 "@MMK_R_parenright" = -19;
 "@MMK_R_period" = -70;
 "@MMK_R_question" = 5;
@@ -59789,7 +59789,7 @@ sterling = 9;
 };
 g = {
 "@MMK_R_a" = 0;
-"@MMK_R_o" = -10;
+"@MMK_R_o" = -5;
 "@MMK_R_u" = -20;
 h = 0;
 };
@@ -59801,6 +59801,7 @@ i = {
 "@MMK_R_s" = 0;
 "@MMK_R_t" = 10;
 "@MMK_R_z" = 20;
+"@MMK_R_v" = 0;
 };
 j = {
 "@MMK_R_parenright" = 30;
