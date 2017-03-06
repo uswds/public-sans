@@ -2,7 +2,8 @@
 .appVersion = "983";
 DisplayStrings = (
 "THE PERENNIAL PHILOSOPHY",
-QWERTYUIOPASDFGHJKLZXCVBNM
+QWERTYUIOPASDFGHJKLZXCVBNM,
+"paragraph\012personage"
 );
 customParameters = (
 {
@@ -12915,7 +12916,7 @@ unicode = 1E92;
 },
 {
 glyphname = a;
-lastChange = "2017-03-02 22:43:56 +0000";
+lastChange = "2017-03-06 19:13:53 +0000";
 layers = (
 {
 anchors = (
@@ -22029,7 +22030,7 @@ unicode = 00F1;
 },
 {
 glyphname = o;
-lastChange = "2017-03-06 18:04:49 +0000";
+lastChange = "2017-03-06 19:16:08 +0000";
 layers = (
 {
 anchors = (
@@ -24157,7 +24158,7 @@ unicode = 0071;
 },
 {
 glyphname = r;
-lastChange = "2017-03-06 18:03:52 +0000";
+lastChange = "2017-03-06 19:14:52 +0000";
 layers = (
 {
 anchors = (
@@ -24685,7 +24686,7 @@ unicode = 0213;
 },
 {
 glyphname = s;
-lastChange = "2017-03-02 22:43:58 +0000";
+lastChange = "2017-03-06 19:15:54 +0000";
 layers = (
 {
 anchors = (
@@ -59104,7 +59105,7 @@ q = -20;
 "@MMK_R_V" = -60;
 "@MMK_R_W" = -60;
 "@MMK_R_f" = -10;
-"@MMK_R_n" = -6;
+"@MMK_R_n" = -5;
 "@MMK_R_o" = 3;
 "@MMK_R_period" = -30;
 "@MMK_R_quotesingle" = -40;
@@ -59256,7 +59257,7 @@ zero = -30;
 "@MMK_R_s" = -50;
 };
 "@MMK_L_r" = {
-"@MMK_R_a" = -10;
+"@MMK_R_a" = -25;
 "@MMK_R_ampersand" = -9;
 "@MMK_R_c" = -18;
 "@MMK_R_comma" = -40;
@@ -59273,7 +59274,7 @@ zero = -30;
 "@MMK_R_question" = 14;
 "@MMK_R_quotesingle" = 10;
 "@MMK_R_r" = -25;
-"@MMK_R_s" = -15;
+"@MMK_R_s" = -20;
 "@MMK_R_space" = -40;
 "@MMK_R_t" = 0;
 "@MMK_R_two" = 5;
@@ -59747,6 +59748,7 @@ a = {
 "@MMK_R_z" = 20;
 h = 0;
 i = 0;
+"@MMK_R_r" = -5;
 };
 b = {
 "@MMK_R_a" = 0;
