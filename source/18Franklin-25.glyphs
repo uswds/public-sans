@@ -3,7 +3,7 @@
 DisplayStrings = (
 "THE PERENNIAL PHILOSOPHY",
 QWERTYUIOPASDFGHJKLZXCVBNM,
-"paragraph\012personage"
+"paragraph\012personage\012Description\012bikes"
 );
 customParameters = (
 {
@@ -2213,7 +2213,7 @@ unicode = 010A;
 },
 {
 glyphname = D;
-lastChange = "2017-03-06 18:30:55 +0000";
+lastChange = "2017-03-06 19:52:53 +0000";
 layers = (
 {
 anchors = (
@@ -16050,7 +16050,7 @@ unicode = 01C6;
 },
 {
 glyphname = e;
-lastChange = "2017-03-06 17:57:52 +0000";
+lastChange = "2017-03-06 19:52:57 +0000";
 layers = (
 {
 anchors = (
@@ -19981,7 +19981,7 @@ unicode = 0135;
 },
 {
 glyphname = k;
-lastChange = "2017-03-02 22:44:09 +0000";
+lastChange = "2017-03-06 19:53:26 +0000";
 layers = (
 {
 anchors = (
@@ -58380,10 +58380,10 @@ I = 10;
 "@MMK_R_X" = -50;
 "@MMK_R_Y" = -60;
 "@MMK_R_Z" = -20;
-"@MMK_R_o" = 5;
+"@MMK_R_o" = -5;
 "@MMK_R_period" = -70;
 "@MMK_R_r" = -20;
-"@MMK_R_s" = -10;
+"@MMK_R_s" = -17;
 "@MMK_R_v" = -25;
 i = -20;
 p = -20;
@@ -59062,7 +59062,7 @@ q = -10;
 "@MMK_R_f" = -10;
 "@MMK_R_g" = -23;
 "@MMK_R_hyphen" = -19;
-"@MMK_R_o" = 0;
+"@MMK_R_o" = -30;
 "@MMK_R_question" = 5;
 "@MMK_R_s" = -9;
 "@MMK_R_slash" = 10;
@@ -59790,7 +59790,7 @@ e = {
 "@MMK_R_o" = 10;
 "@MMK_R_quotesingle" = -20;
 "@MMK_R_r" = 0;
-"@MMK_R_s" = -10;
+"@MMK_R_s" = -5;
 "@MMK_R_t" = -10;
 "@MMK_R_v" = -10;
 "@MMK_R_x" = -5;
