@@ -3,7 +3,7 @@
 DisplayStrings = (
 "THE PERENNIAL PHILOSOPHY",
 QWERTYUIOPASDFGHJKLZXCVBNM,
-"paragraph\012personage\012Description\012bikes\012earnestness"
+"paragraph\012personage\012Description\012bikes\012earnestness\012c"
 );
 customParameters = (
 {
@@ -143,7 +143,7 @@ alignmentZones = (
 "{742, 11}",
 "{530, 11}",
 "{0, -11}",
-"{-300, -16}"
+"{-275, -16}"
 );
 ascender = 847;
 capHeight = 742;
@@ -154,30 +154,38 @@ value = 847;
 },
 {
 name = typoDescender;
-value = -300;
+value = -275;
 },
 {
 name = typoLineGap;
-value = 200;
+value = 100;
 },
 {
 name = winAscent;
-value = 1047;
+value = 1022;
 },
 {
 name = winDescent;
-value = 300;
+value = 275;
 },
 {
 name = hheaAscender;
-value = 1047;
+value = 1022;
 },
 {
 name = hheaDescender;
-value = -300;
+value = -275;
+},
+{
+name = underlinePosition;
+value = -100;
+},
+{
+name = underlineThickness;
+value = 40;
 }
 );
-descender = -300;
+descender = -275;
 guideLines = (
 {
 position = "{-6, 383}";
@@ -197,11 +205,11 @@ showMeasurement = 1;
 }
 );
 horizontalStems = (
-40
+44
 );
 id = "91AB5BCA-6A50-42DA-B2F7-8181BF189245";
 verticalStems = (
-40
+44
 );
 weight = Light;
 weightValue = 40;
@@ -224,30 +232,38 @@ value = 847;
 },
 {
 name = typoDescender;
-value = -300;
+value = -275;
 },
 {
 name = typoLineGap;
-value = 200;
+value = 100;
 },
 {
 name = winAscent;
-value = 1047;
+value = 1022;
 },
 {
 name = winDescent;
-value = 300;
+value = 275;
 },
 {
 name = hheaAscender;
-value = 1047;
+value = 1022;
 },
 {
 name = hheaDescender;
-value = -300;
+value = -275;
+},
+{
+name = underlinePosition;
+value = -100;
+},
+{
+name = underlineThickness;
+value = 40;
 }
 );
-descender = -300;
+descender = -275;
 guideLines = (
 {
 position = "{-40, -286}";
