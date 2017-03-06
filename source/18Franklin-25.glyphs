@@ -3,7 +3,7 @@
 DisplayStrings = (
 "THE PERENNIAL PHILOSOPHY",
 QWERTYUIOPASDFGHJKLZXCVBNM,
-"paragraph\012personage\012Description\012bikes"
+"paragraph\012personage\012Description\012bikes\012earnestness"
 );
 customParameters = (
 {
@@ -16050,7 +16050,7 @@ unicode = 01C6;
 },
 {
 glyphname = e;
-lastChange = "2017-03-06 19:52:57 +0000";
+lastChange = "2017-03-06 20:51:40 +0000";
 layers = (
 {
 anchors = (
@@ -24686,7 +24686,7 @@ unicode = 0213;
 },
 {
 glyphname = s;
-lastChange = "2017-03-06 19:15:54 +0000";
+lastChange = "2017-03-06 20:51:56 +0000";
 layers = (
 {
 anchors = (
@@ -59784,13 +59784,13 @@ d = {
 "@MMK_R_w" = 0;
 };
 e = {
-"@MMK_R_a" = 15;
+"@MMK_R_a" = 10;
 "@MMK_R_f" = -20;
 "@MMK_R_n" = 0;
 "@MMK_R_o" = 10;
 "@MMK_R_quotesingle" = -20;
 "@MMK_R_r" = 0;
-"@MMK_R_s" = -5;
+"@MMK_R_s" = -10;
 "@MMK_R_t" = -10;
 "@MMK_R_v" = -10;
 "@MMK_R_x" = -5;
@@ -59900,6 +59900,7 @@ s = {
 "@MMK_R_u" = -10;
 "@MMK_R_w" = -10;
 i = -5;
+"@MMK_R_s" = -10;
 };
 seven = {
 six = -20;
