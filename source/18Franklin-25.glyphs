@@ -1,11 +1,7 @@
 {
 .appVersion = "983";
 DisplayStrings = (
-"THE PERENNIAL PHILOSOPHY",
-QWERTYUIOPASDFGHJKLZXCVBNM,
-"Overview\012Government\012government\012Federal\012Recent\012team",
-abcdefghijklmnopqrstuvwxyz,
-"Report to Kickstarter\012Adrian Printing original"
+"government economy efficiency"
 );
 customParameters = (
 {
@@ -16068,7 +16064,7 @@ unicode = 01C6;
 },
 {
 glyphname = e;
-lastChange = "2017-03-07 06:09:21 +0000";
+lastChange = "2017-03-07 18:17:37 +0000";
 layers = (
 {
 anchors = (
@@ -17109,7 +17105,7 @@ unicode = 0259;
 },
 {
 glyphname = f;
-lastChange = "2017-03-07 06:10:43 +0000";
+lastChange = "2017-03-07 18:18:22 +0000";
 layers = (
 {
 background = {
@@ -17310,7 +17306,7 @@ unicode = 0066;
 },
 {
 glyphname = g;
-lastChange = "2017-03-07 18:06:24 +0000";
+lastChange = "2017-03-07 18:17:20 +0000";
 layers = (
 {
 anchors = (
@@ -58916,6 +58912,7 @@ H = 10;
 asterisk = 10;
 l = 30;
 q = -10;
+i = 20;
 };
 "@MMK_L_five" = {
 "@MMK_R_S" = -5;
@@ -59807,7 +59804,7 @@ e = {
 "@MMK_R_a" = 5;
 "@MMK_R_f" = -20;
 "@MMK_R_n" = 0;
-"@MMK_R_o" = 10;
+"@MMK_R_o" = 15;
 "@MMK_R_quotesingle" = -20;
 "@MMK_R_r" = 10;
 "@MMK_R_s" = -10;
@@ -59836,7 +59833,7 @@ sterling = 9;
 };
 g = {
 "@MMK_R_a" = -2;
-"@MMK_R_o" = -25;
+"@MMK_R_o" = -23;
 "@MMK_R_u" = -20;
 h = 0;
 i = -2;
