@@ -1,5 +1,5 @@
 {
-.appVersion = "939";
+.appVersion = "983";
 customParameters = (
 {
 name = fsType;
@@ -104,11 +104,11 @@ name = liga;
 fontMaster = (
 {
 alignmentZones = (
-"{847, 10}",
-"{742, 10}",
-"{530, 10}",
-"{0, -10}",
-"{-165, -10}"
+"{847, 16}",
+"{742, 11}",
+"{530, 11}",
+"{0, -11}",
+"{-275, -16}"
 );
 ascender = 847;
 capHeight = 742;
@@ -119,30 +119,38 @@ value = 847;
 },
 {
 name = typoDescender;
-value = -165;
+value = -265;
 },
 {
 name = typoLineGap;
-value = 200;
+value = 100;
 },
 {
 name = winAscent;
-value = 1047;
+value = 1022;
 },
 {
 name = winDescent;
-value = 165;
+value = 275;
 },
 {
 name = hheaAscender;
-value = 1047;
+value = 1022;
 },
 {
 name = hheaDescender;
-value = -165;
+value = -275;
+},
+{
+name = underlinePosititon;
+value = "-100";
+},
+{
+name = underlineThickness;
+value = 40;
 }
 );
-descender = -165;
+descender = -275;
 guideLines = (
 {
 position = "{-40, -246}";
@@ -172,11 +180,11 @@ xHeight = 530;
 },
 {
 alignmentZones = (
-"{847, 10}",
-"{742, 10}",
-"{530, 10}",
-"{0, -10}",
-"{-165, -10}"
+"{847, 16}",
+"{742, 11}",
+"{530, 11}",
+"{0, -11}",
+"{-275, -16}"
 );
 ascender = 847;
 capHeight = 742;
@@ -187,30 +195,38 @@ value = 847;
 },
 {
 name = typoDescender;
-value = -165;
+value = -275;
 },
 {
 name = typoLineGap;
-value = 200;
+value = 100;
 },
 {
 name = winAscent;
-value = 1047;
+value = 1022;
 },
 {
 name = winDescent;
-value = 165;
+value = 275;
 },
 {
 name = hheaAscender;
-value = 1047;
+value = 1022;
 },
 {
 name = hheaDescender;
-value = -165;
+value = -275;
+},
+{
+name = underlinePosition;
+value = -100;
+},
+{
+name = underlineThickness;
+value = 40;
 }
 );
-descender = -165;
+descender = -275;
 guideLines = (
 {
 position = "{-81, 1004}";
@@ -64131,10 +64147,10 @@ name = weightClass;
 value = 200;
 }
 );
-interpolationWeight = 60;
+interpolationWeight = 50;
 instanceInterpolations = {
-"91AB5BCA-6A50-42DA-B2F7-8181BF189245" = 0.875;
-"258ED206-D907-4350-8EBA-CBDDA1C16BF7" = 0.125;
+"91AB5BCA-6A50-42DA-B2F7-8181BF189245" = 0.9375;
+"258ED206-D907-4350-8EBA-CBDDA1C16BF7" = 0.0625;
 };
 isItalic = 1;
 linkStyle = ExtraLight;
@@ -64142,10 +64158,10 @@ name = "ExtraLight Italic";
 weightClass = ExtraLight;
 },
 {
-interpolationWeight = 72;
+interpolationWeight = 65;
 instanceInterpolations = {
-"91AB5BCA-6A50-42DA-B2F7-8181BF189245" = 0.8;
-"258ED206-D907-4350-8EBA-CBDDA1C16BF7" = 0.2;
+"91AB5BCA-6A50-42DA-B2F7-8181BF189245" = 0.84375;
+"258ED206-D907-4350-8EBA-CBDDA1C16BF7" = 0.15625;
 };
 isItalic = 1;
 linkStyle = Light;
@@ -64153,19 +64169,19 @@ name = "Light Italic";
 weightClass = Light;
 },
 {
-interpolationWeight = 86;
+interpolationWeight = 80;
 instanceInterpolations = {
-"91AB5BCA-6A50-42DA-B2F7-8181BF189245" = 0.7125;
-"258ED206-D907-4350-8EBA-CBDDA1C16BF7" = 0.2875;
+"91AB5BCA-6A50-42DA-B2F7-8181BF189245" = 0.75;
+"258ED206-D907-4350-8EBA-CBDDA1C16BF7" = 0.25;
 };
 isItalic = 1;
 name = Italic;
 },
 {
-interpolationWeight = 106;
+interpolationWeight = 95;
 instanceInterpolations = {
-"91AB5BCA-6A50-42DA-B2F7-8181BF189245" = 0.5875;
-"258ED206-D907-4350-8EBA-CBDDA1C16BF7" = 0.4125;
+"91AB5BCA-6A50-42DA-B2F7-8181BF189245" = 0.65625;
+"258ED206-D907-4350-8EBA-CBDDA1C16BF7" = 0.34375;
 };
 isItalic = 1;
 linkStyle = Medium;
@@ -64173,10 +64189,10 @@ name = "Medium Italic";
 weightClass = Medium;
 },
 {
-interpolationWeight = 130;
+interpolationWeight = 120;
 instanceInterpolations = {
-"91AB5BCA-6A50-42DA-B2F7-8181BF189245" = 0.4375;
-"258ED206-D907-4350-8EBA-CBDDA1C16BF7" = 0.5625;
+"91AB5BCA-6A50-42DA-B2F7-8181BF189245" = 0.5;
+"258ED206-D907-4350-8EBA-CBDDA1C16BF7" = 0.5;
 };
 isItalic = 1;
 linkStyle = SemiBold;
@@ -64184,10 +64200,10 @@ name = "SemiBold Italic";
 weightClass = SemiBold;
 },
 {
-interpolationWeight = 154;
+interpolationWeight = 160;
 instanceInterpolations = {
-"91AB5BCA-6A50-42DA-B2F7-8181BF189245" = 0.2875;
-"258ED206-D907-4350-8EBA-CBDDA1C16BF7" = 0.7125;
+"91AB5BCA-6A50-42DA-B2F7-8181BF189245" = 0.25;
+"258ED206-D907-4350-8EBA-CBDDA1C16BF7" = 0.75;
 };
 isBold = 1;
 isItalic = 1;
@@ -64195,10 +64211,10 @@ name = "Bold Italic";
 weightClass = Bold;
 },
 {
-interpolationWeight = 178;
+interpolationWeight = 180;
 instanceInterpolations = {
-"91AB5BCA-6A50-42DA-B2F7-8181BF189245" = 0.1375;
-"258ED206-D907-4350-8EBA-CBDDA1C16BF7" = 0.8625;
+"91AB5BCA-6A50-42DA-B2F7-8181BF189245" = 0.125;
+"258ED206-D907-4350-8EBA-CBDDA1C16BF7" = 0.875;
 };
 isItalic = 1;
 linkStyle = ExtraBold;
