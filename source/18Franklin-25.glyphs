@@ -1,5 +1,8 @@
 {
 .appVersion = "983";
+DisplayStrings = (
+D
+);
 customParameters = (
 {
 name = fsType;
@@ -2224,7 +2227,7 @@ unicode = 010A;
 },
 {
 glyphname = D;
-lastChange = "2017-03-06 19:52:53 +0000";
+lastChange = "2017-03-13 19:36:43 +0000";
 layers = (
 {
 anchors = (
@@ -2394,15 +2397,15 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"247 697 LINE SMOOTH",
-"491 697 OFFCURVE",
+"247 699 LINE SMOOTH",
+"491 699 OFFCURVE",
 "601 628 OFFCURVE",
 "601 372 CURVE SMOOTH",
 "601 130 OFFCURVE",
-"498 44 OFFCURVE",
-"240 44 CURVE SMOOTH",
-"179 44 LINE",
-"179 697 LINE"
+"498 42 OFFCURVE",
+"240 42 CURVE SMOOTH",
+"179 42 LINE",
+"179 699 LINE"
 );
 }
 );
@@ -58372,15 +58375,17 @@ i = -20;
 "@MMK_R_v" = -12;
 "@MMK_R_w" = -5;
 "@MMK_R_y" = -60;
-P = -15;
 I = 10;
+P = -15;
 };
 "@MMK_L_O" = {
 "@MMK_R_A" = -40;
 "@MMK_R_AE" = -80;
 "@MMK_R_J" = -10;
+"@MMK_R_O" = -5;
 "@MMK_R_S" = -20;
 "@MMK_R_T" = -60;
+"@MMK_R_U" = -30;
 "@MMK_R_V" = -40;
 "@MMK_R_W" = -50;
 "@MMK_R_X" = -50;
@@ -58391,19 +58396,18 @@ I = 10;
 "@MMK_R_r" = -20;
 "@MMK_R_s" = -17;
 "@MMK_R_v" = -45;
+I = -5;
+L = -25;
+M = -25;
 i = -20;
 p = -20;
-I = -5;
-"@MMK_R_U" = -30;
-L = -25;
-"@MMK_R_O" = -5;
-M = -25;
 };
 "@MMK_L_P" = {
 "@MMK_R_A" = -65;
 "@MMK_R_AE" = -130;
 "@MMK_R_C" = 5;
 "@MMK_R_J" = -75;
+"@MMK_R_O" = -5;
 "@MMK_R_S" = -13;
 "@MMK_R_T" = -5;
 "@MMK_R_V" = -5;
@@ -58423,13 +58427,12 @@ M = -25;
 "@MMK_R_o" = -15;
 "@MMK_R_period" = -110;
 "@MMK_R_question" = 30;
+"@MMK_R_r" = 5;
 "@MMK_R_s" = -14;
 "@MMK_R_slash" = -24;
 "@MMK_R_space" = -75;
 "@MMK_R_t" = 7;
 "@MMK_R_v" = 20;
-"@MMK_R_O" = -5;
-"@MMK_R_r" = 5;
 };
 "@MMK_L_R" = {
 "@MMK_R_A" = -15;
@@ -58903,9 +58906,9 @@ H = 10;
 "@MMK_R_x" = -10;
 "@MMK_R_z" = -5;
 asterisk = 10;
+i = 20;
 l = 30;
 q = -10;
-i = 20;
 };
 "@MMK_L_five" = {
 "@MMK_R_S" = -5;
@@ -59717,8 +59720,8 @@ p = -10;
 };
 C = {
 "@MMK_R_A" = -35;
-"@MMK_R_o" = -25;
 "@MMK_R_O" = -20;
+"@MMK_R_o" = -25;
 };
 E = {
 "@MMK_R_O" = -40;
@@ -59728,13 +59731,19 @@ E = {
 "@MMK_R_y" = -40;
 N = -10;
 };
+H = {
+"@MMK_R_O" = -20;
+};
+I = {
+"@MMK_R_O" = 10;
+};
 M = {
 "@MMK_R_a" = -5;
 };
 N = {
 "@MMK_R_A" = -30;
-"@MMK_R_o" = 0;
 "@MMK_R_T" = -25;
+"@MMK_R_o" = 0;
 };
 T = {
 adieresis = -16;
@@ -59753,12 +59762,12 @@ a = {
 "@MMK_R_g" = 3;
 "@MMK_R_n" = -5;
 "@MMK_R_o" = -10;
+"@MMK_R_r" = -5;
 "@MMK_R_t" = -15;
 "@MMK_R_v" = -5;
 "@MMK_R_z" = 20;
 h = 0;
 i = 0;
-"@MMK_R_r" = -5;
 };
 b = {
 "@MMK_R_a" = 0;
@@ -59832,8 +59841,8 @@ h = 0;
 i = -2;
 };
 h = {
-"@MMK_R_t" = -5;
 "@MMK_R_o" = -5;
+"@MMK_R_t" = -5;
 };
 i = {
 "@MMK_R_o" = 0;
@@ -59888,9 +59897,9 @@ p = {
 "@MMK_R_a" = 5;
 "@MMK_R_f" = -10;
 "@MMK_R_o" = 5;
+"@MMK_R_u" = -13;
 "@MMK_R_v" = -30;
 "@MMK_R_x" = -10;
-"@MMK_R_u" = -13;
 };
 parenleft = {
 "@MMK_R_j" = 90;
@@ -59907,11 +59916,11 @@ j = 40;
 s = {
 "@MMK_R_f" = 10;
 "@MMK_R_o" = -5;
+"@MMK_R_s" = -10;
 "@MMK_R_t" = -10;
 "@MMK_R_u" = -10;
 "@MMK_R_w" = -10;
 i = -5;
-"@MMK_R_s" = -10;
 };
 seven = {
 six = -20;
@@ -59949,9 +59958,9 @@ t = {
 "@MMK_R_quotesingle" = 10;
 "@MMK_R_r" = 0;
 "@MMK_R_t" = 0;
+"@MMK_R_u" = -5;
 "@MMK_R_y" = -5;
 l = -10;
-"@MMK_R_u" = -5;
 };
 three.osf = {
 five.osf = -5;
@@ -59997,12 +60006,6 @@ one = 10;
 seven.osf = -19;
 sterling = -9;
 two.osf = -9;
-};
-H = {
-"@MMK_R_O" = -20;
-};
-I = {
-"@MMK_R_O" = 10;
 };
 };
 "258ED206-D907-4350-8EBA-CBDDA1C16BF7" = {
@@ -60178,9 +60181,9 @@ q = -80;
 "@MMK_R_W" = -30;
 "@MMK_R_Y" = -50;
 "@MMK_R_c" = 10;
+"@MMK_R_o" = -15;
 "@MMK_R_question" = -5;
 "@MMK_R_w" = 10;
-"@MMK_R_o" = -15;
 };
 "@MMK_L_J" = {
 "@MMK_R_A" = -35;
@@ -61589,6 +61592,7 @@ C = {
 };
 E = {
 "@MMK_R_O" = -60;
+"@MMK_R_n" = 0;
 "@MMK_R_v" = -70;
 "@MMK_R_w" = -50;
 "@MMK_R_x" = -20;
@@ -61596,7 +61600,6 @@ E = {
 icircumflex = 20;
 idieresis = 20;
 igrave = 30;
-"@MMK_R_n" = 0;
 };
 Eacute = {
 icircumflex = 20;
@@ -61948,9 +61951,9 @@ c = {
 "@MMK_R_a" = -5;
 "@MMK_R_o" = 5;
 "@MMK_R_t" = -5;
+"@MMK_R_y" = -10;
 h = -5;
 i = 0;
-"@MMK_R_y" = -10;
 };
 dollar = {
 idieresis = 30;
@@ -61959,6 +61962,7 @@ itilde = 30;
 napostrophe = 60;
 };
 e = {
+"@MMK_R_f" = -20;
 "@MMK_R_g" = -10;
 "@MMK_R_n" = 0;
 "@MMK_R_o" = 5;
@@ -61972,7 +61976,6 @@ e = {
 "@MMK_R_y" = -40;
 b = -15;
 l = 0;
-"@MMK_R_f" = -20;
 };
 five.osf = {
 four.osf = 10;
