@@ -7,9 +7,10 @@ D,
 "Developer\012Manager\012Space\012Organization\012Yexercise",
 "AOERTYUIOPASDFGHEJKLZXCVBNM\012Yello\012SWerview text",
 UNITFED,
-"It/quoteright s your Frog, Calaveras.",
+"It/quoteright t your Frog, Calaveras.\012mp",
 "cower\012text editor\012epoxy",
-"qwertyuiopasdfghjklzxcvbnm(hey)"
+"qwertyuiopasdfghjklzxcvbnm(hey)",
+prototypes
 );
 customParameters = (
 {
@@ -16095,7 +16096,7 @@ unicode = 01C6;
 },
 {
 glyphname = e;
-lastChange = "2017-03-16 16:42:51 +0000";
+lastChange = "2017-03-17 21:51:43 +0000";
 layers = (
 {
 anchors = (
@@ -22070,7 +22071,7 @@ unicode = 00F1;
 },
 {
 glyphname = o;
-lastChange = "2017-03-17 01:50:45 +0000";
+lastChange = "2017-03-17 21:50:01 +0000";
 layers = (
 {
 anchors = (
@@ -23516,7 +23517,7 @@ unicode = 0153;
 },
 {
 glyphname = p;
-lastChange = "2017-03-16 16:09:44 +0000";
+lastChange = "2017-03-17 21:50:57 +0000";
 layers = (
 {
 background = {
@@ -24194,7 +24195,7 @@ unicode = 0071;
 },
 {
 glyphname = r;
-lastChange = "2017-03-17 01:48:10 +0000";
+lastChange = "2017-03-17 21:50:51 +0000";
 layers = (
 {
 anchors = (
@@ -25645,7 +25646,7 @@ unicode = 00DF;
 },
 {
 glyphname = t;
-lastChange = "2017-03-16 16:08:48 +0000";
+lastChange = "2017-03-17 21:51:37 +0000";
 layers = (
 {
 anchors = (
@@ -27936,7 +27937,7 @@ unicode = 0078;
 },
 {
 glyphname = y;
-lastChange = "2017-03-17 01:49:53 +0000";
+lastChange = "2017-03-17 21:51:25 +0000";
 layers = (
 {
 anchors = (
@@ -59044,6 +59045,7 @@ kerning = {
 "@MMK_R_v" = 30;
 "@MMK_R_w" = 5;
 "@MMK_R_z" = 9;
+"@MMK_R_o" = 0;
 };
 "@MMK_L_s" = {
 "@MMK_R_ampersand" = -5;
@@ -59498,6 +59500,7 @@ two.osf = -9;
 };
 "@MMK_L_o" = {
 "@MMK_R_g" = -5;
+"@MMK_R_t" = 0;
 };
 "@MMK_L_quoteright" = {
 "@MMK_R_s" = -70;
@@ -59508,6 +59511,19 @@ space = 0;
 };
 space = {
 "@MMK_R_O" = -20;
+};
+t = {
+"@MMK_R_o" = 5;
+"@MMK_R_y" = 35;
+};
+"@MMK_L_y" = {
+p = -15;
+};
+p = {
+"@MMK_R_r" = 0;
+};
+e = {
+"@MMK_R_s" = 0;
 };
 };
 "258ED206-D907-4350-8EBA-CBDDA1C16BF7" = {
@@ -61199,6 +61215,7 @@ e = {
 "@MMK_L_o" = {
 "@MMK_R_g" = -15;
 "@MMK_R_u" = -15;
+"@MMK_R_t" = 0;
 };
 C = {
 "@MMK_R_a" = 15;
@@ -61210,6 +61227,13 @@ l = -10;
 };
 space = {
 "@MMK_R_O" = -20;
+};
+t = {
+"@MMK_R_o" = 0;
+"@MMK_R_y" = 20;
+};
+p = {
+"@MMK_R_r" = 0;
 };
 };
 };
