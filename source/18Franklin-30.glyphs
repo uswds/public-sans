@@ -6,7 +6,7 @@ DisplayStrings = (
 /colon_one_eight_F_colon.liga,
 /one.osf,
 HHHHHHH,
-Language
+Webchat
 );
 customParameters = (
 {
@@ -12964,7 +12964,7 @@ unicode = 1E92;
 },
 {
 glyphname = a;
-lastChange = "2017-03-28 16:29:28 +0000";
+lastChange = "2017-03-28 16:41:54 +0000";
 layers = (
 {
 anchors = (
@@ -14467,7 +14467,7 @@ unicode = 01FD;
 },
 {
 glyphname = b;
-lastChange = "2017-03-27 18:42:45 +0000";
+lastChange = "2017-03-28 16:42:02 +0000";
 layers = (
 {
 background = {
@@ -60200,9 +60200,10 @@ i = {
 };
 b = {
 "@MMK_R_u" = -5;
+"@MMK_R_o" = -5;
 };
 a = {
-"@MMK_R_t" = -14;
+"@MMK_R_t" = -5;
 "@MMK_R_w" = -10;
 "@MMK_R_o" = -2;
 "@MMK_R_g" = -5;
@@ -61997,13 +61998,14 @@ i = {
 "@MMK_R_v" = 15;
 };
 a = {
-"@MMK_R_t" = -15;
+"@MMK_R_t" = -5;
 "@MMK_R_o" = 10;
 "@MMK_R_w" = -15;
 "@MMK_R_g" = -10;
 };
 b = {
 "@MMK_R_u" = -20;
+"@MMK_R_o" = 10;
 };
 s = {
 "@MMK_R_a" = 5;
