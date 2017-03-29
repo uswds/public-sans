@@ -6,7 +6,7 @@ DisplayStrings = (
 /colon_one_eight_F_colon.liga,
 /one.osf,
 HHHHHHH,
-Webchat
+"Webchat speaker"
 );
 customParameters = (
 {
@@ -274,7 +274,7 @@ position = "{-67, 512}";
 showMeasurement = 1;
 },
 {
-position = "{417, 277}";
+position = "{180, 494}";
 showMeasurement = 1;
 },
 {
@@ -283,7 +283,7 @@ showMeasurement = 1;
 },
 {
 angle = 90;
-position = "{356, 0}";
+position = "{650, 537}";
 showMeasurement = 1;
 }
 );
@@ -20024,7 +20024,7 @@ unicode = 0135;
 },
 {
 glyphname = k;
-lastChange = "2017-03-21 16:55:39 +0000";
+lastChange = "2017-03-29 16:35:47 +0000";
 layers = (
 {
 anchors = (
@@ -20096,27 +20096,37 @@ nodes = (
 }
 );
 };
+guideLines = (
+{
+angle = 228.4912;
+position = "{260, 150}";
+},
+{
+angle = 122;
+position = "{421, 0}";
+}
+);
 layerId = "258ED206-D907-4350-8EBA-CBDDA1C16BF7";
 paths = (
 {
 closed = 1;
 nodes = (
-"462 359 LINE",
-"633 530 LINE",
-"437 530 LINE",
-"260 330 LINE",
+"420 311 LINE",
+"614 530 LINE",
+"417 530 LINE",
+"260 341 LINE",
 "260 782 LINE",
 "60 782 LINE",
 "60 0 LINE",
 "260 0 LINE",
 "260 150 LINE",
-"331 216 LINE",
+"299 195 LINE",
 "421 0 LINE",
-"647 0 LINE"
+"615 0 LINE"
 );
 }
 );
-width = 652;
+width = 620;
 },
 {
 anchors = (
@@ -20188,6 +20198,12 @@ nodes = (
 }
 );
 };
+guideLines = (
+{
+angle = 121.8697;
+position = "{380, 152}";
+}
+);
 layerId = "91AB5BCA-6A50-42DA-B2F7-8181BF189245";
 paths = (
 {
@@ -59543,6 +59559,7 @@ kerning = {
 "@MMK_R_u" = -12;
 "@MMK_R_v" = 5;
 space = -40;
+"@MMK_R_o" = -30;
 };
 "@MMK_L_nine" = {
 "@MMK_R_comma" = -14;
@@ -61009,6 +61026,7 @@ h = {
 "@MMK_R_u" = -10;
 "@MMK_R_v" = 20;
 space = -60;
+"@MMK_R_o" = -35;
 };
 "@MMK_L_nine" = {
 "@MMK_R_C" = 20;
