@@ -1,8 +1,5 @@
 {
 .appVersion = "983";
-DisplayStrings = (
-QWERTYUIOP
-);
 customParameters = (
 {
 name = fsType;
@@ -29240,7 +29237,7 @@ rightMetricsKey = n;
 },
 {
 glyphname = l.ss01;
-lastChange = "2017-03-21 18:49:16 +0000";
+lastChange = "2017-05-02 13:01:08 +0000";
 layers = (
 {
 anchors = (
@@ -29250,7 +29247,7 @@ position = "{152, 0}";
 },
 {
 name = top;
-position = "{161, 785}";
+position = "{161, 765}";
 },
 {
 name = topright;
@@ -29302,8 +29299,8 @@ paths = (
 closed = 1;
 nodes = (
 "255 0 LINE",
-"255 782 LINE",
-"55 782 LINE",
+"255 762 LINE",
+"55 762 LINE",
 "55 0 LINE"
 );
 }
@@ -29314,52 +29311,52 @@ width = 310;
 anchors = (
 {
 name = bottom;
-position = "{124, 0}";
+position = "{128, 0}";
 },
 {
 name = top;
-position = "{124, 782}";
+position = "{130, 762}";
 },
 {
 name = topright;
-position = "{253, 785}";
+position = "{259, 765}";
 }
 );
 background = {
 anchors = (
 {
 name = bottom;
-position = "{124, 0}";
+position = "{130, 0}";
 },
 {
 name = top;
-position = "{124, 742}";
+position = "{130, 742}";
 },
 {
 name = topright;
-position = "{269, 742}";
+position = "{275, 742}";
 }
 );
 paths = (
 {
 closed = 1;
 nodes = (
-"254 36 LINE",
-"244 36 OFFCURVE",
-"231 36 OFFCURVE",
-"215 36 CURVE SMOOTH",
-"151 36 OFFCURVE",
-"144 87 OFFCURVE",
-"144 130 CURVE",
-"144 742 LINE",
-"104 742 LINE",
-"104 130 LINE",
-"104 57 OFFCURVE",
-"132 2 OFFCURVE",
-"203 2 CURVE SMOOTH",
-"227 2 OFFCURVE",
-"241 3 OFFCURVE",
-"254 6 CURVE"
+"260 36 LINE",
+"250 36 OFFCURVE",
+"237 36 OFFCURVE",
+"221 36 CURVE SMOOTH",
+"157 36 OFFCURVE",
+"150 87 OFFCURVE",
+"150 130 CURVE",
+"150 742 LINE",
+"110 742 LINE",
+"110 130 LINE",
+"110 57 OFFCURVE",
+"138 2 OFFCURVE",
+"209 2 CURVE SMOOTH",
+"233 2 OFFCURVE",
+"247 3 OFFCURVE",
+"260 6 CURVE"
 );
 }
 );
@@ -29369,14 +29366,14 @@ paths = (
 {
 closed = 1;
 nodes = (
-"144 0 LINE",
-"144 782 LINE",
-"110 782 LINE",
+"150 0 LINE",
+"150 762 LINE",
+"110 762 LINE",
 "110 0 LINE"
 );
 }
 );
-width = 254;
+width = 260;
 }
 );
 },
