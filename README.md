@@ -6,7 +6,7 @@ This typeface is based off of https://github.com/impallari/Libre-Franklin
 - 18Franklin is licensed under the SIL Open Font License v1.1 (http://scripts.sil.org/OFL)
 - To view the copyright and specific terms and conditions please refer to ofl.txt
 
-##Changelog
+## Changelog
 - v20: work on glyph shapes, spacing, and kerning; heavier weight for Regular
 - v17: normalized vertical spacing across all weights and styles
 - v16: added italics and `:18F:` ligature glyph
