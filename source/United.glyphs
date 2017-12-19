@@ -11,7 +11,7 @@ requirements,
 "NNUBRIN WCAG 2.30 AA",
 "2/bulletoperator 3/bulletoperator 6/bulletoperator 9",
 "/bullet  /bullet \012Well",
-4
+Umwelt
 );
 customParameters = (
 {
@@ -10446,7 +10446,7 @@ unicode = 1E6C;
 },
 {
 glyphname = U;
-lastChange = "2017-12-18 23:15:13 +0000";
+lastChange = "2017-12-19 17:19:01 +0000";
 layers = (
 {
 anchors = (
@@ -21051,7 +21051,7 @@ unicode = 0142;
 },
 {
 glyphname = m;
-lastChange = "2017-12-19 06:44:19 +0000";
+lastChange = "2017-12-19 17:20:48 +0000";
 layers = (
 {
 background = {
@@ -21286,33 +21286,33 @@ nodes = (
 "129 0 LINE",
 "129 360 LINE SMOOTH",
 "129 453 OFFCURVE",
-"220 489 OFFCURVE",
-"285 489 CURVE SMOOTH",
-"363 489 OFFCURVE",
-"422 453 OFFCURVE",
+"217 489 OFFCURVE",
+"282 489 CURVE SMOOTH",
+"360 489 OFFCURVE",
+"422 452 OFFCURVE",
 "422 376 CURVE SMOOTH",
 "422 0 LINE",
 "461 0 LINE",
 "461 360 LINE SMOOTH",
 "461 462 OFFCURVE",
-"545 489 OFFCURVE",
-"614 489 CURVE SMOOTH",
-"692 489 OFFCURVE",
+"546 489 OFFCURVE",
+"615 489 CURVE SMOOTH",
+"693 489 OFFCURVE",
 "755 460 OFFCURVE",
 "755 335 CURVE SMOOTH",
 "755 0 LINE",
 "794 0 LINE",
 "794 335 LINE SMOOTH",
 "794 501 OFFCURVE",
-"694 527 OFFCURVE",
-"614 527 CURVE SMOOTH",
-"534 527 OFFCURVE",
+"695 527 OFFCURVE",
+"615 527 CURVE SMOOTH",
+"535 527 OFFCURVE",
 "482 495 OFFCURVE",
 "451 441 CURVE",
-"426 499 OFFCURVE",
-"366 527 OFFCURVE",
-"286 527 CURVE SMOOTH",
-"206 527 OFFCURVE",
+"428 497 OFFCURVE",
+"363 527 OFFCURVE",
+"283 527 CURVE SMOOTH",
+"203 527 OFFCURVE",
 "151 486 OFFCURVE",
 "126 440 CURVE",
 "126 517 LINE",
@@ -59565,6 +59565,7 @@ D = 5;
 "@MMK_R_A" = -15;
 "@MMK_R_S" = 0;
 "@MMK_R_period" = -50;
+"@MMK_R_n" = -8;
 };
 "@MMK_L_V" = {
 "@MMK_R_A" = -40;
@@ -61216,6 +61217,7 @@ space = 0;
 "@MMK_R_S" = 20;
 "@MMK_R_period" = -40;
 N = 0;
+"@MMK_R_n" = -5;
 };
 "@MMK_L_V" = {
 "@MMK_R_A" = -80;
