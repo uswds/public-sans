@@ -1,4 +1,4 @@
-## Welcome to 18Franklin!
+## Welcome to United Sans!
 
 We're so glad you're thinking about contributing to an 18F open source project! If you're unsure or afraid of anything, just ask or submit the issue or pull request anyways. The worst that can happen is that you'll be politely asked to change something. We appreciate any sort of contribution, and don't want a wall of rules to get in the way of that.
 
@@ -6,7 +6,7 @@ Before contributing, we encourage you to read our CONTRIBUTING policy (you are h
 
 ## SIL Open Font License v1.1
 
-18Franklin is licensed under the [SIL Open Font License v1.1](http://scripts.sil.org/OFL)
+United Sans is licensed under the [SIL Open Font License v1.1](http://scripts.sil.org/OFL)
 To view the copyright and specific terms and conditions please refer to ofl.txt
 
 By submitting a pull request, you are agreeing to comply
