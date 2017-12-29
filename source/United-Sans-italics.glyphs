@@ -66688,6 +66688,12 @@ name = "ExtraLight Italic";
 weightClass = ExtraLight;
 },
 {
+customParameters = (
+{
+name = weightClass;
+value = "300";
+}
+);
 interpolationWeight = 75;
 instanceInterpolations = {
 "258ED206-D907-4350-8EBA-CBDDA1C16BF7" = 0.21875;
@@ -66699,6 +66705,12 @@ name = "Light Italic";
 weightClass = Light;
 },
 {
+customParameters = (
+{
+name = weightClass;
+value = "400";
+}
+);
 interpolationWeight = 88;
 instanceInterpolations = {
 "258ED206-D907-4350-8EBA-CBDDA1C16BF7" = 0.3;
@@ -66708,6 +66720,12 @@ isItalic = 1;
 name = Italic;
 },
 {
+customParameters = (
+{
+name = weightClass;
+value = "500";
+}
+);
 interpolationWeight = 105;
 instanceInterpolations = {
 "258ED206-D907-4350-8EBA-CBDDA1C16BF7" = 0.40625;
@@ -66719,6 +66737,12 @@ name = "Medium Italic";
 weightClass = Medium;
 },
 {
+customParameters = (
+{
+name = weightClass;
+value = "600";
+}
+);
 interpolationWeight = 125;
 instanceInterpolations = {
 "258ED206-D907-4350-8EBA-CBDDA1C16BF7" = 0.53125;
@@ -66730,6 +66754,12 @@ name = "SemiBold Italic";
 weightClass = SemiBold;
 },
 {
+customParameters = (
+{
+name = weightClass;
+value = "700";
+}
+);
 interpolationWeight = 155;
 instanceInterpolations = {
 "258ED206-D907-4350-8EBA-CBDDA1C16BF7" = 0.71875;
@@ -66741,6 +66771,12 @@ name = "Bold Italic";
 weightClass = Bold;
 },
 {
+customParameters = (
+{
+name = weightClass;
+value = "800";
+}
+);
 interpolationWeight = 175;
 instanceInterpolations = {
 "258ED206-D907-4350-8EBA-CBDDA1C16BF7" = 0.84375;
@@ -66752,6 +66788,12 @@ name = "ExtraBold Italic";
 weightClass = ExtraBold;
 },
 {
+customParameters = (
+{
+name = weightClass;
+value = "900";
+}
+);
 interpolationWeight = 200;
 instanceInterpolations = {
 "258ED206-D907-4350-8EBA-CBDDA1C16BF7" = 1;
