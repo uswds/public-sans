@@ -1,4 +1,4 @@
-# 18 Franklin
+# United Sans
 Current font files for the United Sans typeface.
 This typeface is based off of https://github.com/impallari/Libre-Franklin
 
