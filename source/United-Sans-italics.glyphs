@@ -1,10 +1,5 @@
 {
 .appVersion = "1075";
-DisplayStrings = (
-N,
-hamburgfontstiv,
-AS
-);
 customParameters = (
 {
 name = fsType;
@@ -285,7 +280,7 @@ xHeight = 517;
 glyphs = (
 {
 glyphname = A;
-lastChange = "2018-01-10 00:39:05 +0000";
+lastChange = "2018-01-11 16:59:38 +0000";
 layers = (
 {
 anchors = (
@@ -28207,7 +28202,7 @@ unicode = 1ECF;
 },
 {
 glyphname = ohorn;
-lastChange = "2018-01-10 15:33:12 +0000";
+lastChange = "2018-01-11 17:00:50 +0000";
 layers = (
 {
 anchors = (
@@ -28244,7 +28239,6 @@ transform = "{1, 0, 0, 1, 106, 0}";
 components = (
 {
 name = o;
-transform = "{1, 0, 0, 1, -8, 0}";
 },
 {
 name = horncomb;
@@ -32855,7 +32849,7 @@ unicode = 1EE7;
 },
 {
 glyphname = uhorn;
-lastChange = "2018-01-10 15:33:12 +0000";
+lastChange = "2018-01-11 17:00:50 +0000";
 layers = (
 {
 anchors = (
@@ -32892,7 +32886,6 @@ transform = "{1, 0, 0, 1, 200, -2}";
 components = (
 {
 name = u;
-transform = "{1, 0, 0, 1, -8, 0}";
 },
 {
 name = horncomb;
@@ -66866,7 +66859,7 @@ kerning = {
 "@MMK_R_J" = 12;
 "@MMK_R_O" = 0;
 "@MMK_R_S" = -15;
-"@MMK_R_T" = -72;
+"@MMK_R_T" = -30;
 "@MMK_R_U" = -23;
 "@MMK_R_V" = -40;
 "@MMK_R_W" = -27;
@@ -68429,8 +68422,8 @@ j = -5;
 "@MMK_R_n" = 10;
 "@MMK_R_r" = 5;
 "@MMK_R_t" = 0;
-p = 10;
 b = 20;
+p = 10;
 };
 "@MMK_L_v" = {
 "@MMK_R_a" = -15;
@@ -68988,7 +68981,7 @@ g = {
 "@MMK_R_f" = 15;
 "@MMK_R_g" = 0;
 "@MMK_R_n" = 0;
-"@MMK_R_o" = -5;
+"@MMK_R_o" = -11;
 "@MMK_R_quotesingle" = 10;
 "@MMK_R_r" = 0;
 "@MMK_R_s" = -6;
@@ -69199,7 +69192,7 @@ zero = -10;
 "@MMK_R_J" = 25;
 "@MMK_R_O" = -25;
 "@MMK_R_S" = 10;
-"@MMK_R_T" = -100;
+"@MMK_R_T" = -40;
 "@MMK_R_U" = -35;
 "@MMK_R_V" = -110;
 "@MMK_R_W" = -75;
@@ -69435,13 +69428,16 @@ I = 20;
 "@MMK_R_x" = 30;
 "@MMK_R_y" = -30;
 };
+"@MMK_L_N" = {
+"@MMK_R_U" = -14;
+};
 "@MMK_L_O" = {
 "@MMK_R_A" = -65;
 "@MMK_R_AE" = -80;
 "@MMK_R_J" = -20;
 "@MMK_R_S" = 10;
 "@MMK_R_T" = -40;
-"@MMK_R_U" = -25;
+"@MMK_R_U" = -5;
 "@MMK_R_V" = -35;
 "@MMK_R_W" = -50;
 "@MMK_R_X" = -30;
@@ -69715,7 +69711,7 @@ space = -15;
 "@MMK_R_AE" = -160;
 "@MMK_R_C" = -50;
 "@MMK_R_J" = -70;
-"@MMK_R_O" = -80;
+"@MMK_R_O" = -60;
 "@MMK_R_S" = -50;
 "@MMK_R_T" = 35;
 "@MMK_R_U" = 10;
@@ -70563,6 +70559,7 @@ space = -20;
 "@MMK_R_c" = -5;
 "@MMK_R_d" = -20;
 "@MMK_R_f" = 0;
+"@MMK_R_hyphen" = 0;
 "@MMK_R_j" = 20;
 "@MMK_R_napostrophe" = 20;
 "@MMK_R_o" = -20;
@@ -70575,7 +70572,6 @@ space = -20;
 "@MMK_R_w" = 20;
 "@MMK_R_x" = 5;
 "@MMK_R_z" = -5;
-"@MMK_R_hyphen" = 0;
 };
 "@MMK_L_three" = {
 "@MMK_R_S" = 10;
@@ -71363,9 +71359,6 @@ z = {
 };
 zero = {
 one = -5;
-};
-"@MMK_L_N" = {
-"@MMK_R_U" = -14;
 };
 };
 };
