@@ -5,7 +5,7 @@ DisplayStrings = (
 Hbwpws,
 "United Sans ",
 "Made in the \012United States.\012Web Design",
-"downlATad code\012ulneyverse evvs www"
+"OHAT NN YOU GOT"
 );
 customParameters = (
 {
@@ -312,7 +312,7 @@ xHeight = 517;
 glyphs = (
 {
 glyphname = A;
-lastChange = "2018-01-09 00:11:49 +0000";
+lastChange = "2018-01-10 23:58:33 +0000";
 layers = (
 {
 anchors = (
@@ -6968,7 +6968,7 @@ unicode = 00D1;
 },
 {
 glyphname = O;
-lastChange = "2018-01-10 22:42:14 +0000";
+lastChange = "2018-01-10 23:58:58 +0000";
 layers = (
 {
 anchors = (
@@ -12225,7 +12225,7 @@ unicode = 0058;
 },
 {
 glyphname = Y;
-lastChange = "2018-01-03 08:26:56 +0000";
+lastChange = "2018-01-10 23:59:02 +0000";
 layers = (
 {
 anchors = (
@@ -59394,7 +59394,7 @@ kerning = {
 "@MMK_R_J" = 12;
 "@MMK_R_O" = 0;
 "@MMK_R_S" = -15;
-"@MMK_R_T" = -72;
+"@MMK_R_T" = -30;
 "@MMK_R_U" = -23;
 "@MMK_R_V" = -40;
 "@MMK_R_W" = -27;
@@ -59625,8 +59625,8 @@ l = 0;
 "@MMK_R_W" = -25;
 "@MMK_R_a" = 0;
 "@MMK_R_o" = -5;
-i = 0;
 "@MMK_R_v" = 0;
+i = 0;
 };
 "@MMK_L_P" = {
 "@MMK_R_A" = -45;
@@ -61113,7 +61113,7 @@ two.osf = -9;
 "@MMK_R_J" = 25;
 "@MMK_R_O" = -25;
 "@MMK_R_S" = 10;
-"@MMK_R_T" = -100;
+"@MMK_R_T" = -40;
 "@MMK_R_U" = -35;
 "@MMK_R_V" = -110;
 "@MMK_R_W" = -75;
@@ -61321,7 +61321,7 @@ I = 20;
 "@MMK_L_O" = {
 "@MMK_R_A" = -65;
 "@MMK_R_S" = 10;
-"@MMK_R_U" = -25;
+"@MMK_R_U" = -5;
 "@MMK_R_V" = -35;
 "@MMK_R_W" = -50;
 "@MMK_R_X" = -30;
@@ -61580,6 +61580,7 @@ space = -15;
 "@MMK_R_v" = -50;
 "@MMK_R_x" = -60;
 "@MMK_R_z" = -60;
+"@MMK_R_O" = -60;
 };
 "@MMK_L_Z" = {
 "@MMK_R_A" = 10;
@@ -62320,6 +62321,7 @@ space = -20;
 "@MMK_R_a" = 10;
 "@MMK_R_c" = -5;
 "@MMK_R_f" = 0;
+"@MMK_R_hyphen" = 0;
 "@MMK_R_j" = 20;
 "@MMK_R_napostrophe" = 20;
 "@MMK_R_parenright" = 10;
@@ -62330,7 +62332,6 @@ space = -20;
 "@MMK_R_w" = 20;
 "@MMK_R_x" = 5;
 "@MMK_R_z" = -5;
-"@MMK_R_hyphen" = 0;
 };
 "@MMK_L_three" = {
 "@MMK_R_S" = 10;
