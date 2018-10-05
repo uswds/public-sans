@@ -52,10 +52,6 @@ Public Sans is a fork of the SIL Open Licensed face Libre Franklin. Public Sans 
 
 ![squared](https://raw.githubusercontent.com/uswds/public-sans/master/examples/public-sans-featured-images/public-v-lf-redrawn-characters.png)
 
-**Redrawn characters.** Public Sans tends to use more consistent curves in its letterforms and has a focus on a smooth shape for its counters.
-
-![squared](https://raw.githubusercontent.com/uswds/public-sans/master/examples/public-sans-featured-images/public-v-lf-redrawn-characters.png)
-
 Overall, Public Sans differs from Libre Franklin in its focus on longform reading and neutral UI applicability. It takes inspiration from neutral sans faces of the 20th century, as well as the orignal Franklins of the 19th, resulting in something of a mongrel face that retains its American origin.
 
 ## Public Sans and comparable sans-serif faces
