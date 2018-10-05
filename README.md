@@ -52,7 +52,7 @@ Public Sans is a fork of the SIL Open Licensed face Libre Franklin. Public Sans 
 
 ![squared](https://raw.githubusercontent.com/uswds/public-sans/master/examples/public-sans-featured-images/public-v-lf-redrawn-characters.png)
 
-Overall, Public Sans differs from Libre Franklin in its focus on longform reading and neutral UI applicability. It takes inspiration from neutral sans faces of the 20th century, as well as the orignal Franklins of the 19th, resulting in something of a mongrel face that retains its American origin.
+Overall, Public Sans differs from Libre Franklin in its focus on longform reading and neutral UI applicability. It takes inspiration from geometric sans faces of the 20th century, as well as the orignal Franklins of the 19th, resulting in something of a mongrel face that retains its American origin.
 
 ## Public Sans and comparable sans-serif faces
 Public Sans is designed to be a progressive enhancement webfont, and to work well with Apple and Google system fonts as the base in its font stack. Its designed to have metrics most similar to SF Pro Text (the Apple system font) and to fall somewhere between SF Pro Text and Roboto (the Google system font) in its overall size and appearance. If user machine does not display webfonts, sites designed with Public Sans should appear close to the designer's intention.
