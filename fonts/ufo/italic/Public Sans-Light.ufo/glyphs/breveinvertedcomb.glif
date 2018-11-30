@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="breveinvertedcomb" format="1">
+  <advance width="225"/>
+  <unicode hex="0311"/>
+  <outline>
+    <contour>
+      <point x="53" y="633" type="curve"/>
+      <point x="99" y="633" type="line"/>
+      <point x="112" y="654"/>
+      <point x="136" y="683"/>
+      <point x="180" y="683" type="curve" smooth="yes"/>
+      <point x="228" y="683"/>
+      <point x="235" y="648"/>
+      <point x="244" y="633" type="curve"/>
+      <point x="289" y="633" type="line"/>
+      <point x="284" y="674"/>
+      <point x="252" y="723"/>
+      <point x="181" y="723" type="curve" smooth="yes"/>
+      <point x="106" y="723"/>
+      <point x="65" y="667"/>
+    </contour>
+    <contour>
+      <point x="175" y="516" type="move" name="_top"/>
+    </contour>
+    <contour>
+      <point x="352" y="731" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018-11-30 19:55:47 +0000</string>
+    </dict>
+  </lib>
+</glyph>

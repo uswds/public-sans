@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="E" format="1">
+  <advance width="606"/>
+  <unicode hex="0045"/>
+  <outline>
+    <contour>
+      <point x="107" y="0" type="line"/>
+      <point x="536" y="0" type="line"/>
+      <point x="536" y="41" type="line"/>
+      <point x="146" y="42" type="line"/>
+      <point x="146" y="345" type="line"/>
+      <point x="496" y="345" type="line"/>
+      <point x="496" y="386" type="line"/>
+      <point x="146" y="386" type="line"/>
+      <point x="146" y="683" type="line"/>
+      <point x="522" y="683" type="line"/>
+      <point x="522" y="723" type="line"/>
+      <point x="107" y="723" type="line"/>
+    </contour>
+    <contour>
+      <point x="347" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="527" y="10" type="move" name="ogonek"/>
+    </contour>
+    <contour>
+      <point x="329" y="723" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018-10-31 20:52:58 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>N</string>
+    </dict>
+  </lib>
+</glyph>

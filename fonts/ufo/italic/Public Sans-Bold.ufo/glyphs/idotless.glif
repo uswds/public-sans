@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="idotless" format="1">
+  <advance width="287"/>
+  <unicode hex="0131"/>
+  <outline>
+    <contour>
+      <point x="279" y="516" type="line"/>
+      <point x="84" y="516" type="line"/>
+      <point x="12" y="0" type="line"/>
+      <point x="206" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="176" y="9" type="move" name="ogonek"/>
+    </contour>
+    <contour>
+      <point x="181" y="516" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018-11-30 19:55:47 +0000</string>
+    </dict>
+  </lib>
+</glyph>

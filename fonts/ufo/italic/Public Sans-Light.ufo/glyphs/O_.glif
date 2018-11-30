@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="O" format="1">
+  <advance width="672"/>
+  <unicode hex="004F"/>
+  <outline>
+    <contour>
+      <point x="301" y="-10" type="curve" smooth="yes"/>
+      <point x="471" y="-10"/>
+      <point x="590" y="119"/>
+      <point x="623" y="360" type="curve" smooth="yes"/>
+      <point x="654" y="602"/>
+      <point x="568" y="733"/>
+      <point x="399" y="733" type="curve" smooth="yes"/>
+      <point x="229" y="733"/>
+      <point x="108" y="601"/>
+      <point x="76" y="358" type="curve" smooth="yes"/>
+      <point x="46" y="118"/>
+      <point x="130" y="-10"/>
+    </contour>
+    <contour>
+      <point x="308" y="31" type="curve" smooth="yes"/>
+      <point x="158" y="31"/>
+      <point x="90" y="139"/>
+      <point x="118" y="360" type="curve" smooth="yes"/>
+      <point x="147" y="582"/>
+      <point x="244" y="692"/>
+      <point x="394" y="692" type="curve" smooth="yes"/>
+      <point x="543" y="692"/>
+      <point x="611" y="583"/>
+      <point x="582" y="360" type="curve" smooth="yes"/>
+      <point x="553" y="138"/>
+      <point x="457" y="31"/>
+    </contour>
+    <contour>
+      <point x="305" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="369" y="9" type="move" name="ogonek"/>
+    </contour>
+    <contour>
+      <point x="399" y="723" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018-11-30 19:55:47 +0000</string>
+    </dict>
+  </lib>
+</glyph>
