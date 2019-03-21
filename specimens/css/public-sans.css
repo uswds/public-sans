@@ -1,7 +1,9 @@
 @import url('grid_12-825-55-15.css');
 @font-face {
     font-family: 'Public Sans webfont';
-    src: url('../../fonts/webfonts/PublicSans-Black.woff2') format('woff2'),
+    src: url('../../fonts/webfonts/PublicSans-Black.eot'); /* IE9 Compat Modes */
+    src: url('../../fonts/webfonts/PublicSans-Black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../../fonts/webfonts/PublicSans-Black.woff2') format('woff2'),
          url('../../fonts/webfonts/PublicSans-Black.woff') format('woff'),
          url('../../fonts/webfonts/PublicSans-Black.ttf') format('truetype');
     font-weight: 900;
@@ -10,7 +12,8 @@
 }
 @font-face {
     font-family: 'Public Sans webfont';
-    src: url('../../fonts/webfonts/PublicSans-BlackItalic.woff2') format('woff2'),
+    src: url('../../fonts/webfonts/PublicSans-BlackItalic.eot'); /* IE9 Compat Modes */
+    src: url('../../fonts/webfonts/PublicSans-BlackItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
          url('../../fonts/webfonts/PublicSans-BlackItalic.woff') format('woff'),
          url('../../fonts/webfonts/PublicSans-BlackItalic.ttf') format('truetype');
     font-weight: 900;
@@ -19,7 +22,9 @@
 }
 @font-face {
     font-family: 'Public Sans webfont';
-    src: url('../../fonts/webfonts/PublicSans-Bold.woff2') format('woff2'),
+    src: url('../../fonts/webfonts/PublicSans-Bold.eot'); /* IE9 Compat Modes */
+    src: url('../../fonts/webfonts/PublicSans-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../../fonts/webfonts/PublicSans-Bold.woff2') format('woff2'),
          url('../../fonts/webfonts/PublicSans-Bold.woff') format('woff'),
          url('../../fonts/webfonts/PublicSans-Bold.ttf') format('truetype');
     font-weight: 700;
@@ -28,7 +33,9 @@
 }
 @font-face {
     font-family: 'Public Sans webfont';
-    src: url('../../fonts/webfonts/PublicSans-BoldItalic.woff2') format('woff2'),
+    src: url('../../fonts/webfonts/PublicSans-BoldItalic.eot'); /* IE9 Compat Modes */
+    src: url('../../fonts/webfonts/PublicSans-BoldItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../../fonts/webfonts/PublicSans-BoldItalic.woff2') format('woff2'),
          url('../../fonts/webfonts/PublicSans-BoldItalic.woff') format('woff'),
          url('../../fonts/webfonts/PublicSans-BoldItalic.ttf') format('truetype');
     font-weight: 700;
@@ -37,7 +44,9 @@
 }
 @font-face {
     font-family: 'Public Sans webfont';
-    src: url('../../fonts/webfonts/PublicSans-ExtraBold.woff2') format('woff2'),
+    src: url('../../fonts/webfonts/PublicSans-ExtraBold.eot'); /* IE9 Compat Modes */
+    src: url('../../fonts/webfonts/PublicSans-ExtraBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../../fonts/webfonts/PublicSans-ExtraBold.woff2') format('woff2'),
          url('../../fonts/webfonts/PublicSans-ExtraBold.woff') format('woff'),
          url('../../fonts/webfonts/PublicSans-ExtraBold.ttf') format('truetype');
     font-weight: 800;
@@ -46,7 +55,9 @@
 }
 @font-face {
     font-family: 'Public Sans webfont';
-    src: url('../../fonts/webfonts/PublicSans-ExtraBoldItalic.woff2') format('woff2'),
+    src: url('../../fonts/webfonts/PublicSans-ExtraBoldItalic.eot'); /* IE9 Compat Modes */
+    src: url('../../fonts/webfonts/PublicSans-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../../fonts/webfonts/PublicSans-ExtraBoldItalic.woff2') format('woff2'),
          url('../../fonts/webfonts/PublicSans-ExtraBoldItalic.woff') format('woff'),
          url('../../fonts/webfonts/PublicSans-ExtraBoldItalic.ttf') format('truetype');
     font-weight: 800;
@@ -55,7 +66,9 @@
 }
 @font-face {
     font-family: 'Public Sans webfont';
-    src: url('../../fonts/webfonts/PublicSans-Medium.woff2') format('woff2'),
+    src: url('../../fonts/webfonts/PublicSans-Medium.eot'); /* IE9 Compat Modes */
+    src: url('../../fonts/webfonts/PublicSans-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../../fonts/webfonts/PublicSans-Medium.woff2') format('woff2'),
          url('../../fonts/webfonts/PublicSans-Medium.woff') format('woff'),
          url('../../fonts/webfonts/PublicSans-Medium.ttf') format('truetype');
     font-weight: 500;
@@ -64,7 +77,9 @@
 }
 @font-face {
     font-family: 'Public Sans webfont';
-    src: url('../../fonts/webfonts/PublicSans-MediumItalic.woff2') format('woff2'),
+    src: url('../../fonts/webfonts/PublicSans-MediumItalic.eot'); /* IE9 Compat Modes */
+    src: url('../../fonts/webfonts/PublicSans-MediumItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../../fonts/webfonts/PublicSans-MediumItalic.woff2') format('woff2'),
          url('../../fonts/webfonts/PublicSans-MediumItalic.woff') format('woff'),
          url('../../fonts/webfonts/PublicSans-MediumItalic.ttf') format('truetype');
     font-weight: 500;
@@ -73,7 +88,9 @@
 }
 @font-face {
     font-family: 'Public Sans webfont';
-    src: url('../../fonts/webfonts/PublicSans-SemiBold.woff2') format('woff2'),
+    src: url('../../fonts/webfonts/PublicSans-SemiBold.eot'); /* IE9 Compat Modes */
+    src: url('../../fonts/webfonts/PublicSans-SemiBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../../fonts/webfonts/PublicSans-SemiBold.woff2') format('woff2'),
          url('../../fonts/webfonts/PublicSans-SemiBold.woff') format('woff'),
          url('../../fonts/webfonts/PublicSans-SemiBold.ttf') format('truetype');
     font-weight: 600;
@@ -82,7 +99,9 @@
 }
 @font-face {
     font-family: 'Public Sans webfont';
-    src: url('../../fonts/webfonts/PublicSans-SemiBoldItalic.woff2') format('woff2'),
+    src: url('../../fonts/webfonts/PublicSans-SemiBoldItalic.eot'); /* IE9 Compat Modes */
+    src: url('../../fonts/webfonts/PublicSans-SemiBoldItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../../fonts/webfonts/PublicSans-SemiBoldItalic.woff2') format('woff2'),
          url('../../fonts/webfonts/PublicSans-SemiBoldItalic.woff') format('woff'),
          url('../../fonts/webfonts/PublicSans-SemiBoldItalic.ttf') format('truetype');
     font-weight: 600;
@@ -91,7 +110,9 @@
 }
 @font-face {
     font-family: 'Public Sans webfont';
-    src: url('../../fonts/webfonts/PublicSans-ExtraLight.woff2') format('woff2'),
+    src: url('../../fonts/webfonts/PublicSans-ExtraLight.eot'); /* IE9 Compat Modes */
+    src: url('../../fonts/webfonts/PublicSans-ExtraLight.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../../fonts/webfonts/PublicSans-ExtraLight.woff2') format('woff2'),
          url('../../fonts/webfonts/PublicSans-ExtraLight.woff') format('woff'),
          url('../../fonts/webfonts/PublicSans-ExtraLight.ttf') format('truetype');
     font-weight: 200;
@@ -100,7 +121,9 @@
 }
 @font-face {
     font-family: 'Public Sans webfont';
-    src: url('../../fonts/webfonts/PublicSans-ExtraLightItalic.woff2') format('woff2'),
+    src: url('../../fonts/webfonts/PublicSans-ExtraLightItalic.eot'); /* IE9 Compat Modes */
+    src: url('../../fonts/webfonts/PublicSans-ExtraLightItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../../fonts/webfonts/PublicSans-ExtraLightItalic.woff2') format('woff2'),
          url('../../fonts/webfonts/PublicSans-ExtraLightItalic.woff') format('woff'),
          url('../../fonts/webfonts/PublicSans-ExtraLightItalic.ttf') format('truetype');
     font-weight: 200;
@@ -109,7 +132,9 @@
 }
 @font-face {
     font-family: 'Public Sans webfont';
-    src: url('../../fonts/webfonts/PublicSans-Light.woff2') format('woff2'),
+    src: url('../../fonts/webfonts/PublicSans-Light.eot'); /* IE9 Compat Modes */
+    src: url('../../fonts/webfonts/PublicSans-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../../fonts/webfonts/PublicSans-Light.woff2') format('woff2'),
          url('../../fonts/webfonts/PublicSans-Light.woff') format('woff'),
          url('../../fonts/webfonts/PublicSans-Light.ttf') format('truetype');
     font-weight: 300;
@@ -118,7 +143,9 @@
 }
 @font-face {
     font-family: 'Public Sans webfont';
-    src: url('../../fonts/webfonts/PublicSans-LightItalic.woff2') format('woff2'),
+    src: url('../../fonts/webfonts/PublicSans-LightItalic.eot'); /* IE9 Compat Modes */
+    src: url('../../fonts/webfonts/PublicSans-LightItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../../fonts/webfonts/PublicSans-LightItalic.woff2') format('woff2'),
          url('../../fonts/webfonts/PublicSans-LightItalic.woff') format('woff'),
          url('../../fonts/webfonts/PublicSans-LightItalic.ttf') format('truetype');
     font-weight: 300;
@@ -127,7 +154,9 @@
 }
 @font-face {
     font-family: 'Public Sans webfont';
-    src: url('../../fonts/webfonts/PublicSans-Regular.woff2') format('woff2'),
+    src: url('../../fonts/webfonts/PublicSans-Regular.eot'); /* IE9 Compat Modes */
+    src: url('../../fonts/webfonts/PublicSans-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../../fonts/webfonts/PublicSans-Regular.woff2') format('woff2'),
          url('../../fonts/webfonts/PublicSans-Regular.woff') format('woff'),
          url('../../fonts/webfonts/PublicSans-Regular.ttf') format('truetype');
     font-weight: 400;
@@ -136,7 +165,9 @@
 }
 @font-face {
     font-family: 'Public Sans webfont';
-    src: url('../../fonts/webfonts/PublicSans-Italic.woff2') format('woff2'),
+    src: url('../../fonts/webfonts/PublicSans-Italic.eot'); /* IE9 Compat Modes */
+    src: url('../../fonts/webfonts/PublicSans-Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../../fonts/webfonts/PublicSans-Italic.woff2') format('woff2'),
          url('../../fonts/webfonts/PublicSans-Italic.woff') format('woff'),
          url('../../fonts/webfonts/PublicSans-Italic.ttf') format('truetype');
     font-weight: 400;
@@ -145,7 +176,9 @@
 }
 @font-face {
     font-family: 'Public Sans webfont';
-    src: url('../../fonts/webfonts/PublicSans-Thin.woff2') format('woff2'),
+    src: url('../../fonts/webfonts/PublicSans-Thin.eot'); /* IE9 Compat Modes */
+    src: url('../../fonts/webfonts/PublicSans-Thin.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../../fonts/webfonts/PublicSans-Thin.woff2') format('woff2'),
          url('../../fonts/webfonts/PublicSans-Thin.woff') format('woff'),
          url('../../fonts/webfonts/PublicSans-Thin.ttf') format('truetype');
     font-weight: 100;
@@ -154,7 +187,9 @@
 }
 @font-face {
     font-family: 'Public Sans webfont';
-    src: url('../../fonts/webfonts/PublicSans-ThinItalic.woff2') format('woff2'),
+    src: url('../../fonts/webfonts/PublicSans-ThinItalic.eot'); /* IE9 Compat Modes */
+    src: url('../../fonts/webfonts/PublicSans-ThinItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../../fonts/webfonts/PublicSans-ThinItalic.woff2') format('woff2'),
          url('../../fonts/webfonts/PublicSans-ThinItalic.woff') format('woff'),
          url('../../fonts/webfonts/PublicSans-ThinItalic.ttf') format('truetype');
     font-weight: 100;
