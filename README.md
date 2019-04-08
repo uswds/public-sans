@@ -74,7 +74,7 @@ Public Sans is a good option for sites that currently use Open Sans, Tahoma, Lib
 ##### Tighter kerning as the face gets heavier
 ![squared](https://raw.githubusercontent.com/uswds/public-sans/master/examples/public-sans-featured-images/public-kerning.png)
 
-##### Tablular figures (monospaced numerals)
+##### Tabular figures (monospaced numerals)
 ![squared](https://raw.githubusercontent.com/uswds/public-sans/master/examples/public-sans-featured-images/public-numerals.png)
 
 ## License
