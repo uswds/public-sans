@@ -3,7 +3,8 @@
 DisplayStrings = (
 "/quoteright",
 "/quoteleft/commaturnedmod/Omacron lelo Hawai/commaturnedmod i/quoteright",
-"/Omacron"
+"/Omacron",
+"/apostrophemod"
 );
 customParameters = (
 {
@@ -55959,7 +55960,7 @@ unicode = 02BC;
 },
 {
 glyphname = commaturnedmod;
-lastChange = "2019-04-09 16:34:12 +0000";
+lastChange = "2019-04-09 18:50:50 +0000";
 layers = (
 {
 layerId = "91AB5BCA-6A50-42DA-B2F7-8181BF189245";
@@ -55967,17 +55968,23 @@ paths = (
 {
 closed = 1;
 nodes = (
-"105 707 LINE",
-"48 605 LINE",
-"48 549 LINE",
-"117 549 LINE",
-"117 614 LINE",
-"88 614 LINE",
-"132 707 LINE"
+"131 708 LINE",
+"97 716 OFFCURVE",
+"48 669 OFFCURVE",
+"48 603 CURVE",
+"48 534 LINE",
+"131 534 LINE",
+"131 612 LINE",
+"87 612 LINE",
+"87 616 LINE",
+"87 642 OFFCURVE",
+"97 681 OFFCURVE",
+"126 681 CURVE",
+"131 681 LINE"
 );
 }
 );
-width = 165;
+width = 164;
 },
 {
 layerId = "258ED206-D907-4350-8EBA-CBDDA1C16BF7";
@@ -55985,17 +55992,23 @@ paths = (
 {
 closed = 1;
 nodes = (
-"142 673 LINE",
-"50 536 LINE",
+"215 727 LINE",
+"112 747 OFFCURVE",
+"50 654 OFFCURVE",
+"50 566 CURVE",
 "50 417 LINE",
-"191 417 LINE",
-"191 551 LINE",
-"145 556 LINE",
-"193 673 LINE"
+"227 417 LINE",
+"227 585 LINE",
+"142 597 LINE",
+"142 608 LINE",
+"142 647 OFFCURVE",
+"165 665 OFFCURVE",
+"196 674 CURVE",
+"215 677 LINE"
 );
 }
 );
-width = 248;
+width = 282;
 }
 );
 leftMetricsKey = quoteright;
