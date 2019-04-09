@@ -46,7 +46,7 @@ Public Sans is a fork of the SIL Open Licensed face Libre Franklin. Public Sans 
 
 **Looser letterspacing.** Public Sans has relatively loose letterspacing for reading, especially when compared with Libre Franklin, which is quite compact.
 
-![squared](https://raw.githubusercontent.com/uswds/public-sans/master/examples/public-sans-featured-images/public-v-lf-looser-tracking.png)
+![squared](https://raw.githubusercontent.com/uswds/public-sans/master/examples/public-sans-featured-images/public-v-lf-looser-spacing.png)
 
 **Redrawn characters.** Public Sans tends to use more consistent curves in its letterforms and has a focus on a smooth shape for its counters.
 
