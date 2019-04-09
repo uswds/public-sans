@@ -71,7 +71,7 @@ Public Sans is a good option for sites that currently use Open Sans, Tahoma, Lib
 
 ## Additional features
 
-##### Tighter kerning as the face gets heavier
+##### Tighter spacing as the face gets heavier
 ![squared](https://raw.githubusercontent.com/uswds/public-sans/master/examples/public-sans-featured-images/public-kerning.png)
 
 ##### Tabular figures (monospaced numerals)
