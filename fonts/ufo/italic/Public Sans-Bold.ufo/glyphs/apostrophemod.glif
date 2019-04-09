@@ -1,22 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="apostrophemod" format="1">
-  <advance width="218"/>
+  <advance width="278"/>
   <unicode hex="02BC"/>
   <outline>
-    <contour>
-      <point x="70" y="434" type="line"/>
-      <point x="140" y="434" type="line"/>
-      <point x="212" y="588" type="line"/>
-      <point x="230" y="723" type="line"/>
-      <point x="107" y="723" type="line"/>
-      <point x="87" y="580" type="line"/>
-      <point x="130" y="568" type="line"/>
-    </contour>
+    <component base="commaturnedmod" xScale="-1" yScale="-1" xOffset="361" yOffset="1145"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018-11-30 19:55:47 +0000</string>
+      <string>2019-04-09 21:50:59 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>commaturnedmod</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>commaturnedmod</string>
     </dict>
   </lib>
 </glyph>
