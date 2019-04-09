@@ -1,7 +1,9 @@
 {
 .appVersion = "1192";
 DisplayStrings = (
-ij
+"/quoteright",
+"/quoteleft/commaturnedmod/Omacron lelo Hawai/commaturnedmod i/quoteright",
+"/Omacron"
 );
 customParameters = (
 {
@@ -55954,6 +55956,51 @@ width = 124;
 }
 );
 unicode = 02BC;
+},
+{
+glyphname = commaturnedmod;
+lastChange = "2019-04-09 16:34:12 +0000";
+layers = (
+{
+layerId = "91AB5BCA-6A50-42DA-B2F7-8181BF189245";
+paths = (
+{
+closed = 1;
+nodes = (
+"105 707 LINE",
+"48 605 LINE",
+"48 549 LINE",
+"117 549 LINE",
+"117 614 LINE",
+"88 614 LINE",
+"132 707 LINE"
+);
+}
+);
+width = 165;
+},
+{
+layerId = "258ED206-D907-4350-8EBA-CBDDA1C16BF7";
+paths = (
+{
+closed = 1;
+nodes = (
+"142 673 LINE",
+"50 536 LINE",
+"50 417 LINE",
+"191 417 LINE",
+"191 551 LINE",
+"145 556 LINE",
+"193 673 LINE"
+);
+}
+);
+width = 248;
+}
+);
+leftMetricsKey = quoteright;
+rightMetricsKey = quoteright;
+unicode = 02BB;
 },
 {
 glyphname = dieresiscomb;
