@@ -5,7 +5,7 @@ IsFixedPitch false
 FontBBox -172 -240 1346 940
 Ascender 780Descender -220XHeight 517CapHeight 723EncodingScheme FontSpecific
 
-StartCharMetrics 560
+StartCharMetrics 561
 C 65 ; WX 732 ; N A ; B 11 0 722 723 ;
 C 193 ; WX 732 ; N Aacute ; B 11 0 722 941 ;
 C 258 ; WX 732 ; N Abreve ; B 11 0 722 929 ;
@@ -256,7 +256,7 @@ C 322 ; WX 402 ; N lslash ; B 38 -11 398 743 ;
 C 109 ; WX 925 ; N m ; B 50 0 879 527 ;
 C 110 ; WX 609 ; N n ; B 50 0 563 519 ;
 C 324 ; WX 609 ; N nacute ; B 50 0 563 735 ;
-C 329 ; WX 758 ; N napostrophe ; B 44 0 712 723 ;
+C 329 ; WX 758 ; N napostrophe ; B 50 0 712 728 ;
 C 328 ; WX 609 ; N ncaron ; B 50 0 563 724 ;
 C 326 ; WX 609 ; N ncommaaccent ; B 50 -240 563 519 ;
 C 7749 ; WX 609 ; N ndotaccent ; B 50 0 563 723 ;
@@ -532,7 +532,8 @@ C 8224 ; WX 579 ; N dagger ; B 46 -161 524 723 ;
 C 8225 ; WX 579 ; N daggerdbl ; B 46 -161 524 723 ;
 C 8470 ; WX 1204 ; N numero ; B 69 0 1177 733 ;
 C 8480 ; WX 1046 ; N servicemark ; B 25 -6 1004 458 ;
-C 700 ; WX 221 ; N apostrophemod ; B 44 434 167 723 ;
+C 700 ; WX 282 ; N apostrophemod ; B 50 417 227 728 ;
+C 699 ; WX 282 ; N commaturnedmod ; B 50 417 227 728 ;
 C 776 ; WX 452 ; N dieresiscomb ; B 21 584 421 723 ;
 C 775 ; WX 246 ; N dotaccentcomb ; B 21 560 216 723 ;
 C 768 ; WX 343 ; N gravecomb ; B 14 551 317 735 ;
