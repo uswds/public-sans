@@ -59,7 +59,7 @@ Public Sans is designed to be a progressive enhancement webfont, and to work wel
 
 Public Sans is a good option for sites that currently use Open Sans, Tahoma, Libre Franklin, Arial, or Helvetica.
 
-##### Pubic Sans is somewhere between SF Pro Text and Roboto
+##### Public Sans is somewhere between SF Pro Text and Roboto
 
 ![squared](https://raw.githubusercontent.com/uswds/public-sans/master/examples/public-sans-featured-images/public-general-comparison.png)
 
