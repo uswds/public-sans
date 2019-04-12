@@ -8,7 +8,7 @@ DisplayStrings = (
 "´",
 "/brevecomb_acutecomb",
 "/dotaccent",
-"/hookabovecomb"
+"/horncomb"
 );
 customParameters = (
 {
@@ -58281,7 +58281,7 @@ unicode = 0311;
 },
 {
 glyphname = horncomb;
-lastChange = "2019-04-12 17:28:30 +0000";
+lastChange = "2019-04-12 17:56:30 +0000";
 layers = (
 {
 anchors = (
@@ -58294,7 +58294,17 @@ name = topright;
 position = "{588, 530}";
 }
 );
-layerId = "91AB5BCA-6A50-42DA-B2F7-8181BF189245";
+background = {
+anchors = (
+{
+name = _topright;
+position = "{588, 530}";
+},
+{
+name = topright;
+position = "{588, 530}";
+}
+);
 paths = (
 {
 closed = 1;
@@ -58304,8 +58314,8 @@ nodes = (
 "603 592 OFFCURVE",
 "601 587 CURVE SMOOTH",
 "593 563 OFFCURVE",
-"577 531 OFFCURVE",
-"530 531 CURVE",
+"572 531 OFFCURVE",
+"525 531 CURVE",
 "525 490 LINE",
 "604 490 OFFCURVE",
 "639 544 OFFCURVE",
@@ -58313,6 +58323,23 @@ nodes = (
 "652 588 OFFCURVE",
 "651 591 OFFCURVE",
 "643 591 CURVE SMOOTH"
+);
+}
+);
+};
+layerId = "91AB5BCA-6A50-42DA-B2F7-8181BF189245";
+paths = (
+{
+closed = 1;
+nodes = (
+"602 589 LINE",
+"595 566 OFFCURVE",
+"583 532 OFFCURVE",
+"525 531 CURVE",
+"525 490 LINE",
+"620 489 OFFCURVE",
+"642 549 OFFCURVE",
+"653 589 CURVE"
 );
 }
 );
@@ -58329,7 +58356,17 @@ name = topright;
 position = "{583, 530}";
 }
 );
-layerId = "258ED206-D907-4350-8EBA-CBDDA1C16BF7";
+background = {
+anchors = (
+{
+name = _topright;
+position = "{583, 530}";
+},
+{
+name = topright;
+position = "{583, 530}";
+}
+);
 paths = (
 {
 closed = 1;
@@ -58348,6 +58385,23 @@ nodes = (
 "693 572 OFFCURVE",
 "688 589 OFFCURVE",
 "674 589 CURVE SMOOTH"
+);
+}
+);
+};
+layerId = "258ED206-D907-4350-8EBA-CBDDA1C16BF7";
+paths = (
+{
+closed = 1;
+nodes = (
+"585 589 LINE",
+"575 540 OFFCURVE",
+"548 528 OFFCURVE",
+"477 529 CURVE",
+"477 440 LINE",
+"656 420 OFFCURVE",
+"700 496 OFFCURVE",
+"702 589 CURVE"
 );
 }
 );
