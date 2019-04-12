@@ -1,14 +1,8 @@
 {
 .appVersion = "1192";
 DisplayStrings = (
-"/quoteleft/commaturnedmod/Omacron lelo Hawai/commaturnedmod i/quoteright",
-"/Omacron",
-"/apostrophemod",
-"/commaturnedmod",
-"´",
-"/brevecomb_acutecomb",
-"/dotaccent",
-"/horncomb"
+"/brevecomb_gravecomb",
+"/brevecomb_acutecomb"
 );
 customParameters = (
 {
@@ -59457,7 +59451,7 @@ unicode = 02DC;
 },
 {
 glyphname = brevecomb_acutecomb;
-lastChange = "2019-04-12 17:20:13 +0000";
+lastChange = "2019-04-12 18:08:40 +0000";
 layers = (
 {
 anchors = (
@@ -59573,7 +59567,7 @@ name = brevecomb;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 0, 150}";
+transform = "{1, 0, 0, 1, 2, 147}";
 }
 );
 layerId = "91AB5BCA-6A50-42DA-B2F7-8181BF189245";
@@ -59583,6 +59577,7 @@ width = 270;
 },
 {
 glyphname = brevecomb_gravecomb;
+lastChange = "2019-04-12 18:08:53 +0000";
 layers = (
 {
 components = (
@@ -59591,6 +59586,7 @@ name = brevecomb;
 },
 {
 name = gravecomb;
+transform = "{1, 0, 0, 1, 5, 148}";
 }
 );
 layerId = "91AB5BCA-6A50-42DA-B2F7-8181BF189245";
@@ -59603,6 +59599,7 @@ name = brevecomb;
 },
 {
 name = gravecomb;
+transform = "{1, 0, 0, 1, 54, 204}";
 }
 );
 layerId = "258ED206-D907-4350-8EBA-CBDDA1C16BF7";
