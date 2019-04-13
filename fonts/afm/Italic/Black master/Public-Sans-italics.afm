@@ -5,7 +5,7 @@ IsFixedPitch false
 FontBBox -211 -240 1348 939
 Ascender 780Descender -220XHeight 517CapHeight 723EncodingScheme FontSpecific
 
-StartCharMetrics 627
+StartCharMetrics 632
 C 65 ; WX 727 ; N A ; B -27 0 683 723 ;
 C 193 ; WX 727 ; N Aacute ; B -27 0 683 944 ;
 C 258 ; WX 727 ; N Abreve ; B -27 0 683 930 ;
@@ -398,7 +398,7 @@ C 378 ; WX 545 ; N zacute ; B -11 0 549 737 ;
 C 382 ; WX 545 ; N zcaron ; B -11 0 550 724 ;
 C 380 ; WX 545 ; N zdotaccent ; B -11 0 549 723 ;
 C 7827 ; WX 574 ; N zdotbelow ; B -15 -161 545 516 ;
-C -1 ; WX 622 ; N g.001 ; B -13 -170 583 526 ;
+C -1 ; WX 622 ; N g.ss01 ; B -13 -170 583 526 ;
 C -1 ; WX 337 ; N l.ss01 ; B 34 0 334 742 ;
 C 64257 ; WX 676 ; N fi ; B 28 0 700 742 ;
 C 64258 ; WX 724 ; N fl ; B 28 -11 696 742 ;
@@ -415,6 +415,7 @@ C 54 ; WX 671 ; N six ; B 36 -8 657 731 ;
 C 55 ; WX 601 ; N seven ; B 64 0 655 723 ;
 C 56 ; WX 656 ; N eight ; B 8 -10 644 733 ;
 C 57 ; WX 674 ; N nine ; B 42 -8 666 731 ;
+C -1 ; WX 684 ; N zero.osf ; B 39 -8 672 734 ;
 C -1 ; WX 427 ; N one.osf ; B 53 0 403 723 ;
 C -1 ; WX 646 ; N two.osf ; B -6 0 646 733 ;
 C -1 ; WX 664 ; N three.osf ; B 5 -10 658 733 ;
@@ -499,6 +500,8 @@ C 42 ; WX 542 ; N asterisk ; B 66 273 536 723 ;
 C 35 ; WX 622 ; N numbersign ; B 12 -2 631 723 ;
 C 47 ; WX 412 ; N slash ; B -30 0 463 723 ;
 C 92 ; WX 398 ; N backslash ; B 68 0 345 723 ;
+C -1 ; WX 309 ; N period.tf ; B 35 0 267 196 ;
+C -1 ; WX 309 ; N comma.tf ; B 18 -153 242 170 ;
 C 40 ; WX 365 ; N parenleft ; B 42 -161 400 723 ;
 C 41 ; WX 363 ; N parenright ; B -58 -161 298 723 ;
 C 123 ; WX 430 ; N braceleft ; B 10 -161 459 723 ;
@@ -544,6 +547,7 @@ C 8377 ; WX 695 ; N rupeeIndian ; B 36 0 730 723 ;
 C 163 ; WX 678 ; N sterling ; B -15 0 639 733 ;
 C 8361 ; WX 1198 ; N won ; B 29 0 1235 723 ;
 C 165 ; WX 700 ; N yen ; B 48 0 780 723 ;
+C 8729 ; WX 385 ; N bulletoperator ; B 94 275 276 457 ;
 C 43 ; WX 613 ; N plus ; B 55 110 583 619 ;
 C 8722 ; WX 613 ; N minus ; B 55 295 583 433 ;
 C 215 ; WX 614 ; N multiply ; B 49 115 590 613 ;
@@ -633,10 +637,11 @@ C -1 ; WX 581 ; N circumflexcomb_hookabovecomb ; B 145 580 661 866 ;
 C -1 ; WX 581 ; N circumflexcomb_tildecomb ; B 153 580 580 924 ;
 C -1 ; WX 0 ; N uni0000 ; B 0 0 0 0 ;
 C -1 ; WX 222 ; N espaciador ; B -56 -207 284 825 ;
+C -1 ; WX 150 ; N __horn ; B 0 436 225 639 ;
 EndCharMetrics
 
 StartKernData
-StartKernPairs 988
+StartKernPairs 997
 KPX A A 25
 KPX A J 25
 KPX A C -25
@@ -647,6 +652,7 @@ KPX A V -110
 KPX A W -75
 KPX A X 20
 KPX A Y -95
+KPX A g.ss01 -20
 KPX A f -10
 KPX A g -10
 KPX A hyphen -30
@@ -679,6 +685,7 @@ KPX Ecircumflexacute C -30
 KPX Ecircumflexacute S 10
 KPX Ecircumflexacute V 10
 KPX Ecircumflexacute a -5
+KPX Ecircumflexacute g.ss01 -10
 KPX Ecircumflexacute f -10
 KPX Ecircumflexacute g -10
 KPX Ecircumflexacute hyphen -20
@@ -702,6 +709,7 @@ KPX F W 30
 KPX F Y 30
 KPX F Z -20
 KPX F a -10
+KPX F g.ss01 -80
 KPX F f -60
 KPX F g -10
 KPX F m -80
@@ -734,6 +742,7 @@ KPX K V 30
 KPX K W -40
 KPX K Y 20
 KPX K a -15
+KPX K g.ss01 -40
 KPX K f -20
 KPX K hyphen -100
 KPX K c -35
@@ -755,6 +764,7 @@ KPX L W -60
 KPX L X 20
 KPX L Y -120
 KPX L a 25
+KPX L g.ss01 -10
 KPX L hyphen -50
 KPX L c -20
 KPX L quotedblright -160
@@ -795,6 +805,7 @@ KPX P X -65
 KPX P Y -30
 KPX P Z -40
 KPX P a -15
+KPX P g.ss01 -30
 KPX P f 15
 KPX P g -15
 KPX P hyphen -10
@@ -816,6 +827,7 @@ KPX R V -30
 KPX R W -30
 KPX R Y -50
 KPX R a -10
+KPX R g.ss01 -30
 KPX R g -20
 KPX R hyphen -40
 KPX R c -20
@@ -854,6 +866,7 @@ KPX T Y 35
 KPX T Z 10
 KPX T a -65
 KPX T colon -80
+KPX T g.ss01 -100
 KPX T f -30
 KPX T g -60
 KPX T hyphen -80
@@ -891,6 +904,7 @@ KPX V Y 50
 KPX V Z 20
 KPX V a -40
 KPX V colon -40
+KPX V g.ss01 -70
 KPX V g -70
 KPX V hyphen -50
 KPX V m -50
@@ -918,6 +932,7 @@ KPX W X 10
 KPX W Y 40
 KPX W Z -10
 KPX W a -60
+KPX W g.ss01 -70
 KPX W f -25
 KPX W g -70
 KPX W hyphen -40
@@ -971,6 +986,7 @@ KPX Y Y 40
 KPX Y Z -30
 KPX Y a -95
 KPX Y colon -60
+KPX Y g.ss01 -100
 KPX Y f -50
 KPX Y g -100
 KPX Y hyphen -80
@@ -997,6 +1013,7 @@ KPX Z X 20
 KPX Z Y -10
 KPX Z Z 20
 KPX Z a 15
+KPX Z g.ss01 -30
 KPX Z f -30
 KPX Z hyphen -30
 KPX Z c -30
@@ -1026,6 +1043,7 @@ KPX ecircumflexacute y -30
 KPX ecircumflexacute z -30
 KPX f A -30
 KPX f a -5
+KPX f g.ss01 -20
 KPX f f 0
 KPX f c 0
 KPX f question 50
@@ -1036,16 +1054,6 @@ KPX f t 30
 KPX f v 20
 KPX f x 20
 KPX f j -10
-KPX g.001 a -15
-KPX g.001 f 20
-KPX g.001 hyphen -30
-KPX g.001 c -40
-KPX g.001 s -5
-KPX g.001 t 30
-KPX g.001 v 20
-KPX g.001 w 10
-KPX g.001 x 10
-KPX g.001 z 10
 KPX hyphen A -30
 KPX hyphen J -40
 KPX hyphen S -20
@@ -1061,6 +1069,7 @@ KPX hyphen v -30
 KPX hyphen w -20
 KPX hyphen x -60
 KPX k a -20
+KPX k g.ss01 -40
 KPX k f 15
 KPX k g -20
 KPX k hyphen -50
@@ -1146,6 +1155,7 @@ KPX quotedbl b -10
 KPX quotedbl p -20
 KPX quotedbl q -40
 KPX r a 0
+KPX r g.ss01 -20
 KPX r f 25
 KPX r g 0
 KPX r hyphen -40
@@ -1166,6 +1176,7 @@ KPX r k 0
 KPX r space -10
 KPX v A -90
 KPX v a -20
+KPX v g.ss01 -30
 KPX v f 25
 KPX v g -20
 KPX v hyphen -30
@@ -1182,6 +1193,7 @@ KPX v y -10
 KPX v space -40
 KPX w A -80
 KPX w a -20
+KPX w g.ss01 -30
 KPX w g -25
 KPX w hyphen -20
 KPX w c -20
@@ -1195,6 +1207,7 @@ KPX w x -10
 KPX w y -10
 KPX w space -20
 KPX x a -25
+KPX x g.ss01 -30
 KPX x f 10
 KPX x hyphen -60
 KPX x c -33
@@ -1208,6 +1221,7 @@ KPX x y -40
 KPX x space -30
 KPX y A -90
 KPX y a -25
+KPX y g.ss01 -30
 KPX y g -20
 KPX y c -30
 KPX y period -80
@@ -1628,7 +1642,7 @@ KPX zero one -5
 EndKernPairs
 EndKernData
 
-StartComposites 386
+StartComposites 389
 CC Aacute 2 ; PCC A 0 0 ; PCC acutecomb 244 207 ;
 CC Abreve 2 ; PCC A 0 0 ; PCC brevecomb 184 207 ;
 CC Abreveacute 2 ; PCC A 0 0 ; PCC brevecomb_acutecomb 188 207 ;
@@ -1944,6 +1958,7 @@ CC zdotaccent 2 ; PCC z 0 0 ; PCC dotaccentcomb 162 0 ;
 CC zdotbelow 2 ; PCC z -4 0 ; PCC dotbelowcomb 178 0 ;
 CC fi 2 ; PCC f 0 0 ; PCC i 388 0 ;
 CC fl 2 ; PCC f 0 0 ; PCC l 388 0 ;
+CC zero.osf 1 ; PCC zero 0 0 ;
 CC one.osf 1 ; PCC one 0 0 ;
 CC two.osf 1 ; PCC two 0 0 ;
 CC three.osf 1 ; PCC three 0 0 ;
@@ -1991,6 +2006,8 @@ CC threeeighths 3 ; PCC three.numr -4 0 ; PCC fraction 399 0 ; PCC eight.dnom 66
 CC fiveeighths 3 ; PCC five.numr -4 0 ; PCC fraction 400 0 ; PCC eight.dnom 666 0 ;
 CC seveneighths 3 ; PCC seven.numr -4 0 ; PCC fraction 365 0 ; PCC eight.dnom 631 0 ;
 CC ellipsis 3 ; PCC period 724 0 ; PCC period 24 0 ; PCC period 374 0 ;
+CC period.tf 1 ; PCC period 28 0 ;
+CC comma.tf 1 ; PCC comma 28 0 ;
 CC softhyphen 1 ; PCC hyphen 24 0 ;
 CC quotedbl 2 ; PCC quotesingle 280 0 ; PCC quotesingle 24 0 ;
 CC numero 2 ; PCC N 0 0 ; PCC ordmasculine 803 0 ;

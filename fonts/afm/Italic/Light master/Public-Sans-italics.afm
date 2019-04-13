@@ -5,7 +5,7 @@ IsFixedPitch false
 FontBBox -180 -230 1123 939
 Ascender 780Descender -220XHeight 517CapHeight 723EncodingScheme FontSpecific
 
-StartCharMetrics 627
+StartCharMetrics 632
 C 65 ; WX 639 ; N A ; B 13 0 556 723 ;
 C 193 ; WX 639 ; N Aacute ; B 13 0 556 942 ;
 C 258 ; WX 639 ; N Abreve ; B 13 0 556 929 ;
@@ -398,7 +398,7 @@ C 378 ; WX 427 ; N zacute ; B 7 0 414 735 ;
 C 382 ; WX 427 ; N zcaron ; B 7 0 414 723 ;
 C 380 ; WX 427 ; N zdotaccent ; B 7 0 414 723 ;
 C 7827 ; WX 392 ; N zdotbelow ; B -5 -161 402 516 ;
-C -1 ; WX 524 ; N g.001 ; B 19 -171 480 526 ;
+C -1 ; WX 524 ; N g.ss01 ; B 19 -171 480 526 ;
 C -1 ; WX 240 ; N l.ss01 ; B 68 0 201 742 ;
 C 64257 ; WX 581 ; N fi ; B 67 0 560 742 ;
 C 64258 ; WX 624 ; N fl ; B 67 0 545 742 ;
@@ -415,6 +415,7 @@ C 54 ; WX 552 ; N six ; B 53 -10 518 733 ;
 C 55 ; WX 515 ; N seven ; B 94 0 544 723 ;
 C 56 ; WX 558 ; N eight ; B 32 -10 520 733 ;
 C 57 ; WX 545 ; N nine ; B 49 -10 517 733 ;
+C -1 ; WX 568 ; N zero.osf ; B 56 -10 540 733 ;
 C -1 ; WX 340 ; N one.osf ; B 84 0 278 723 ;
 C -1 ; WX 506 ; N two.osf ; B 11 0 482 733 ;
 C -1 ; WX 556 ; N three.osf ; B 22 -5 522 738 ;
@@ -499,6 +500,8 @@ C 42 ; WX 287 ; N asterisk ; B 68 440 325 723 ;
 C 35 ; WX 536 ; N numbersign ; B 35 -1 531 724 ;
 C 47 ; WX 283 ; N slash ; B -34 -58 339 723 ;
 C 92 ; WX 292 ; N backslash ; B 71 -58 238 723 ;
+C -1 ; WX 280 ; N period.tf ; B 73 0 140 77 ;
+C -1 ; WX 280 ; N comma.tf ; B 40 -111 159 80 ;
 C 40 ; WX 247 ; N parenleft ; B 70 -161 292 723 ;
 C 41 ; WX 256 ; N parenright ; B -40 -161 181 723 ;
 C 123 ; WX 244 ; N braceleft ; B 1 -161 288 723 ;
@@ -544,6 +547,7 @@ C 8377 ; WX 478 ; N rupeeIndian ; B 11 0 533 724 ;
 C 163 ; WX 532 ; N sterling ; B -30 0 476 733 ;
 C 8361 ; WX 916 ; N won ; B 42 0 939 723 ;
 C 165 ; WX 512 ; N yen ; B 72 0 568 723 ;
+C 8729 ; WX 285 ; N bulletoperator ; B 96 321 188 414 ;
 C 43 ; WX 483 ; N plus ; B 72 168 440 558 ;
 C 8722 ; WX 483 ; N minus ; B 72 344 440 382 ;
 C 215 ; WX 464 ; N multiply ; B 53 177 439 549 ;
@@ -633,10 +637,11 @@ C -1 ; WX 540 ; N circumflexcomb_hookabovecomb ; B 192 627 518 836 ;
 C -1 ; WX 540 ; N circumflexcomb_tildecomb ; B 209 627 486 843 ;
 C -1 ; WX 4 ; N uni0000 ; B 0 0 0 0 ;
 C -1 ; WX 32 ; N espaciador ; B -63 -207 108 825 ;
+C -1 ; WX 93 ; N __horn ; B 0 489 128 619 ;
 EndCharMetrics
 
 StartKernData
-StartKernPairs 968
+StartKernPairs 958
 KPX A A 25
 KPX A J 12
 KPX A C 0
@@ -988,17 +993,6 @@ KPX f v 16
 KPX f w 11
 KPX f x 20
 KPX f z -5
-KPX g.001 a -17
-KPX g.001 f 5
-KPX g.001 g 5
-KPX g.001 hyphen -40
-KPX g.001 s -23
-KPX g.001 t 5
-KPX g.001 u -20
-KPX g.001 v 7
-KPX g.001 w -7
-KPX g.001 x 10
-KPX g.001 z -3
 KPX hyphen A -26
 KPX hyphen J -45
 KPX hyphen S -10
@@ -1053,6 +1047,7 @@ KPX period four -10
 KPX period seven -20
 KPX period space -20
 KPX period two 20
+KPX g.ss01 question -5
 KPX quotedblleft A -49
 KPX quotedblleft J -42
 KPX quotedblleft S -5
@@ -1608,7 +1603,7 @@ KPX zero zero -10
 EndKernPairs
 EndKernData
 
-StartComposites 386
+StartComposites 389
 CC Aacute 2 ; PCC A 0 0 ; PCC acutecomb 226 207 ;
 CC Abreve 2 ; PCC A 0 0 ; PCC brevecomb 219 207 ;
 CC Abreveacute 2 ; PCC A 0 0 ; PCC brevecomb_acutecomb 77 207 ;
@@ -1924,6 +1919,7 @@ CC zdotaccent 2 ; PCC z 0 0 ; PCC dotaccentcomb 200 0 ;
 CC zdotbelow 2 ; PCC z -12 0 ; PCC dotbelowcomb 179 0 ;
 CC fi 2 ; PCC f 0 0 ; PCC i 360 0 ;
 CC fl 2 ; PCC f 0 0 ; PCC l 360 0 ;
+CC zero.osf 1 ; PCC zero 0 0 ;
 CC one.osf 1 ; PCC one 0 0 ;
 CC two.osf 1 ; PCC two 0 0 ;
 CC three.osf 1 ; PCC three 1 5 ;
@@ -1971,6 +1967,8 @@ CC threeeighths 3 ; PCC three.numr -12 0 ; PCC fraction 347 0 ; PCC eight.dnom 5
 CC fiveeighths 3 ; PCC five.numr -12 0 ; PCC fraction 348 0 ; PCC eight.dnom 578 0 ;
 CC seveneighths 3 ; PCC seven.numr -12 0 ; PCC fraction 314 0 ; PCC eight.dnom 544 0 ;
 CC ellipsis 3 ; PCC period 435 0 ; PCC period -13 0 ; PCC period 211 0 ;
+CC period.tf 1 ; PCC period 53 0 ;
+CC comma.tf 1 ; PCC comma 59 0 ;
 CC softhyphen 1 ; PCC hyphen -13 0 ;
 CC quotedbl 2 ; PCC quotesingle 118 0 ; PCC quotesingle -13 0 ;
 CC numero 2 ; PCC N 0 0 ; PCC ordmasculine 671 0 ;

@@ -206,10 +206,6 @@
 	<array>
 		<string>f</string>
 	</array>
-	<key>@MMK_L_g</key>
-	<array>
-		<string>g.001</string>
-	</array>
 	<key>@MMK_L_hyphen</key>
 	<array>
 		<string>hyphen</string>
@@ -256,6 +252,12 @@
 	<array>
 		<string>period</string>
 		<string>comma</string>
+		<string>period.tf</string>
+		<string>comma.tf</string>
+	</array>
+	<key>@MMK_L_q</key>
+	<array>
+		<string>g.ss01</string>
 	</array>
 	<key>@MMK_L_quoteleft</key>
 	<array>
@@ -308,6 +310,10 @@
 		<string>ygrave</string>
 		<string>yhookabove</string>
 		<string>ytilde</string>
+	</array>
+	<key>@MMK_L_zero</key>
+	<array>
+		<string>zero.osf</string>
 	</array>
 	<key>@MMK_R_A</key>
 	<array>
@@ -489,6 +495,10 @@
 		<string>colon</string>
 		<string>semicolon</string>
 	</array>
+	<key>@MMK_R_d</key>
+	<array>
+		<string>g.ss01</string>
+	</array>
 	<key>@MMK_R_f</key>
 	<array>
 		<string>f</string>
@@ -502,7 +512,6 @@
 		<string>gcircumflex</string>
 		<string>gcommaaccent</string>
 		<string>gdotaccent</string>
-		<string>g.001</string>
 	</array>
 	<key>@MMK_R_hyphen</key>
 	<array>
@@ -593,6 +602,8 @@
 	<array>
 		<string>period</string>
 		<string>comma</string>
+		<string>period.tf</string>
+		<string>comma.tf</string>
 	</array>
 	<key>@MMK_R_quoteright</key>
 	<array>
@@ -691,6 +702,10 @@
 		<string>zcaron</string>
 		<string>zdotaccent</string>
 		<string>zdotbelow</string>
+	</array>
+	<key>@MMK_R_zero</key>
+	<array>
+		<string>zero.osf</string>
 	</array>
 </dict>
 </plist>

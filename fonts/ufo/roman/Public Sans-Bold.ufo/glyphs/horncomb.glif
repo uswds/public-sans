@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="horncomb" format="1">
+  <advance width="225"/>
+  <unicode hex="031B"/>
+  <outline>
+    <contour>
+      <point x="225" y="639" type="curve"/>
+      <point x="108" y="639" type="line"/>
+      <point x="98" y="520"/>
+      <point x="71" y="528"/>
+      <point x="0" y="529" type="curve"/>
+      <point x="0" y="440" type="line"/>
+      <point x="179" y="420"/>
+      <point x="223" y="476"/>
+    </contour>
+    <contour>
+      <point x="0" y="440" type="move" name="_horn"/>
+    </contour>
+    <contour>
+      <point x="106" y="530" type="move" name="_topright"/>
+    </contour>
+    <contour>
+      <point x="106" y="530" type="move" name="topright"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019-04-12 20:21:50 +0000</string>
+    </dict>
+  </lib>
+</glyph>
