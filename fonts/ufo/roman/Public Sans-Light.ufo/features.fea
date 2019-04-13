@@ -13,7 +13,6 @@ languagesystem latn AZE;
 
 feature aalt {
 # automatic
-feature ccmp;
 feature locl;
 feature subs;
 feature sinf;
@@ -33,11 +32,25 @@ feature ss01;
 feature ccmp {
 # automatic
 lookup ccmp_Other_1 {
-	@CombiningTopAccents = [acutecomb brevecomb breveinvertedcomb caroncomb circumflexcomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
-	@CombiningNonTopAccents = [cedillacomb dotbelowcomb ogonekcomb];
+	@CombiningTopAccents = [acutecomb brevecomb breveinvertedcomb caroncomb circumflexcomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];
+	@CombiningNonTopAccents = [cedillacomb dotbelowcomb ogonekcomb horncomb];
 	sub [i j]' @CombiningTopAccents by [idotless jdotless];
 	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
 } ccmp_Other_1;
+
+lookup ccmp_latn_1 {
+	lookupflag 0;
+	sub brevecomb acutecomb by brevecomb_acutecomb;
+	sub brevecomb gravecomb by brevecomb_gravecomb;
+	sub brevecomb hookabovecomb by brevecomb_hookabovecomb;
+	sub brevecomb tildecomb by brevecomb_tildecomb;
+	sub circumflexcomb acutecomb by circumflexcomb_acutecomb;
+	sub circumflexcomb gravecomb by circumflexcomb_gravecomb;
+	sub circumflexcomb hookabovecomb by circumflexcomb_hookabovecomb;
+	sub circumflexcomb tildecomb by circumflexcomb_tildecomb;
+} ccmp_latn_1;
+
+script latn;
 } ccmp;
 
 feature locl {
@@ -185,8 +198,8 @@ sub six.tf by six;
 sub seven.tf by seven;
 sub eight.tf by eight;
 sub nine.tf by nine;
-sub comma.tf by comma;
 sub period.tf by period;
+sub comma.tf by comma;
 } pnum;
 
 feature tnum {
@@ -201,8 +214,8 @@ sub six by six.tf;
 sub seven by seven.tf;
 sub eight by eight.tf;
 sub nine by nine.tf;
-sub comma by comma.tf;
 sub period by period.tf;
+sub comma by comma.tf;
 } tnum;
 
 feature onum {
@@ -230,11 +243,13 @@ sub f l by fl;
 
 feature salt {
 # automatic
+sub g by g.ss01;
 sub l by l.ss01;
 } salt;
 
 feature ss01 {
 # automatic
+sub g by g.ss01;
 sub l by l.ss01;
 } ss01;
 

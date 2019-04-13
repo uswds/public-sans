@@ -13,7 +13,6 @@ languagesystem latn AZE;
 
 feature aalt {
 # automatic
-feature ccmp;
 feature locl;
 feature subs;
 feature sinf;
@@ -22,20 +21,24 @@ feature numr;
 feature dnom;
 feature frac;
 feature ordn;
+feature lnum;
+feature pnum;
+feature tnum;
+feature onum;
+feature salt;
+feature ss01;
 } aalt;
 
 feature ccmp {
 # automatic
-lookup ccmp_latn_1 {
-	script latn;
+lookup ccmp_Other_1 {
 	@CombiningTopAccents = [acutecomb brevecomb breveinvertedcomb caroncomb circumflexcomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];
 	@CombiningNonTopAccents = [cedillacomb dotbelowcomb ogonekcomb horncomb];
 	sub [i j]' @CombiningTopAccents by [idotless jdotless];
 	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
-} ccmp_latn_1;
+} ccmp_Other_1;
 
-lookup ccmp_latn_2 {
-	script latn;
+lookup ccmp_latn_1 {
 	lookupflag 0;
 	sub brevecomb acutecomb by brevecomb_acutecomb;
 	sub brevecomb gravecomb by brevecomb_gravecomb;
@@ -45,7 +48,9 @@ lookup ccmp_latn_2 {
 	sub circumflexcomb gravecomb by circumflexcomb_gravecomb;
 	sub circumflexcomb hookabovecomb by circumflexcomb_hookabovecomb;
 	sub circumflexcomb tildecomb by circumflexcomb_tildecomb;
-} ccmp_latn_2;
+} ccmp_latn_1;
+
+script latn;
 } ccmp;
 
 feature locl {
@@ -167,22 +172,84 @@ sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
 sub N o period by numero;
 } ordn;
 
+feature lnum {
+# automatic
+sub zero.osf by zero;
+sub one.osf by one;
+sub two.osf by two;
+sub three.osf by three;
+sub four.osf by four;
+sub five.osf by five;
+sub six.osf by six;
+sub seven.osf by seven;
+sub eight.osf by eight;
+sub nine.osf by nine;
+} lnum;
+
+feature pnum {
+# automatic
+sub zero.tf by zero;
+sub one.tf by one;
+sub two.tf by two;
+sub three.tf by three;
+sub four.tf by four;
+sub five.tf by five;
+sub six.tf by six;
+sub seven.tf by seven;
+sub eight.tf by eight;
+sub nine.tf by nine;
+sub period.tf by period;
+sub comma.tf by comma;
+} pnum;
+
+feature tnum {
+# automatic
+sub zero by zero.tf;
+sub one by one.tf;
+sub two by two.tf;
+sub three by three.tf;
+sub four by four.tf;
+sub five by five.tf;
+sub six by six.tf;
+sub seven by seven.tf;
+sub eight by eight.tf;
+sub nine by nine.tf;
+sub period by period.tf;
+sub comma by comma.tf;
+} tnum;
+
+feature onum {
+# automatic
+sub zero by zero.osf;
+sub one by one.osf;
+sub two by two.osf;
+sub three by three.osf;
+sub four by four.osf;
+sub five by five.osf;
+sub six by six.osf;
+sub seven by seven.osf;
+sub eight by eight.osf;
+sub nine by nine.osf;
+} onum;
+
 feature liga {
 # automatic
-sub f i by fi;
-sub f l by fl;
-sub colon one eight F colon by colon_one_eight_F_colon.liga;
 sub colon f l a g two colon by colon_f_l_a_g_two_colon.liga;
 sub colon f l a g colon by colon_f_l_a_g_colon.liga;
+sub colon one eight F colon by colon_one_eight_F_colon.liga;
+sub f i by fi;
+sub f l by fl;
 } liga;
 
 feature salt {
 # automatic
+sub g by g.ss01;
 sub l by l.ss01;
 } salt;
 
 feature ss01 {
 # automatic
+sub g by g.ss01;
 sub l by l.ss01;
 } ss01;
 
