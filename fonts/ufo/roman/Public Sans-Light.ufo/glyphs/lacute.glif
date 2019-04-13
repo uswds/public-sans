@@ -1,36 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lacute" format="1">
-  <advance width="286"/>
+  <advance width="273"/>
   <unicode hex="013A"/>
   <outline>
-    <component base="l" xOffset="-6"/>
-    <component base="acutecomb" xOffset="-27" yOffset="245"/>
+    <component base="l"/>
+    <component base="acutecomb" xOffset="-19" yOffset="245"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
       <integer>1</integer>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>l</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>acutecomb</string>
-        </dict>
-      </array>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018-10-31 20:52:58 +0000</string>
+      <string>2019-04-12 22:14:40 +0000</string>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
     </dict>
   </lib>
 </glyph>
