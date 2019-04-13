@@ -1,7 +1,7 @@
 {
 .appVersion = "1192";
 DisplayStrings = (
-"the blin/g.ss01 ier rin/g.ss01 \012o/g.ss01/g.ss01  vorbis /g.ss01 ump\012le/g.ss01/g.ss01 o my e/g.ss01/g.ss01 o\012not /g.ss01 ov orq/g.ss01 yric\012qua/g.ss01 mire"
+"the blin/g.ss01 ier rin/g.ss01 \012o/g.ss01/g.ss01  vorbis /g.ss01 ump\012le/g.ss01/g.ss01 o my e/g.ss01/g.ss01 o\012not /g.ss01 ov pan/g.ss01 yric\012qua/g.ss01 mire"
 );
 customParameters = (
 {
@@ -61,12 +61,12 @@ name = Languagesystems;
 features = (
 {
 automatic = 1;
-code = "feature ccmp;\012feature locl;\012feature subs;\012feature sinf;\012feature sups;\012feature numr;\012feature dnom;\012feature frac;\012feature ordn;\012feature lnum;\012feature pnum;\012feature tnum;\012feature onum;\012feature salt;\012feature ss01;\012";
+code = "feature locl;\012feature subs;\012feature sinf;\012feature sups;\012feature numr;\012feature dnom;\012feature frac;\012feature ordn;\012feature lnum;\012feature pnum;\012feature tnum;\012feature onum;\012feature salt;\012feature ss01;\012";
 name = aalt;
 },
 {
 automatic = 1;
-code = "lookup ccmp_Other_1 {\012	@CombiningTopAccents = [acutecomb brevecomb breveinvertedcomb caroncomb circumflexcomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];\012	@CombiningNonTopAccents = [cedillacomb dotbelowcomb ogonekcomb];\012	sub [i j]' @CombiningTopAccents by [idotless jdotless];\012	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];\012} ccmp_Other_1;\012";
+code = "lookup ccmp_Other_1 {\012	@CombiningTopAccents = [acutecomb brevecomb breveinvertedcomb caroncomb circumflexcomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];\012	@CombiningNonTopAccents = [cedillacomb dotbelowcomb ogonekcomb horncomb];\012	sub [i j]' @CombiningTopAccents by [idotless jdotless];\012	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];\012} ccmp_Other_1;\012\012lookup ccmp_latn_1 {\012	lookupflag 0;\012	sub brevecomb acutecomb by brevecomb_acutecomb;\012	sub brevecomb gravecomb by brevecomb_gravecomb;\012	sub brevecomb hookabovecomb by brevecomb_hookabovecomb;\012	sub brevecomb tildecomb by brevecomb_tildecomb;\012	sub circumflexcomb acutecomb by circumflexcomb_acutecomb;\012	sub circumflexcomb gravecomb by circumflexcomb_gravecomb;\012	sub circumflexcomb hookabovecomb by circumflexcomb_hookabovecomb;\012	sub circumflexcomb tildecomb by circumflexcomb_tildecomb;\012} ccmp_latn_1;\012\012script latn;\012";
 name = ccmp;
 },
 {
@@ -116,12 +116,12 @@ name = lnum;
 },
 {
 automatic = 1;
-code = "sub zero.tf by zero;\012sub one.tf by one;\012sub two.tf by two;\012sub three.tf by three;\012sub four.tf by four;\012sub five.tf by five;\012sub six.tf by six;\012sub seven.tf by seven;\012sub eight.tf by eight;\012sub nine.tf by nine;\012sub comma.tf by comma;\012sub period.tf by period;\012";
+code = "sub zero.tf by zero;\012sub one.tf by one;\012sub two.tf by two;\012sub three.tf by three;\012sub four.tf by four;\012sub five.tf by five;\012sub six.tf by six;\012sub seven.tf by seven;\012sub eight.tf by eight;\012sub nine.tf by nine;\012sub period.tf by period;\012sub comma.tf by comma;\012";
 name = pnum;
 },
 {
 automatic = 1;
-code = "sub zero by zero.tf;\012sub one by one.tf;\012sub two by two.tf;\012sub three by three.tf;\012sub four by four.tf;\012sub five by five.tf;\012sub six by six.tf;\012sub seven by seven.tf;\012sub eight by eight.tf;\012sub nine by nine.tf;\012sub comma by comma.tf;\012sub period by period.tf;\012";
+code = "sub zero by zero.tf;\012sub one by one.tf;\012sub two by two.tf;\012sub three by three.tf;\012sub four by four.tf;\012sub five by five.tf;\012sub six by six.tf;\012sub seven by seven.tf;\012sub eight by eight.tf;\012sub nine by nine.tf;\012sub period by period.tf;\012sub comma by comma.tf;\012";
 name = tnum;
 },
 {
@@ -136,12 +136,12 @@ name = liga;
 },
 {
 automatic = 1;
-code = "sub l by l.ss01;\012";
+code = "sub g by g.ss01;\012sub l by l.ss01;\012";
 name = salt;
 },
 {
 automatic = 1;
-code = "sub l by l.ss01;\012";
+code = "sub g by g.ss01;\012sub l by l.ss01;\012";
 name = ss01;
 }
 );
