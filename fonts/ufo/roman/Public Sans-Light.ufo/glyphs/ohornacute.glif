@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ohornacute" format="1">
-  <advance width="555"/>
+  <advance width="648"/>
   <unicode hex="1EDB"/>
   <outline>
     <component base="o"/>
-    <component base="horncomb" xOffset="469" yOffset="-133"/>
     <component base="acutecomb" xOffset="148"/>
+    <component base="__horn" xOffset="469" yOffset="-133"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-13 20:26:25 +0000</string>
+      <string>2019-04-14 22:29:27 +0000</string>
     </dict>
   </lib>
 </glyph>
