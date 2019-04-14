@@ -1,8 +1,5 @@
 {
 .appVersion = "1192";
-DisplayStrings = (
-"AûJNASD"
-);
 customParameters = (
 {
 name = fsType;
@@ -10635,7 +10632,7 @@ unicode = 018F;
 },
 {
 glyphname = T;
-lastChange = "2019-04-14 21:01:37 +0000";
+lastChange = "2019-04-14 22:40:46 +0000";
 layers = (
 {
 anchors = (
@@ -11697,7 +11694,7 @@ unicode = 1EE6;
 },
 {
 glyphname = Uhorn;
-lastChange = "2019-04-14 22:26:53 +0000";
+lastChange = "2019-04-14 22:41:09 +0000";
 layers = (
 {
 components = (
@@ -12869,7 +12866,7 @@ unicode = 1E80;
 },
 {
 glyphname = X;
-lastChange = "2018-10-31 20:52:58 +0000";
+lastChange = "2019-04-14 22:41:51 +0000";
 layers = (
 {
 background = {
@@ -62240,22 +62237,22 @@ kerning = {
 "@MMK_L_T" = {
 "@MMK_R_A" = -72;
 "@MMK_R_J" = -75;
-"@MMK_R_S" = -28;
-"@MMK_R_T" = 37;
+"@MMK_R_S" = -30;
+"@MMK_R_T" = 40;
 "@MMK_R_V" = 25;
 "@MMK_R_W" = 25;
 "@MMK_R_X" = 5;
 "@MMK_R_Y" = 35;
 "@MMK_R_Z" = 9;
-"@MMK_R_a" = -59;
+"@MMK_R_a" = -60;
 "@MMK_R_comma" = -75;
 "@MMK_R_g" = -50;
-"@MMK_R_guilsinglright" = -61;
+"@MMK_R_guilsinglright" = -60;
 "@MMK_R_hyphen" = -75;
 "@MMK_R_o" = -65;
-"@MMK_R_s" = -57;
+"@MMK_R_s" = -55;
 "@MMK_R_t" = -30;
-"@MMK_R_u" = -49;
+"@MMK_R_u" = -50;
 "@MMK_R_v" = -40;
 "@MMK_R_x" = -50;
 "@MMK_R_z" = -40;
@@ -62270,13 +62267,13 @@ kerning = {
 "@MMK_R_J" = -10;
 "@MMK_R_V" = 50;
 "@MMK_R_W" = 40;
-"@MMK_R_a" = -29;
+"@MMK_R_a" = -30;
 "@MMK_R_f" = -10;
 "@MMK_R_g" = -30;
 "@MMK_R_h" = 0;
-"@MMK_R_n" = -13;
+"@MMK_R_n" = -15;
 "@MMK_R_o" = -20;
-"@MMK_R_s" = -32;
+"@MMK_R_s" = -30;
 "@MMK_R_t" = -10;
 "@MMK_R_u" = -41;
 "@MMK_R_v" = 3;
@@ -62340,11 +62337,11 @@ p = -48;
 "@MMK_R_W" = -5;
 "@MMK_R_Y" = 10;
 "@MMK_R_a" = 0;
-"@MMK_R_comma" = 16;
+"@MMK_R_comma" = 15;
 "@MMK_R_guilsinglright" = -5;
-"@MMK_R_hyphen" = -39;
-"@MMK_R_u" = -12;
-"@MMK_R_v" = -7;
+"@MMK_R_hyphen" = -40;
+"@MMK_R_u" = -10;
+"@MMK_R_v" = -5;
 };
 "@MMK_L_Y" = {
 "@MMK_R_A" = -65;
@@ -62766,9 +62763,6 @@ g = {
 n = {
 "@MMK_R_quotesingle" = -60;
 };
-ohorndotbelow = {
-"@MMK_R_o" = -47;
-};
 s = {
 "@MMK_R_g" = -10;
 "@MMK_R_t" = 0;
@@ -62810,7 +62804,6 @@ t = {
 "@MMK_R_v" = -70;
 "@MMK_R_x" = -20;
 "@MMK_R_z" = 10;
-"@MMK_R_AE" = 0;
 };
 "@MMK_L_B" = {
 "@MMK_R_A" = -15;
