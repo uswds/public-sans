@@ -1,31 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="quotedblleft" format="1">
-  <advance width="354"/>
+  <advance width="359"/>
   <unicode hex="201C"/>
   <outline>
     <contour>
-      <point x="205" y="532" type="line"/>
-      <point x="288" y="532" type="line"/>
-      <point x="288" y="612" type="line"/>
-      <point x="252" y="612" type="line"/>
-      <point x="306" y="723" type="line"/>
-      <point x="274" y="723" type="line"/>
-      <point x="205" y="601" type="line"/>
+      <point x="212" y="532" type="line"/>
+      <point x="295" y="532" type="line"/>
+      <point x="295" y="612" type="line"/>
+      <point x="259" y="612" type="line"/>
+      <point x="313" y="723" type="line"/>
+      <point x="281" y="723" type="line"/>
+      <point x="212" y="601" type="line"/>
     </contour>
     <contour>
-      <point x="62" y="532" type="line"/>
-      <point x="145" y="532" type="line"/>
-      <point x="145" y="612" type="line"/>
-      <point x="110" y="612" type="line"/>
-      <point x="164" y="723" type="line"/>
-      <point x="132" y="723" type="line"/>
-      <point x="62" y="601" type="line"/>
+      <point x="69" y="532" type="line"/>
+      <point x="152" y="532" type="line"/>
+      <point x="152" y="612" type="line"/>
+      <point x="117" y="612" type="line"/>
+      <point x="171" y="723" type="line"/>
+      <point x="139" y="723" type="line"/>
+      <point x="69" y="601" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-14 20:04:23 +0000</string>
+      <string>2019-04-15 06:01:39 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>quoteleft</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>quoteleft</string>
     </dict>
   </lib>
 </glyph>

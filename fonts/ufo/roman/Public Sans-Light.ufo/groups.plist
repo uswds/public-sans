@@ -510,6 +510,7 @@
 		<string>comma</string>
 		<string>colon</string>
 		<string>ellipsis</string>
+		<string>periodcentered</string>
 		<string>underscore</string>
 	</array>
 	<key>@MMK_L_plus</key>
@@ -707,6 +708,9 @@
 		<string>Aring</string>
 		<string>Aringacute</string>
 		<string>Atilde</string>
+	</array>
+	<key>@MMK_R_AE</key>
+	<array>
 		<string>AE</string>
 		<string>AEacute</string>
 	</array>
@@ -832,11 +836,14 @@
 		<string>Oinvertedbreve</string>
 		<string>Omacron</string>
 		<string>Oogonek</string>
-		<string>Oslash</string>
-		<string>Oslashacute</string>
 		<string>Otilde</string>
 		<string>OE</string>
 		<string>Q</string>
+	</array>
+	<key>@MMK_R_Oslash</key>
+	<array>
+		<string>Oslash</string>
+		<string>Oslashacute</string>
 	</array>
 	<key>@MMK_R_S</key>
 	<array>
@@ -1164,6 +1171,7 @@
 		<string>period</string>
 		<string>comma</string>
 		<string>ellipsis</string>
+		<string>periodcentered</string>
 		<string>underscore</string>
 	</array>
 	<key>@MMK_R_plus</key>
