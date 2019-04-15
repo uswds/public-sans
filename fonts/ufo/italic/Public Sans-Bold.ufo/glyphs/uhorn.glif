@@ -1,42 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uhorn" format="1">
-  <advance width="612"/>
+  <advance width="761"/>
   <unicode hex="01B0"/>
   <outline>
-    <component base="u" xOffset="-4"/>
-    <component base="horncomb" xOffset="203"/>
-    <contour>
-      <point x="254" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="326" y="516" type="move" name="top"/>
-    </contour>
+    <component base="u"/>
+    <component base="__horn" xOffset="517" yOffset="-83"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
-      <integer>1</integer>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>u</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>horncomb</string>
-        </dict>
-      </array>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-14 21:57:36 +0000</string>
+      <string>2019-04-15 22:20:35 +0000</string>
     </dict>
   </lib>
 </glyph>

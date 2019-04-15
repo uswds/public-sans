@@ -1,36 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Rdotbelow" format="1">
-  <advance width="712"/>
+  <advance width="713"/>
   <unicode hex="1E5A"/>
   <outline>
-    <component base="R" xOffset="-4"/>
-    <component base="dotbelowcomb" xOffset="265"/>
+    <component base="R"/>
+    <component base="dotbelowcomb" xOffset="256"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
-      <integer>1</integer>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>R</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>dotbelowcomb</string>
-        </dict>
-      </array>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-14 21:52:02 +0000</string>
+      <string>2019-04-15 22:21:41 +0000</string>
     </dict>
   </lib>
 </glyph>

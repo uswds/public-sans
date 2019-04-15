@@ -1,22 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dotbelowcomb" format="1">
-  <advance width="56"/>
+  <advance width="62"/>
   <unicode hex="0323"/>
   <outline>
+    <component base="dotaccentcomb" xOffset="-110" yOffset="-784"/>
     <contour>
-      <point x="7" y="-60" type="line"/>
-      <point x="-39" y="-60" type="line"/>
-      <point x="-54" y="-161" type="line"/>
-      <point x="-5" y="-161" type="line"/>
-    </contour>
-    <contour>
-      <point x="-8" y="0" type="move" name="_bottom"/>
+      <point x="-7" y="0" type="move" name="_bottom"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018-11-30 19:55:47 +0000</string>
+      <string>2019-04-15 22:21:28 +0000</string>
     </dict>
   </lib>
 </glyph>

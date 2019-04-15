@@ -1,16 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="aringacute" format="1">
-  <advance width="515"/>
+  <advance width="506"/>
   <unicode hex="01FB"/>
   <outline>
     <component base="a"/>
-    <component base="acutecomb" xOffset="132"/>
-    <component base="ringcomb" xOffset="156"/>
+    <component base="_ringacute" xOffset="-76" yOffset="-194"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>_ringacute</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-14 21:53:23 +0000</string>
+      <string>2019-04-15 22:11:46 +0000</string>
     </dict>
   </lib>
 </glyph>

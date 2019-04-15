@@ -1,34 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="A" format="1">
-  <advance width="639"/>
+  <advance width="647"/>
   <unicode hex="0041"/>
   <outline>
     <contour>
-      <point x="13" y="0" type="line"/>
-      <point x="53" y="0" type="line"/>
-      <point x="162" y="228" type="line"/>
-      <point x="470" y="228" type="line"/>
+      <point x="19" y="0" type="line"/>
+      <point x="57" y="0" type="line"/>
+      <point x="167" y="228" type="line"/>
+      <point x="472" y="228" type="line"/>
       <point x="516" y="0" type="line"/>
       <point x="556" y="0" type="line"/>
-      <point x="406" y="723" type="line"/>
-      <point x="355" y="723" type="line"/>
+      <point x="415" y="723" type="line"/>
+      <point x="364" y="723" type="line"/>
     </contour>
     <contour>
-      <point x="181" y="271" type="line"/>
-      <point x="375" y="680" type="line"/>
-      <point x="461" y="271" type="line"/>
+      <point x="186" y="271" type="line"/>
+      <point x="384" y="681" type="line"/>
+      <point x="464" y="271" type="line"/>
     </contour>
     <contour>
-      <point x="548" y="11" type="move" name="ogonek"/>
+      <point x="287" y="0" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="380" y="723" type="move" name="top"/>
+      <point x="556" y="12" type="move" name="ogonek"/>
+    </contour>
+    <contour>
+      <point x="389" y="723" type="move" name="top"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018-11-30 19:55:47 +0000</string>
+      <string>2019-04-15 22:07:59 +0000</string>
     </dict>
   </lib>
 </glyph>

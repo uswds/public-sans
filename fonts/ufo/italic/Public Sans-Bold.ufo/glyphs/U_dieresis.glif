@@ -1,36 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Udieresis" format="1">
-  <advance width="744"/>
+  <advance width="749"/>
   <unicode hex="00DC"/>
   <outline>
-    <component base="U" xOffset="-4"/>
-    <component base="dieresiscomb" xOffset="170" yOffset="207"/>
+    <component base="U"/>
+    <component base="dieresiscomb" xOffset="186" yOffset="203"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
-      <integer>1</integer>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>U</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>dieresiscomb</string>
-        </dict>
-      </array>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-14 21:52:46 +0000</string>
+      <string>2019-04-15 22:21:40 +0000</string>
     </dict>
   </lib>
 </glyph>

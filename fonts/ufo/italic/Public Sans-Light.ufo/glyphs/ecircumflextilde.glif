@@ -1,45 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ecircumflextilde" format="1">
-  <advance width="524"/>
+  <advance width="506"/>
   <unicode hex="1EC5"/>
   <outline>
-    <component base="e" xOffset="-12"/>
-    <component base="circumflexcomb" xOffset="120"/>
-    <component base="tildecomb" xOffset="144" yOffset="131"/>
+    <component base="e"/>
+    <component base="circumflexcomb_tildecomb" xOffset="152"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
-      <integer>1</integer>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>e</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>circumflexcomb</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>2</integer>
-          <key>name</key>
-          <string>tildecomb</string>
-        </dict>
-      </array>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-14 21:54:11 +0000</string>
+      <string>2019-04-15 22:20:48 +0000</string>
     </dict>
   </lib>
 </glyph>

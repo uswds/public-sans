@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="abreveacute" format="1">
-  <advance width="515"/>
+  <advance width="506"/>
   <unicode hex="1EAF"/>
   <outline>
     <component base="a"/>
-    <component base="brevecomb" xOffset="125"/>
-    <component base="acutecomb" xOffset="149" yOffset="146"/>
+    <component base="brevecomb_acutecomb" xOffset="139" yOffset="-2"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-14 21:53:23 +0000</string>
+      <string>2019-04-15 22:21:32 +0000</string>
     </dict>
   </lib>
 </glyph>

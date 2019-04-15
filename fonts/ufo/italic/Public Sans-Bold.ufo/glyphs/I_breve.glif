@@ -1,36 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ibreve" format="1">
-  <advance width="337"/>
+  <advance width="340"/>
   <unicode hex="012C"/>
   <outline>
-    <component base="I" xOffset="5"/>
-    <component base="brevecomb" xOffset="-25" yOffset="207"/>
+    <component base="I"/>
+    <component base="brevecomb" xOffset="-10" yOffset="206"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
-      <integer>1</integer>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>I</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>brevecomb</string>
-        </dict>
-      </array>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-14 21:50:41 +0000</string>
+      <string>2019-04-15 22:21:42 +0000</string>
     </dict>
   </lib>
 </glyph>

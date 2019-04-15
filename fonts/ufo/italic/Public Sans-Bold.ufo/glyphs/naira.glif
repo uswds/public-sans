@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="naira" format="1">
-  <advance width="818"/>
+  <advance width="879"/>
   <unicode hex="20A6"/>
   <outline>
     <contour>
+      <point x="39" y="444" type="line"/>
+      <point x="824" y="444" type="line"/>
       <point x="838" y="532" type="line"/>
-      <point x="48" y="532" type="line"/>
-      <point x="36" y="443" type="line"/>
-      <point x="825" y="443" type="line"/>
+      <point x="53" y="532" type="line"/>
     </contour>
     <contour>
-      <point x="805" y="298" type="line"/>
-      <point x="15" y="298" type="line"/>
-      <point x="3" y="209" type="line"/>
-      <point x="792" y="209" type="line"/>
+      <point x="4" y="210" type="line"/>
+      <point x="789" y="210" type="line"/>
+      <point x="802" y="298" type="line"/>
+      <point x="17" y="298" type="line"/>
     </contour>
-    <component base="N"/>
+    <component base="N" xScale="0.994" yxScale="0.152" xOffset="8"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018-11-30 19:55:47 +0000</string>
+      <string>2019-04-15 22:22:15 +0000</string>
     </dict>
   </lib>
 </glyph>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="idotbelow" format="1">
-  <advance width="232"/>
+  <advance width="244"/>
   <unicode hex="1ECB"/>
   <outline>
-    <component base="i" xOffset="-12"/>
-    <component base="dotbelowcomb" xOffset="81"/>
+    <component base="i"/>
+    <component base="dotbelowcomb" xOffset="92"/>
   </outline>
   <lib>
     <dict>
@@ -20,17 +20,13 @@
           <key>name</key>
           <string>i</string>
         </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>dotbelowcomb</string>
-        </dict>
       </array>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-14 21:54:50 +0000</string>
+      <string>2019-04-15 22:21:28 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>i</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>i</string>
     </dict>
   </lib>
 </glyph>

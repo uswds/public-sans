@@ -1,35 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="idotaccent" format="1">
-  <advance width="213"/>
+  <advance width="235"/>
   <outline>
-    <component base="idotless" xOffset="-11"/>
-    <component base="dotaccentcomb" xOffset="67"/>
+    <component base="idotless"/>
+    <component base="dotaccentcomb" xOffset="86"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
-      <integer>1</integer>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>idotless</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>dotaccentcomb</string>
-        </dict>
-      </array>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-14 21:54:50 +0000</string>
+      <string>2019-04-15 22:20:45 +0000</string>
     </dict>
   </lib>
 </glyph>

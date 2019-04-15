@@ -1,36 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ccedilla" format="1">
-  <advance width="504"/>
+  <advance width="496"/>
   <unicode hex="00E7"/>
   <outline>
-    <component base="c" xOffset="-12"/>
-    <component base="cedillacomb" xOffset="159"/>
+    <component base="c"/>
+    <component base="cedillacomb" xOffset="162"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
       <integer>1</integer>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>c</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>cedillacomb</string>
-        </dict>
-      </array>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-14 21:53:51 +0000</string>
+      <string>2019-04-15 22:21:13 +0000</string>
     </dict>
   </lib>
 </glyph>

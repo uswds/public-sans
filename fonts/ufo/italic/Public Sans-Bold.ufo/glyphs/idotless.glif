@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="idotless" format="1">
-  <advance width="287"/>
+  <advance width="297"/>
   <unicode hex="0131"/>
   <outline>
     <contour>
-      <point x="279" y="516" type="line"/>
-      <point x="84" y="516" type="line"/>
-      <point x="12" y="0" type="line"/>
-      <point x="206" y="0" type="line"/>
+      <point x="14" y="0" type="line"/>
+      <point x="208" y="0" type="line"/>
+      <point x="287" y="517" type="line"/>
+      <point x="93" y="517" type="line"/>
     </contour>
     <contour>
-      <point x="176" y="9" type="move" name="ogonek"/>
+      <point x="182" y="9" type="move" name="ogonek"/>
     </contour>
     <contour>
-      <point x="181" y="516" type="move" name="top"/>
+      <point x="193" y="517" type="move" name="top"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-14 21:54:50 +0000</string>
+      <string>2019-04-15 22:22:15 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>i</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>i</string>
     </dict>
   </lib>
 </glyph>
