@@ -641,7 +641,7 @@ C -1 ; WX 93 ; N __horn ; B 0 489 128 619 ;
 EndCharMetrics
 
 StartKernData
-StartKernPairs 564
+StartKernPairs 565
 KPX A A 0
 KPX A B 0
 KPX A C -35
@@ -701,6 +701,7 @@ KPX AE a 0
 KPX AE f -10
 KPX AE g -15
 KPX AE hyphen -20
+KPX AE i -5
 KPX AE period -60
 KPX AE s -15
 KPX AE t -5
@@ -1022,8 +1023,8 @@ KPX b a -2
 KPX b f -10
 KPX b g -10
 KPX b b 0
-KPX b i 0
-KPX b c 0
+KPX b i -5
+KPX b c -5
 KPX b question -10
 KPX b quotedblright -50
 KPX b quotedbl -80
