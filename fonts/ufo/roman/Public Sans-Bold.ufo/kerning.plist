@@ -8,6 +8,8 @@
 		<integer>15</integer>
 		<key>@MMK_R_J</key>
 		<integer>25</integer>
+		<key>@MMK_R_N</key>
+		<integer>-30</integer>
 		<key>@MMK_R_O</key>
 		<integer>-50</integer>
 		<key>@MMK_R_Oslash</key>
@@ -133,6 +135,8 @@
 		<integer>30</integer>
 		<key>@MMK_R_n</key>
 		<integer>0</integer>
+		<key>@MMK_R_o</key>
+		<integer>-10</integer>
 		<key>@MMK_R_parenright</key>
 		<integer>10</integer>
 		<key>@MMK_R_t</key>
@@ -404,7 +408,7 @@
 	<key>@MMK_L_R</key>
 	<dict>
 		<key>@MMK_R_A</key>
-		<integer>10</integer>
+		<integer>-20</integer>
 		<key>@MMK_R_AE</key>
 		<integer>-60</integer>
 		<key>@MMK_R_J</key>
@@ -1354,6 +1358,13 @@
 		<integer>60</integer>
 		<key>@MMK_R_period</key>
 		<integer>-110</integer>
+		<key>@MMK_R_seven</key>
+		<integer>20</integer>
+	</dict>
+	<key>@MMK_L_six</key>
+	<dict>
+		<key>@MMK_R_seven</key>
+		<integer>-5</integer>
 	</dict>
 	<key>@MMK_L_t</key>
 	<dict>
@@ -1496,6 +1507,11 @@
 		<key>@MMK_R_z</key>
 		<integer>25</integer>
 	</dict>
+	<key>@MMK_L_zero</key>
+	<dict>
+		<key>@MMK_R_one</key>
+		<integer>0</integer>
+	</dict>
 	<key>C</key>
 	<dict>
 		<key>@MMK_R_A</key>
@@ -1525,6 +1541,13 @@
 	<dict>
 		<key>@MMK_R_parenright</key>
 		<integer>40</integer>
+	</dict>
+	<key>fraction</key>
+	<dict>
+		<key>four.dnom</key>
+		<integer>-50</integer>
+		<key>two.dnom</key>
+		<integer>-10</integer>
 	</dict>
 	<key>g</key>
 	<dict>
@@ -1573,6 +1596,11 @@
 		<integer>-5</integer>
 		<key>@MMK_R_t</key>
 		<integer>-10</integer>
+	</dict>
+	<key>two.numr</key>
+	<dict>
+		<key>fraction</key>
+		<integer>20</integer>
 	</dict>
 </dict>
 </plist>
