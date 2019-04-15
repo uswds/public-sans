@@ -3870,7 +3870,7 @@ unicode = 1E0C;
 },
 {
 glyphname = E;
-lastChange = "2019-04-14 21:49:45 +0000";
+lastChange = "2019-04-15 07:22:29 +0000";
 layers = (
 {
 anchors = (
@@ -69269,6 +69269,7 @@ kerning = {
 "@MMK_R_f" = -10;
 "@MMK_R_g" = -15;
 "@MMK_R_hyphen" = -20;
+"@MMK_R_n" = -5;
 "@MMK_R_period" = -60;
 "@MMK_R_s" = -15;
 "@MMK_R_t" = -5;
@@ -69767,8 +69768,8 @@ space = 0;
 "@MMK_R_g" = -10;
 "@MMK_R_h" = 0;
 "@MMK_R_i" = -10;
-"@MMK_R_n" = 0;
-"@MMK_R_o" = 0;
+"@MMK_R_n" = -5;
+"@MMK_R_o" = -5;
 "@MMK_R_parenright" = -10;
 "@MMK_R_quoteright" = -50;
 "@MMK_R_quotesingle" = -80;
@@ -70091,7 +70092,7 @@ space = {
 "@MMK_R_g" = -10;
 "@MMK_R_hyphen" = -20;
 "@MMK_R_i" = 30;
-"@MMK_R_n" = 60;
+"@MMK_R_n" = 0;
 "@MMK_R_parenright" = 10;
 "@MMK_R_t" = -15;
 "@MMK_R_u" = -10;

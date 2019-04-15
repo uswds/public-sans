@@ -647,6 +647,7 @@ StartKernPairs 699
 KPX A A 15
 KPX A J 25
 KPX A C -50
+KPX A Oslash 15
 KPX A S 10
 KPX A T -40
 KPX A U -35
@@ -665,8 +666,8 @@ KPX A u -15
 KPX A v -70
 KPX A x -20
 KPX A z 10
-KPX A Oslash 15
 KPX B A -15
+KPX B AE -85
 KPX B B 20
 KPX B S 10
 KPX B T -10
@@ -678,7 +679,6 @@ KPX B Z -20
 KPX B quotesinglbase -10
 KPX B g -10
 KPX B c 10
-KPX B AE -85
 KPX C A -30
 KPX C AE -80
 KPX C B 10
@@ -703,7 +703,7 @@ KPX AE f -10
 KPX AE g -10
 KPX AE hyphen -20
 KPX AE bar 30
-KPX AE i 60
+KPX AE i 0
 KPX AE question 10
 KPX AE t -15
 KPX AE u -10
@@ -1017,7 +1017,7 @@ KPX Y g -120
 KPX Y guillemetright -50
 KPX Y hyphen -80
 KPX Y bar 40
-KPX Y i 60
+KPX Y i -60
 KPX Y c -110
 KPX Y question 30
 KPX Y period -130
@@ -1323,6 +1323,7 @@ KPX a g 0
 KPX a quotedbl -40
 KPX a t -10
 KPX a v -10
+KPX b u -15
 KPX exclam question 40
 KPX g f 25
 KPX g t 10
@@ -1342,7 +1343,6 @@ KPX space v -10
 KPX space x -30
 KPX t a -5
 KPX t t -10
-KPX b u -15
 EndKernPairs
 EndKernData
 

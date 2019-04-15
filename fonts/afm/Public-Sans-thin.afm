@@ -643,7 +643,7 @@ C -1 ; WX 600 ; N _j-hook ; B 23 -10 255 237 ;
 EndCharMetrics
 
 StartKernData
-StartKernPairs 706
+StartKernPairs 707
 KPX A A 0
 KPX A J 10
 KPX A B 0
@@ -715,6 +715,7 @@ KPX AE a 0
 KPX AE f -10
 KPX AE g -15
 KPX AE hyphen -20
+KPX AE i -5
 KPX AE period -60
 KPX AE s -15
 KPX AE t -5
@@ -973,6 +974,7 @@ KPX W v -10
 KPX W x -5
 KPX X A 5
 KPX X J 20
+KPX X B 30
 KPX X C -10
 KPX X Oslash 20
 KPX X S -15
@@ -989,7 +991,6 @@ KPX X hyphen -40
 KPX X t 10
 KPX X u -10
 KPX X v -5
-KPX X B 30
 KPX Y A -70
 KPX Y AE -70
 KPX Y J -65
@@ -1060,6 +1061,7 @@ KPX f t 20
 KPX f v 15
 KPX f z -5
 KPX g V 0
+KPX g a -5
 KPX g quotesinglbase -5
 KPX g f 5
 KPX g g 5
@@ -1071,9 +1073,8 @@ KPX g c -25
 KPX g s -25
 KPX g t 5
 KPX g u -20
-KPX g z -5
-KPX g a -5
 KPX g v 10
+KPX g z -5
 KPX guillemetleft A -5
 KPX guillemetleft S -10
 KPX guillemetleft T -60
@@ -1151,8 +1152,8 @@ KPX b f -10
 KPX b g -10
 KPX b b 0
 KPX b bar -10
-KPX b i 0
-KPX b c 0
+KPX b i -5
+KPX b c -5
 KPX b question -10
 KPX b quotedblright -50
 KPX b quotedbl -80
@@ -1241,12 +1242,12 @@ KPX s c -5
 KPX s question -9
 KPX s quotedbl -20
 KPX s s 0
+KPX s t -3
 KPX s u -10
 KPX s v -10
 KPX s x -15
 KPX s z -5
 KPX s space -10
-KPX s t -3
 KPX seven eight -30
 KPX seven four -40
 KPX seven nine 10
@@ -1256,6 +1257,7 @@ KPX seven period -130
 KPX seven seven 20
 KPX seven two 10
 KPX t V -20
+KPX t a 0
 KPX t f 15
 KPX t g 5
 KPX t hyphen -40
@@ -1268,7 +1270,6 @@ KPX t u 0
 KPX t v 10
 KPX t x 20
 KPX t z 15
-KPX t a 0
 KPX three four -10
 KPX two zero 5
 KPX d a 5
@@ -1324,6 +1325,7 @@ KPX z quotedbl -30
 KPX z s -5
 KPX z t 5
 KPX zero zero -10
+KPX Hbar A -5
 KPX a T -55
 KPX a g 5
 KPX a quotedbl -40
@@ -1349,7 +1351,6 @@ KPX space c -10
 KPX space t 0
 KPX space v 0
 KPX space x -20
-KPX Hbar A -5
 EndKernPairs
 EndKernData
 
