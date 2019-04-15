@@ -3,34 +3,13 @@
   <advance width="781"/>
   <unicode hex="011C"/>
   <outline>
-    <component base="G" xOffset="-4"/>
-    <component base="circumflexcomb" xOffset="191" yOffset="207"/>
+    <component base="G"/>
+    <component base="circumflexcomb" xOffset="210" yOffset="206"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
-      <integer>1</integer>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>G</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>circumflexcomb</string>
-        </dict>
-      </array>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018-11-30 19:55:47 +0000</string>
+      <string>2019-04-15 22:21:42 +0000</string>
     </dict>
   </lib>
 </glyph>

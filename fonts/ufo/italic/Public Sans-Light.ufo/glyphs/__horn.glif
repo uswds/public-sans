@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="__horn" format="1">
-  <advance width="93"/>
+  <advance width="83"/>
   <outline>
     <contour>
-      <point x="128" y="619" type="curve"/>
-      <point x="77" y="619" type="line"/>
-      <point x="75" y="546"/>
-      <point x="56" y="530"/>
-      <point x="0" y="531" type="curve"/>
-      <point x="0" y="490" type="line"/>
-      <point x="86" y="481"/>
-      <point x="128" y="524"/>
+      <point x="33" y="490" type="line"/>
+      <point x="111" y="481"/>
+      <point x="156" y="524"/>
+      <point x="169" y="619" type="curve"/>
+      <point x="122" y="619" type="line"/>
+      <point x="110" y="546"/>
+      <point x="90" y="530"/>
+      <point x="39" y="531" type="curve"/>
     </contour>
     <contour>
-      <point x="0" y="490" type="move" name="_horn"/>
+      <point x="33" y="490" type="move" name="_horn"/>
     </contour>
     <contour>
-      <point x="63" y="530" type="move" name="_topright"/>
+      <point x="97" y="530" type="move" name="_topright"/>
     </contour>
     <contour>
-      <point x="63" y="530" type="move" name="topright"/>
+      <point x="97" y="530" type="move" name="topright"/>
     </contour>
   </outline>
   <lib>
@@ -27,7 +27,7 @@
       <key>com.schriftgestaltung.Glyphs.Export</key>
       <false/>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-14 20:05:22 +0000</string>
+      <string>2019-04-15 22:22:15 +0000</string>
     </dict>
   </lib>
 </glyph>

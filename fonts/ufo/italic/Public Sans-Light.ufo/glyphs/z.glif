@@ -1,28 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="z" format="1">
-  <advance width="427"/>
+  <advance width="456"/>
   <unicode hex="007A"/>
   <outline>
     <contour>
-      <point x="7" y="0" type="line"/>
-      <point x="355" y="0" type="line"/>
-      <point x="359" y="34" type="line"/>
-      <point x="51" y="34" type="line"/>
-      <point x="410" y="475" type="line"/>
-      <point x="414" y="516" type="line"/>
-      <point x="94" y="516" type="line"/>
-      <point x="89" y="482" type="line"/>
-      <point x="372" y="482" type="line"/>
-      <point x="12" y="38" type="line"/>
+      <point x="19" y="0" type="line"/>
+      <point x="365" y="0" type="line"/>
+      <point x="369" y="34" type="line"/>
+      <point x="65" y="34" type="line"/>
+      <point x="425" y="476" type="line"/>
+      <point x="431" y="517" type="line"/>
+      <point x="111" y="517" type="line"/>
+      <point x="106" y="483" type="line"/>
+      <point x="387" y="483" type="line"/>
+      <point x="24" y="38" type="line"/>
     </contour>
     <contour>
-      <point x="262" y="516" type="move" name="top"/>
+      <point x="198" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="271" y="517" type="move" name="top"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-14 21:58:34 +0000</string>
+      <string>2019-04-15 22:11:46 +0000</string>
     </dict>
   </lib>
 </glyph>

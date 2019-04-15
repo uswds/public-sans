@@ -1,36 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ytilde" format="1">
-  <advance width="470"/>
+  <advance width="474"/>
   <unicode hex="1EF9"/>
   <outline>
-    <component base="y" xOffset="-12"/>
-    <component base="tildecomb" xOffset="105"/>
+    <component base="y"/>
+    <component base="tildecomb" xOffset="114"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
-      <integer>1</integer>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>y</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>tildecomb</string>
-        </dict>
-      </array>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-14 21:58:24 +0000</string>
+      <string>2019-04-15 22:20:28 +0000</string>
     </dict>
   </lib>
 </glyph>

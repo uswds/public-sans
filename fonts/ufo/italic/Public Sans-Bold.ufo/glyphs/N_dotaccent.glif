@@ -1,36 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ndotaccent" format="1">
-  <advance width="807"/>
+  <advance width="816"/>
   <unicode hex="1E44"/>
   <outline>
-    <component base="N" xOffset="-4"/>
-    <component base="dotaccentcomb" xOffset="314" yOffset="207"/>
+    <component base="N"/>
+    <component base="dotaccentcomb" xOffset="319" yOffset="206"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
-      <integer>1</integer>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>N</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>dotaccentcomb</string>
-        </dict>
-      </array>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-14 21:51:20 +0000</string>
+      <string>2019-04-15 22:21:42 +0000</string>
     </dict>
   </lib>
 </glyph>

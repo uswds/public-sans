@@ -1,27 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="fivesuperior" format="1">
-  <advance width="350"/>
+  <advance width="360"/>
   <unicode hex="2075"/>
   <outline>
-    <component base="five.numr" xOffset="2" yOffset="104"/>
+    <component base="five.numr" xOffset="15" yOffset="104"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
-      <integer>1</integer>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>five.numr</string>
-        </dict>
-      </array>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018-11-30 19:55:47 +0000</string>
+      <string>2019-04-15 22:20:04 +0000</string>
     </dict>
   </lib>
 </glyph>

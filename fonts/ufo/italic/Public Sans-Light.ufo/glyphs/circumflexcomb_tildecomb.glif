@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="circumflexcomb_tildecomb" format="1">
-  <advance width="540"/>
+  <advance width="257"/>
   <outline>
-    <component base="circumflexcomb" xOffset="162"/>
-    <component base="tildecomb" xOffset="185" yOffset="131"/>
+    <component base="circumflexcomb" xOffset="8"/>
+    <component base="tildecomb" xOffset="8" yOffset="111"/>
+    <contour>
+      <point x="143" y="517" type="move" name="_top"/>
+    </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018-11-30 19:55:47 +0000</string>
+      <string>2019-04-15 22:20:04 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>circumflexcomb</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>circumflexcomb</string>
     </dict>
   </lib>
 </glyph>

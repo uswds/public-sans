@@ -1,43 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="D" format="1">
-  <advance width="623"/>
+  <advance width="630"/>
   <unicode hex="0044"/>
   <outline>
     <contour>
-      <point x="163" y="723" type="curve"/>
-      <point x="69" y="0" type="line"/>
-      <point x="168" y="0" type="line" smooth="yes"/>
-      <point x="414" y="0"/>
-      <point x="546" y="112"/>
-      <point x="579" y="366" type="curve" smooth="yes"/>
-      <point x="610" y="608"/>
-      <point x="524" y="720"/>
-      <point x="275" y="722" type="curve" smooth="yes"/>
-      <point x="219" y="722"/>
-      <point x="165" y="723"/>
+      <point x="71" y="0" type="line"/>
+      <point x="169" y="0" type="line" smooth="yes"/>
+      <point x="413" y="0"/>
+      <point x="544" y="112"/>
+      <point x="580" y="367" type="curve" smooth="yes"/>
+      <point x="614" y="608"/>
+      <point x="529" y="721"/>
+      <point x="283" y="722" type="curve" smooth="yes"/>
+      <point x="228" y="722"/>
+      <point x="175" y="723"/>
+      <point x="173" y="723" type="curve"/>
     </contour>
     <contour>
-      <point x="198" y="681" type="line"/>
-      <point x="260" y="681" type="line" smooth="yes"/>
-      <point x="464" y="681"/>
-      <point x="571" y="612"/>
-      <point x="539" y="362" type="curve" smooth="yes"/>
+      <point x="116" y="41" type="line"/>
+      <point x="206" y="682" type="line"/>
+      <point x="267" y="682" type="line" smooth="yes"/>
+      <point x="471" y="682"/>
+      <point x="576" y="612"/>
+      <point x="541" y="363" type="curve" smooth="yes"/>
       <point x="508" y="127"/>
       <point x="387" y="41"/>
-      <point x="170" y="41" type="curve" smooth="yes"/>
-      <point x="115" y="41" type="line"/>
+      <point x="172" y="41" type="curve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="322" y="361" type="move" name="center"/>
+      <point x="298" y="0" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="364" y="723" type="move" name="top"/>
+      <point x="325" y="362" type="move" name="center"/>
+    </contour>
+    <contour>
+      <point x="370" y="723" type="move" name="top"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-14 21:49:35 +0000</string>
+      <string>2019-04-15 22:22:15 +0000</string>
       <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
       <string>N</string>
     </dict>

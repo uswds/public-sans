@@ -1,36 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="jcircumflex" format="1">
-  <advance width="315"/>
+  <advance width="329"/>
   <unicode hex="0135"/>
   <outline>
-    <component base="jdotless" xOffset="19"/>
-    <component base="circumflexcomb" xOffset="-63"/>
+    <component base="jdotless"/>
+    <component base="circumflexcomb" xOffset="-51"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
-      <integer>1</integer>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>jdotless</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>circumflexcomb</string>
-        </dict>
-      </array>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-14 21:54:50 +0000</string>
+      <string>2019-04-15 22:20:42 +0000</string>
     </dict>
   </lib>
 </glyph>
