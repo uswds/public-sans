@@ -1,9 +1,5 @@
 {
 .appVersion = "1192";
-DisplayStrings = (
-"/zero.tf/one.tf/two.tf/three.tf/four.tf/five.tf/six.tf/seven.tf/eight.tf/nine.tf",
-"0123456789"
-);
 customParameters = (
 {
 name = fsType;
@@ -37161,7 +37157,7 @@ width = 286;
 },
 {
 glyphname = two.numr;
-lastChange = "2019-04-12 22:06:47 +0000";
+lastChange = "2019-04-15 17:24:51 +0000";
 layers = (
 {
 background = {
@@ -37179,25 +37175,25 @@ transform = "{0.629, 0, 0, 0.629, -3, 279}";
 }
 );
 layerId = "258ED206-D907-4350-8EBA-CBDDA1C16BF7";
-width = 400;
+width = 415;
 },
 {
 background = {
 components = (
 {
 name = two;
-transform = "{0.629, 0, 0, 0.629, -16, 279}";
+transform = "{0.629, 0, 0, 0.629, -14, 279}";
 }
 );
 };
 components = (
 {
 name = two;
-transform = "{0.629, 0, 0, 0.629, -15, 279}";
+transform = "{0.629, 0, 0, 0.629, -13, 279}";
 }
 );
 layerId = "91AB5BCA-6A50-42DA-B2F7-8181BF189245";
-width = 368;
+width = 336;
 }
 );
 },
@@ -37551,7 +37547,7 @@ unicode = 00B9;
 },
 {
 glyphname = twosuperior;
-lastChange = "2018-10-31 20:52:58 +0000";
+lastChange = "2019-04-15 17:25:21 +0000";
 layers = (
 {
 components = (
@@ -37561,7 +37557,7 @@ transform = "{1, 0, 0, 1, 0, 105}";
 }
 );
 layerId = "258ED206-D907-4350-8EBA-CBDDA1C16BF7";
-width = 400;
+width = 415;
 },
 {
 components = (
@@ -37571,7 +37567,7 @@ transform = "{1, 0, 0, 1, 0, 105}";
 }
 );
 layerId = "91AB5BCA-6A50-42DA-B2F7-8181BF189245";
-width = 368;
+width = 336;
 }
 );
 unicode = 00B2;
@@ -37936,7 +37932,7 @@ unicode = 2153;
 },
 {
 glyphname = twothirds;
-lastChange = "2018-10-31 20:52:58 +0000";
+lastChange = "2019-04-15 17:25:21 +0000";
 layers = (
 {
 components = (
@@ -37945,15 +37941,15 @@ name = two.numr;
 },
 {
 name = fraction;
-transform = "{1, 0, 0, 1, 400, 0}";
+transform = "{1, 0, 0, 1, 435, 0}";
 },
 {
 name = three.dnom;
-transform = "{1, 0, 0, 1, 664, 0}";
+transform = "{1, 0, 0, 1, 699, 0}";
 }
 );
 layerId = "258ED206-D907-4350-8EBA-CBDDA1C16BF7";
-width = 1079;
+width = 1114;
 },
 {
 components = (
@@ -37962,15 +37958,15 @@ name = two.numr;
 },
 {
 name = fraction;
-transform = "{1, 0, 0, 1, 368, 0}";
+transform = "{1, 0, 0, 1, 356, 0}";
 },
 {
 name = three.dnom;
-transform = "{1, 0, 0, 1, 611, 0}";
+transform = "{1, 0, 0, 1, 599, 0}";
 }
 );
 layerId = "91AB5BCA-6A50-42DA-B2F7-8181BF189245";
-width = 994;
+width = 982;
 }
 );
 unicode = 2154;
@@ -62883,6 +62879,9 @@ space = {
 "@MMK_R_v" = 0;
 "@MMK_R_x" = -20;
 };
+two.numr = {
+fraction = 20;
+};
 };
 "258ED206-D907-4350-8EBA-CBDDA1C16BF7" = {
 "@MMK_L_A" = {
@@ -63712,6 +63711,9 @@ space = {
 t = {
 "@MMK_R_a" = -5;
 "@MMK_R_t" = -10;
+};
+two.numr = {
+fraction = 20;
 };
 };
 };
