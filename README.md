@@ -78,5 +78,5 @@ Public Sans is a good option for sites that currently use Open Sans, Tahoma, Lib
 ![squared](https://raw.githubusercontent.com/uswds/public-sans/master/examples/public-sans-featured-images/public-numerals.png)
 
 ## License
-- Public Sans is licensed under the SIL Open Font License v1.1 (http://scripts.sil.org/OFL)
+- Public Sans is licensed under the SIL Open Font License v1.1 (https://opensource.org/licenses/OFL-1.1)
 - To view the copyright and specific terms and conditions please refer to ofl.txt
