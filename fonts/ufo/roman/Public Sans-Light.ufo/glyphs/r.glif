@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="r" format="1">
-  <advance width="358"/>
+  <advance width="706"/>
   <unicode hex="0072"/>
   <outline>
     <contour>
-      <point x="95" y="0" type="line"/>
-      <point x="134" y="0" type="line"/>
-      <point x="134" y="360" type="line" smooth="yes"/>
-      <point x="134" y="440"/>
-      <point x="200" y="488"/>
-      <point x="328" y="487" type="curve"/>
-      <point x="328" y="527" type="line"/>
-      <point x="230" y="527"/>
-      <point x="158" y="489"/>
-      <point x="131" y="440" type="curve"/>
-      <point x="131" y="517" type="line"/>
-      <point x="95" y="517" type="line"/>
+      <point x="180" y="0" type="line"/>
+      <point x="258" y="0" type="line"/>
+      <point x="258" y="720" type="line" smooth="yes"/>
+      <point x="258" y="880"/>
+      <point x="390" y="976"/>
+      <point x="646" y="974" type="curve"/>
+      <point x="646" y="1054" type="line"/>
+      <point x="450" y="1054"/>
+      <point x="306" y="978"/>
+      <point x="252" y="880" type="curve"/>
+      <point x="252" y="1034" type="line"/>
+      <point x="180" y="1034" type="line"/>
     </contour>
     <contour>
-      <point x="114" y="0" type="move" name="bottom"/>
+      <point x="218" y="0" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="204" y="517" type="move" name="top"/>
+      <point x="398" y="1034" type="move" name="top"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-16 04:34:19 +0000</string>
+      <string>2019-04-16 18:49:16 +0000</string>
       <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
       <string>n</string>
     </dict>
