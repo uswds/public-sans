@@ -1,28 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="semicolon" format="1">
-  <advance width="216"/>
+  <advance width="202"/>
   <unicode hex="003B"/>
   <outline>
     <contour>
-      <point x="48" y="-131" type="line"/>
-      <point x="69" y="-131" type="line"/>
-      <point x="130" y="9" type="line"/>
-      <point x="130" y="77" type="line"/>
-      <point x="69" y="77" type="line"/>
-      <point x="69" y="0" type="line"/>
-      <point x="97" y="0" type="line"/>
+      <point x="60" y="-131" type="line"/>
+      <point x="81" y="-131" type="line"/>
+      <point x="142" y="9" type="line"/>
+      <point x="142" y="77" type="line"/>
+      <point x="81" y="77" type="line"/>
+      <point x="81" y="0" type="line"/>
+      <point x="109" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="64" y="410" type="line"/>
-      <point x="125" y="410" type="line"/>
-      <point x="125" y="488" type="line"/>
-      <point x="64" y="488" type="line"/>
+      <point x="76" y="410" type="line"/>
+      <point x="137" y="410" type="line"/>
+      <point x="137" y="488" type="line"/>
+      <point x="76" y="488" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-14 20:02:28 +0000</string>
+      <string>2019-04-16 04:46:42 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>colon</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>colon</string>
     </dict>
   </lib>
 </glyph>

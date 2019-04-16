@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="notequal" format="1">
-  <advance width="616"/>
+  <advance width="619"/>
   <unicode hex="2260"/>
   <outline>
     <contour>
-      <point x="492" y="666" type="line"/>
-      <point x="405" y="666" type="line"/>
-      <point x="118" y="11" type="line"/>
-      <point x="209" y="11" type="line"/>
+      <point x="470" y="666" type="line"/>
+      <point x="383" y="666" type="line"/>
+      <point x="96" y="11" type="line"/>
+      <point x="187" y="11" type="line"/>
     </contour>
-    <component base="equal" xOffset="22"/>
+    <component base="equal"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-14 20:36:13 +0000</string>
+      <string>2019-04-16 04:46:30 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>plus</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>plus</string>
     </dict>
   </lib>
 </glyph>
