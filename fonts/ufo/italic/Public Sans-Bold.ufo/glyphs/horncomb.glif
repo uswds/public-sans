@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="horncomb" format="1">
-  <advance width="227"/>
+  <advance width="452"/>
   <unicode hex="031B"/>
   <outline>
     <contour>
-      <point x="26" y="440" type="line"/>
-      <point x="201" y="420"/>
-      <point x="253" y="476"/>
-      <point x="280" y="639" type="curve"/>
-      <point x="163" y="639" type="line"/>
-      <point x="135" y="520"/>
-      <point x="110" y="528"/>
-      <point x="39" y="529" type="curve"/>
+      <point x="51" y="880" type="line"/>
+      <point x="401" y="840"/>
+      <point x="505" y="952"/>
+      <point x="559" y="1278" type="curve"/>
+      <point x="325" y="1278" type="line"/>
+      <point x="269" y="1040"/>
+      <point x="219" y="1056"/>
+      <point x="77" y="1058" type="curve"/>
     </contour>
     <contour>
-      <point x="26" y="440" type="move" name="_horn"/>
+      <point x="51" y="880" type="move" name="_horn"/>
     </contour>
     <contour>
-      <point x="145" y="530" type="move" name="_topright"/>
+      <point x="289" y="1060" type="move" name="_topright"/>
     </contour>
     <contour>
-      <point x="145" y="530" type="move" name="topright"/>
+      <point x="289" y="1060" type="move" name="topright"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-16 04:59:24 +0000</string>
+      <string>2019-04-16 18:56:00 +0000</string>
     </dict>
   </lib>
 </glyph>
