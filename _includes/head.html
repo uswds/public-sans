@@ -1,0 +1,18 @@
+<!-- * * * * * ======================= -->
+<!-- * * * * * ======================= -->
+<!-- * * * * * ======================= -->
+<!-- * * * * * ======================= -->
+<!-- ================================= -->
+<!-- ================================= -->
+<!-- ================================= -->
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+  <link rel="stylesheet" href="{{ "/assets/uswds/css/styles.css" | relative_url }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+  <link rel="preload" href="{{ "/assets/uswds/js/uswds.min.js" | relative_url }}" as="script">
+</head>

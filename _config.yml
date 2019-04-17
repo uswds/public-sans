@@ -1,0 +1,12 @@
+title: Public Sans
+baseurl: ""
+url: ""
+
+exclude:
+  - site-assets/js/src
+  - Gemfile*
+  - node_modules
+  - package*.json
+  - README.md
+  - vendor
+  - webpack.config.js
