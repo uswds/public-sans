@@ -24,5 +24,20 @@
   "bugs": {
     "url": "https://github.com/uswds/public-sans/issues"
   },
-  "homepage": "https://github.com/uswds/public-sans#readme"
+  "homepage": "https://github.com/uswds/public-sans#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.5.1",
+    "css-mqpacker": "^7.0.0",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "path": "^0.12.7",
+    "uswds": "^2.0.1",
+    "uswds-gulp": "github:uswds/uswds-gulp"
+  }
 }
