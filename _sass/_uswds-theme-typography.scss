@@ -77,7 +77,7 @@ Relative font file path
 ----------------------------------------
 */
 
-$theme-font-path:   '../fonts';
+$theme-font-path:   '../..';
 
 /*
 ----------------------------------------
@@ -167,10 +167,10 @@ $theme-font-type-lang:  false;
 $theme-font-type-mono:  'roboto-mono';
 
 // sans-serif
-$theme-font-type-sans:  'source-sans-pro';
+$theme-font-type-sans:  'public-sans';
 
 // serif
-$theme-font-type-serif: 'merriweather';
+$theme-font-type-serif: 'public-sans';
 
 /*
 ----------------------------------------
@@ -262,8 +262,56 @@ $theme-font-serif-custom-src: (
 $theme-font-cond-custom-src:   false;
 $theme-font-icon-custom-src:   false;
 $theme-font-lang-custom-src:   false;
-$theme-font-mono-custom-src:   false;
-$theme-font-sans-custom-src:   false;
+$theme-font-mono-custom-src: (
+  dir: 'site-assets/uswds/fonts/roboto-mono',
+  roman: (
+    100: 'roboto-mono-v5-latin-100',
+    200: false,
+    300: 'roboto-mono-v5-latin-300',
+    400: 'roboto-mono-v5-latin-regular',
+    500: 'roboto-mono-v5-latin-500',
+    600: false,
+    700: 'roboto-mono-v5-latin-700',
+    800: false,
+    900: false,
+  ),
+  italic: (
+    100: 'roboto-mono-v5-latin-100italic',
+    200: false,
+    300: 'roboto-mono-v5-latin-300italic',
+    400: 'roboto-mono-v5-latin-italic',
+    500: 'roboto-mono-v5-latin-500italic',
+    600: false,
+    700: 'roboto-mono-v5-latin-700italic',
+    800: false,
+    900: false,
+  ),
+);
+$theme-font-sans-custom-src: (
+  dir: 'fonts/webfonts',
+  roman: (
+    100: 'PublicSans-Thin',
+    200: 'PublicSans-ExtraLight',
+    300: 'PublicSans-Light',
+    400: 'PublicSans-Regular',
+    500: 'PublicSans-Medium',
+    600: 'PublicSans-SemiBold',
+    700: 'PublicSans-Bold',
+    800: 'PublicSans-ExtraBold',
+    900: 'PublicSans-Black',
+  ),
+  italic: (
+    100: 'PublicSans-ThinItalic',
+    200: 'PublicSans-ExtraLightItalic',
+    300: 'PublicSans-LightItalic',
+    400: 'PublicSans-Italic',
+    500: 'PublicSans-MediumItalic',
+    600: 'PublicSans-SemiBoldItalic',
+    700: 'PublicSans-BoldItalic',
+    800: 'PublicSans-ExtraBoldItalic',
+    900: 'PublicSans-BlackItalic',
+  ),
+);
 $theme-font-serif-custom-src:  false;
 
 /*
@@ -284,10 +332,10 @@ tokens.
 */
 
 $theme-font-role-ui:        'sans';
-$theme-font-role-heading:   'serif';
+$theme-font-role-heading:   'sans';
 $theme-font-role-body:      'sans';
 $theme-font-role-code:      'mono';
-$theme-font-role-alt:       'serif';
+$theme-font-role-alt:       'sans';
 
 /*
 ----------------------------------------
