@@ -2,13 +2,8 @@
   "name": "public-sans",
   "version": "1.0.0",
   "description": "A neutral sans-serif typeface from USWDS",
-  "main": "index.js",
-  "directories": {
-    "example": "examples"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "author": "USWDS",
+  "license": "OFL-1.1",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/uswds/public-sans.git"
@@ -19,12 +14,25 @@
     "sans",
     "sansserif"
   ],
-  "author": "USWDS",
-  "license": "OFL-1.1",
   "bugs": {
     "url": "https://github.com/uswds/public-sans/issues"
   },
   "homepage": "https://github.com/uswds/public-sans#readme",
+  "scripts": {
+    "federalist": "./build.sh && npm run uswds-copy-assets && npm run uswds-build-sass",
+    "jekyll-install": "gem install bundler && bundle install",
+    "serve": "bundle exec jekyll serve --livereload",
+    "startup": "npm install && npm update uswds && ./build.sh && npm run jekyll-install && npm run uswds-copy-assets && npm run uswds-copy-theme && npm run uswds-build-sass",
+    "uswds-build-sass": "gulp build-sass",
+    "uswds-copy-assets": "npm run uswds-copy-js && npm run uswds-copy-fonts && npm run uswds-copy-img",
+    "uswds-copy-fonts": "gulp copy-uswds-fonts",
+    "uswds-copy-img": "gulp copy-uswds-images",
+    "uswds-copy-js": "gulp copy-uswds-js",
+    "uswds-copy-theme": "gulp copy-uswds-setup",
+    "uswds-update": "npm update uswds && ./build.sh",
+    "watch": "gulp watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "devDependencies": {
     "autoprefixer": "^9.5.1",
     "css-mqpacker": "^7.0.0",
