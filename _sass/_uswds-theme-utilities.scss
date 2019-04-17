@@ -17,7 +17,7 @@ https://v2.designsystem.digital.gov/utilities
 ----------------------------------------
 */
 
-$utilities-use-important:     false;
+$utilities-use-important:     true;
 $output-all-utilities:        true;
 
 /*
@@ -55,7 +55,7 @@ The following palettes will be added to
 */
 
 $global-color-palettes: (
-  'palette-color-default'
+  'palette-color-theme'
 );
 
 /*
@@ -65,7 +65,7 @@ Settings
 */
 
 $add-aspect-settings: (
-  output:       true,
+  output:       false,
   responsive:   false,
   active:       false,
   focus:        false,
@@ -128,7 +128,7 @@ $border-radius-settings: (
 );
 
 $border-style-settings: (
-  output:       true,
+  output:       false,
   responsive:   false,
   active:       false,
   focus:        false,
@@ -155,7 +155,7 @@ $bottom-settings: (
 );
 
 $box-shadow-settings: (
-  output:       true,
+  output:       false,
   responsive:   false,
   active:       false,
   focus:        false,
@@ -164,7 +164,7 @@ $box-shadow-settings: (
 );
 
 $circle-settings: (
-  output:       true,
+  output:       false,
   responsive:   false,
   active:       false,
   focus:        false,
@@ -173,7 +173,7 @@ $circle-settings: (
 );
 
 $clearfix-settings: (
-  output:       true,
+  output:       false,
   responsive:   false,
   active:       false,
   focus:        false,
@@ -191,7 +191,7 @@ $color-settings: (
 );
 
 $cursor-settings: (
-  output:       true,
+  output:       false,
   responsive:   false,
   active:       false,
   focus:        false,
@@ -236,7 +236,7 @@ $flex-wrap-settings: (
 );
 
 $float-settings: (
-  output:       true,
+  output:       false,
   responsive:   false,
   active:       false,
   focus:        false,
@@ -254,7 +254,7 @@ $font-settings: (
 );
 
 $font-family-settings: (
-  output:       true,
+  output:       false,
   responsive:   false,
   active:       false,
   focus:        false,
@@ -389,7 +389,7 @@ $min-width-settings: (
 );
 
 $opacity-settings: (
-  output:       true,
+  output:       false,
   responsive:   false,
   active:       false,
   focus:        false,
@@ -398,7 +398,7 @@ $opacity-settings: (
 );
 
 $order-settings: (
-  output:       true,
+  output:       false,
   responsive:   true,
   active:       false,
   focus:        false,
@@ -425,7 +425,7 @@ $outline-color-settings: (
 );
 
 $overflow-settings: (
-  output:       true,
+  output:       false,
   responsive:   false,
   active:       false,
   focus:        false,
@@ -470,7 +470,7 @@ $right-settings: (
 );
 
 $square-settings: (
-  output:       true,
+  output:       false,
   responsive:   false,
   active:       false,
   focus:        false,
@@ -672,7 +672,10 @@ $float-manual-values: ();
 
 // .font
 
-$font-palettes: ('palette-font-default');
+$font-palettes: (
+  'palette-font-system-sans',
+  'palette-font-system-mono-small',
+  );
 $font-manual-values: ();
 
 // .font-family
@@ -692,7 +695,10 @@ $font-style-manual-values: ();
 
 // .font-weight
 
-$font-weight-palettes: ('palette-font-weight-default');
+$font-weight-palettes: (
+  'palette-font-weight-default',
+  'palette-font-weight-system'
+);
 $font-weight-manual-values: ();
 
 // .height
@@ -718,7 +724,9 @@ $letter-spacing-manual-values: ();
 // .line-height
 
 $line-height-palettes: ('palette-line-height-default');
-$line-height-manual-values: ();
+$line-height-manual-values: (
+  'tight': 1.15,
+);
 
 // .margin
 

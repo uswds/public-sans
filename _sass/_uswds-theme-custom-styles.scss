@@ -19,3 +19,75 @@ i.e.
 @include u-padding-right('05');
 ----------------------------------------
 */
+
+p,
+h1, h2, h3, h4, h6, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.link-heavy,
+.link-light {
+  @include u-text('ink', 'no-underline');
+  color: color('ink');
+  display: inline-block;
+}
+
+.link-heavy {
+  border-bottom: units('2px') solid color('primary-vivid');
+
+  &:hover,
+  &:active {
+    color: color('primary-vivid');
+  }
+}
+
+.link-light {
+  border-bottom: units(2px) solid color('secondary-vivid');
+
+  &:hover,
+  &:active {
+    color: color('secondary-vivid');
+  }
+}
+
+nav {
+  margin-top: units(2);
+
+  ul {
+    @include add-list-reset;
+    @include u-margin-x(-1);
+  }
+
+  li {
+    display: inline-block;
+    width: units(5);
+
+    &:hover {
+      font-style: italic;
+    }
+  }
+
+  a {
+    @include u-text('ink', 'no-underline');
+    @include u-margin-x(1);
+    display: inline-block;
+    border-bottom: units(2px) solid color('base-lighter');
+    padding-top: units(1);
+
+    &:hover,
+    &:active {
+      color: color('ink');
+      border-bottom-color: color('ink');
+    }
+  }
+}
+
+.site-title {
+  @include u-text(200, 'ink', 'no-underline');
+
+  &:hover,
+  &:active {
+    color: color('primary-vivid');
+  }
+}
