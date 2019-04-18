@@ -29,7 +29,7 @@ public-sans/
 ## Running code locally
 After cloning the repo, navigate to the correct folder and install USWDS, Jekyll, and any necessary dependencies using:
 ```
-npm run startup
+npm start
 ```
 Then, to run the site locally:
 ```
