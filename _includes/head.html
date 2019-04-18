@@ -13,6 +13,8 @@
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | escape }}">
   <meta property="og:description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | escape }}">
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+  <meta property="og:image" content="{{ site.baseurl }}/site-assets/img/logo-black.png">
+  <meta name="twitter:card" value="summary">
 
   <!-- Favicons
   ================================================== -->
