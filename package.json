@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/uswds/public-sans#readme",
   "scripts": {
-    "federalist": "./build.sh && npm run uswds-copy-assets && npm run uswds-build-sass",
+    "federalist": "npm run uswds-copy-assets && npm run uswds-build-sass",
     "jekyll-install": "gem install bundler && bundle install",
     "serve": "bundle exec jekyll serve --livereload",
     "startup": "npm install && npm update uswds && ./build.sh && npm run jekyll-install && npm run uswds-copy-assets && npm run uswds-copy-theme && npm run uswds-build-sass",
