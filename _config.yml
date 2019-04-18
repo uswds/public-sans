@@ -1,4 +1,6 @@
 title: Public Sans
+description: A strong, neutral, open source typeface for text or display.
+canonical_url: https://public-sans.digital.gov
 
 exclude:
   - site-assets/js/src
@@ -16,3 +18,15 @@ exclude:
   - fonts/variable
   - specimens
   - source
+  - .DS_Store
+  - CONTRIBUTING.md
+  - FONTLOG.txt
+  - Gemfile
+  - OFL.txt
+  - README.md
+  - build.sh
+  - Gemfile.lock
+  - gulpfile.js
+  - package-lock.json
+  - package.json
+  - .nvmrc

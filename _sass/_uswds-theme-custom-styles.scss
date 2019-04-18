@@ -80,7 +80,7 @@ nav {
 }
 
 .site-title {
-  @include u-text(200, 'ink', 'no-underline');
+  @include u-text('thin', 'ink', 'no-underline');
 
   &:hover,
   &:active {
@@ -172,4 +172,8 @@ nav {
 
 .site-font-georgia {
   font-family: ff('serif');
+}
+
+h2 {
+  font-weight: fw('light');
 }
