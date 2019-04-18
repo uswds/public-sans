@@ -14,7 +14,7 @@
   <meta property="og:description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | escape }}">
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta property="og:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}">
-  <meta property="og:image" content="{{ "/site-assets/img/public-hi.png" | absolute_url }}">
+  <meta property="og:image" content="{{ site.canonical_url }}{{ "/site-assets/img/public-hi.png" | relative_url }}">
   <meta name="twitter:card" value="summary">
 
   <!-- Favicons
