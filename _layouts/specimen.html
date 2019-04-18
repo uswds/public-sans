@@ -1,0 +1,136 @@
+---
+layout: default
+---
+
+{% capture specimen_alphabet %}
+abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
+{% endcapture %}
+
+{% capture specimen_text %}
+Simon Wheeler backed me into a corner and blockaded me there with his chair, and then sat me down and reeled off the monotonous narrative which follows this paragraph.
+{% endcapture %}
+
+{% capture specimen_translated %}
+Simon Wheeler me hizo retroceder en una esquina y me bloqueó allí con su silla, y luego me sentó y me dio cuenta de la monótona narrativa que sigue a este párrafo.
+{% endcapture %}
+
+<div class="grid-container margin-top-2 tablet-lg:margin-top-4 padding-bottom-4">
+  <div class="maxw-full">
+
+    <!-- hello -->
+    <h1 class="huge _switchOnHover text-{{ page.weight }}">
+      <span class="_switchOnHoverHide ani-opacity">Hello.</span>
+      <span class="_switchOnHoverShow ani-opacity"><i>Hola.</i></span>
+    </h1>
+
+    <!-- alphabets -->
+    <div class="margin-top-2 border-bottom border-base-lighter padding-bottom-1 overflow-hidden maxw-full">
+      {% for instance in site.data.sizes %}
+        <div class="grid-row maxw-full border-top-1px border-base-lighter padding-top-1 margin-top-1">
+          <div class="grid-col-12 font-sans-{{ instance.token }} text-{{ page.weight }} line-height-sans-1">
+            {{ specimen_alphabet }}
+          </div>
+        </div>
+        <div class="grid-row maxw-full overflow-hidden margin-top-1">
+          <div class="grid-col">
+            <a href="https://v2.designsystem.digital.gov/design-tokens/typesetting/font-size/" class="token">uswds .font-sans-{{ instance.token }}</a>
+          </div>
+          <div class="grid-col-auto">
+            <span class="font-mono-1 text-secondary">{{ instance.pixels }}px</span>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
+    <!-- relative size -->
+    <h2 class="margin-top-8 margin-bottom-2 border-bottom padding-bottom-2">Relative size</h2>
+    <div class="grid-row position-relative height-7 flex-align-end">
+      <div class="grid-col-3">
+        <span class="display-block font-mono-1 height-2">Public Sans</span>
+        <span class="height-5 display-none tablet:display-block font-sans-12 text-{{ page.weight }}">Calypso!</span>
+        <span class="height-5 display-block tablet:display-none font-sans-12 text-{{ page.weight }}">Aa</span>
+      </div>
+      <div class="grid-col-3">
+        <span class="display-block font-mono-1">System</span>
+        <span class="site-comparison site-font-system display-none tablet:display-block text-{{ page.weight }}">Calypso!</span>
+        <span class="site-comparison site-font-system display-block tablet:display-none text-{{ page.weight }}">Aa</span>
+      </div>
+      <div class="grid-col-3">
+        <span class="display-block font-mono-1">Verdana</span>
+        <span class="site-comparison site-font-verdana display-none tablet:display-block text-{{ page.weight }}">Calypso!</span>
+        <span class="site-comparison site-font-verdana display-block tablet:display-none text-{{ page.weight }}">Aa</span>
+      </div>
+      <div class="grid-col-3">
+        <span class="display-block font-mono-1">Georgia</span>
+        <span class="site-comparison site-font-georgia display-none tablet:display-block text-{{ page.weight }}">Calypso!</span>
+        <span class="site-comparison site-font-georgia display-block tablet:display-none text-{{ page.weight }}">Aa</span>
+      </div>
+      <!-- baseline -->
+      <div class="height-1px width-full position-absolute bottom-05 bg-secondary"></div>
+      <!-- x-height -->
+      <div class="height-1px width-full position-absolute bottom-3 bg-secondary"></div>
+      <!-- cap height -->
+      <div class="height-1px width-full position-absolute top-3 bg-secondary"></div>
+    </div>
+
+    <!-- examples on white -->
+    <div class="margin-top-8">
+      <h2 class="margin-bottom-4 margin-bottom-2 border-bottom padding-bottom-2">Text examples</h2>
+      <div class="grid-row grid-gap flex-align-stretch">
+        {% for instance in site.data.sizes %}
+          {% if instance.no_example != true %}
+            <div class="tablet:grid-col-{{ instance.columns }} display-flex flex-column flex-justify margin-bottom-2 tablet:margin-bottom-4">
+              <p class="font-sans-{{ instance.token }} text-{{ page.weight }} line-height-tight _switchOnHover">
+								<span class="_switchOnHoverHide ani-opacity">{{ specimen_text }}</span>
+								<span class="_switchOnHoverShow ani-opacity"><i>{{ specimen_translated }}</i></span>
+              </p>
+              <div class="margin-top-1 tablet:margin-top-2">
+                <a href="https://v2.designsystem.digital.gov/design-tokens/typesetting/font-size/" class="token">uswds .font-sans-{{ instance.token}}</a>
+                <span class="display-block margin-top-05 font-mono-1 text-secondary">{{ instance.pixels }}px</span>
+              </div>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="bg-ink text-white site-section-dark">
+  <div class="grid-container padding-top-6 padding-bottom-4">
+    <div class="maxw-full">
+      <h2 class="margin-bottom-4 margin-bottom-2 border-bottom padding-bottom-2">Reverse text examples</h2>
+      <div class="grid-row grid-gap flex-align-stretch">
+        {% for instance in site.data.sizes %}
+          {% if instance.no_example != true %}
+            <div class="tablet:grid-col-{{ instance.columns }} display-flex flex-column flex-justify margin-bottom-2 tablet:margin-bottom-4">
+              <p class="font-sans-{{ instance.token }} text-{{ page.weight }} line-height-tight _switchOnHover">
+								<span class="_switchOnHoverHide ani-opacity">{{ specimen_text }}</span>
+								<span class="_switchOnHoverShow ani-opacity"><i>{{ specimen_translated }}</i></span>
+              </p>
+              <div class="margin-top-1 tablet:margin-top-2">
+                <a href="https://v2.designsystem.digital.gov/design-tokens/typesetting/font-size/" class="token">uswds .font-sans-{{ instance.token}}</a>
+                <span class="display-block margin-top-05 font-mono-1 text-accent-warm">{{ instance.pixels }}px</span>
+              </div>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="grid-container margin-top-2 tablet-lg:margin-top-4 padding-bottom-4">
+  <h2 class="margin-top-4 margin-bottom-2 border-bottom padding-bottom-2">Standard numerals</h2>
+  <div class="font-sans-15 tablet:font-sans-18">0123456789</div>
+
+  <h2 class="margin-top-4 margin-bottom-2 border-bottom padding-bottom-2">Tabular figures</h2>
+  <div class="font-sans-15 tablet:font-sans-18 text-tabular">0123456789</div>
+  <div class="font-sans-12 tablet:font-sans-14 text-tabular">12,034,789.13</div>
+  <div class="font-sans-12 tablet:font-sans-14 text-tabular">79,621,608,64</div>
+  <a href="https://v2.designsystem.digital.gov/utilities/text-styles/#font-feature-settings" class="token margin-top-2">uswds .text-tabular</a>
+
+  <div class="margin-top-6 font-sans-2 line-height-sans-4">
+    <p class="margin-top-6 tablet:margin-top-8">Public Sans is a project of GSA’s <a class="link-heavy" href="https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services">Technology Transformation Services</a>, maintained by the Office of Products and Programs. Developed by <a class="link-heavy" href="http://v2.designsystem.digital.gov">USWDS.</a> Contribute to its development on <a class="link-heavy" href="https://github.com/uswds/public-sans">GitHub.</a> Hosted by <a class="link-light" href="http://federalist.18f.gov">Federalist.</a> In conjunction with <a class="link-light" href="https://digital.gov">Digital.gov.</a></p>
+  </div>
+</div>
