@@ -11,3 +11,35 @@ To view the copyright and specific terms and conditions please refer to ofl.txt
 
 By submitting a pull request, you are agreeing to comply
 with this license.
+
+## Running the specimen site locally
+The specimen site runs on Jekyll and Node, powered by USWDS. The site-related files are distinct from the Public Sans source files and are kept in the following locations:
+
+```
+public-sans/
+├── _data/
+├── _includes/
+├── _layouts/
+├── _sass/
+├── pages/
+└── site-assets/
+
+```
+
+## Running code locally
+After cloning the repo, navigate to the correct folder and install USWDS, Jekyll, and any necessary dependencies using:
+```
+npm run startup
+```
+Then, to run the site locally:
+```
+npm run serve
+```
+If all goes well, visit the site at http://localhost:4000.
+
+USWDS assets are in `assets/uswds/fonts` and `assets/uswds/img`.
+
+SASS files are kept in the `/_sass` directory. To watch for changes and recompile the styles, run:
+```
+npm run watch
+```
