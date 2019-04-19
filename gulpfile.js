@@ -106,9 +106,6 @@ gulp.task('build-sass', function(done) {
     .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest(`${CSS_DEST}`))
     .pipe(gulp.dest('_site/site-assets/css'))
-    .pipe(notify({
-      "sound": "Pop" // case sensitive
-    }));
 });
 
 gulp.task('init', gulp.series(
