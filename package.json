@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/uswds/public-sans#readme",
   "scripts": {
-    "federalist": "npm install && npm install gulp-cli -g && npm run uswds-copy-assets && npm run uswds-build-sass && npm run jekyll-install",
+    "federalist": "npm install && npm install gulp-cli -g && npm run uswds-copy-assets && npm run uswds-build-sass",
     "jekyll-install": "gem install bundler && bundle install",
     "serve": "bundle exec jekyll serve --livereload",
     "start": "npm install && npm run jekyll-install && npm run uswds-copy-assets && npm run uswds-build-sass",
