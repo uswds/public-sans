@@ -7,6 +7,7 @@
       {% for instance in site.data.weights %}
         <li class="text-{{ instance.weight }}"><a href="{{ instance.url | relative_url }}"{% if page.url contains instance.url %} class="border-ink"{% endif %}>{{ instance.weight }}</a></li>
       {% endfor %}
+      <li class="text-400"><a href="{{ 'reading' | relative_url }}"{% if page.url contains "reading" %} class="border-ink"{% endif %}>Example</a></li>
     </ul>
   </nav>
 </header>
