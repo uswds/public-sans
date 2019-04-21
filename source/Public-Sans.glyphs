@@ -1,5 +1,9 @@
 {
 .appVersion = "1192";
+DisplayStrings = (
+"government peers moon oven",
+"example "
+);
 customParameters = (
 {
 name = fsType;
@@ -17537,7 +17541,7 @@ unicode = 1E0D;
 },
 {
 glyphname = e;
-lastChange = "2019-04-16 18:49:16 +0000";
+lastChange = "2019-04-21 13:37:43 +0000";
 layers = (
 {
 anchors = (
@@ -23639,7 +23643,7 @@ unicode = 00F1;
 },
 {
 glyphname = o;
-lastChange = "2019-04-16 18:49:16 +0000";
+lastChange = "2019-04-21 13:34:57 +0000";
 layers = (
 {
 anchors = (
@@ -29606,7 +29610,7 @@ unicode = 0169;
 },
 {
 glyphname = v;
-lastChange = "2019-04-16 18:49:16 +0000";
+lastChange = "2019-04-21 13:31:53 +0000";
 layers = (
 {
 background = {
@@ -30162,7 +30166,7 @@ unicode = 1E81;
 },
 {
 glyphname = x;
-lastChange = "2019-04-16 18:49:16 +0000";
+lastChange = "2019-04-21 13:37:58 +0000";
 layers = (
 {
 background = {
@@ -62658,14 +62662,13 @@ space = 0;
 "@MMK_R_h" = 0;
 "@MMK_R_i" = -20;
 "@MMK_R_n" = -10;
-"@MMK_R_o" = -10;
 "@MMK_R_parenright" = -20;
 "@MMK_R_quoteright" = -100;
 "@MMK_R_quotesingle" = -160;
 "@MMK_R_s" = 0;
 "@MMK_R_t" = 0;
 "@MMK_R_u" = -10;
-"@MMK_R_v" = -20;
+"@MMK_R_v" = -10;
 "@MMK_R_x" = -50;
 "@MMK_R_z" = -50;
 space = -20;
@@ -62840,7 +62843,7 @@ space = -20;
 "@MMK_R_h" = 20;
 "@MMK_R_hyphen" = -18;
 "@MMK_R_n" = 0;
-"@MMK_R_o" = -20;
+"@MMK_R_o" = -10;
 "@MMK_R_parenright" = -40;
 "@MMK_R_period" = -100;
 "@MMK_R_quotesingle" = 40;
@@ -62850,7 +62853,7 @@ space = -20;
 "@MMK_R_x" = 10;
 };
 "@MMK_L_x" = {
-"@MMK_R_a" = -20;
+"@MMK_R_a" = -10;
 "@MMK_R_comma" = 10;
 "@MMK_R_g" = -30;
 "@MMK_R_hyphen" = -40;
@@ -63526,7 +63529,6 @@ i = 0;
 "@MMK_R_h" = 0;
 "@MMK_R_i" = -20;
 "@MMK_R_n" = 0;
-"@MMK_R_o" = 0;
 "@MMK_R_parenright" = -20;
 "@MMK_R_quoteright" = -60;
 "@MMK_R_quotesingle" = -110;
@@ -63534,7 +63536,7 @@ i = 0;
 "@MMK_R_t" = -20;
 "@MMK_R_u" = -10;
 "@MMK_R_v" = -50;
-"@MMK_R_x" = -100;
+"@MMK_R_x" = -90;
 "@MMK_R_z" = -40;
 i = -10;
 k = -20;
@@ -63674,7 +63676,7 @@ space = -40;
 "@MMK_R_g" = -40;
 "@MMK_R_guilsinglright" = 80;
 "@MMK_R_hyphen" = -60;
-"@MMK_R_o" = -50;
+"@MMK_R_o" = -40;
 "@MMK_R_parenright" = -100;
 "@MMK_R_period" = -100;
 "@MMK_R_quotesingle" = -20;
@@ -63685,7 +63687,7 @@ space = -80;
 };
 "@MMK_L_x" = {
 "@MMK_R_V" = -40;
-"@MMK_R_a" = -50;
+"@MMK_R_a" = -40;
 "@MMK_R_comma" = -20;
 "@MMK_R_f" = 20;
 "@MMK_R_hyphen" = -120;
