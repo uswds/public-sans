@@ -1,7 +1,7 @@
 {
 .appVersion = "1192";
 DisplayStrings = (
-conjunction
+"blockaded kamp koka njuda"
 );
 customParameters = (
 {
@@ -16219,7 +16219,7 @@ unicode = 0062;
 },
 {
 glyphname = c;
-lastChange = "2019-04-21 18:54:53 +0000";
+lastChange = "2019-04-21 20:45:56 +0000";
 layers = (
 {
 anchors = (
@@ -21704,7 +21704,7 @@ unicode = 0135;
 },
 {
 glyphname = k;
-lastChange = "2019-04-21 18:59:00 +0000";
+lastChange = "2019-04-21 20:47:20 +0000";
 layers = (
 {
 anchors = (
@@ -22940,7 +22940,7 @@ unicode = 006D;
 },
 {
 glyphname = n;
-lastChange = "2019-04-21 20:40:16 +0000";
+lastChange = "2019-04-21 20:47:57 +0000";
 layers = (
 {
 anchors = (
@@ -23643,7 +23643,7 @@ unicode = 00F1;
 },
 {
 glyphname = o;
-lastChange = "2019-04-21 18:54:39 +0000";
+lastChange = "2019-04-21 20:47:03 +0000";
 layers = (
 {
 anchors = (
@@ -62642,7 +62642,7 @@ l = -20;
 "@MMK_R_s" = 0;
 "@MMK_R_u" = -20;
 "@MMK_R_x" = -40;
-j = 20;
+j = 10;
 space = 0;
 };
 "@MMK_L_nine" = {
@@ -63416,7 +63416,7 @@ fraction = 40;
 };
 "@MMK_L_k" = {
 "@MMK_R_V" = -60;
-"@MMK_R_a" = -40;
+"@MMK_R_a" = -20;
 "@MMK_R_f" = 30;
 "@MMK_R_g" = -40;
 "@MMK_R_guilsinglright" = 40;
@@ -63475,10 +63475,9 @@ fraction = 40;
 "@MMK_R_a" = -10;
 "@MMK_R_f" = -8;
 "@MMK_R_g" = -20;
-"@MMK_R_h" = 0;
 "@MMK_R_i" = -20;
 "@MMK_R_n" = 0;
-"@MMK_R_o" = -10;
+"@MMK_R_o" = 0;
 "@MMK_R_parenright" = -20;
 "@MMK_R_quoteright" = -60;
 "@MMK_R_quotesingle" = -110;
