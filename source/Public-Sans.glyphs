@@ -1,7 +1,7 @@
 {
 .appVersion = "1192";
 DisplayStrings = (
-"blockaded kamp koka njuda"
+"sat corsair"
 );
 customParameters = (
 {
@@ -26795,7 +26795,7 @@ unicode = 0213;
 },
 {
 glyphname = s;
-lastChange = "2019-04-21 20:25:12 +0000";
+lastChange = "2019-04-21 20:50:24 +0000";
 layers = (
 {
 anchors = (
@@ -62758,7 +62758,7 @@ p = -100;
 space = -80;
 };
 "@MMK_L_s" = {
-"@MMK_R_a" = 0;
+"@MMK_R_a" = -10;
 "@MMK_R_comma" = -30;
 "@MMK_R_f" = -10;
 "@MMK_R_g" = -10;
@@ -63558,7 +63558,6 @@ space = 0;
 };
 "@MMK_L_s" = {
 "@MMK_R_V" = -120;
-"@MMK_R_a" = 30;
 "@MMK_R_comma" = -20;
 "@MMK_R_g" = -10;
 "@MMK_R_guilsinglright" = 40;
