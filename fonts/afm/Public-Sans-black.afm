@@ -500,7 +500,7 @@ C 42 ; WX 1090 ; N asterisk ; B 60 544 1000 1446 ;
 C 35 ; WX 1256 ; N numbersign ; B 40 -6 1196 1450 ;
 C 47 ; WX 818 ; N slash ; B 20 0 788 1446 ;
 C 92 ; WX 818 ; N backslash ; B 10 0 778 1446 ;
-C -1 ; WX 620 ; N period.tf ; B 150 0 560 392 ;
+C -1 ; WX 608 ; N period.tf ; B 138 0 548 392 ;
 C -1 ; WX 608 ; N comma.tf ; B 150 -306 508 340 ;
 C 40 ; WX 722 ; N parenleft ; B 100 -322 662 1446 ;
 C 41 ; WX 722 ; N parenright ; B 10 -322 572 1446 ;
@@ -1631,7 +1631,7 @@ CC threeeighths 3 ; PCC three.numr 0 0 ; PCC fraction 834 0 ; PCC eight.dnom 136
 CC fiveeighths 3 ; PCC five.numr 0 0 ; PCC fraction 836 0 ; PCC eight.dnom 1370 0 ;
 CC seveneighths 3 ; PCC seven.numr 0 0 ; PCC fraction 766 0 ; PCC eight.dnom 1300 0 ;
 CC ellipsis 3 ; PCC period 1460 0 ; PCC period 60 0 ; PCC period 760 0 ;
-CC period.tf 1 ; PCC period 60 0 ;
+CC period.tf 1 ; PCC period 48 0 ;
 CC comma.tf 1 ; PCC comma 50 0 ;
 CC softhyphen 1 ; PCC hyphen 0 0 ;
 CC quotedblbase 2 ; PCC quotesinglbase 512 0 ; PCC quotesinglbase 0 0 ;
