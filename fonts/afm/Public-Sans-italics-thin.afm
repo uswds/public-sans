@@ -105,7 +105,7 @@ C 323 ; WX 1342 ; N Nacute ; B 137 0 1273 1874 ;
 C 327 ; WX 1342 ; N Ncaron ; B 137 0 1273 1858 ;
 C 325 ; WX 1342 ; N Ncommaaccent ; B 137 -542 1273 1446 ;
 C 7748 ; WX 1342 ; N Ndotaccent ; B 137 0 1273 1788 ;
-C 330 ; WX 1347 ; N Eng ; B 137 -480 1273 1446 ;
+C 330 ; WX 1348 ; N Eng ; B 137 -480 1273 1446 ;
 C 209 ; WX 1342 ; N Ntilde ; B 137 0 1273 1838 ;
 C 79 ; WX 1359 ; N O ; B 153 -20 1263 1466 ;
 C 211 ; WX 1359 ; N Oacute ; B 153 -20 1263 1874 ;
@@ -236,7 +236,7 @@ C 265 ; WX 993 ; N ccircumflex ; B 100 -20 917 1446 ;
 C 267 ; WX 993 ; N cdotaccent ; B 100 -20 917 1376 ;
 C 100 ; WX 1084 ; N d ; B 99 -20 1040 1486 ;
 C 240 ; WX 1091 ; N eth ; B 99 -20 992 1470 ;
-C 271 ; WX 1137 ; N dcaron ; B 99 -20 1250 1486 ;
+C 271 ; WX 1138 ; N dcaron ; B 99 -20 1250 1486 ;
 C 273 ; WX 1131 ; N dcroat ; B 99 -20 1130 1486 ;
 C 7693 ; WX 1084 ; N ddotbelow ; B 99 -312 1040 1486 ;
 C 101 ; WX 1014 ; N e ; B 100 -20 919 1054 ;
@@ -286,8 +286,8 @@ C 299 ; WX 472 ; N imacron ; B 123 0 585 1408 ;
 C 303 ; WX 472 ; N iogonek ; B -91 -326 399 1376 ;
 C 297 ; WX 472 ; N itilde ; B 119 0 591 1426 ;
 C 106 ; WX 448 ; N j ; B -177 -332 393 1414 ;
-C 567 ; WX 400 ; N jdotless ; B -207 -332 303 1034 ;
-C 309 ; WX 400 ; N jcircumflex ; B -207 -332 545 1446 ;
+C 567 ; WX 440 ; N jdotless ; B -177 -332 333 1034 ;
+C 309 ; WX 440 ; N jcircumflex ; B -177 -332 575 1446 ;
 C 107 ; WX 1022 ; N k ; B 107 0 971 1486 ;
 C 311 ; WX 1022 ; N kcommaaccent ; B 107 -542 971 1486 ;
 C 312 ; WX 1022 ; N kgreenlandic ; B 107 0 969 1034 ;
@@ -515,7 +515,7 @@ C 8212 ; WX 1557 ; N emdash ; B 123 466 1431 546 ;
 C 95 ; WX 909 ; N underscore ; B 30 -198 690 -118 ;
 C 8218 ; WX 395 ; N quotesinglbase ; B -24 -222 214 160 ;
 C 8222 ; WX 687 ; N quotedblbase ; B -24 -222 506 160 ;
-C 8220 ; WX 701 ; N quotedblleft ; B 232 1064 720 1446 ;
+C 8220 ; WX 701 ; N quotedblleft ; B 231 1064 719 1446 ;
 C 8221 ; WX 640 ; N quotedblright ; B 195 1064 681 1446 ;
 C 8216 ; WX 415 ; N quoteleft ; B 240 1130 442 1512 ;
 C 8217 ; WX 356 ; N quoteright ; B 195 1064 397 1446 ;
@@ -523,7 +523,7 @@ C 171 ; WX 767 ; N guillemetleft ; B 58 152 726 868 ;
 C 187 ; WX 763 ; N guillemetright ; B 41 152 701 868 ;
 C 8249 ; WX 467 ; N guilsinglleft ; B 58 152 426 868 ;
 C 8250 ; WX 465 ; N guilsinglright ; B 43 152 403 868 ;
-C 34 ; WX 730 ; N quotedbl ; B 276 1072 702 1446 ;
+C 34 ; WX 730 ; N quotedbl ; B 275 1072 701 1446 ;
 C 39 ; WX 458 ; N quotesingle ; B 275 1072 429 1446 ;
 C -1 ; WX 1727 ; N colon_one_eight_F_colon.liga ; B 138 0 1658 1522 ;
 C -1 ; WX 2505 ; N colon_f_l_a_g_two_colon.liga ; B 221 2 2353 1522 ;
@@ -592,7 +592,7 @@ C 8224 ; WX 726 ; N dagger ; B 43 -322 781 1446 ;
 C 8225 ; WX 727 ; N daggerdbl ; B -42 -322 782 1446 ;
 C 8470 ; WX 2112 ; N numero ; B 137 0 2093 1464 ;
 C 8480 ; WX 1846 ; N servicemark ; B 36 -13 1758 915 ;
-C 700 ; WX 355 ; N apostrophemod ; B 176 1068 411 1418 ;
+C 700 ; WX 355 ; N apostrophemod ; B 177 1068 412 1418 ;
 C 699 ; WX 323 ; N commaturnedmod ; B 177 1068 379 1418 ;
 C 776 ; WX 321 ; N dieresiscomb ; B 110 1294 446 1414 ;
 C 775 ; WX 125 ; N dotaccentcomb ; B 123 1256 227 1376 ;
@@ -631,9 +631,9 @@ C -1 ; WX 541 ; N brevecomb_acutecomb ; B 164 1268 656 1756 ;
 C -1 ; WX 536 ; N brevecomb_gravecomb ; B 178 1268 651 1758 ;
 C -1 ; WX 502 ; N brevecomb_hookabovecomb ; B 147 1268 617 1779 ;
 C -1 ; WX 533 ; N brevecomb_tildecomb ; B 167 1268 648 1648 ;
-C -1 ; WX 524 ; N circumflexcomb_acutecomb ; B 132 1256 626 1756 ;
+C -1 ; WX 523 ; N circumflexcomb_acutecomb ; B 131 1256 625 1756 ;
 C -1 ; WX 518 ; N circumflexcomb_gravecomb ; B 126 1256 620 1758 ;
-C -1 ; WX 506 ; N circumflexcomb_hookabovecomb ; B 106 1256 655 1723 ;
+C -1 ; WX 507 ; N circumflexcomb_hookabovecomb ; B 106 1256 655 1723 ;
 C -1 ; WX 515 ; N circumflexcomb_tildecomb ; B 123 1256 625 1648 ;
 C -1 ; WX 54 ; N uni0000 ; B 0 0 0 0 ;
 C -1 ; WX 166 ; N __horn ; B 65 978 337 1238 ;
@@ -643,7 +643,7 @@ C -1 ; WX 1163 ; N _j-hook ; B -21 -20 467 474 ;
 EndCharMetrics
 
 StartKernData
-StartKernPairs 718
+StartKernPairs 697
 KPX A A 0
 KPX A J 20
 KPX A B -40
@@ -1052,7 +1052,7 @@ KPX f V 60
 KPX f a 0
 KPX f quotesinglbase -50
 KPX f f 20
-KPX f g -60
+KPX f g -50
 KPX f hyphen -30
 KPX f c -20
 KPX f question 80
@@ -1065,15 +1065,15 @@ KPX g V 0
 KPX g a -10
 KPX g quotesinglbase -10
 KPX g f 10
-KPX g g 10
+KPX g g -30
 KPX g guillemetright -10
 KPX g hyphen -80
 KPX g bar 30
 KPX g i 0
-KPX g c -50
+KPX g c -30
 KPX g s -50
 KPX g t 10
-KPX g u -40
+KPX g u -30
 KPX g v 20
 KPX g z -10
 KPX guillemetleft A -10
@@ -1104,7 +1104,7 @@ KPX k a -20
 KPX k f 20
 KPX k g -50
 KPX k hyphen -40
-KPX k c -40
+KPX k c -20
 KPX k question -20
 KPX k quotedbl -100
 KPX k s -10
@@ -1126,20 +1126,20 @@ KPX l u 0
 KPX l v 0
 KPX l x 20
 KPX l z 30
-KPX l l -24
+KPX l l -20
 KPX a T -130
 KPX a V -60
 KPX a Y -60
-KPX a a 10
 KPX a f -30
-KPX a g -10
-KPX a c 0
+KPX a g 10
+KPX a i -10
+KPX a c -10
 KPX a quotedblright -50
-KPX a quotedbl -140
+KPX a quotedbl -120
 KPX a s 0
 KPX a u -20
-KPX a v -20
 KPX a x -40
+KPX a j 10
 KPX a space 0
 KPX nine nine 60
 KPX nine question 0
@@ -1149,22 +1149,19 @@ KPX b B 20
 KPX b T -200
 KPX b V -70
 KPX b Y -60
-KPX b a -4
 KPX b f -20
 KPX b g -20
 KPX b b 0
 KPX b bar -20
-KPX b i -10
-KPX b c -10
 KPX b question -20
 KPX b quotedblright -100
 KPX b quotedbl -160
 KPX b s 0
 KPX b t 0
 KPX b u -10
-KPX b v -20
+KPX b v -10
 KPX b x -50
-KPX b z -50
+KPX b z -40
 KPX b space -20
 KPX ohorn J -160
 KPX ohorn g -100
@@ -1226,7 +1223,6 @@ KPX r guillemetright 10
 KPX r b 60
 KPX r hyphen -80
 KPX r bar -10
-KPX r i 0
 KPX r c -10
 KPX r question -30
 KPX r period -80
@@ -1236,7 +1232,7 @@ KPX r v 50
 KPX r x 30
 KPX r z 20
 KPX r space -80
-KPX s a 0
+KPX s a -10
 KPX s quotesinglbase -30
 KPX s f -10
 KPX s g -10
@@ -1246,9 +1242,8 @@ KPX s c -10
 KPX s question -18
 KPX s quotedbl -40
 KPX s s 0
-KPX s t -6
 KPX s u -20
-KPX s v -20
+KPX s v -10
 KPX s x -30
 KPX s z -10
 KPX s space -20
@@ -1279,12 +1274,12 @@ KPX three four -20
 KPX three zero 0
 KPX two question -20
 KPX two zero 10
-KPX d a 10
-KPX d g 0
-KPX d b 0
+KPX d b -20
 KPX d i 20
-KPX d c 0
 KPX d quotedbl -20
+KPX d s -10
+KPX d x 0
+KPX d z -10
 KPX uhorn a -60
 KPX uhorn f -20
 KPX uhorn g -40
@@ -1303,7 +1298,7 @@ KPX v guillemetright 10
 KPX v b 20
 KPX v hyphen -18
 KPX v i 0
-KPX v c -20
+KPX v c 0
 KPX v question -40
 KPX v period -100
 KPX v quotedbl 40
@@ -1311,7 +1306,7 @@ KPX v s -10
 KPX v t 20
 KPX v v 10
 KPX v x 10
-KPX x a -20
+KPX x a -10
 KPX x quotesinglbase 10
 KPX x g -30
 KPX x hyphen -40
@@ -1334,25 +1329,9 @@ KPX z t 10
 KPX zero one -10
 KPX zero zero -20
 KPX Hbar A -10
-KPX a T -110
-KPX a g 10
-KPX a quotedbl -80
-KPX a v -10
-KPX b a -10
-KPX b x -60
-KPX c s 10
-KPX e a 10
-KPX e f -40
-KPX e g 0
-KPX e quotedblright -60
 KPX exclam question 60
 KPX fraction four.dnom -120
 KPX fraction two.dnom 40
-KPX g f 30
-KPX g g -30
-KPX g u -20
-KPX n quotedbl -120
-KPX s g -20
 KPX space C 0
 KPX space V 0
 KPX space W -20
@@ -1374,7 +1353,7 @@ CC Abrevegrave 2 ; PCC A 0 0 ; PCC brevecomb_gravecomb 441 412 ;
 CC Abrevehookabove 2 ; PCC A 0 0 ; PCC brevecomb_hookabovecomb 441 412 ;
 CC Abrevetilde 2 ; PCC A 0 0 ; PCC brevecomb_tildecomb 440 412 ;
 CC Acircumflex 2 ; PCC A 0 0 ; PCC circumflexcomb 455 412 ;
-CC Acircumflexacute 2 ; PCC A 0 0 ; PCC circumflexcomb_acutecomb 441 412 ;
+CC Acircumflexacute 2 ; PCC A 0 0 ; PCC circumflexcomb_acutecomb 442 412 ;
 CC Acircumflexdotbelow 3 ; PCC A 0 0 ; PCC dotbelowcomb 588 0 ; PCC circumflexcomb 455 412 ;
 CC Acircumflexgrave 2 ; PCC A 0 0 ; PCC circumflexcomb_gravecomb 441 412 ;
 CC Acircumflexhookabove 2 ; PCC A 0 0 ; PCC circumflexcomb_hookabovecomb 441 412 ;
@@ -1403,7 +1382,7 @@ CC Eacute 2 ; PCC E 0 0 ; PCC acutecomb 388 412 ;
 CC Ebreve 2 ; PCC E 0 0 ; PCC brevecomb 390 408 ;
 CC Ecaron 2 ; PCC E 0 0 ; PCC caroncomb 382 412 ;
 CC Ecircumflex 2 ; PCC E 0 0 ; PCC circumflexcomb 383 412 ;
-CC Ecircumflexacute 2 ; PCC E 0 0 ; PCC circumflexcomb_acutecomb 369 412 ;
+CC Ecircumflexacute 2 ; PCC E 0 0 ; PCC circumflexcomb_acutecomb 370 412 ;
 CC Ecircumflexdotbelow 3 ; PCC E 0 0 ; PCC dotbelowcomb 556 0 ; PCC circumflexcomb 383 412 ;
 CC Ecircumflexgrave 2 ; PCC E 0 0 ; PCC circumflexcomb_gravecomb 369 412 ;
 CC Ecircumflexhookabove 2 ; PCC E 0 0 ; PCC circumflexcomb_hookabovecomb 369 412 ;
@@ -1452,7 +1431,7 @@ CC Ntilde 2 ; PCC N 0 0 ; PCC tildecomb 483 412 ;
 CC Oacute 2 ; PCC O 0 0 ; PCC acutecomb 499 412 ;
 CC Obreve 2 ; PCC O 0 0 ; PCC brevecomb 501 408 ;
 CC Ocircumflex 2 ; PCC O 0 0 ; PCC circumflexcomb 494 412 ;
-CC Ocircumflexacute 2 ; PCC O 0 0 ; PCC circumflexcomb_acutecomb 480 412 ;
+CC Ocircumflexacute 2 ; PCC O 0 0 ; PCC circumflexcomb_acutecomb 481 412 ;
 CC Ocircumflexdotbelow 3 ; PCC O 0 0 ; PCC dotbelowcomb 627 0 ; PCC circumflexcomb 494 412 ;
 CC Ocircumflexgrave 2 ; PCC O 0 0 ; PCC circumflexcomb_gravecomb 480 412 ;
 CC Ocircumflexhookabove 2 ; PCC O 0 0 ; PCC circumflexcomb_hookabovecomb 480 412 ;
@@ -1533,7 +1512,7 @@ CC abrevegrave 2 ; PCC a 0 0 ; PCC brevecomb_gravecomb 238 0 ;
 CC abrevehookabove 2 ; PCC a 0 0 ; PCC brevecomb_hookabovecomb 238 0 ;
 CC abrevetilde 2 ; PCC a 0 0 ; PCC brevecomb_tildecomb 237 0 ;
 CC acircumflex 2 ; PCC a 0 0 ; PCC circumflexcomb 252 0 ;
-CC acircumflexacute 2 ; PCC a 0 0 ; PCC circumflexcomb_acutecomb 238 0 ;
+CC acircumflexacute 2 ; PCC a 0 0 ; PCC circumflexcomb_acutecomb 239 0 ;
 CC acircumflexdotbelow 3 ; PCC a 0 0 ; PCC dotbelowcomb 445 0 ; PCC circumflexcomb 252 0 ;
 CC acircumflexgrave 2 ; PCC a 0 0 ; PCC circumflexcomb_gravecomb 238 0 ;
 CC acircumflexhookabove 2 ; PCC a 0 0 ; PCC circumflexcomb_hookabovecomb 238 0 ;
@@ -1561,7 +1540,7 @@ CC eacute 2 ; PCC e 0 0 ; PCC acutecomb 274 0 ;
 CC ebreve 2 ; PCC e 0 0 ; PCC brevecomb 276 -4 ;
 CC ecaron 2 ; PCC e 0 0 ; PCC caroncomb 268 0 ;
 CC ecircumflex 2 ; PCC e 0 0 ; PCC circumflexcomb 269 0 ;
-CC ecircumflexacute 2 ; PCC e 0 0 ; PCC circumflexcomb_acutecomb 255 0 ;
+CC ecircumflexacute 2 ; PCC e 0 0 ; PCC circumflexcomb_acutecomb 256 0 ;
 CC ecircumflexdotbelow 3 ; PCC e 0 0 ; PCC dotbelowcomb 458 0 ; PCC circumflexcomb 269 0 ;
 CC ecircumflexgrave 2 ; PCC e 0 0 ; PCC circumflexcomb_gravecomb 255 0 ;
 CC ecircumflexhookabove 2 ; PCC e 0 0 ; PCC circumflexcomb_hookabovecomb 255 0 ;
@@ -1594,7 +1573,7 @@ CC iinvertedbreve 2 ; PCC idotless 0 0 ; PCC breveinvertedcomb -6 0 ;
 CC imacron 2 ; PCC idotless 0 0 ; PCC macroncomb -10 0 ;
 CC iogonek 3 ; PCC idotless 0 0 ; PCC dotaccentcomb 172 0 ; PCC ogonekcomb -10 2 ;
 CC itilde 2 ; PCC idotless 0 0 ; PCC tildecomb -17 0 ;
-CC jcircumflex 2 ; PCC jdotless 0 0 ; PCC circumflexcomb -55 0 ;
+CC jcircumflex 2 ; PCC jdotless 0 0 ; PCC circumflexcomb -25 0 ;
 CC kcommaaccent 2 ; PCC k 0 0 ; PCC commaaccentcomb 398 0 ;
 CC lacute 2 ; PCC l 0 0 ; PCC acutecomb 44 490 ;
 CC lcaron 2 ; PCC l 0 0 ; PCC caroncomb.alt 350 0 ;
@@ -1608,7 +1587,7 @@ CC ntilde 2 ; PCC n 0 0 ; PCC tildecomb 309 0 ;
 CC oacute 2 ; PCC o 0 0 ; PCC acutecomb 280 0 ;
 CC obreve 2 ; PCC o 0 0 ; PCC brevecomb 282 -4 ;
 CC ocircumflex 2 ; PCC o 0 0 ; PCC circumflexcomb 275 0 ;
-CC ocircumflexacute 2 ; PCC o 0 0 ; PCC circumflexcomb_acutecomb 261 0 ;
+CC ocircumflexacute 2 ; PCC o 0 0 ; PCC circumflexcomb_acutecomb 262 0 ;
 CC ocircumflexdotbelow 3 ; PCC o 0 0 ; PCC dotbelowcomb 466 0 ; PCC circumflexcomb 275 0 ;
 CC ocircumflexgrave 2 ; PCC o 0 0 ; PCC circumflexcomb_gravecomb 261 0 ;
 CC ocircumflexhookabove 2 ; PCC o 0 0 ; PCC circumflexcomb_hookabovecomb 261 0 ;
@@ -1735,7 +1714,7 @@ CC period.tf 1 ; PCC period 110 0 ;
 CC comma.tf 1 ; PCC comma 110 0 ;
 CC softhyphen 1 ; PCC hyphen 0 0 ;
 CC quotedblbase 2 ; PCC quotesinglbase 292 0 ; PCC quotesinglbase 0 0 ;
-CC quotedbl 2 ; PCC quotesingle 273 0 ; PCC quotesingle 1 0 ;
+CC quotedbl 2 ; PCC quotesingle 272 0 ; PCC quotesingle 0 0 ;
 CC numero 2 ; PCC N 0 0 ; PCC ordmasculine 1342 0 ;
 CC dotbelowcomb 1 ; PCC dotaccentcomb -221 -1568 ;
 CC commaaccentcomb 1 ; PCC comma -159 -320 ;
@@ -1756,7 +1735,7 @@ CC brevecomb_acutecomb 2 ; PCC brevecomb 39 0 ; PCC acutecomb 43 294 ;
 CC brevecomb_gravecomb 2 ; PCC brevecomb 34 0 ; PCC gravecomb 44 296 ;
 CC brevecomb_hookabovecomb 2 ; PCC brevecomb 0 0 ; PCC hookabovecomb -328 276 ;
 CC brevecomb_tildecomb 2 ; PCC brevecomb 31 0 ; PCC tildecomb 31 222 ;
-CC circumflexcomb_acutecomb 2 ; PCC circumflexcomb 26 0 ; PCC acutecomb 30 294 ;
+CC circumflexcomb_acutecomb 2 ; PCC circumflexcomb 25 0 ; PCC acutecomb 29 294 ;
 CC circumflexcomb_gravecomb 2 ; PCC circumflexcomb 20 0 ; PCC gravecomb 30 296 ;
 CC circumflexcomb_hookabovecomb 2 ; PCC circumflexcomb 0 0 ; PCC hookabovecomb -220 220 ;
 CC circumflexcomb_tildecomb 2 ; PCC circumflexcomb 17 0 ; PCC tildecomb 17 222 ;

@@ -540,6 +540,7 @@
 	</array>
 	<key>@MMK_L_quoteright</key>
 	<array>
+		<string>dcaron</string>
 		<string>quotedblright</string>
 		<string>quoteright</string>
 	</array>
@@ -604,7 +605,6 @@
 	<key>@MMK_L_u</key>
 	<array>
 		<string>d</string>
-		<string>dcaron</string>
 		<string>ddotbelow</string>
 		<string>q</string>
 		<string>u</string>
@@ -1045,6 +1045,11 @@
 		<string>bar</string>
 		<string>brokenbar</string>
 	</array>
+	<key>@MMK_R_j</key>
+	<array>
+		<string>jdotless</string>
+		<string>jcircumflex</string>
+	</array>
 	<key>@MMK_R_n</key>
 	<array>
 		<string>i</string>
@@ -1062,9 +1067,6 @@
 		<string>imacron</string>
 		<string>iogonek</string>
 		<string>itilde</string>
-		<string>j</string>
-		<string>jdotless</string>
-		<string>jcircumflex</string>
 		<string>m</string>
 		<string>n</string>
 		<string>nacute</string>
