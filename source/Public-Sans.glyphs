@@ -1,7 +1,7 @@
 {
 .appVersion = "1230";
 DisplayStrings = (
-"P/rcaron íli/scaron  /zcaron lu/tcaron au/ccaron ký k/uring/ncaron  úp/ecaron l /dcaron aábelské ódy",
+"P/rcaron íli/scaron  /zcaron lu/tcaron au/ccaron ký k/uring/ncaron  úp/ecaron l /dcaron aábelské ódy butte\012\012/zcaron lu/tcaron o\012/zcaron luto\012/dcaron e\012de\012s/tcaron ash\012stash",
 "K/racute de/lcaron  /scaron/tcaron astných /dcaron at/lcaron ov u/ccaron í pri ústí Váhu m/lacute kvehok",
 "ko/ncaron a obhrýza/tcaron  kôru a /zcaron ra/tcaron  /ccaron erstvé mäso",
 "ice cold"
@@ -17324,7 +17324,7 @@ unicode = 00F0;
 },
 {
 glyphname = dcaron;
-lastChange = "2019-04-23 20:11:42 +0000";
+lastChange = "2019-04-23 20:39:50 +0000";
 layers = (
 {
 background = {
@@ -22169,7 +22169,7 @@ unicode = 0138;
 },
 {
 glyphname = l;
-lastChange = "2019-04-23 04:19:37 +0000";
+lastChange = "2019-04-23 20:41:46 +0000";
 layers = (
 {
 anchors = (
@@ -27768,7 +27768,7 @@ unicode = 00DF;
 },
 {
 glyphname = t;
-lastChange = "2019-04-23 05:30:18 +0000";
+lastChange = "2019-04-23 20:45:58 +0000";
 layers = (
 {
 anchors = (
@@ -28374,7 +28374,7 @@ unicode = 1E6D;
 },
 {
 glyphname = u;
-lastChange = "2019-04-23 03:57:35 +0000";
+lastChange = "2019-04-23 20:42:12 +0000";
 layers = (
 {
 anchors = (
@@ -62743,7 +62743,7 @@ space = -80;
 "@MMK_R_quoteright" = -120;
 "@MMK_R_quotesingle" = -120;
 "@MMK_R_t" = -30;
-"@MMK_R_u" = 0;
+"@MMK_R_u" = -10;
 "@MMK_R_v" = 0;
 "@MMK_R_x" = 20;
 "@MMK_R_z" = 30;
@@ -62912,12 +62912,11 @@ space = -20;
 };
 "@MMK_L_t" = {
 "@MMK_R_V" = -40;
-"@MMK_R_a" = 70;
+"@MMK_R_a" = 0;
 "@MMK_R_f" = 30;
 "@MMK_R_g" = 10;
 "@MMK_R_hyphen" = -80;
 "@MMK_R_i" = -10;
-"@MMK_R_o" = 60;
 "@MMK_R_parenright" = 10;
 "@MMK_R_quotesingle" = -60;
 "@MMK_R_s" = -4;
@@ -62941,6 +62940,7 @@ space = -20;
 "@MMK_R_n" = 20;
 "@MMK_R_quotesingle" = -20;
 "@MMK_R_s" = 0;
+"@MMK_R_t" = 50;
 "@MMK_R_x" = 0;
 "@MMK_R_z" = -10;
 };
@@ -63006,9 +63006,9 @@ Hbar = {
 "@MMK_R_A" = -10;
 };
 dcaron = {
-"@MMK_R_a" = -70;
+"@MMK_R_a" = -130;
 "@MMK_R_n" = -50;
-"@MMK_R_o" = -40;
+"@MMK_R_o" = -110;
 };
 exclam = {
 "@MMK_R_parenright" = 60;
