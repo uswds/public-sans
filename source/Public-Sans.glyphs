@@ -1,10 +1,10 @@
 {
 .appVersion = "1230";
 DisplayStrings = (
-"cosí fan tutte",
-"Á",
-"",
-y
+"P/rcaron íli/scaron  /zcaron lu/tcaron au/ccaron ký k/uring/ncaron  úp/ecaron l /dcaron aábelské ódy",
+"K/racute de/lcaron  /scaron/tcaron astných /dcaron at/lcaron ov u/ccaron í pri ústí Váhu m/lacute kvehok",
+"ko/ncaron a obhrýza/tcaron  kôru a /zcaron ra/tcaron  /ccaron erstvé mäso",
+"ice cold"
 );
 customParameters = (
 {
@@ -17324,7 +17324,7 @@ unicode = 00F0;
 },
 {
 glyphname = dcaron;
-lastChange = "2019-04-21 14:03:06 +0000";
+lastChange = "2019-04-23 20:11:42 +0000";
 layers = (
 {
 background = {
@@ -17380,7 +17380,6 @@ width = 1278;
 );
 leftKerningGroup = o;
 leftMetricsKey = d;
-rightKerningGroup = quoteright;
 rightMetricsKey = quoteright;
 unicode = 010F;
 },
@@ -28146,7 +28145,7 @@ unicode = 0167;
 },
 {
 glyphname = tcaron;
-lastChange = "2019-04-23 04:01:21 +0000";
+lastChange = "2019-04-23 20:12:07 +0000";
 layers = (
 {
 background = {
@@ -62913,12 +62912,12 @@ space = -20;
 };
 "@MMK_L_t" = {
 "@MMK_R_V" = -40;
-"@MMK_R_a" = 10;
+"@MMK_R_a" = 70;
 "@MMK_R_f" = 30;
 "@MMK_R_g" = 10;
 "@MMK_R_hyphen" = -80;
 "@MMK_R_i" = -10;
-"@MMK_R_o" = 0;
+"@MMK_R_o" = 60;
 "@MMK_R_parenright" = 10;
 "@MMK_R_quotesingle" = -60;
 "@MMK_R_s" = -4;
@@ -63005,6 +63004,11 @@ space = -40;
 };
 Hbar = {
 "@MMK_R_A" = -10;
+};
+dcaron = {
+"@MMK_R_a" = -70;
+"@MMK_R_n" = -50;
+"@MMK_R_o" = -40;
 };
 exclam = {
 "@MMK_R_parenright" = 60;
@@ -63619,7 +63623,7 @@ space = 0;
 "@MMK_R_v" = 60;
 };
 "@MMK_L_quoteright" = {
-"@MMK_R_a" = -140;
+"@MMK_R_a" = -210;
 "@MMK_R_h" = -20;
 "@MMK_R_n" = -40;
 "@MMK_R_o" = -160;
@@ -63681,7 +63685,7 @@ space = 0;
 "@MMK_R_f" = 0;
 "@MMK_R_hyphen" = 0;
 "@MMK_R_n" = 0;
-"@MMK_R_o" = -30;
+"@MMK_R_o" = 10;
 "@MMK_R_parenright" = 20;
 "@MMK_R_quotesingle" = -10;
 "@MMK_R_s" = -20;
@@ -63748,6 +63752,11 @@ space = 0;
 "@MMK_R_u" = -10;
 "@MMK_R_v" = 30;
 "@MMK_R_z" = 50;
+};
+dcaron = {
+"@MMK_R_a" = -220;
+"@MMK_R_n" = -40;
+"@MMK_R_o" = -320;
 };
 };
 };
