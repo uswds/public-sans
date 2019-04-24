@@ -5,8 +5,7 @@ DisplayStrings = (
 "/uhornacute/uhorndotbelow/uhorngrave/uhornhookabove/uhorntilde",
 "/ohorn/ohornacute/ohorndotbelow/ohorngrave/ohornhookabove/ohorntilde",
 "h/uhorntilde ng",
-g,
-"ß"
+g
 );
 customParameters = (
 {
@@ -29068,7 +29067,7 @@ unicode = 01B0;
 },
 {
 glyphname = uhornacute;
-lastChange = "2019-04-24 18:14:48 +0000";
+lastChange = "2019-04-24 18:47:15 +0000";
 layers = (
 {
 components = (
@@ -29106,12 +29105,12 @@ width = 1517;
 }
 );
 leftKerningGroup = u;
-rightKerningGroup = u;
+rightKerningGroup = uhorn;
 unicode = 1EE9;
 },
 {
 glyphname = uhorndotbelow;
-lastChange = "2019-04-24 18:14:51 +0000";
+lastChange = "2019-04-24 18:47:17 +0000";
 layers = (
 {
 components = (
@@ -29142,13 +29141,13 @@ width = 1517;
 );
 leftKerningGroup = u;
 leftMetricsKey = uhorn;
-rightKerningGroup = u;
+rightKerningGroup = uhorn;
 rightMetricsKey = uhorn;
 unicode = 1EF1;
 },
 {
 glyphname = uhorngrave;
-lastChange = "2019-04-24 18:14:53 +0000";
+lastChange = "2019-04-24 18:47:20 +0000";
 layers = (
 {
 components = (
@@ -29180,13 +29179,13 @@ width = 1556;
 );
 leftKerningGroup = u;
 leftMetricsKey = uhorn;
-rightKerningGroup = u;
+rightKerningGroup = uhorn;
 rightMetricsKey = uhorn;
 unicode = 1EEB;
 },
 {
 glyphname = uhornhookabove;
-lastChange = "2019-04-24 18:14:56 +0000";
+lastChange = "2019-04-24 18:47:23 +0000";
 layers = (
 {
 components = (
@@ -29217,13 +29216,13 @@ width = 1517;
 );
 leftKerningGroup = u;
 leftMetricsKey = uhorn;
-rightKerningGroup = u;
+rightKerningGroup = uhorn;
 rightMetricsKey = uhorn;
 unicode = 1EED;
 },
 {
 glyphname = uhorntilde;
-lastChange = "2019-04-24 18:14:00 +0000";
+lastChange = "2019-04-24 18:47:26 +0000";
 layers = (
 {
 components = (
@@ -29254,7 +29253,7 @@ width = 1517;
 );
 leftKerningGroup = u;
 leftMetricsKey = uhorn;
-rightKerningGroup = u;
+rightKerningGroup = uhorn;
 rightMetricsKey = uhorn;
 unicode = 1EEF;
 },
@@ -63108,15 +63107,10 @@ space = -20;
 "@MMK_R_z" = -10;
 };
 "@MMK_L_uhorn" = {
-"@MMK_R_a" = -60;
-"@MMK_R_f" = -20;
-"@MMK_R_g" = -40;
-"@MMK_R_n" = -150;
-"@MMK_R_o" = -130;
-"@MMK_R_period" = -200;
-"@MMK_R_s" = -40;
-"@MMK_R_x" = -20;
-"@MMK_R_z" = -40;
+"@MMK_R_f" = 30;
+"@MMK_R_period" = -30;
+"@MMK_R_t" = 30;
+"@MMK_R_v" = 20;
 };
 "@MMK_L_v" = {
 "@MMK_R_V" = -40;
@@ -63872,14 +63866,16 @@ space = 0;
 "@MMK_L_u" = {
 "@MMK_R_T" = -140;
 "@MMK_R_V" = -100;
-"@MMK_R_o" = 0;
 "@MMK_R_quoteright" = 0;
 "@MMK_R_quotesingle" = -8;
 "@MMK_R_s" = -10;
 };
 "@MMK_L_uhorn" = {
+"@MMK_R_g" = -80;
 "@MMK_R_n" = -40;
 "@MMK_R_o" = -130;
+"@MMK_R_period" = -280;
+"@MMK_R_s" = -100;
 };
 "@MMK_L_v" = {
 "@MMK_R_T" = -140;
