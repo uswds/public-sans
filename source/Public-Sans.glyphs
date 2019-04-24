@@ -4,7 +4,9 @@ DisplayStrings = (
 "Cu/ocircumflexdotbelow c /dcroat/ohorngrave i /dcroat ó có bao lâu mà h/uhorn ng h/ohorngrave .\012hun\012/dcroat/ohorn .\012/dcroat oz.\012do.\012ha.",
 "/ohorn/uhorn",
 "/uhornacute/uhorndotbelow/uhorngrave/uhornhookabove",
-"/ohorn/ohornacute/ohorndotbelow/ohorngrave/ohornhookabove/ohorntilde"
+"/ohorn/ohornacute/ohorndotbelow/ohorngrave/ohornhookabove/ohorntilde",
+"h/uhorntilde ng",
+"ß"
 );
 customParameters = (
 {
@@ -19064,7 +19066,7 @@ unicode = 0066;
 },
 {
 glyphname = g;
-lastChange = "2019-04-24 16:37:26 +0000";
+lastChange = "2019-04-24 18:15:47 +0000";
 layers = (
 {
 anchors = (
@@ -19490,7 +19492,7 @@ nodes = (
 "942 70 OFFCURVE",
 "942 -38 CURVE SMOOTH",
 "942 -196 OFFCURVE",
-"814 -268 OFFCURVE",
+"774 -268 OFFCURVE",
 "576 -268 CURVE SMOOTH"
 );
 },
@@ -19860,7 +19862,7 @@ unicode = 0121;
 },
 {
 glyphname = h;
-lastChange = "2019-04-23 04:10:02 +0000";
+lastChange = "2019-04-24 18:33:00 +0000";
 layers = (
 {
 anchors = (
@@ -19870,7 +19872,7 @@ position = "{614, 0}";
 },
 {
 name = top;
-position = "{886, 1034}";
+position = "{292, 1446}";
 }
 );
 background = {
@@ -19971,7 +19973,7 @@ position = "{592, 0}";
 },
 {
 name = top;
-position = "{636, 1034}";
+position = "{216, 1446}";
 }
 );
 background = {
@@ -20187,7 +20189,7 @@ unicode = 0127;
 },
 {
 glyphname = hcircumflex;
-lastChange = "2019-04-23 04:10:05 +0000";
+lastChange = "2019-04-24 18:33:00 +0000";
 layers = (
 {
 background = {
@@ -20207,7 +20209,7 @@ name = h;
 },
 {
 name = circumflexcomb;
-transform = "{1, 0, 0, 1, 454, 0}";
+transform = "{1, 0, 0, 1, -140, 412}";
 }
 );
 layerId = "258ED206-D907-4350-8EBA-CBDDA1C16BF7";
@@ -20231,7 +20233,7 @@ name = h;
 },
 {
 name = circumflexcomb;
-transform = "{1, 0, 0, 1, 366, 0}";
+transform = "{1, 0, 0, 1, -54, 412}";
 }
 );
 layerId = "91AB5BCA-6A50-42DA-B2F7-8181BF189245";
@@ -27425,7 +27427,7 @@ unicode = 1E63;
 },
 {
 glyphname = germandbls;
-lastChange = "2019-04-23 03:58:22 +0000";
+lastChange = "2019-04-24 18:34:29 +0000";
 layers = (
 {
 background = {
@@ -27524,9 +27526,6 @@ nodes = (
 "300 1446 OFFCURVE",
 "176 1202 OFFCURVE",
 "166 968 CURVE",
-"60 968 LINE",
-"60 704 LINE",
-"168 704 LINE",
 "168 0 LINE",
 "550 0 LINE",
 "550 1044 LINE SMOOTH",
@@ -27678,9 +27677,6 @@ nodes = (
 "370 1446 OFFCURVE",
 "206 1292 OFFCURVE",
 "206 1034 CURVE",
-"60 1034 LINE",
-"60 966 LINE",
-"208 966 LINE",
 "208 0 LINE",
 "286 0 LINE",
 "286 1044 LINE SMOOTH",
