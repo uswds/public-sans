@@ -44,7 +44,7 @@ Tag = wght;
 );
 }
 );
-date = "2018-10-05 14:55:24 +0000";
+date = "2019-04-25 14:55:24 +0000";
 designer = "Pablo Impallari, Rodrigo Fuenzalida (Modified by Dan O. Williams)";
 designerURL = "https://designsystem.digital.gov";
 familyName = "Public Sans";
@@ -145,14 +145,15 @@ name = ss01;
 fontMaster = (
 {
 alignmentZones = (
-"{1560, 32}",
-"{1446, 22}",
-"{1034, 22}",
-"{0, -22}",
-"{-440, -32}"
+"{1560, 16}",
+"{1446, 21}",
+"{1034, 21}",
+"{0, -21}",
+"{-440, -31}"
 );
 ascender = 1560;
 capHeight = 1446;
+custom = Thin;
 customParameters = (
 {
 name = typoAscender;
@@ -209,6 +210,7 @@ showMeasurement = 1;
 horizontalStems = (
 82
 );
+iconName = Light;
 id = "91AB5BCA-6A50-42DA-B2F7-8181BF189245";
 userData = {
 GSOffsetHorizontal = -19;
@@ -217,20 +219,20 @@ GSOffsetVertical = -10;
 verticalStems = (
 78
 );
-weight = Light;
 weightValue = 40;
 xHeight = 1034;
 },
 {
 alignmentZones = (
-"{1560, 32}",
-"{1446, 22}",
-"{1034, 22}",
-"{0, -22}",
-"{-440, -32}"
+"{1560, 16}",
+"{1446, 21}",
+"{1034, 21}",
+"{0, -21}",
+"{-440, -31}"
 );
 ascender = 1560;
 capHeight = 1446;
+custom = Black;
 customParameters = (
 {
 name = typoAscender;
@@ -290,12 +292,12 @@ showMeasurement = 1;
 horizontalStems = (
 318
 );
+iconName = Bold;
 id = "258ED206-D907-4350-8EBA-CBDDA1C16BF7";
 verticalStems = (
 390
 );
 visible = 1;
-weight = Bold;
 weightValue = 200;
 xHeight = 1034;
 }
@@ -62164,7 +62166,7 @@ value = Thin;
 },
 {
 name = weightClass;
-value = 200;
+value = 100;
 }
 );
 interpolationWeight = 40;
@@ -62172,6 +62174,7 @@ instanceInterpolations = {
 "91AB5BCA-6A50-42DA-B2F7-8181BF189245" = 1;
 };
 name = Thin;
+weightClass = Thin;
 },
 {
 customParameters = (
@@ -62185,7 +62188,7 @@ value = ExtraLight;
 },
 {
 name = weightClass;
-value = 400;
+value = 200;
 }
 );
 interpolationWeight = 65;
@@ -62208,7 +62211,7 @@ value = Light;
 },
 {
 name = weightClass;
-value = 600;
+value = 300;
 }
 );
 interpolationWeight = 80;
@@ -62223,7 +62226,7 @@ weightClass = Light;
 customParameters = (
 {
 name = openTypeNameCompatibleFullName;
-value = "Public Sans";
+value = "Public Sans Regular";
 },
 {
 name = openTypeNamePreferredSubfamilyName;
@@ -62231,7 +62234,7 @@ value = Regular;
 },
 {
 name = weightClass;
-value = 800;
+value = 400;
 }
 );
 interpolationWeight = 92;
@@ -62253,7 +62256,7 @@ value = Medium;
 },
 {
 name = weightClass;
-value = 1000;
+value = 500;
 }
 );
 interpolationWeight = 105;
@@ -62276,7 +62279,7 @@ value = SemiBold;
 },
 {
 name = weightClass;
-value = 1200;
+value = 600;
 }
 );
 interpolationWeight = 125;
@@ -62299,7 +62302,7 @@ value = Bold;
 },
 {
 name = weightClass;
-value = 1400;
+value = 700;
 }
 );
 interpolationWeight = 150;
@@ -62308,6 +62311,7 @@ instanceInterpolations = {
 "91AB5BCA-6A50-42DA-B2F7-8181BF189245" = 0.3125;
 };
 isBold = 1;
+linkStyle = Regular;
 name = Bold;
 weightClass = Bold;
 },
@@ -62323,7 +62327,7 @@ value = ExtraBold;
 },
 {
 name = weightClass;
-value = 1600;
+value = 800;
 }
 );
 interpolationWeight = 175;
@@ -62346,7 +62350,7 @@ value = Black;
 },
 {
 name = weightClass;
-value = 1800;
+value = 900;
 }
 );
 interpolationWeight = 200;
@@ -63936,8 +63940,8 @@ dcroat = {
 };
 ohorn = {
 "@MMK_R_h" = 10;
-"@MMK_R_z" = 10;
 "@MMK_R_x" = 40;
+"@MMK_R_z" = 10;
 };
 };
 };
@@ -63969,5 +63973,5 @@ tH = 35;
 };
 };
 versionMajor = 1;
-versionMinor = 0;
+versionMinor = 2;
 }
