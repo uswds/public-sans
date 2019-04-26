@@ -1,28 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dieresiscomb" format="1">
-  <advance width="348"/>
+  <advance width="428"/>
   <unicode hex="0308"/>
   <outline>
     <contour>
-      <point x="252" y="1294" type="line"/>
-      <point x="348" y="1294" type="line"/>
-      <point x="348" y="1414" type="line"/>
-      <point x="252" y="1414" type="line"/>
+      <point x="74" y="1292" type="curve" smooth="yes"/>
+      <point x="109" y="1292"/>
+      <point x="138" y="1321"/>
+      <point x="138" y="1356" type="curve" smooth="yes"/>
+      <point x="138" y="1391"/>
+      <point x="109" y="1420"/>
+      <point x="74" y="1420" type="curve" smooth="yes"/>
+      <point x="39" y="1420"/>
+      <point x="10" y="1391"/>
+      <point x="10" y="1356" type="curve" smooth="yes"/>
+      <point x="10" y="1321"/>
+      <point x="39" y="1292"/>
     </contour>
     <contour>
-      <point x="0" y="1294" type="line"/>
-      <point x="96" y="1294" type="line"/>
-      <point x="96" y="1414" type="line"/>
-      <point x="0" y="1414" type="line"/>
+      <point x="354" y="1292" type="curve" smooth="yes"/>
+      <point x="389" y="1292"/>
+      <point x="418" y="1321"/>
+      <point x="418" y="1356" type="curve" smooth="yes"/>
+      <point x="418" y="1391"/>
+      <point x="389" y="1420"/>
+      <point x="354" y="1420" type="curve" smooth="yes"/>
+      <point x="319" y="1420"/>
+      <point x="290" y="1391"/>
+      <point x="290" y="1356" type="curve" smooth="yes"/>
+      <point x="290" y="1321"/>
+      <point x="319" y="1292"/>
     </contour>
     <contour>
-      <point x="176" y="1034" type="move" name="_top"/>
+      <point x="214" y="1034" type="move" name="_top"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-16 18:49:17 +0000</string>
+      <string>2019-04-26 06:59:51 +0000</string>
     </dict>
   </lib>
 </glyph>

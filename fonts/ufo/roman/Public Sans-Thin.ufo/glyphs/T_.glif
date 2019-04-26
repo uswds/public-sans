@@ -1,29 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="T" format="1">
-  <advance width="1090"/>
+  <advance width="1170"/>
   <unicode hex="0054"/>
   <outline>
     <contour>
-      <point x="30" y="1366" type="line"/>
-      <point x="526" y="1366" type="line"/>
-      <point x="526" y="0" type="line"/>
-      <point x="604" y="0" type="line"/>
-      <point x="604" y="1366" type="line"/>
-      <point x="1060" y="1366" type="line"/>
-      <point x="1060" y="1446" type="line"/>
-      <point x="30" y="1446" type="line"/>
+      <point x="70" y="1366" type="line"/>
+      <point x="566" y="1366" type="line"/>
+      <point x="566" y="0" type="line"/>
+      <point x="644" y="0" type="line"/>
+      <point x="644" y="1366" type="line"/>
+      <point x="1100" y="1366" type="line"/>
+      <point x="1100" y="1446" type="line"/>
+      <point x="70" y="1446" type="line"/>
     </contour>
     <contour>
-      <point x="568" y="4" type="move" name="bottom"/>
+      <point x="608" y="4" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="568" y="1446" type="move" name="top"/>
+      <point x="608" y="1446" type="move" name="top"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-16 18:49:16 +0000</string>
+      <string>2019-04-26 06:57:27 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>X</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>X</string>
     </dict>
   </lib>
 </glyph>

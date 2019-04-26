@@ -8,8 +8,6 @@
 		<integer>0</integer>
 		<key>@MMK_R_J</key>
 		<integer>20</integer>
-		<key>@MMK_R_N</key>
-		<integer>-40</integer>
 		<key>@MMK_R_O</key>
 		<integer>-70</integer>
 		<key>@MMK_R_S</key>
@@ -51,7 +49,7 @@
 		<key>@MMK_R_u</key>
 		<integer>-50</integer>
 		<key>@MMK_R_v</key>
-		<integer>-90</integer>
+		<integer>-150</integer>
 		<key>@MMK_R_x</key>
 		<integer>-20</integer>
 	</dict>
@@ -317,7 +315,7 @@
 	<key>@MMK_L_N</key>
 	<dict>
 		<key>@MMK_R_A</key>
-		<integer>10</integer>
+		<integer>-10</integer>
 		<key>@MMK_R_a</key>
 		<integer>-10</integer>
 		<key>@MMK_R_g</key>
@@ -334,7 +332,7 @@
 		<key>@MMK_R_J</key>
 		<integer>-40</integer>
 		<key>@MMK_R_S</key>
-		<integer>-10</integer>
+		<integer>-20</integer>
 		<key>@MMK_R_U</key>
 		<integer>-40</integer>
 		<key>@MMK_R_V</key>
@@ -460,8 +458,6 @@
 		<integer>-140</integer>
 		<key>@MMK_R_J</key>
 		<integer>-20</integer>
-		<key>@MMK_R_N</key>
-		<integer>10</integer>
 		<key>@MMK_R_O</key>
 		<integer>-40</integer>
 		<key>@MMK_R_S</key>
@@ -563,7 +559,7 @@
 		<key>@MMK_R_AE</key>
 		<integer>-80</integer>
 		<key>@MMK_R_S</key>
-		<integer>0</integer>
+		<integer>-10</integer>
 		<key>@MMK_R_Z</key>
 		<integer>20</integer>
 		<key>@MMK_R_g</key>
@@ -726,10 +722,6 @@
 		<integer>10</integer>
 		<key>@MMK_R_J</key>
 		<integer>40</integer>
-		<key>@MMK_R_N</key>
-		<integer>60</integer>
-		<key>@MMK_R_O</key>
-		<integer>-20</integer>
 		<key>@MMK_R_Oslash</key>
 		<integer>40</integer>
 		<key>@MMK_R_S</key>
@@ -743,7 +735,7 @@
 		<key>@MMK_R_W</key>
 		<integer>30</integer>
 		<key>@MMK_R_X</key>
-		<integer>60</integer>
+		<integer>130</integer>
 		<key>@MMK_R_Y</key>
 		<integer>80</integer>
 		<key>@MMK_R_a</key>
@@ -892,8 +884,6 @@
 	<dict>
 		<key>@MMK_R_V</key>
 		<integer>60</integer>
-		<key>@MMK_R_a</key>
-		<integer>0</integer>
 		<key>@MMK_R_comma</key>
 		<integer>-50</integer>
 		<key>@MMK_R_f</key>
@@ -902,8 +892,6 @@
 		<integer>-50</integer>
 		<key>@MMK_R_hyphen</key>
 		<integer>-30</integer>
-		<key>@MMK_R_o</key>
-		<integer>-20</integer>
 		<key>@MMK_R_parenright</key>
 		<integer>80</integer>
 		<key>@MMK_R_period</key>
@@ -913,7 +901,7 @@
 		<key>@MMK_R_t</key>
 		<integer>40</integer>
 		<key>@MMK_R_v</key>
-		<integer>30</integer>
+		<integer>0</integer>
 		<key>@MMK_R_z</key>
 		<integer>-10</integer>
 	</dict>
@@ -931,6 +919,8 @@
 		<integer>-30</integer>
 		<key>@MMK_R_guilsinglright</key>
 		<integer>-10</integer>
+		<key>@MMK_R_h</key>
+		<integer>-10</integer>
 		<key>@MMK_R_hyphen</key>
 		<integer>-80</integer>
 		<key>@MMK_R_i</key>
@@ -938,13 +928,13 @@
 		<key>@MMK_R_n</key>
 		<integer>0</integer>
 		<key>@MMK_R_o</key>
-		<integer>-40</integer>
+		<integer>-60</integer>
 		<key>@MMK_R_s</key>
 		<integer>-50</integer>
 		<key>@MMK_R_t</key>
 		<integer>10</integer>
 		<key>@MMK_R_u</key>
-		<integer>-30</integer>
+		<integer>-10</integer>
 		<key>@MMK_R_v</key>
 		<integer>20</integer>
 		<key>@MMK_R_z</key>
@@ -1006,16 +996,14 @@
 	</dict>
 	<key>@MMK_L_k</key>
 	<dict>
-		<key>@MMK_R_a</key>
-		<integer>-10</integer>
 		<key>@MMK_R_f</key>
 		<integer>0</integer>
 		<key>@MMK_R_g</key>
 		<integer>-50</integer>
+		<key>@MMK_R_h</key>
+		<integer>0</integer>
 		<key>@MMK_R_hyphen</key>
 		<integer>-40</integer>
-		<key>@MMK_R_o</key>
-		<integer>-30</integer>
 		<key>@MMK_R_parenright</key>
 		<integer>-20</integer>
 		<key>@MMK_R_quotesingle</key>
@@ -1027,14 +1015,12 @@
 		<key>@MMK_R_u</key>
 		<integer>-20</integer>
 		<key>@MMK_R_v</key>
-		<integer>-20</integer>
+		<integer>0</integer>
 		<key>space</key>
 		<integer>-80</integer>
 	</dict>
 	<key>@MMK_L_l</key>
 	<dict>
-		<key>@MMK_R_a</key>
-		<integer>0</integer>
 		<key>@MMK_R_f</key>
 		<integer>-30</integer>
 		<key>@MMK_R_g</key>
@@ -1043,25 +1029,17 @@
 		<integer>0</integer>
 		<key>@MMK_R_i</key>
 		<integer>-10</integer>
-		<key>@MMK_R_n</key>
-		<integer>10</integer>
-		<key>@MMK_R_o</key>
-		<integer>0</integer>
 		<key>@MMK_R_quoteright</key>
 		<integer>-120</integer>
 		<key>@MMK_R_quotesingle</key>
 		<integer>-120</integer>
-		<key>@MMK_R_t</key>
-		<integer>-30</integer>
 		<key>@MMK_R_u</key>
-		<integer>-10</integer>
+		<integer>-20</integer>
 		<key>@MMK_R_v</key>
 		<integer>0</integer>
-		<key>@MMK_R_x</key>
-		<integer>20</integer>
 		<key>@MMK_R_z</key>
 		<integer>30</integer>
-		<key>l</key>
+		<key>i</key>
 		<integer>-20</integer>
 	</dict>
 	<key>@MMK_L_n</key>
@@ -1072,30 +1050,20 @@
 		<integer>-60</integer>
 		<key>@MMK_R_Y</key>
 		<integer>-60</integer>
+		<key>@MMK_R_a</key>
+		<integer>0</integer>
 		<key>@MMK_R_f</key>
 		<integer>-30</integer>
 		<key>@MMK_R_g</key>
 		<integer>10</integer>
-		<key>@MMK_R_h</key>
-		<integer>-10</integer>
-		<key>@MMK_R_n</key>
-		<integer>0</integer>
-		<key>@MMK_R_o</key>
-		<integer>0</integer>
+		<key>@MMK_R_i</key>
+		<integer>10</integer>
 		<key>@MMK_R_quoteright</key>
 		<integer>-50</integer>
 		<key>@MMK_R_quotesingle</key>
 		<integer>-120</integer>
-		<key>@MMK_R_s</key>
-		<integer>-10</integer>
 		<key>@MMK_R_u</key>
-		<integer>-30</integer>
-		<key>@MMK_R_x</key>
-		<integer>-40</integer>
-		<key>j</key>
-		<integer>10</integer>
-		<key>space</key>
-		<integer>0</integer>
+		<integer>-10</integer>
 	</dict>
 	<key>@MMK_L_nine</key>
 	<dict>
@@ -1120,34 +1088,18 @@
 		<integer>-60</integer>
 		<key>@MMK_R_f</key>
 		<integer>-20</integer>
-		<key>@MMK_R_g</key>
-		<integer>-10</integer>
-		<key>@MMK_R_h</key>
-		<integer>0</integer>
 		<key>@MMK_R_i</key>
 		<integer>-20</integer>
-		<key>@MMK_R_n</key>
-		<integer>0</integer>
 		<key>@MMK_R_parenright</key>
 		<integer>-20</integer>
 		<key>@MMK_R_quoteright</key>
 		<integer>-100</integer>
 		<key>@MMK_R_quotesingle</key>
 		<integer>-160</integer>
-		<key>@MMK_R_s</key>
-		<integer>0</integer>
-		<key>@MMK_R_t</key>
-		<integer>-10</integer>
 		<key>@MMK_R_u</key>
 		<integer>-10</integer>
-		<key>@MMK_R_v</key>
-		<integer>-30</integer>
-		<key>@MMK_R_x</key>
-		<integer>-50</integer>
 		<key>@MMK_R_z</key>
 		<integer>-40</integer>
-		<key>space</key>
-		<integer>-20</integer>
 	</dict>
 	<key>@MMK_L_ohorn</key>
 	<dict>
@@ -1271,7 +1223,7 @@
 	<key>@MMK_L_r</key>
 	<dict>
 		<key>@MMK_R_a</key>
-		<integer>-20</integer>
+		<integer>-50</integer>
 		<key>@MMK_R_comma</key>
 		<integer>-80</integer>
 		<key>@MMK_R_e</key>
@@ -1283,23 +1235,23 @@
 		<key>@MMK_R_guilsinglright</key>
 		<integer>10</integer>
 		<key>@MMK_R_h</key>
-		<integer>60</integer>
+		<integer>10</integer>
 		<key>@MMK_R_hyphen</key>
 		<integer>-80</integer>
 		<key>@MMK_R_i</key>
 		<integer>-10</integer>
 		<key>@MMK_R_o</key>
-		<integer>-20</integer>
+		<integer>-30</integer>
 		<key>@MMK_R_parenright</key>
 		<integer>-30</integer>
 		<key>@MMK_R_period</key>
 		<integer>-80</integer>
 		<key>@MMK_R_s</key>
-		<integer>-20</integer>
+		<integer>-60</integer>
 		<key>@MMK_R_t</key>
-		<integer>90</integer>
+		<integer>20</integer>
 		<key>@MMK_R_v</key>
-		<integer>50</integer>
+		<integer>20</integer>
 		<key>@MMK_R_x</key>
 		<integer>30</integer>
 		<key>@MMK_R_z</key>
@@ -1309,8 +1261,6 @@
 	</dict>
 	<key>@MMK_L_s</key>
 	<dict>
-		<key>@MMK_R_a</key>
-		<integer>-10</integer>
 		<key>@MMK_R_comma</key>
 		<integer>-30</integer>
 		<key>@MMK_R_f</key>
@@ -1323,8 +1273,6 @@
 		<integer>-20</integer>
 		<key>@MMK_R_n</key>
 		<integer>0</integer>
-		<key>@MMK_R_o</key>
-		<integer>-10</integer>
 		<key>@MMK_R_parenright</key>
 		<integer>-18</integer>
 		<key>@MMK_R_quotesingle</key>
@@ -1332,10 +1280,8 @@
 		<key>@MMK_R_s</key>
 		<integer>0</integer>
 		<key>@MMK_R_t</key>
-		<integer>-10</integer>
+		<integer>-30</integer>
 		<key>@MMK_R_u</key>
-		<integer>-20</integer>
-		<key>@MMK_R_v</key>
 		<integer>-10</integer>
 		<key>@MMK_R_x</key>
 		<integer>-30</integer>
@@ -1373,27 +1319,33 @@
 		<key>@MMK_R_V</key>
 		<integer>-40</integer>
 		<key>@MMK_R_a</key>
-		<integer>0</integer>
+		<integer>-40</integer>
 		<key>@MMK_R_f</key>
 		<integer>30</integer>
 		<key>@MMK_R_g</key>
 		<integer>10</integer>
+		<key>@MMK_R_h</key>
+		<integer>-10</integer>
 		<key>@MMK_R_hyphen</key>
 		<integer>-80</integer>
 		<key>@MMK_R_i</key>
+		<integer>-10</integer>
+		<key>@MMK_R_n</key>
+		<integer>0</integer>
+		<key>@MMK_R_o</key>
 		<integer>-10</integer>
 		<key>@MMK_R_parenright</key>
 		<integer>10</integer>
 		<key>@MMK_R_quotesingle</key>
 		<integer>-60</integer>
 		<key>@MMK_R_s</key>
-		<integer>-4</integer>
+		<integer>-14</integer>
 		<key>@MMK_R_t</key>
-		<integer>-10</integer>
+		<integer>-40</integer>
 		<key>@MMK_R_u</key>
 		<integer>-10</integer>
 		<key>@MMK_R_v</key>
-		<integer>30</integer>
+		<integer>10</integer>
 		<key>@MMK_R_x</key>
 		<integer>40</integer>
 		<key>@MMK_R_z</key>
@@ -1415,17 +1367,21 @@
 	</dict>
 	<key>@MMK_L_u</key>
 	<dict>
+		<key>@MMK_R_a</key>
+		<integer>0</integer>
+		<key>@MMK_R_f</key>
+		<integer>-120</integer>
 		<key>@MMK_R_g</key>
 		<integer>0</integer>
 		<key>@MMK_R_h</key>
 		<integer>0</integer>
 		<key>@MMK_R_n</key>
-		<integer>20</integer>
+		<integer>0</integer>
 		<key>@MMK_R_quotesingle</key>
 		<integer>-20</integer>
+		<key>@MMK_R_s</key>
+		<integer>0</integer>
 		<key>@MMK_R_t</key>
-		<integer>50</integer>
-		<key>@MMK_R_x</key>
 		<integer>0</integer>
 		<key>@MMK_R_z</key>
 		<integer>-10</integer>
@@ -1445,8 +1401,6 @@
 	<dict>
 		<key>@MMK_R_V</key>
 		<integer>-40</integer>
-		<key>@MMK_R_a</key>
-		<integer>0</integer>
 		<key>@MMK_R_comma</key>
 		<integer>-100</integer>
 		<key>@MMK_R_f</key>
@@ -1455,49 +1409,35 @@
 		<integer>-30</integer>
 		<key>@MMK_R_guilsinglright</key>
 		<integer>10</integer>
-		<key>@MMK_R_h</key>
-		<integer>20</integer>
 		<key>@MMK_R_hyphen</key>
 		<integer>-18</integer>
 		<key>@MMK_R_n</key>
 		<integer>0</integer>
-		<key>@MMK_R_o</key>
-		<integer>-20</integer>
 		<key>@MMK_R_parenright</key>
 		<integer>-40</integer>
 		<key>@MMK_R_period</key>
 		<integer>-100</integer>
 		<key>@MMK_R_quotesingle</key>
 		<integer>40</integer>
-		<key>@MMK_R_s</key>
-		<integer>-10</integer>
-		<key>@MMK_R_t</key>
-		<integer>20</integer>
 		<key>@MMK_R_v</key>
-		<integer>10</integer>
-		<key>@MMK_R_x</key>
-		<integer>10</integer>
+		<integer>0</integer>
 	</dict>
 	<key>@MMK_L_x</key>
 	<dict>
-		<key>@MMK_R_a</key>
-		<integer>-10</integer>
 		<key>@MMK_R_comma</key>
 		<integer>10</integer>
 		<key>@MMK_R_g</key>
 		<integer>-30</integer>
 		<key>@MMK_R_hyphen</key>
 		<integer>-40</integer>
-		<key>@MMK_R_o</key>
-		<integer>-50</integer>
 		<key>@MMK_R_parenright</key>
 		<integer>-30</integer>
 		<key>@MMK_R_s</key>
 		<integer>-20</integer>
 		<key>@MMK_R_t</key>
-		<integer>-10</integer>
-		<key>@MMK_R_u</key>
 		<integer>-20</integer>
+		<key>@MMK_R_u</key>
+		<integer>0</integer>
 		<key>@MMK_R_v</key>
 		<integer>0</integer>
 		<key>@MMK_R_x</key>
@@ -1531,18 +1471,6 @@
 		<key>@MMK_R_zero</key>
 		<integer>-20</integer>
 	</dict>
-	<key>Hbar</key>
-	<dict>
-		<key>@MMK_R_A</key>
-		<integer>-10</integer>
-	</dict>
-	<key>dcaron</key>
-	<dict>
-		<key>@MMK_R_a</key>
-		<integer>0</integer>
-		<key>@MMK_R_f</key>
-		<integer>-120</integer>
-	</dict>
 	<key>dcroat</key>
 	<dict>
 		<key>@MMK_R_o</key>
@@ -1570,8 +1498,6 @@
 		<integer>-20</integer>
 		<key>@MMK_R_Y</key>
 		<integer>0</integer>
-		<key>@MMK_R_o</key>
-		<integer>-20</integer>
 		<key>@MMK_R_t</key>
 		<integer>0</integer>
 		<key>@MMK_R_v</key>
