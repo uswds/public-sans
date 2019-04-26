@@ -1,15 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="iinvertedbreve" format="1">
-  <advance width="560"/>
+  <advance width="808"/>
   <unicode hex="020B"/>
   <outline>
-    <component base="idotless"/>
-    <component base="breveinvertedcomb" xOffset="-132"/>
+    <component base="idotless" xOffset="112"/>
+    <component base="breveinvertedcomb" xOffset="-20"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>idotless</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>breveinvertedcomb</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-23 19:15:20 +0000</string>
+      <string>2019-04-26 07:01:16 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>x</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>x</string>
     </dict>
   </lib>
 </glyph>
