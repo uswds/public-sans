@@ -14,7 +14,7 @@ DisplayStrings = (
 "Moye triplets\012lnl ana ono vnv\012lal aaa oao vav\012lbl aba obo vbv\012lcl aca oco vcv\012ldl ada odo vdv\012lel aea oeo vev\012lfl afa ofo vfv\012lkl aka oko vkv\012lll ala olo vlv\012lol aoa ooo vov\012lsl asa oso vsv\012lvl ava ovo vvv\012lxl axa oxo vxv\012lpl apa opo vpv\012lql aqa oqo vqv\012",
 "United States government",
 wondcrfulever,
-"HYZA/Uhorn pÆUN"
+"HYZA/Uhorn pÆrk f c"
 );
 customParameters = (
 {
@@ -21799,7 +21799,7 @@ unicode = 0135;
 },
 {
 glyphname = k;
-lastChange = "2019-04-26 17:36:59 +0000";
+lastChange = "2019-04-26 18:05:33 +0000";
 layers = (
 {
 anchors = (
@@ -30223,7 +30223,7 @@ unicode = 1E81;
 },
 {
 glyphname = x;
-lastChange = "2019-04-26 17:27:14 +0000";
+lastChange = "2019-04-26 18:04:11 +0000";
 layers = (
 {
 background = {
@@ -62908,7 +62908,6 @@ kerning = {
 "@MMK_R_quotesingle" = -100;
 "@MMK_R_s" = -20;
 "@MMK_R_u" = -10;
-space = -80;
 };
 "@MMK_L_l" = {
 "@MMK_R_f" = -30;
@@ -63001,7 +63000,6 @@ space = -70;
 "@MMK_R_u" = -80;
 "@MMK_R_x" = -60;
 "@MMK_R_z" = -60;
-p = -100;
 };
 "@MMK_L_r" = {
 "@MMK_R_a" = -50;
@@ -63016,7 +63014,6 @@ p = -100;
 "@MMK_R_period" = -80;
 "@MMK_R_s" = -60;
 "@MMK_R_v" = 20;
-space = -20;
 };
 "@MMK_L_s" = {
 "@MMK_R_comma" = -30;
@@ -63029,7 +63026,6 @@ space = -20;
 "@MMK_R_u" = -10;
 "@MMK_R_x" = -30;
 "@MMK_R_z" = -10;
-space = -20;
 };
 "@MMK_L_seven" = {
 "@MMK_R_eight" = -60;
@@ -63095,7 +63091,6 @@ space = -20;
 "@MMK_R_s" = -20;
 "@MMK_R_t" = -20;
 "@MMK_R_z" = 20;
-space = -40;
 };
 "@MMK_L_z" = {
 "@MMK_R_a" = -10;
@@ -63120,10 +63115,6 @@ exclam = {
 fraction = {
 four.dnom = -120;
 two.dnom = 40;
-};
-space = {
-"@MMK_R_W" = -20;
-"@MMK_R_x" = -40;
 };
 two.numr = {
 fraction = 40;
