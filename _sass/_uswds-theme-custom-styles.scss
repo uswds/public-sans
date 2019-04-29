@@ -31,6 +31,7 @@ h1, h2, h3, h4, h6, h6 {
   @include u-text('ink', 'no-underline');
   color: color('ink');
   display: inline-block;
+  line-height: lh('sans', 1);
 }
 
 .link-heavy {

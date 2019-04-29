@@ -1,9 +1,9 @@
-<header class="grid-container margin-top-2 tablet:margin-top-4" role="banner">
-  <div>
-    <a class="site-title font-sans-13" href="{{ "/" | relative_url }}" title="Home" aria-label="Home">Public Sans</a>
+<header class="grid-container margin-top-3 tablet:margin-top-5" role="banner">
+  <div class="">
+    <a class="site-title font-sans-13 display-block line-height-sans-1" href="{{ "/" | relative_url }}" title="Home" aria-label="Home">Public Sans</a>
   </div>
-  <nav class="margin-top-0" role="navigation">
-    <ul>
+  <nav class="margin-top-05" role="navigation">
+    <ul class="line-height-sans-1">
       {% for instance in site.data.weights %}
         <li class="text-{{ instance.weight }}"><a href="{{ instance.url | relative_url }}"{% if page.url contains instance.url %} class="border-ink"{% endif %}>{{ instance.weight }}</a></li>
       {% endfor %}
