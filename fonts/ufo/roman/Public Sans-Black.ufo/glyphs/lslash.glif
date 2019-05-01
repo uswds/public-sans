@@ -1,20 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lslash" format="1">
-  <advance width="810"/>
+  <advance width="780"/>
   <unicode hex="0142"/>
   <outline>
     <contour>
-      <point x="712" y="1004" type="line"/>
-      <point x="80" y="608" type="line"/>
-      <point x="80" y="284" type="line"/>
-      <point x="712" y="698" type="line"/>
+      <point x="692" y="1004" type="line"/>
+      <point x="60" y="608" type="line"/>
+      <point x="60" y="284" type="line"/>
+      <point x="692" y="698" type="line"/>
     </contour>
-    <component base="l" xOffset="160"/>
+    <component base="l" xOffset="60"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-26 21:36:08 +0000</string>
+      <string>2019-05-01 13:43:56 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.layer.leftMetricsKey</key>
+      <string>==l-60</string>
+      <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
+      <string>==l</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=l-130</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=l+20</string>
     </dict>
   </lib>
 </glyph>

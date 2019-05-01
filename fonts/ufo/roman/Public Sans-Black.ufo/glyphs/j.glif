@@ -19,12 +19,17 @@
       <point x="392" y="-332"/>
       <point x="524" y="-200"/>
     </contour>
-    <component base="_dot" xOffset="125"/>
+    <contour>
+      <point x="524" y="1446" type="line"/>
+      <point x="134" y="1446" type="line"/>
+      <point x="134" y="1118" type="line"/>
+      <point x="524" y="1118" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-26 21:51:02 +0000</string>
+      <string>2019-04-30 14:07:45 +0000</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
       <string>=|n</string>
     </dict>

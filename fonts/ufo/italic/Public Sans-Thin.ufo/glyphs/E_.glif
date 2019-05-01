@@ -1,38 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="E" format="1">
-  <advance width="1100"/>
+  <advance width="1120"/>
   <unicode hex="0045"/>
   <outline>
     <contour>
-      <point x="127" y="0" type="line"/>
-      <point x="917" y="0" type="line"/>
-      <point x="929" y="82" type="line"/>
-      <point x="211" y="84" type="line"/>
-      <point x="297" y="690" type="line"/>
-      <point x="941" y="690" type="line"/>
-      <point x="951" y="772" type="line"/>
-      <point x="307" y="772" type="line"/>
-      <point x="391" y="1366" type="line"/>
-      <point x="1083" y="1366" type="line"/>
-      <point x="1095" y="1446" type="line"/>
-      <point x="331" y="1446" type="line"/>
+      <point x="147" y="0" type="line"/>
+      <point x="937" y="0" type="line"/>
+      <point x="949" y="82" type="line"/>
+      <point x="231" y="84" type="line"/>
+      <point x="317" y="690" type="line"/>
+      <point x="961" y="690" type="line"/>
+      <point x="971" y="772" type="line"/>
+      <point x="327" y="772" type="line"/>
+      <point x="411" y="1366" type="line"/>
+      <point x="1103" y="1366" type="line"/>
+      <point x="1115" y="1446" type="line"/>
+      <point x="351" y="1446" type="line"/>
     </contour>
     <contour>
-      <point x="531" y="0" type="move" name="bottom"/>
+      <point x="551" y="0" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="911" y="20" type="move" name="ogonek"/>
+      <point x="931" y="20" type="move" name="ogonek"/>
     </contour>
     <contour>
-      <point x="695" y="1446" type="move" name="top"/>
+      <point x="715" y="1446" type="move" name="top"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-27 18:27:08 +0000</string>
+      <string>2019-05-01 05:36:38 +0000</string>
       <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-      <string>N</string>
+      <string>H</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=H/2</string>
     </dict>
   </lib>
 </glyph>

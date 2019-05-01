@@ -6,7 +6,7 @@ languagesystem latn CAT;
 languagesystem latn ROM;
 languagesystem latn MOL;
 languagesystem latn KAZ;
-languagesystem latn TAT;
+languagesystem cyrl TAT;
 languagesystem latn TRK;
 languagesystem latn CRT;
 languagesystem latn AZE;
@@ -51,6 +51,7 @@ lookup ccmp_latn_1 {
 } ccmp_latn_1;
 
 script latn;
+lookup ccmp_latn_1;
 } ccmp;
 
 feature locl {
@@ -71,13 +72,15 @@ sub Tcedilla by Tcommaaccent;
 sub tcedilla by tcommaaccent;
 language KAZ;
 sub i by idotaccent;
-language TAT;
-sub i by idotaccent;
 language TRK;
 sub i by idotaccent;
 language CRT;
 sub i by idotaccent;
 language AZE;
+sub i by idotaccent;
+
+script cyrl;
+language TAT;
 sub i by idotaccent;
 } locl;
 

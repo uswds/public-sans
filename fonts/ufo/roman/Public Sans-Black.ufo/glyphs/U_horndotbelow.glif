@@ -1,16 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Uhorndotbelow" format="1">
-  <advance width="1858"/>
+  <advance width="1800"/>
   <unicode hex="1EF0"/>
   <outline>
-    <component base="U"/>
-    <component base="__horn" xOffset="1350" yOffset="214"/>
-    <component base="dotbelowcomb" xOffset="590"/>
+    <component base="Uhorn"/>
+    <component base="dotbelowcomb" xOffset="550"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>Uhorn</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-26 22:16:06 +0000</string>
+      <string>2019-05-01 04:56:20 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>Uhorn</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>Uhorn</string>
     </dict>
   </lib>
 </glyph>
