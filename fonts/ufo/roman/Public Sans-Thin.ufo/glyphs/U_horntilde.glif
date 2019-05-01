@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Uhorntilde" format="1">
-  <advance width="1564"/>
+  <advance width="1534"/>
   <unicode hex="1EEE"/>
   <outline>
-    <component base="U"/>
-    <component base="__horn" xOffset="1148" yOffset="232"/>
+    <component base="Uhorn"/>
     <component base="tildecomb" xOffset="430" yOffset="412"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-26 06:27:12 +0000</string>
+      <string>2019-05-01 04:56:43 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>Uhorn</string>
     </dict>
   </lib>
 </glyph>

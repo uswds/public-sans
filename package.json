@@ -21,7 +21,7 @@
   "scripts": {
     "federalist": "npm install && npm install gulp-cli -g && npm run uswds-copy-assets && npm run uswds-build-sass",
     "jekyll-install": "gem install bundler && bundle install",
-    "serve": "bundle exec jekyll serve --livereload",
+    "serve": "bundle exec jekyll serve --livereload --host 0.0.0.0",
     "start": "npm install && npm run jekyll-install && npm run uswds-copy-assets && npm run uswds-build-sass",
     "uswds-build-sass": "gulp build-sass",
     "uswds-copy-assets": "npm run uswds-copy-js && npm run uswds-copy-fonts && npm run uswds-copy-img",
