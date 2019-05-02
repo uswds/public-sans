@@ -25,6 +25,7 @@ var replace       = require('gulp-replace');
 var sass          = require('gulp-sass');
 var sourcemaps    = require('gulp-sourcemaps');
 var uswds         = require('./node_modules/uswds-gulp/config/uswds');
+var watch         = require('gulp-watch');
 
 /*
 ----------------------------------------
@@ -38,19 +39,23 @@ PATHS
 */
 
 // Project Sass source directory
-const PROJECT_SASS_SRC = './_sass';
+const PROJECT_SASS_SRC = './site/_sass';
 
 // Images destination
-const IMG_DEST = './site-assets/uswds/img';
+const IMG_DEST = './site/assets/uswds/img';
 
 // Fonts destination
-const FONTS_DEST = './site-assets/uswds/fonts';
+const FONTS_DEST = './site/assets/uswds/fonts';
 
 // Javascript destination
-const JS_DEST = './site-assets/uswds/js';
+const JS_DEST = './site/assets/uswds/js';
 
 // Compiled CSS destination
-const CSS_DEST = './site-assets/css';
+const CSS_DEST = './site/assets/css';
+
+// Webfonts
+const WEBFONTS_SRC = './fonts/webfonts';
+const WEBFONTS_DEST = './site/assets/fonts';
 
 /*
 ----------------------------------------
@@ -105,10 +110,7 @@ gulp.task('build-sass', function(done) {
     .pipe(postcss(plugins))
     .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest(`${CSS_DEST}`))
-    .pipe(gulp.dest('_site/site-assets/css'))
-    .pipe(notify({
-      "sound": "Pop" // case sensitive
-    }));
+    .pipe(gulp.dest('_site/assets/css'));
 });
 
 gulp.task('init', gulp.series(
@@ -119,10 +121,21 @@ gulp.task('init', gulp.series(
   'build-sass',
 ));
 
+gulp.task('copy-webfonts', () => {
+  return gulp.src(`${WEBFONTS_SRC}/**/**`)
+  .pipe(gulp.dest(WEBFONTS_DEST));
+});
+
+gulp.task('watch-webfonts', () => {
+  gulp.src(`${WEBFONTS_SRC}/**/*`, {base: WEBFONTS_SRC})
+    .pipe(watch(WEBFONTS_SRC, {base: WEBFONTS_SRC}))
+    .pipe(gulp.dest(WEBFONTS_DEST));
+});
+
 gulp.task('watch-sass', function () {
   gulp.watch(`${PROJECT_SASS_SRC}/**/*.scss`, gulp.series('build-sass'));
 });
 
-gulp.task('watch', gulp.series('build-sass', 'watch-sass'));
+gulp.task('watch', gulp.series('copy-webfonts', 'build-sass', gulp.parallel('watch-sass', 'watch-webfonts')));
 
 gulp.task('default', gulp.series('watch'));
