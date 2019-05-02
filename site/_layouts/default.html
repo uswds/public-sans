@@ -5,12 +5,12 @@
 <html class="" lang="en">
 {% include head.html %}
 
-<body class="">
+<body class="{{ page.bodyclasses }}">
   {% include gov-banner.html %}
   {% include header.html %}
   <main id="main-content">
     {{ content }}
   </main>
-  <script src="{{ "/site-assets/uswds/js/uswds.min.js" | relative_url }}"></script>
+  <script src="{{ "/assets/uswds/js/uswds.min.js" | relative_url }}"></script>
 </body>
 </html>

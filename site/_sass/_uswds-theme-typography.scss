@@ -77,7 +77,7 @@ Relative font file path
 ----------------------------------------
 */
 
-$theme-font-path:   '../..';
+$theme-font-path:   '..';
 
 /*
 ----------------------------------------
@@ -263,7 +263,7 @@ $theme-font-cond-custom-src:   false;
 $theme-font-icon-custom-src:   false;
 $theme-font-lang-custom-src:   false;
 $theme-font-mono-custom-src: (
-  dir: 'site-assets/uswds/fonts/roboto-mono',
+  dir: 'uswds/fonts/roboto-mono',
   roman: (
     100: 'roboto-mono-v5-latin-100',
     200: false,
@@ -288,7 +288,7 @@ $theme-font-mono-custom-src: (
   ),
 );
 $theme-font-sans-custom-src: (
-  dir: '/fonts/webfonts',
+  dir: '/fonts',
   roman: (
     100: 'PublicSans-Thin',
     200: 'PublicSans-ExtraLight',

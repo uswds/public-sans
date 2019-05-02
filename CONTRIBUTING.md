@@ -22,7 +22,7 @@ public-sans/
 ├── _layouts/
 ├── _sass/
 ├── pages/
-└── site-assets/
+└── assets/
 
 ```
 

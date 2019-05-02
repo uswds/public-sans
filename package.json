@@ -19,7 +19,8 @@
   },
   "homepage": "https://github.com/uswds/public-sans#readme",
   "scripts": {
-    "federalist": "npm install && npm install gulp-cli -g && npm run uswds-copy-assets && npm run uswds-build-sass",
+    "copy-webfonts": "gulp copy-webfonts",
+    "federalist": "npm install && npm install gulp-cli -g && npm run uswds-copy-assets && npm run copy-webfonts && npm run uswds-build-sass",
     "jekyll-install": "gem install bundler && bundle install",
     "serve": "bundle exec jekyll serve --livereload --host 0.0.0.0",
     "start": "npm install && npm run jekyll-install && npm run uswds-copy-assets && npm run uswds-build-sass",
@@ -43,6 +44,7 @@
     "gulp-replace": "^1.0.0",
     "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.5",
+    "gulp-watch": "^5.0.1",
     "path": "^0.12.7",
     "uswds": "^2.0.1",
     "uswds-gulp": "github:uswds/uswds-gulp"
