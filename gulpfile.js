@@ -110,7 +110,7 @@ gulp.task('build-sass', function(done) {
     .pipe(postcss(plugins))
     .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest(`${CSS_DEST}`))
-    .pipe(gulp.dest('_site/assets/css'));
+    .pipe(gulp.dest('./_site/assets/css'));
 });
 
 gulp.task('init', gulp.series(
