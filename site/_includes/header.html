@@ -1,6 +1,10 @@
 <header class="grid-container margin-top-3 tablet:margin-top-4" role="banner">
-  <div class="">
-    <a class="site-title font-sans-13 display-block" href="{{ "/" | relative_url }}" title="Home" aria-label="Home">Public Sans</a>
+  <div class="site-title font-sans-13">
+    {% if page.url == "/" %}
+    Public Sans
+    {% else %}
+    <a class="display-block" href="{{ "/" | relative_url }}" title="Home" aria-label="Home">Public Sans</a>
+    {% endif %}
   </div>
   <nav class="margin-top-0" role="navigation">
     <ul class="">

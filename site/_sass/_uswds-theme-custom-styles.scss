@@ -31,6 +31,10 @@ h1, h2, h3, h4, h6, h6 {
   @include u-text('ink', 'no-underline');
   color: color('ink');
   display: inline-block;
+
+  .is-home & {
+    color: color('white');
+  }
 }
 
 .link-heavy {
@@ -56,19 +60,23 @@ nav {
 
   ul {
     @include add-list-reset;
-    @include u-margin-x(-1);
+    @include u-margin-x(-0.5);
   }
 
   li {
     display: inline-block;
     width: units(5);
+
+    @include at-media('tablet') {
+      width: auto;
+    }
   }
 
   a {
     @include u-text('ink', 'no-underline');
-    @include u-margin-x(1);
+    @include u-margin-x(0.5);
+    border-bottom: units(2px) solid color('transparent');
     display: inline-block;
-    border-bottom: units(2px) solid color('base-lighter');
     padding-top: units(1);
 
     &:hover,
@@ -76,15 +84,33 @@ nav {
       color: color('ink');
       border-bottom-color: color('ink');
     }
+
+    .is-home & {
+      color: color('white');
+
+      &:hover,
+      &:active {
+        color: color('white');
+        border-bottom-color: color('primary-vivid');
+      }
+    }
   }
 }
 
 .site-title {
-  @include u-text('thin', 'ink', 'no-underline');
+  @include u-text('bold', 'ink', 'no-underline');
 
-  &:hover,
-  &:active {
-    color: color('primary-vivid');
+  a {
+    @include u-text('bold', 'ink', 'no-underline');
+
+    &:hover,
+    &:active {
+      color: color('primary-vivid');
+    }
+  }
+
+  .is-home & {
+    color: color('white');
   }
 }
 
