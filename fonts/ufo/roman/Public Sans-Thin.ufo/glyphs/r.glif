@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="r" format="1">
-  <advance width="716"/>
+  <advance width="699"/>
   <unicode hex="0072"/>
   <outline>
     <contour>
       <point x="180" y="0" type="line"/>
       <point x="258" y="0" type="line"/>
       <point x="258" y="720" type="line" smooth="yes"/>
-      <point x="258" y="880"/>
-      <point x="390" y="976"/>
-      <point x="646" y="974" type="curve"/>
-      <point x="646" y="1054" type="line"/>
-      <point x="450" y="1054"/>
+      <point x="258" y="896"/>
+      <point x="416" y="972"/>
+      <point x="600" y="970" type="curve"/>
+      <point x="618" y="970"/>
+      <point x="619" y="970"/>
+      <point x="629" y="964" type="curve"/>
+      <point x="629" y="1047" type="line"/>
+      <point x="621" y="1052"/>
+      <point x="611" y="1054"/>
+      <point x="600" y="1054" type="curve"/>
+      <point x="432" y="1054"/>
       <point x="306" y="978"/>
       <point x="252" y="880" type="curve"/>
       <point x="252" y="1034" type="line"/>
@@ -27,13 +33,13 @@
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-30 22:22:38 +0000</string>
+      <string>2019-05-06 19:15:20 +0000</string>
       <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
-      <string>==x</string>
+      <string>==x-30</string>
       <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
       <string>n</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-      <string>x</string>
+      <string>=x+10</string>
     </dict>
   </lib>
 </glyph>

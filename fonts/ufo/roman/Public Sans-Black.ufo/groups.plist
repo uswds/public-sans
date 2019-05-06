@@ -312,10 +312,6 @@
 		<string>eight</string>
 		<string>eight.osf</string>
 	</array>
-	<key>@MMK_L_f</key>
-	<array>
-		<string>f</string>
-	</array>
 	<key>@MMK_L_five</key>
 	<array>
 		<string>five</string>
@@ -351,15 +347,8 @@
 	</array>
 	<key>@MMK_L_i</key>
 	<array>
-		<string>fi</string>
 		<string>bar</string>
 		<string>brokenbar</string>
-	</array>
-	<key>@MMK_L_k</key>
-	<array>
-		<string>k</string>
-		<string>kcommaaccent</string>
-		<string>kgreenlandic</string>
 	</array>
 	<key>@MMK_L_l</key>
 	<array>
@@ -566,6 +555,7 @@
 	</array>
 	<key>@MMK_L_t</key>
 	<array>
+		<string>f</string>
 		<string>t</string>
 		<string>tbar</string>
 		<string>tcaron</string>
@@ -588,6 +578,7 @@
 		<string>d</string>
 		<string>dcaron</string>
 		<string>ddotbelow</string>
+		<string>i</string>
 		<string>idotless</string>
 		<string>iacute</string>
 		<string>ibreve</string>
@@ -623,6 +614,7 @@
 		<string>uring</string>
 		<string>utilde</string>
 		<string>l.ss01</string>
+		<string>fi</string>
 		<string>micro</string>
 	</array>
 	<key>@MMK_L_uhorn</key>
@@ -652,6 +644,9 @@
 	</array>
 	<key>@MMK_L_x</key>
 	<array>
+		<string>k</string>
+		<string>kcommaaccent</string>
+		<string>kgreenlandic</string>
 		<string>x</string>
 	</array>
 	<key>@MMK_L_z</key>
@@ -922,36 +917,6 @@
 		<string>Zdotaccent</string>
 		<string>Zdotbelow</string>
 	</array>
-	<key>@MMK_R_a</key>
-	<array>
-		<string>a</string>
-		<string>aacute</string>
-		<string>abreve</string>
-		<string>abreveacute</string>
-		<string>abrevedotbelow</string>
-		<string>abrevegrave</string>
-		<string>abrevehookabove</string>
-		<string>abrevetilde</string>
-		<string>acircumflex</string>
-		<string>acircumflexacute</string>
-		<string>acircumflexdotbelow</string>
-		<string>acircumflexgrave</string>
-		<string>acircumflexhookabove</string>
-		<string>acircumflextilde</string>
-		<string>adblgrave</string>
-		<string>adieresis</string>
-		<string>adotbelow</string>
-		<string>agrave</string>
-		<string>ahookabove</string>
-		<string>ainvertedbreve</string>
-		<string>amacron</string>
-		<string>aogonek</string>
-		<string>aring</string>
-		<string>aringacute</string>
-		<string>atilde</string>
-		<string>ae</string>
-		<string>aeacute</string>
-	</array>
 	<key>@MMK_R_cent</key>
 	<array>
 		<string>colonsign</string>
@@ -1010,12 +975,6 @@
 	</array>
 	<key>@MMK_R_h</key>
 	<array>
-		<string>b</string>
-		<string>h</string>
-		<string>hbar</string>
-		<string>hcircumflex</string>
-		<string>hdotbelow</string>
-		<string>i</string>
 		<string>germandbls</string>
 	</array>
 	<key>@MMK_R_hyphen</key>
@@ -1027,17 +986,17 @@
 	</array>
 	<key>@MMK_R_i</key>
 	<array>
-		<string>j</string>
 		<string>bar</string>
 		<string>brokenbar</string>
 	</array>
-	<key>@MMK_R_j</key>
-	<array>
-		<string>jdotless</string>
-		<string>jcircumflex</string>
-	</array>
 	<key>@MMK_R_n</key>
 	<array>
+		<string>b</string>
+		<string>h</string>
+		<string>hbar</string>
+		<string>hcircumflex</string>
+		<string>hdotbelow</string>
+		<string>i</string>
 		<string>idotless</string>
 		<string>iacute</string>
 		<string>ibreve</string>
@@ -1052,6 +1011,9 @@
 		<string>imacron</string>
 		<string>iogonek</string>
 		<string>itilde</string>
+		<string>j</string>
+		<string>jdotless</string>
+		<string>jcircumflex</string>
 		<string>k</string>
 		<string>kcommaaccent</string>
 		<string>kgreenlandic</string>
@@ -1087,6 +1049,33 @@
 	</array>
 	<key>@MMK_R_o</key>
 	<array>
+		<string>a</string>
+		<string>aacute</string>
+		<string>abreve</string>
+		<string>abreveacute</string>
+		<string>abrevedotbelow</string>
+		<string>abrevegrave</string>
+		<string>abrevehookabove</string>
+		<string>abrevetilde</string>
+		<string>acircumflex</string>
+		<string>acircumflexacute</string>
+		<string>acircumflexdotbelow</string>
+		<string>acircumflexgrave</string>
+		<string>acircumflexhookabove</string>
+		<string>acircumflextilde</string>
+		<string>adblgrave</string>
+		<string>adieresis</string>
+		<string>adotbelow</string>
+		<string>agrave</string>
+		<string>ahookabove</string>
+		<string>ainvertedbreve</string>
+		<string>amacron</string>
+		<string>aogonek</string>
+		<string>aring</string>
+		<string>aringacute</string>
+		<string>atilde</string>
+		<string>ae</string>
+		<string>aeacute</string>
 		<string>c</string>
 		<string>cacute</string>
 		<string>ccaron</string>
