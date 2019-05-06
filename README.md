@@ -22,35 +22,35 @@ This typeface is based off of https://github.com/impallari/Libre-Franklin
 ## How Public Sans differs from Libre Franklin
 Public Sans is a fork of the SIL Open Licensed face Libre Franklin. Public Sans has many similarities with its parent, but differs enough in its particulars that its effect is distinct.
 
-![sample text](https://raw.githubusercontent.com/uswds/public-sans/master/examples/public-sans-featured-images/public-overlay-libre-franklin.png)
+![sample text](https://raw.githubusercontent.com/uswds/public-sans/master/site/examples/public-sans-featured-images/public-overlay-libre-franklin.png)
 
 **Adjusted vertical metrics.** Public Sans is about 2% shorter than Libre Franklin, and has slightly looser default line spacing.
 
-![line height](https://raw.githubusercontent.com/uswds/public-sans/master/examples/public-sans-featured-images/public-v-lf-default-lh.png)
+![line height](https://raw.githubusercontent.com/uswds/public-sans/master/site/examples/public-sans-featured-images/public-v-lf-default-lh.png)
 
 **Tailed lowercase `l`.** The lowercase `l` character has a hooked tail for disambiguation. (There is also an optional untailed `l` .)
 
-![tailed el](https://raw.githubusercontent.com/uswds/public-sans/master/examples/public-sans-featured-images/public-v-lf-tailed-l.png)
+![tailed el](https://raw.githubusercontent.com/uswds/public-sans/master/site/examples/public-sans-featured-images/public-v-lf-tailed-l.png)
 
 **Regularized stroke weight.** Public Sans provides a more regular letterform from the conventional Franklin shape for a cleaner, more consistent letterform, especially at small sizes.
 
-![regularized](https://raw.githubusercontent.com/uswds/public-sans/master/examples/public-sans-featured-images/public-v-lf-regularized-stroke-weight.png)
+![regularized](https://raw.githubusercontent.com/uswds/public-sans/master/site/examples/public-sans-featured-images/public-v-lf-regularized-stroke-weight.png)
 
 **Non-rounded vertices.** Conventional angled vertices result in a sharper, stronger form.
 
-![squared](https://raw.githubusercontent.com/uswds/public-sans/master/examples/public-sans-featured-images/public-v-lf-squared-vertices.png)
+![squared](https://raw.githubusercontent.com/uswds/public-sans/master/site/examples/public-sans-featured-images/public-v-lf-squared-vertices.png)
 
 **Narrower characters.** Public Sans is narrower, especially in rounded characters like lowercase `e` to help with reading flow, especially in longer texts.
 
-![squared](https://raw.githubusercontent.com/uswds/public-sans/master/examples/public-sans-featured-images/public-v-lf-narrower-characters.png)
+![squared](https://raw.githubusercontent.com/uswds/public-sans/master/site/examples/public-sans-featured-images/public-v-lf-narrower-characters.png)
 
 **Looser letterspacing.** Public Sans has relatively loose letterspacing for reading, especially when compared with Libre Franklin, which is quite compact.
 
-![squared](https://raw.githubusercontent.com/uswds/public-sans/master/examples/public-sans-featured-images/public-v-lf-looser-spacing.png)
+![squared](https://raw.githubusercontent.com/uswds/public-sans/master/site/examples/public-sans-featured-images/public-v-lf-looser-spacing.png)
 
 **Redrawn characters.** Public Sans tends to use more consistent curves in its letterforms and has a focus on a smooth shape for its counters.
 
-![squared](https://raw.githubusercontent.com/uswds/public-sans/master/examples/public-sans-featured-images/public-v-lf-redrawn-characters.png)
+![squared](https://raw.githubusercontent.com/uswds/public-sans/master/site/examples/public-sans-featured-images/public-v-lf-redrawn-characters.png)
 
 Overall, Public Sans differs from Libre Franklin in its focus on longform reading and neutral UI applicability. It takes inspiration from geometric sans faces of the 20th century, as well as the original Franklins of the 19th, resulting in something of a mongrel face that retains its American origin.
 
@@ -61,21 +61,18 @@ Public Sans is a good option for sites that currently use Open Sans, Tahoma, Lib
 
 ##### Public Sans is sized somewhere between SF Pro Text and Roboto
 
-![squared](https://raw.githubusercontent.com/uswds/public-sans/master/examples/public-sans-featured-images/public-general-comparison.png)
+![squared](https://raw.githubusercontent.com/uswds/public-sans/master/site/examples/public-sans-featured-images/public-general-comparison.png)
 
-![squared](https://raw.githubusercontent.com/uswds/public-sans/master/examples/public-sans-featured-images/public-system-overlay-comparison.png)
+![squared](https://raw.githubusercontent.com/uswds/public-sans/master/site/examples/public-sans-featured-images/public-system-overlay-comparison.png)
 
 ##### Text set in Public Sans has a similar shape and color to SF Pro Text
 
-![squared](https://raw.githubusercontent.com/uswds/public-sans/master/examples/public-sans-featured-images/public-text-comparison.png)
+![squared](https://raw.githubusercontent.com/uswds/public-sans/master/site/examples/public-sans-featured-images/public-text-comparison.png)
 
 ## Additional features
 
-##### Tighter spacing as the face gets heavier
-![squared](https://raw.githubusercontent.com/uswds/public-sans/master/examples/public-sans-featured-images/public-kerning.png)
-
 ##### Tabular figures (monospaced numerals)
-![squared](https://raw.githubusercontent.com/uswds/public-sans/master/examples/public-sans-featured-images/public-numerals.png)
+![squared](https://raw.githubusercontent.com/uswds/public-sans/master/site/examples/public-sans-featured-images/public-numerals.png)
 
 ## License
 - Public Sans is licensed under the SIL Open Font License v1.1 (https://opensource.org/licenses/OFL-1.1)
