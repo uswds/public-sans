@@ -267,7 +267,7 @@ C 285 ; WX 1238 ; N gcircumflex ; B 100 -342 1108 1345 ;
 C 291 ; WX 1238 ; N gcommaaccent ; B 100 -342 1108 1532 ;
 C 289 ; WX 1238 ; N gdotaccent ; B 100 -342 1108 1376 ;
 C 104 ; WX 1142 ; N h ; B 180 0 962 1486 ;
-C 295 ; WX 1138 ; N hbar ; B 40 0 968 1486 ;
+C 295 ; WX 1138 ; N hbar ; B 40 0 958 1486 ;
 C 293 ; WX 1142 ; N hcircumflex ; B -52 0 962 1757 ;
 C 7717 ; WX 1142 ; N hdotbelow ; B 180 -312 962 1486 ;
 C 105 ; WX 456 ; N i ; B 180 0 276 1444 ;
@@ -319,12 +319,12 @@ C 246 ; WX 1130 ; N odieresis ; B 120 -20 1010 1446 ;
 C 7885 ; WX 1130 ; N odotbelow ; B 120 -312 1010 1054 ;
 C 242 ; WX 1130 ; N ograve ; B 120 -20 1010 1446 ;
 C 7887 ; WX 1130 ; N ohookabove ; B 120 -20 1010 1477 ;
-C 417 ; WX 1124 ; N ohorn ; B 110 -20 1084 1114 ;
-C 7899 ; WX 1124 ; N ohornacute ; B 110 -20 1084 1446 ;
-C 7907 ; WX 1124 ; N ohorndotbelow ; B 110 -312 1084 1114 ;
-C 7901 ; WX 1124 ; N ohorngrave ; B 110 -20 1084 1446 ;
-C 7903 ; WX 1124 ; N ohornhookabove ; B 110 -20 1084 1477 ;
-C 7905 ; WX 1124 ; N ohorntilde ; B 110 -20 1084 1426 ;
+C 417 ; WX 1124 ; N ohorn ; B 120 -20 1084 1114 ;
+C 7899 ; WX 1124 ; N ohornacute ; B 120 -20 1084 1446 ;
+C 7907 ; WX 1124 ; N ohorndotbelow ; B 120 -312 1084 1114 ;
+C 7901 ; WX 1124 ; N ohorngrave ; B 120 -20 1084 1446 ;
+C 7903 ; WX 1124 ; N ohornhookabove ; B 120 -20 1084 1477 ;
+C 7905 ; WX 1124 ; N ohorntilde ; B 120 -20 1084 1426 ;
 C 337 ; WX 1130 ; N ohungarumlaut ; B 120 -20 1010 1446 ;
 C 527 ; WX 1130 ; N oinvertedbreve ; B 120 -20 1010 1434 ;
 C 333 ; WX 1130 ; N omacron ; B 120 -20 1010 1408 ;
@@ -366,7 +366,7 @@ C 252 ; WX 1152 ; N udieresis ; B 180 -18 972 1446 ;
 C 7909 ; WX 1152 ; N udotbelow ; B 180 -312 972 1038 ;
 C 249 ; WX 1152 ; N ugrave ; B 180 -18 972 1446 ;
 C 7911 ; WX 1152 ; N uhookabove ; B 180 -18 972 1477 ;
-C 432 ; WX 1188 ; N uhorn ; B 170 -18 1188 1114 ;
+C 432 ; WX 1188 ; N uhorn ; B 180 -18 1188 1114 ;
 C 7913 ; WX 1188 ; N uhornacute ; B 180 -18 1188 1446 ;
 C 7921 ; WX 1188 ; N uhorndotbelow ; B 180 -312 1188 1114 ;
 C 7915 ; WX 1188 ; N uhorngrave ; B 180 -18 1188 1446 ;
@@ -378,7 +378,7 @@ C 363 ; WX 1152 ; N umacron ; B 180 -18 972 1408 ;
 C 371 ; WX 1152 ; N uogonek ; B 180 -330 1022 1038 ;
 C 367 ; WX 1152 ; N uring ; B 180 -18 972 1558 ;
 C 361 ; WX 1152 ; N utilde ; B 180 -18 972 1426 ;
-C 118 ; WX 1060 ; N v ; B 110 0 950 1034 ;
+C 118 ; WX 1040 ; N v ; B 100 0 940 1034 ;
 C 119 ; WX 1592 ; N w ; B 100 0 1492 1034 ;
 C 7811 ; WX 1592 ; N wacute ; B 100 0 1492 1446 ;
 C 373 ; WX 1592 ; N wcircumflex ; B 100 0 1492 1345 ;
@@ -389,7 +389,7 @@ C 121 ; WX 1078 ; N y ; B 100 -330 978 1034 ;
 C 253 ; WX 1078 ; N yacute ; B 100 -330 978 1446 ;
 C 375 ; WX 1078 ; N ycircumflex ; B 100 -330 978 1345 ;
 C 255 ; WX 1078 ; N ydieresis ; B 100 -330 978 1446 ;
-C 7925 ; WX 1078 ; N ydotbelow ; B 70 -510 948 1034 ;
+C 7925 ; WX 1078 ; N ydotbelow ; B 100 -510 978 1034 ;
 C 7923 ; WX 1078 ; N ygrave ; B 100 -330 978 1446 ;
 C 7927 ; WX 1078 ; N yhookabove ; B 100 -330 978 1477 ;
 C 7929 ; WX 1078 ; N ytilde ; B 100 -330 978 1426 ;
@@ -532,8 +532,8 @@ C 32 ; WX 500 ; N space ; B 0 0 0 0 ;
 C 160 ; WX 500 ; N nbspace ; B 0 0 0 0 ;
 C 13 ; WX 458 ; N CR ; B 0 0 0 0 ;
 C -1 ; WX 1430 ; N .notdef ; B 220 -322 1210 1652 ;
-C 162 ; WX 1050 ; N cent ; B 110 0 950 1446 ;
-C 8353 ; WX 1130 ; N colonsign ; B 110 0 950 1446 ;
+C 162 ; WX 1050 ; N cent ; B 120 0 960 1446 ;
+C 8353 ; WX 1130 ; N colonsign ; B 120 0 960 1446 ;
 C 164 ; WX 1002 ; N currency ; B 130 356 872 1100 ;
 C 36 ; WX 1272 ; N dollar ; B 140 -228 1132 1672 ;
 C 8363 ; WX 962 ; N dong ; B 90 0 932 1444 ;
@@ -583,7 +583,7 @@ C 167 ; WX 936 ; N section ; B 90 -132 846 1466 ;
 C 169 ; WX 1606 ; N copyright ; B 60 -20 1546 1466 ;
 C 174 ; WX 1050 ; N registered ; B 60 536 990 1466 ;
 C 8471 ; WX 1606 ; N published ; B 60 -20 1546 1466 ;
-C 8482 ; WX 1744 ; N trademark ; B 42 0 1590 904 ;
+C 8482 ; WX 1744 ; N trademark ; B 42 0 1609 904 ;
 C 176 ; WX 904 ; N degree ; B 160 1088 744 1674 ;
 C 124 ; WX 516 ; N bar ; B 220 -322 296 1652 ;
 C 166 ; WX 516 ; N brokenbar ; B 220 -322 296 1652 ;
@@ -591,7 +591,7 @@ C 8467 ; WX 880 ; N literSign ; B 50 -20 740 1466 ;
 C 8224 ; WX 788 ; N dagger ; B 0 -322 788 1446 ;
 C 8225 ; WX 788 ; N daggerdbl ; B 0 -322 788 1446 ;
 C 8470 ; WX 2290 ; N numero ; B 220 0 2170 1464 ;
-C 8480 ; WX 1908 ; N servicemark ; B 67 -13 1754 915 ;
+C 8480 ; WX 1908 ; N servicemark ; B 67 -13 1773 915 ;
 C 700 ; WX 366 ; N apostrophemod ; B 100 1068 266 1418 ;
 C 699 ; WX 366 ; N commaturnedmod ; B 100 1068 266 1418 ;
 C 776 ; WX 420 ; N dieresiscomb ; B 10 1326 410 1446 ;
@@ -647,7 +647,7 @@ C -1 ; WX 158 ; N _dot ; B 10 1327 148 1466 ;
 EndCharMetrics
 
 StartKernData
-StartKernPairs 526
+StartKernPairs 527
 KPX A C -70
 KPX A S -30
 KPX A T -60
@@ -796,10 +796,10 @@ KPX R quotesinglbase -40
 KPX R g -40
 KPX R guillemetright -20
 KPX R hyphen -90
+KPX R b -40
 KPX R u -20
 KPX R x -20
 KPX R z -20
-KPX R b -40
 KPX S A 0
 KPX S AE -140
 KPX S J -20
@@ -895,13 +895,13 @@ KPX W g -80
 KPX W guillemetright -40
 KPX W germandbls 0
 KPX W hyphen -40
+KPX W b -40
 KPX W a -40
 KPX W period -160
 KPX W s -20
 KPX W f 40
 KPX W u -50
 KPX W v -20
-KPX W b -40
 KPX X J 40
 KPX X Oslash 40
 KPX X S -30
@@ -944,9 +944,9 @@ KPX Z Y 20
 KPX Z Z 30
 KPX Z quotesinglbase 20
 KPX Z hyphen -170
+KPX Z b -50
 KPX Z a -30
 KPX Z v -20
-KPX Z b -50
 KPX quotesinglbase A 20
 KPX quotesinglbase J 20
 KPX quotesinglbase S -20
@@ -1024,7 +1024,7 @@ KPX b T -200
 KPX b V -70
 KPX b Y -60
 KPX b g -30
-KPX b a -10
+KPX b a 0
 KPX b question -20
 KPX b quotedblright -100
 KPX b quotedbl -160
@@ -1115,7 +1115,7 @@ KPX f a -30
 KPX f quotedbl -60
 KPX f s -10
 KPX f f -70
-KPX f v 10
+KPX f v 20
 KPX f x 30
 KPX f z 30
 KPX three four -20
@@ -1150,12 +1150,15 @@ KPX k u -30
 KPX k z 20
 KPX z g -20
 KPX z hyphen -50
-KPX z a -80
+KPX z a -60
 KPX z quotedbl -60
 KPX z s -10
 KPX z f 10
+KPX z z -50
 KPX z lslash -40
 KPX zero zero -20
+KPX T b 0
+KPX a s -10
 KPX ampersand T -100
 KPX ampersand V -60
 KPX ampersand W -70
@@ -1172,8 +1175,6 @@ KPX space f -20
 KPX space u 0
 KPX space v -20
 KPX two.numr fraction 40
-KPX T b 0
-KPX a s -10
 EndKernPairs
 EndKernData
 

@@ -278,7 +278,7 @@ C 238 ; WX 600 ; N icircumflex ; B -1 0 801 1466 ;
 C 521 ; WX 600 ; N idblgrave ; B -248 0 727 1446 ;
 C 239 ; WX 600 ; N idieresis ; B -49 0 895 1480 ;
 C -1 ; WX 600 ; N idotaccent ; B 27 0 641 1446 ;
-C 7883 ; WX 613 ; N idotbelow ; B -38 -468 641 1486 ;
+C 7883 ; WX 605 ; N idotbelow ; B -38 -468 641 1486 ;
 C 236 ; WX 600 ; N igrave ; B -111 0 573 1446 ;
 C 7881 ; WX 600 ; N ihookabove ; B 27 0 651 1571 ;
 C 523 ; WX 600 ; N iinvertedbreve ; B 27 0 826 1514 ;
@@ -368,17 +368,17 @@ C 249 ; WX 1205 ; N ugrave ; B 47 -20 1178 1446 ;
 C 7911 ; WX 1205 ; N uhookabove ; B 47 -20 1178 1571 ;
 C 432 ; WX 1507 ; N uhorn ; B 47 -20 1574 1112 ;
 C 7913 ; WX 1507 ; N uhornacute ; B 47 -20 1574 1446 ;
-C 7921 ; WX 1514 ; N uhorndotbelow ; B 47 -468 1574 1112 ;
-C 7915 ; WX 1543 ; N uhorngrave ; B 76 -20 1603 1446 ;
-C 7917 ; WX 1514 ; N uhornhookabove ; B 47 -20 1574 1571 ;
-C 7919 ; WX 1514 ; N uhorntilde ; B 47 -20 1574 1476 ;
+C 7921 ; WX 1504 ; N uhorndotbelow ; B 47 -468 1574 1112 ;
+C 7915 ; WX 1523 ; N uhorngrave ; B 66 -20 1593 1446 ;
+C 7917 ; WX 1504 ; N uhornhookabove ; B 47 -20 1574 1571 ;
+C 7919 ; WX 1504 ; N uhorntilde ; B 47 -20 1574 1476 ;
 C 369 ; WX 1205 ; N uhungarumlaut ; B 47 -20 1311 1446 ;
 C 535 ; WX 1205 ; N uinvertedbreve ; B 47 -20 1178 1514 ;
 C 363 ; WX 1205 ; N umacron ; B 47 -20 1178 1446 ;
 C 371 ; WX 1205 ; N uogonek ; B 47 -340 1178 1034 ;
 C 367 ; WX 1205 ; N uring ; B 47 -20 1178 1570 ;
 C 361 ; WX 1205 ; N utilde ; B 47 -20 1178 1476 ;
-C 118 ; WX 1088 ; N v ; B 93 0 1141 1034 ;
+C 118 ; WX 1068 ; N v ; B 83 0 1131 1034 ;
 C 119 ; WX 1586 ; N w ; B 83 0 1649 1034 ;
 C 7811 ; WX 1586 ; N wacute ; B 83 0 1649 1446 ;
 C 373 ; WX 1586 ; N wcircumflex ; B 83 0 1649 1466 ;
@@ -1196,7 +1196,7 @@ KPX z s 30
 KPX z f -10
 KPX z u -10
 KPX z v 0
-KPX z z 50
+KPX z z 10
 KPX z space 0
 KPX T h 0
 KPX ampersand T -130
@@ -1507,7 +1507,7 @@ CC uhookabove 2 ; PCC u 0 0 ; PCC hookabovecomb 15 0 ;
 CC uhorn 2 ; PCC u 0 0 ; PCC __horn 1015 -166 ;
 CC uhornacute 3 ; PCC u 0 0 ; PCC __horn 1015 -166 ; PCC acutecomb 446 0 ;
 CC uhorndotbelow 2 ; PCC dotbelowcomb 401 0 ; PCC uhorn 0 0 ;
-CC uhorngrave 2 ; PCC gravecomb 80 0 ; PCC uhorn 29 0 ;
+CC uhorngrave 2 ; PCC gravecomb 70 0 ; PCC uhorn 19 0 ;
 CC uhornhookabove 2 ; PCC hookabovecomb 35 0 ; PCC uhorn 0 0 ;
 CC uhorntilde 2 ; PCC tildecomb 152 0 ; PCC uhorn 0 0 ;
 CC uhungarumlaut 2 ; PCC u 0 0 ; PCC hungarumlautcomb 236 0 ;
