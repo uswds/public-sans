@@ -1,31 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="z" format="1">
-  <advance width="1108"/>
+  <advance width="1031"/>
   <unicode hex="007A"/>
   <outline>
     <contour>
-      <point x="70" y="0" type="line"/>
-      <point x="1018" y="0" type="line"/>
-      <point x="1018" y="258" type="line"/>
-      <point x="545" y="258" type="line"/>
-      <point x="1016" y="856" type="line"/>
-      <point x="1016" y="1034" type="line"/>
-      <point x="98" y="1034" type="line"/>
-      <point x="98" y="776" type="line"/>
-      <point x="540" y="776" type="line"/>
-      <point x="70" y="184" type="line"/>
+      <point x="40" y="0" type="line"/>
+      <point x="961" y="0" type="line"/>
+      <point x="961" y="266" type="line"/>
+      <point x="515" y="266" type="line"/>
+      <point x="959" y="828" type="line"/>
+      <point x="959" y="1034" type="line"/>
+      <point x="68" y="1034" type="line"/>
+      <point x="68" y="768" type="line"/>
+      <point x="485" y="768" type="line"/>
+      <point x="40" y="206" type="line"/>
     </contour>
     <contour>
-      <point x="580" y="0" type="move" name="bottom"/>
+      <point x="500" y="0" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="580" y="1034" type="move" name="top"/>
+      <point x="500" y="1034" type="move" name="top"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-30 22:12:11 +0000</string>
+      <string>2019-05-06 20:18:08 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.layer.leftMetricsKey</key>
+      <string>==|n-40</string>
+      <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
+      <string>==|n-30</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=|n-20</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=|n</string>
     </dict>
   </lib>
 </glyph>
