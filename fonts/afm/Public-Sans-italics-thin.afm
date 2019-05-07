@@ -646,7 +646,7 @@ C -1 ; WX 1163 ; N _j-hook ; B -21 -20 467 474 ;
 EndCharMetrics
 
 StartKernData
-StartKernPairs 554
+StartKernPairs 555
 KPX A C -70
 KPX A S -30
 KPX A T -60
@@ -1107,6 +1107,7 @@ KPX s question -20
 KPX s quotedbl -40
 KPX s s 0
 KPX s f -30
+KPX s v -50
 KPX s x -20
 KPX s z -60
 KPX s a -10
@@ -1148,7 +1149,7 @@ KPX v a -60
 KPX v question -40
 KPX v period -100
 KPX v quotedbl 40
-KPX v s 0
+KPX v s -60
 KPX v f 0
 KPX v v 0
 KPX v a -70

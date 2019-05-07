@@ -8,7 +8,8 @@ DisplayStrings = (
 notxjs,
 "un nu oo\012uon nou noon ooo\012uxn nxu nxon uoxon\012utn ntu nton uoton\012ufn nfu nfon uofon\012urn nru nron uoron\012nnn ooo ttt fff\012xxx vvv rrr nossses",
 "unn nu oo\012ugn ngu ngon ogo oxo xanax uan\012ugt ugx rgr nogon ujn uin\012ogt ogx ogj ngu ugn uxnurn\012vgv xovovavaxa vonv voav",
-"un nu oo\012uln nlu nlon olo olxo olj olz\012uzn nzu xzx vxv oxo\012notxjz ujn uin ugj nkokofxox\012vfv vtv"
+"un nu oo\012uln nlu nlon olo olxo olj olz\012uzn nzu xzx vxv oxo\012notxjz ujn uin ugj nkokofxox\012vfv vtv",
+system
 );
 customParameters = (
 {
@@ -26912,7 +26913,7 @@ unicode = 0213;
 },
 {
 glyphname = s;
-lastChange = "2019-05-07 22:34:49 +0000";
+lastChange = "2019-05-07 23:31:15 +0000";
 layers = (
 {
 anchors = (
@@ -30478,7 +30479,7 @@ unicode = 0078;
 },
 {
 glyphname = y;
-lastChange = "2019-05-07 21:47:14 +0000";
+lastChange = "2019-05-07 23:31:41 +0000";
 layers = (
 {
 anchors = (
@@ -62806,8 +62807,8 @@ lslash = -40;
 "@MMK_R_x" = -100;
 "@MMK_R_z" = -80;
 h = 0;
-k = 0;
 i = 0;
+k = 0;
 l = 0;
 };
 "@MMK_L_U" = {
@@ -63144,8 +63145,8 @@ space = -70;
 "@MMK_R_s" = -60;
 "@MMK_R_t" = -130;
 "@MMK_R_v" = -40;
-r = -10;
 a = -70;
+r = -10;
 };
 "@MMK_L_s" = {
 "@MMK_R_a" = -10;
@@ -63158,10 +63159,11 @@ a = -70;
 "@MMK_R_quotesingle" = -40;
 "@MMK_R_s" = 0;
 "@MMK_R_t" = -30;
+"@MMK_R_v" = -50;
 "@MMK_R_x" = -20;
 "@MMK_R_z" = -60;
-space = -20;
 a = -10;
+space = -20;
 };
 "@MMK_L_seven" = {
 "@MMK_R_eight" = -60;
@@ -63218,12 +63220,12 @@ a = -10;
 "@MMK_R_parenright" = -40;
 "@MMK_R_period" = -100;
 "@MMK_R_quotesingle" = 40;
-"@MMK_R_s" = 0;
+"@MMK_R_s" = -60;
 "@MMK_R_t" = 0;
 "@MMK_R_v" = 0;
+a = -70;
 lslash = -40;
 space = 0;
-a = -70;
 };
 "@MMK_L_x" = {
 "@MMK_R_a" = -20;
@@ -63255,6 +63257,9 @@ lslash = -40;
 "@MMK_L_zero" = {
 "@MMK_R_zero" = -20;
 };
+W = {
+"@MMK_R_n" = -40;
+};
 a = {
 "@MMK_R_s" = -10;
 };
@@ -63274,6 +63279,9 @@ dcroat = {
 exclam = {
 "@MMK_R_parenright" = 60;
 };
+f = {
+"@MMK_R_o" = -100;
+};
 fraction = {
 four.dnom = -120;
 two.dnom = 40;
@@ -63283,6 +63291,9 @@ i = {
 };
 lslash = {
 "@MMK_R_a" = -40;
+};
+r = {
+"@MMK_R_t" = -60;
 };
 space = {
 "@MMK_R_V" = -60;
@@ -63300,15 +63311,6 @@ fraction = 40;
 z = {
 "@MMK_R_o" = -100;
 a = -70;
-};
-W = {
-"@MMK_R_n" = -40;
-};
-f = {
-"@MMK_R_o" = -100;
-};
-r = {
-"@MMK_R_t" = -60;
 };
 };
 "258ED206-D907-4350-8EBA-CBDDA1C16BF7" = {
@@ -63851,8 +63853,8 @@ l = -30;
 "@MMK_R_v" = -50;
 "@MMK_R_x" = -110;
 "@MMK_R_z" = -20;
-space = -30;
 o = 0;
+space = -30;
 };
 "@MMK_L_ohorn" = {
 "@MMK_R_J" = -190;
@@ -64026,14 +64028,17 @@ a = -60;
 "@MMK_R_z" = -10;
 space = 0;
 };
+W = {
+"@MMK_R_n" = 0;
+};
 ampersand = {
 "@MMK_R_T" = -130;
 "@MMK_R_V" = -190;
 "@MMK_R_W" = -150;
 };
 c = {
-"@MMK_R_v" = -60;
 "@MMK_R_n" = -10;
+"@MMK_R_v" = -60;
 };
 dcroat = {
 "@MMK_R_o" = -100;
@@ -64047,6 +64052,9 @@ eogonek = {
 i = {
 "@MMK_R_t" = -20;
 };
+o = {
+"@MMK_R_o" = -10;
+};
 ohorn = {
 "@MMK_R_z" = 10;
 };
@@ -64057,12 +64065,6 @@ space = {
 "@MMK_R_o" = -40;
 "@MMK_R_s" = 0;
 "@MMK_R_x" = -20;
-};
-o = {
-"@MMK_R_o" = -10;
-};
-W = {
-"@MMK_R_n" = 0;
 };
 };
 };
