@@ -1,43 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="P" format="1">
-  <advance width="1340"/>
-  <unicode hex="0050"/>
-  <outline>
-    <contour>
-      <point x="130" y="0" type="line"/>
-      <point x="520" y="0" type="line"/>
-      <point x="520" y="498" type="line"/>
-      <point x="752" y="498" type="line" smooth="yes"/>
-      <point x="1070" y="498"/>
-      <point x="1270" y="670"/>
-      <point x="1270" y="956" type="curve" smooth="yes"/>
-      <point x="1270" y="1270"/>
-      <point x="1022" y="1446"/>
-      <point x="702" y="1446" type="curve" smooth="yes"/>
-      <point x="130" y="1446" type="line"/>
-    </contour>
-    <contour>
-      <point x="516" y="788" type="line"/>
-      <point x="516" y="1158" type="line"/>
-      <point x="740" y="1158" type="line" smooth="yes"/>
-      <point x="826" y="1158"/>
-      <point x="912" y="1076"/>
-      <point x="912" y="976" type="curve" smooth="yes"/>
-      <point x="912" y="882"/>
-      <point x="838" y="788"/>
-      <point x="740" y="788" type="curve" smooth="yes"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 05:18:45 +0000</string>
-      <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
-      <string>==O-30</string>
-      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-      <string>H</string>
-      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-      <string>=O-20</string>
-    </dict>
-  </lib>
+<glyph name="P" format="2">
+	<advance width="1367"/>
+	<unicode hex="0050"/>
+	<outline>
+		<contour>
+			<point x="140" y="0" type="line"/>
+			<point x="539" y="0" type="line"/>
+			<point x="539" y="510" type="line"/>
+			<point x="777" y="510" type="line" smooth="yes"/>
+			<point x="1103" y="510"/>
+			<point x="1307" y="686"/>
+			<point x="1307" y="979" type="curve" smooth="yes"/>
+			<point x="1307" y="1300"/>
+			<point x="1054" y="1481"/>
+			<point x="726" y="1481" type="curve" smooth="yes"/>
+			<point x="140" y="1481" type="line"/>
+		</contour>
+		<contour>
+			<point x="535" y="807" type="line"/>
+			<point x="535" y="1186" type="line"/>
+			<point x="765" y="1186" type="line" smooth="yes"/>
+			<point x="853" y="1186"/>
+			<point x="941" y="1102"/>
+			<point x="941" y="999" type="curve" smooth="yes"/>
+			<point x="941" y="903"/>
+			<point x="865" y="807"/>
+			<point x="765" y="807" type="curve" smooth="yes"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
+			<string>==X*2</string>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>H</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>=O</string>
+		</dict>
+	</lib>
 </glyph>

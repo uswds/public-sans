@@ -1,26 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Acircumflex" format="1">
-  <advance width="1482"/>
-  <unicode hex="00C2"/>
-  <outline>
-    <component base="A"/>
-    <component base="circumflexcomb" xOffset="308" yOffset="412"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>circumflexcomb</string>
-        </dict>
-      </array>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-30 22:04:38 +0000</string>
-    </dict>
-  </lib>
+<glyph name="Acircumflex" format="2">
+	<advance width="1516"/>
+	<unicode hex="00C2"/>
+	<outline>
+		<component base="A"/>
+		<component base="circumflexcomb" xOffset="315" yOffset="422"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>circumflexcomb</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
 </glyph>

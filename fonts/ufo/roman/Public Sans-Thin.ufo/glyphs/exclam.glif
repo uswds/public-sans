@@ -1,25 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="exclam" format="1">
-  <advance width="440"/>
-  <unicode hex="0021"/>
-  <outline>
-    <contour>
-      <point x="280" y="154" type="line"/>
-      <point x="160" y="154" type="line"/>
-      <point x="160" y="0" type="line"/>
-      <point x="280" y="0" type="line"/>
-    </contour>
-    <contour>
-      <point x="272" y="1446" type="line"/>
-      <point x="170" y="1446" type="line"/>
-      <point x="188" y="288" type="line"/>
-      <point x="252" y="288" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-16 18:49:16 +0000</string>
-    </dict>
-  </lib>
+<glyph name="exclam" format="2">
+	<advance width="451"/>
+	<unicode hex="0021"/>
+	<guideline x="140" y="98" angle="90"/>
+	<guideline x="212" y="105" angle="90"/>
+	<outline>
+		<contour>
+			<point x="287" y="158" type="line"/>
+			<point x="164" y="158" type="line"/>
+			<point x="164" y="0" type="line"/>
+			<point x="287" y="0" type="line"/>
+		</contour>
+		<contour>
+			<point x="279" y="1481" type="line"/>
+			<point x="174" y="1481" type="line"/>
+			<point x="193" y="295" type="line"/>
+			<point x="258" y="295" type="line"/>
+		</contour>
+	</outline>
 </glyph>

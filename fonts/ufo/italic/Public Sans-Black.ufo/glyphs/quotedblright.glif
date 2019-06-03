@@ -1,35 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="quotedblright" format="1">
-  <advance width="1079"/>
-  <unicode hex="201D"/>
-  <outline>
-    <contour>
-      <point x="634" y="802" type="line"/>
-      <point x="764" y="802" type="line"/>
-      <point x="1044" y="1148" type="line"/>
-      <point x="1090" y="1446" type="line"/>
-      <point x="736" y="1446" type="line"/>
-      <point x="686" y="1110" type="line"/>
-      <point x="800" y="1096" type="line"/>
-    </contour>
-    <contour>
-      <point x="140" y="802" type="line"/>
-      <point x="268" y="802" type="line"/>
-      <point x="548" y="1148" type="line"/>
-      <point x="594" y="1446" type="line"/>
-      <point x="242" y="1446" type="line"/>
-      <point x="190" y="1110" type="line"/>
-      <point x="304" y="1096" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 06:03:45 +0000</string>
-      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-      <string>quoteright</string>
-      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-      <string>quoteright</string>
-    </dict>
-  </lib>
+<glyph name="quotedblright" format="2">
+	<advance width="1105"/>
+	<unicode hex="201D"/>
+	<outline>
+		<component base="quoteright" xOffset="508"/>
+		<component base="quoteright"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>quoteright</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>quoteright</string>
+		</dict>
+	</lib>
 </glyph>

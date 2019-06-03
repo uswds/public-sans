@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="hyphen" format="1">
-  <advance width="817"/>
-  <unicode hex="002D"/>
-  <outline>
-    <contour>
-      <point x="90" y="376" type="line"/>
-      <point x="666" y="376" type="line"/>
-      <point x="706" y="650" type="line"/>
-      <point x="130" y="650" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 06:03:45 +0000</string>
-    </dict>
-  </lib>
+<glyph name="hyphen" format="2">
+	<advance width="832"/>
+	<unicode hex="002D"/>
+	<outline>
+		<contour>
+			<point x="100" y="385" type="line"/>
+			<point x="690" y="385" type="line"/>
+			<point x="731" y="666" type="line"/>
+			<point x="141" y="666" type="line"/>
+		</contour>
+	</outline>
 </glyph>

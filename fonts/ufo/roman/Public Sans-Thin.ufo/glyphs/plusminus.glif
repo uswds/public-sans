@@ -1,35 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="plusminus" format="1">
-  <advance width="1042"/>
-  <unicode hex="00B1"/>
-  <outline>
-    <contour>
-      <point x="912" y="238" type="line"/>
-      <point x="130" y="236" type="line"/>
-      <point x="130" y="162" type="line"/>
-      <point x="912" y="164" type="line"/>
-    </contour>
-    <contour>
-      <point x="912" y="900" type="line"/>
-      <point x="130" y="898" type="line"/>
-      <point x="130" y="824" type="line"/>
-      <point x="912" y="826" type="line"/>
-    </contour>
-    <contour>
-      <point x="558" y="472" type="line"/>
-      <point x="558" y="1254" type="line"/>
-      <point x="484" y="1254" type="line"/>
-      <point x="486" y="472" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-16 18:49:16 +0000</string>
-      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-      <string>plus</string>
-      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-      <string>plus</string>
-    </dict>
-  </lib>
+<glyph name="plusminus" format="2">
+	<advance width="1067"/>
+	<unicode hex="00B1"/>
+	<outline>
+		<contour>
+			<point x="934" y="244" type="line"/>
+			<point x="133" y="242" type="line"/>
+			<point x="133" y="166" type="line"/>
+			<point x="934" y="168" type="line"/>
+		</contour>
+		<contour>
+			<point x="934" y="922" type="line"/>
+			<point x="133" y="920" type="line"/>
+			<point x="133" y="844" type="line"/>
+			<point x="934" y="846" type="line"/>
+		</contour>
+		<contour>
+			<point x="571" y="483" type="line"/>
+			<point x="571" y="1284" type="line"/>
+			<point x="496" y="1284" type="line"/>
+			<point x="498" y="483" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>plus</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>plus</string>
+		</dict>
+	</lib>
 </glyph>

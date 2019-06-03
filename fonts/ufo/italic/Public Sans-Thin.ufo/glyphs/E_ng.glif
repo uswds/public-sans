@@ -1,30 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Eng" format="1">
-  <advance width="1372"/>
-  <unicode hex="014A"/>
-  <outline>
-    <component base="N"/>
-    <component base="_j-hook" xOffset="610" yOffset="-460"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>_j-hook</string>
-        </dict>
-      </array>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-06 20:19:55 +0000</string>
-      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-      <string>N</string>
-      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-      <string>N</string>
-    </dict>
-  </lib>
+<glyph name="Eng" format="2">
+	<advance width="1405"/>
+	<unicode hex="014A"/>
+	<outline>
+		<component base="N"/>
+		<component base="_j-hook" xOffset="625" yOffset="-471"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>_j-hook</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>N</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>N</string>
+		</dict>
+	</lib>
 </glyph>

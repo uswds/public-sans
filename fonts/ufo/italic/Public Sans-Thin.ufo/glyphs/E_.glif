@@ -1,42 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="E" format="1">
-  <advance width="1150"/>
-  <unicode hex="0045"/>
-  <outline>
-    <contour>
-      <point x="147" y="0" type="line"/>
-      <point x="937" y="0" type="line"/>
-      <point x="949" y="82" type="line"/>
-      <point x="231" y="84" type="line"/>
-      <point x="317" y="690" type="line"/>
-      <point x="961" y="690" type="line"/>
-      <point x="971" y="772" type="line"/>
-      <point x="327" y="772" type="line"/>
-      <point x="411" y="1366" type="line"/>
-      <point x="1103" y="1366" type="line"/>
-      <point x="1115" y="1446" type="line"/>
-      <point x="351" y="1446" type="line"/>
-    </contour>
-    <contour>
-      <point x="551" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="931" y="20" type="move" name="ogonek"/>
-    </contour>
-    <contour>
-      <point x="715" y="1446" type="move" name="top"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-06 20:24:55 +0000</string>
-      <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
-      <string>==140</string>
-      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-      <string>H</string>
-      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-      <string>=85</string>
-    </dict>
-  </lib>
+<glyph name="E" format="2">
+	<advance width="1175"/>
+	<unicode hex="0045"/>
+	<anchor x="953" y="20" name="ogonek"/>
+	<anchor x="564" y="0" name="bottom"/>
+	<anchor x="732" y="1481" name="top"/>
+	<outline>
+		<contour>
+			<point x="151" y="0" type="line"/>
+			<point x="959" y="0" type="line"/>
+			<point x="972" y="84" type="line"/>
+			<point x="237" y="86" type="line"/>
+			<point x="325" y="707" type="line"/>
+			<point x="984" y="707" type="line"/>
+			<point x="994" y="791" type="line"/>
+			<point x="335" y="791" type="line"/>
+			<point x="421" y="1399" type="line"/>
+			<point x="1129" y="1399" type="line"/>
+			<point x="1142" y="1481" type="line"/>
+			<point x="359" y="1481" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
+			<string>==140</string>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>H</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>=H/1.5</string>
+		</dict>
+	</lib>
 </glyph>

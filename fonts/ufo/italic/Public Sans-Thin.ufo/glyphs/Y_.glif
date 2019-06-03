@@ -1,34 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Y" format="1">
-  <advance width="1114"/>
-  <unicode hex="0059"/>
-  <outline>
-    <contour>
-      <point x="453" y="0" type="line"/>
-      <point x="523" y="0" type="line"/>
-      <point x="611" y="622" type="line"/>
-      <point x="1165" y="1446" type="line"/>
-      <point x="1085" y="1446" type="line"/>
-      <point x="587" y="702" type="line"/>
-      <point x="291" y="1446" type="line"/>
-      <point x="211" y="1446" type="line"/>
-      <point x="539" y="624" type="line"/>
-    </contour>
-    <contour>
-      <point x="489" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="689" y="1450" type="move" name="top"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 06:03:45 +0000</string>
-      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-      <string>X</string>
-      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-      <string>X</string>
-    </dict>
-  </lib>
+<glyph name="Y" format="2">
+	<advance width="1037"/>
+	<unicode hex="0059"/>
+	<guideline x="232" y="335" angle="239.8907"/>
+	<guideline x="197" y="328" angle="300.4397"/>
+	<anchor x="653" y="1485" name="top"/>
+	<anchor x="449" y="0" name="bottom"/>
+	<outline>
+		<contour>
+			<point x="412" y="0" type="line"/>
+			<point x="484" y="0" type="line"/>
+			<point x="574" y="637" type="line"/>
+			<point x="1141" y="1481" type="line"/>
+			<point x="1059" y="1481" type="line"/>
+			<point x="549" y="719" type="line"/>
+			<point x="246" y="1481" type="line"/>
+			<point x="164" y="1481" type="line"/>
+			<point x="500" y="639" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>=X/4</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>=X/4</string>
+		</dict>
+	</lib>
 </glyph>

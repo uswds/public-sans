@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ccircumflex" format="1">
-  <advance width="1060"/>
-  <unicode hex="0109"/>
-  <outline>
-    <component base="c"/>
-    <component base="circumflexcomb" xOffset="137"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
-      <integer>1</integer>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 23:00:56 +0000</string>
-    </dict>
-  </lib>
+<glyph name="ccircumflex" format="2">
+	<advance width="1098"/>
+	<unicode hex="0109"/>
+	<outline>
+		<component base="c"/>
+		<component base="circumflexcomb" xOffset="148"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
+			<integer>1</integer>
+		</dict>
+	</lib>
 </glyph>

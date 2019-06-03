@@ -1,25 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="multiply" format="1">
-  <advance width="1217"/>
-  <unicode hex="00D7"/>
-  <outline>
-    <contour>
-      <point x="257" y="230" type="line"/>
-      <point x="1179" y="1032" type="line"/>
-      <point x="1015" y="1228" type="line"/>
-      <point x="97" y="426" type="line"/>
-    </contour>
-    <contour>
-      <point x="859" y="230" type="line"/>
-      <point x="1083" y="426" type="line"/>
-      <point x="407" y="1228" type="line"/>
-      <point x="187" y="1032" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 06:03:45 +0000</string>
-    </dict>
-  </lib>
+<glyph name="multiply" format="2">
+	<advance width="1247"/>
+	<unicode hex="00D7"/>
+	<outline>
+		<contour>
+			<point x="264" y="236" type="line"/>
+			<point x="1208" y="1057" type="line"/>
+			<point x="1040" y="1257" type="line"/>
+			<point x="100" y="436" type="line"/>
+		</contour>
+		<contour>
+			<point x="881" y="236" type="line"/>
+			<point x="1110" y="436" type="line"/>
+			<point x="418" y="1257" type="line"/>
+			<point x="192" y="1057" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>plus</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>plus</string>
+		</dict>
+	</lib>
 </glyph>

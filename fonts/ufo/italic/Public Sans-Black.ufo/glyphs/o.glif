@@ -1,57 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="o" format="1">
-  <advance width="1134"/>
-  <unicode hex="006F"/>
-  <outline>
-    <contour>
-      <point x="479" y="-20" type="curve" smooth="yes"/>
-      <point x="799" y="-20"/>
-      <point x="1035" y="202"/>
-      <point x="1083" y="510" type="curve" smooth="yes"/>
-      <point x="1131" y="824"/>
-      <point x="967" y="1054"/>
-      <point x="645" y="1054" type="curve" smooth="yes"/>
-      <point x="339" y="1054"/>
-      <point x="89" y="836"/>
-      <point x="39" y="510" type="curve" smooth="yes"/>
-      <point x="-7" y="200"/>
-      <point x="161" y="-20"/>
-    </contour>
-    <contour>
-      <point x="525" y="262" type="curve" smooth="yes"/>
-      <point x="399" y="262"/>
-      <point x="401" y="414"/>
-      <point x="417" y="524" type="curve" smooth="yes"/>
-      <point x="433" y="636"/>
-      <point x="477" y="776"/>
-      <point x="603" y="776" type="curve" smooth="yes"/>
-      <point x="725" y="776"/>
-      <point x="727" y="636"/>
-      <point x="709" y="524" type="curve" smooth="yes"/>
-      <point x="693" y="414"/>
-      <point x="647" y="262"/>
-    </contour>
-    <contour>
-      <point x="479" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="951" y="668" type="move" name="horn"/>
-    </contour>
-    <contour>
-      <point x="639" y="20" type="move" name="ogonek"/>
-    </contour>
-    <contour>
-      <point x="641" y="1034" type="move" name="top"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 23:01:45 +0000</string>
-      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-      <string>e</string>
-      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-      <string>e</string>
-    </dict>
-  </lib>
+<glyph name="o" format="2">
+	<advance width="1169"/>
+	<unicode hex="006F"/>
+	<anchor x="663" y="20" name="ogonek"/>
+	<anchor x="665" y="1059" name="top"/>
+	<anchor x="983" y="684" name="horn"/>
+	<anchor x="499" y="0" name="bottom"/>
+	<outline>
+		<contour>
+			<point x="499" y="-20" type="curve" smooth="yes"/>
+			<point x="827" y="-20"/>
+			<point x="1069" y="207"/>
+			<point x="1118" y="522" type="curve" smooth="yes"/>
+			<point x="1167" y="844"/>
+			<point x="999" y="1079"/>
+			<point x="669" y="1079" type="curve" smooth="yes"/>
+			<point x="356" y="1079"/>
+			<point x="100" y="856"/>
+			<point x="49" y="522" type="curve" smooth="yes"/>
+			<point x="2" y="205"/>
+			<point x="174" y="-20"/>
+		</contour>
+		<contour>
+			<point x="547" y="268" type="curve" smooth="yes"/>
+			<point x="418" y="268"/>
+			<point x="420" y="424"/>
+			<point x="436" y="537" type="curve" smooth="yes"/>
+			<point x="452" y="651"/>
+			<point x="497" y="795"/>
+			<point x="626" y="795" type="curve" smooth="yes"/>
+			<point x="751" y="795"/>
+			<point x="753" y="651"/>
+			<point x="735" y="537" type="curve" smooth="yes"/>
+			<point x="719" y="424"/>
+			<point x="672" y="268"/>
+		</contour>
+	</outline>
 </glyph>

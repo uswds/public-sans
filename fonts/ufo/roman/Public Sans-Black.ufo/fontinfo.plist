@@ -1,23 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>ascender</key>
-	<integer>1560</integer>
+	<integer>1597</integer>
 	<key>capHeight</key>
-	<integer>1446</integer>
+	<integer>1481</integer>
 	<key>descender</key>
-	<integer>-440</integer>
+	<integer>-451</integer>
 	<key>familyName</key>
 	<string>Public Sans</string>
+	<key>guidelines</key>
+	<array>
+		<dict>
+			<key>angle</key>
+			<integer>90</integer>
+			<key>x</key>
+			<integer>1165</integer>
+			<key>y</key>
+			<integer>827</integer>
+		</dict>
+		<dict>
+			<key>angle</key>
+			<integer>180</integer>
+			<key>x</key>
+			<integer>754</integer>
+			<key>y</key>
+			<integer>-758</integer>
+		</dict>
+		<dict>
+			<key>angle</key>
+			<integer>0</integer>
+			<key>x</key>
+			<integer>238</integer>
+			<key>y</key>
+			<integer>1792</integer>
+		</dict>
+		<dict>
+			<key>angle</key>
+			<integer>270</integer>
+			<key>x</key>
+			<integer>-115</integer>
+			<key>y</key>
+			<integer>82</integer>
+		</dict>
+		<dict>
+			<key>angle</key>
+			<integer>90</integer>
+			<key>x</key>
+			<integer>569</integer>
+			<key>y</key>
+			<integer>332</integer>
+		</dict>
+		<dict>
+			<key>angle</key>
+			<integer>0</integer>
+			<key>x</key>
+			<integer>305</integer>
+			<key>y</key>
+			<integer>551</integer>
+		</dict>
+		<dict>
+			<key>angle</key>
+			<integer>0</integer>
+			<key>x</key>
+			<integer>435</integer>
+			<key>y</key>
+			<integer>539</integer>
+		</dict>
+		<dict>
+			<key>angle</key>
+			<integer>0</integer>
+			<key>x</key>
+			<integer>129</integer>
+			<key>y</key>
+			<integer>1493</integer>
+		</dict>
+	</array>
 	<key>note</key>
 	<string>Based on Libre Franklin</string>
 	<key>openTypeHeadCreated</key>
-	<string>2019/05/07 07:55:24</string>
+	<string>2019/06/03 07:55:24</string>
 	<key>openTypeHheaAscender</key>
-	<integer>1990</integer>
+	<integer>2038</integer>
 	<key>openTypeHheaDescender</key>
-	<integer>-440</integer>
+	<integer>-451</integer>
+	<key>openTypeHheaLineGap</key>
+	<integer>0</integer>
 	<key>openTypeNameDescription</key>
 	<string>Libre Franklin is a reinterpretation and expansion of the 1912 Morris Fuller Benton’s classic.</string>
 	<key>openTypeNameDesigner</key>
@@ -29,12 +98,11 @@
 	<key>openTypeNamePreferredSubfamilyName</key>
 	<string>Black</string>
 	<key>openTypeOS2Type</key>
-	<array>
-	</array>
+	<array/>
 	<key>openTypeOS2TypoAscender</key>
-	<integer>1560</integer>
+	<integer>1597</integer>
 	<key>openTypeOS2TypoDescender</key>
-	<integer>-440</integer>
+	<integer>-451</integer>
 	<key>openTypeOS2TypoLineGap</key>
 	<integer>0</integer>
 	<key>openTypeOS2WeightClass</key>
@@ -42,39 +110,39 @@
 	<key>openTypeOS2WidthClass</key>
 	<integer>5</integer>
 	<key>openTypeOS2WinAscent</key>
-	<integer>1990</integer>
+	<integer>2038</integer>
 	<key>openTypeOS2WinDescent</key>
-	<integer>440</integer>
+	<integer>451</integer>
 	<key>postscriptBlueValues</key>
 	<array>
-		<integer>-21</integer>
+		<integer>-23</integer>
 		<integer>0</integer>
-		<integer>1034</integer>
-		<integer>1055</integer>
-		<integer>1446</integer>
-		<integer>1466</integer>
-		<integer>1471</integer>
-		<integer>1486</integer>
+		<integer>1059</integer>
+		<integer>1082</integer>
+		<integer>1481</integer>
+		<integer>1501</integer>
+		<integer>1507</integer>
+		<integer>1522</integer>
 	</array>
 	<key>postscriptFontName</key>
 	<string>PublicSans-Black</string>
 	<key>postscriptOtherBlues</key>
 	<array>
+		<integer>-338</integer>
 		<integer>-330</integer>
-		<integer>-322</integer>
 	</array>
 	<key>postscriptStemSnapH</key>
 	<array>
-		<integer>318</integer>
+		<integer>326</integer>
 	</array>
 	<key>postscriptStemSnapV</key>
 	<array>
-		<integer>390</integer>
+		<integer>399</integer>
 	</array>
 	<key>postscriptUnderlinePosition</key>
-	<integer>-370</integer>
+	<integer>-379</integer>
 	<key>postscriptUnderlineThickness</key>
-	<integer>150</integer>
+	<integer>154</integer>
 	<key>styleMapFamilyName</key>
 	<string>Public Sans Black</string>
 	<key>styleMapStyleName</key>
@@ -84,12 +152,12 @@
 	<key>trademark</key>
 	<string>Public Sans is based on Libre Franklin, which is a trademark of Impallari Type.</string>
 	<key>unitsPerEm</key>
-	<integer>2000</integer>
+	<integer>2048</integer>
 	<key>versionMajor</key>
 	<integer>1</integer>
 	<key>versionMinor</key>
-	<integer>3</integer>
+	<integer>4</integer>
 	<key>xHeight</key>
-	<integer>1034</integer>
+	<integer>1059</integer>
 </dict>
 </plist>

@@ -1,28 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Uhorntilde" format="1">
-  <advance width="1800"/>
-  <unicode hex="1EEE"/>
-  <outline>
-    <component base="Uhorn"/>
-    <component base="tildecomb" xOffset="286" yOffset="412"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>Uhorn</string>
-        </dict>
-      </array>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-01 04:56:43 +0000</string>
-      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-      <string>Uhorn</string>
-    </dict>
-  </lib>
+<glyph name="Uhorntilde" format="2">
+	<advance width="1843"/>
+	<unicode hex="1EEE"/>
+	<outline>
+		<component base="Uhorn"/>
+		<component base="tildecomb" xOffset="300" yOffset="422"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>Uhorn</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>Uhorn</string>
+		</dict>
+	</lib>
 </glyph>

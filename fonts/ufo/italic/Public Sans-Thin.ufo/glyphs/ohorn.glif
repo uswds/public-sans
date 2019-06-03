@@ -1,34 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ohorn" format="1">
-  <advance width="1149"/>
-  <unicode hex="01A1"/>
-  <outline>
-    <component base="o"/>
-    <component base="__horn" xOffset="836" yOffset="-266"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>o</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>__horn</string>
-        </dict>
-      </array>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 23:00:56 +0000</string>
-    </dict>
-  </lib>
+<glyph name="ohorn" format="2">
+	<advance width="1176"/>
+	<unicode hex="01A1"/>
+	<outline>
+		<component base="o"/>
+		<component base="__horn" xOffset="856" yOffset="-272"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>o</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>__horn</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
 </glyph>

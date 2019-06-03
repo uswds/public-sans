@@ -1,35 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="quotedblright" format="1">
-  <advance width="670"/>
-  <unicode hex="201D"/>
-  <outline>
-    <contour>
-      <point x="479" y="1064" type="line"/>
-      <point x="543" y="1064" type="line"/>
-      <point x="681" y="1310" type="line"/>
-      <point x="681" y="1446" type="line"/>
-      <point x="517" y="1446" type="line"/>
-      <point x="517" y="1288" type="line"/>
-      <point x="587" y="1288" type="line"/>
-    </contour>
-    <contour>
-      <point x="195" y="1064" type="line"/>
-      <point x="259" y="1064" type="line"/>
-      <point x="397" y="1310" type="line"/>
-      <point x="397" y="1446" type="line"/>
-      <point x="231" y="1446" type="line"/>
-      <point x="231" y="1288" type="line"/>
-      <point x="301" y="1288" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 06:03:45 +0000</string>
-      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-      <string>quoteright</string>
-      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-      <string>quoteright</string>
-    </dict>
-  </lib>
+<glyph name="quotedblright" format="2">
+	<advance width="702"/>
+	<unicode hex="201D"/>
+	<guideline x="257" y="1400" angle="270"/>
+	<guideline x="549" y="1400" angle="90"/>
+	<outline>
+		<component base="quoteright" xOffset="290"/>
+		<component base="quoteright"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>quoteright</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>quoteright</string>
+		</dict>
+	</lib>
 </glyph>

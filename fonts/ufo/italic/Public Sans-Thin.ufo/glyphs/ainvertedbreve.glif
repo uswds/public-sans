@@ -1,15 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ainvertedbreve" format="1">
-  <advance width="1035"/>
-  <unicode hex="0203"/>
-  <outline>
-    <component base="a"/>
-    <component base="breveinvertedcomb" xOffset="266"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 23:00:56 +0000</string>
-    </dict>
-  </lib>
+<glyph name="ainvertedbreve" format="2">
+	<advance width="1221"/>
+	<unicode hex="0203"/>
+	<outline>
+		<component base="a" xOffset="132"/>
+		<component base="breveinvertedcomb" xOffset="402"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>a</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>breveinvertedcomb</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
 </glyph>

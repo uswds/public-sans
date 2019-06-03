@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Lslash" format="1">
-  <advance width="1075"/>
-  <unicode hex="0141"/>
-  <outline>
-    <contour>
-      <point x="87" y="634" type="line"/>
-      <point x="661" y="784" type="line"/>
-      <point x="661" y="856" type="line"/>
-      <point x="87" y="710" type="line"/>
-    </contour>
-    <component base="L" xOffset="17"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-01 05:36:38 +0000</string>
-      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-      <string>L</string>
-    </dict>
-  </lib>
+<glyph name="Lslash" format="2">
+	<advance width="1139"/>
+	<unicode hex="0141"/>
+	<outline>
+		<contour>
+			<point x="89" y="649" type="line"/>
+			<point x="677" y="803" type="line"/>
+			<point x="677" y="877" type="line"/>
+			<point x="89" y="727" type="line"/>
+		</contour>
+		<component base="L" xOffset="18"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>L</string>
+		</dict>
+	</lib>
 </glyph>

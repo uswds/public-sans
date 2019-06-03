@@ -1,32 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="commaturnedmod" format="1">
-  <advance width="353"/>
-  <unicode hex="02BB"/>
-  <outline>
-    <contour>
-      <point x="177" y="1068" type="line"/>
-      <point x="329" y="1068" type="line"/>
-      <point x="351" y="1224" type="line"/>
-      <point x="265" y="1224" type="line"/>
-      <point x="267" y="1232" type="line"/>
-      <point x="275" y="1292"/>
-      <point x="319" y="1362"/>
-      <point x="361" y="1362" type="curve"/>
-      <point x="371" y="1362" type="line"/>
-      <point x="379" y="1416" type="line"/>
-      <point x="319" y="1432"/>
-      <point x="215" y="1338"/>
-      <point x="197" y="1206" type="curve"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 06:03:45 +0000</string>
-      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-      <string>quoteright</string>
-      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-      <string>quoteright</string>
-    </dict>
-  </lib>
+<glyph name="commaturnedmod" format="2">
+	<advance width="362"/>
+	<unicode hex="02BB"/>
+	<outline>
+		<contour>
+			<point x="181" y="1094" type="line"/>
+			<point x="337" y="1094" type="line"/>
+			<point x="359" y="1253" type="line"/>
+			<point x="271" y="1253" type="line"/>
+			<point x="273" y="1262" type="line"/>
+			<point x="282" y="1323"/>
+			<point x="327" y="1395"/>
+			<point x="370" y="1395" type="curve"/>
+			<point x="380" y="1395" type="line"/>
+			<point x="388" y="1450" type="line"/>
+			<point x="327" y="1466"/>
+			<point x="220" y="1370"/>
+			<point x="202" y="1235" type="curve"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>quoteright</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>quoteright</string>
+		</dict>
+	</lib>
 </glyph>

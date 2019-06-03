@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="dcroat" format="1">
-  <advance width="1308"/>
-  <unicode hex="0111"/>
-  <outline>
-    <contour>
-      <point x="600" y="1132" type="line"/>
-      <point x="1324" y="1132" type="line"/>
-      <point x="1352" y="1340" type="line"/>
-      <point x="628" y="1340" type="line"/>
-    </contour>
-    <component base="d"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 23:01:45 +0000</string>
-      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-      <string>d</string>
-      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-      <string>t</string>
-    </dict>
-  </lib>
+<glyph name="dcroat" format="2">
+	<advance width="1330"/>
+	<unicode hex="0111"/>
+	<outline>
+		<contour>
+			<point x="614" y="1159" type="line"/>
+			<point x="1356" y="1159" type="line"/>
+			<point x="1384" y="1372" type="line"/>
+			<point x="643" y="1372" type="line"/>
+		</contour>
+		<component base="d"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>d</string>
+		</dict>
+	</lib>
 </glyph>

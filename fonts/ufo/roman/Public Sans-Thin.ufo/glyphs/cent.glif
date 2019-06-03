@@ -1,26 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="cent" format="1">
-  <advance width="1050"/>
-  <unicode hex="00A2"/>
-  <outline>
-    <contour>
-      <point x="594" y="0" type="line"/>
-      <point x="594" y="236" type="line"/>
-      <point x="514" y="236" type="line"/>
-      <point x="514" y="0" type="line"/>
-    </contour>
-    <contour>
-      <point x="594" y="1210" type="line"/>
-      <point x="594" y="1446" type="line"/>
-      <point x="514" y="1446" type="line"/>
-      <point x="514" y="1210" type="line"/>
-    </contour>
-    <component base="c" yOffset="222"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-16 18:49:16 +0000</string>
-    </dict>
-  </lib>
+<glyph name="cent" format="2">
+	<advance width="1075"/>
+	<unicode hex="00A2"/>
+	<outline>
+		<contour>
+			<point x="608" y="0" type="line"/>
+			<point x="608" y="242" type="line"/>
+			<point x="526" y="242" type="line"/>
+			<point x="526" y="0" type="line"/>
+		</contour>
+		<contour>
+			<point x="608" y="1239" type="line"/>
+			<point x="608" y="1481" type="line"/>
+			<point x="526" y="1481" type="line"/>
+			<point x="526" y="1239" type="line"/>
+		</contour>
+		<component base="c" yOffset="227"/>
+	</outline>
 </glyph>

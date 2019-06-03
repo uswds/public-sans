@@ -1,70 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="a" format="1">
-  <advance width="1103"/>
-  <unicode hex="0061"/>
-  <outline>
-    <contour>
-      <point x="467" y="-20" type="curve" smooth="yes"/>
-      <point x="619" y="-20"/>
-      <point x="767" y="28"/>
-      <point x="857" y="200" type="curve"/>
-      <point x="861" y="0" type="line"/>
-      <point x="933" y="0" type="line"/>
-      <point x="933" y="716" type="line" smooth="yes"/>
-      <point x="933" y="926"/>
-      <point x="783" y="1054"/>
-      <point x="563" y="1054" type="curve" smooth="yes"/>
-      <point x="323" y="1054"/>
-      <point x="197" y="904"/>
-      <point x="187" y="758" type="curve"/>
-      <point x="271" y="758" type="line"/>
-      <point x="293" y="900"/>
-      <point x="409" y="978"/>
-      <point x="559" y="978" type="curve" smooth="yes"/>
-      <point x="735" y="978"/>
-      <point x="855" y="880"/>
-      <point x="855" y="714" type="curve" smooth="yes"/>
-      <point x="855" y="614" type="line"/>
-      <point x="617" y="606" type="line" smooth="yes"/>
-      <point x="273" y="594"/>
-      <point x="135" y="496"/>
-      <point x="135" y="264" type="curve" smooth="yes"/>
-      <point x="135" y="88"/>
-      <point x="263" y="-20"/>
-    </contour>
-    <contour>
-      <point x="479" y="54" type="curve" smooth="yes"/>
-      <point x="321" y="54"/>
-      <point x="217" y="134"/>
-      <point x="217" y="270" type="curve" smooth="yes"/>
-      <point x="217" y="450"/>
-      <point x="325" y="526"/>
-      <point x="655" y="532" type="curve" smooth="yes"/>
-      <point x="855" y="536" type="line"/>
-      <point x="855" y="334" type="line" smooth="yes"/>
-      <point x="855" y="194"/>
-      <point x="651" y="54"/>
-    </contour>
-    <contour>
-      <point x="561" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="921" y="28" type="move" name="ogonek"/>
-    </contour>
-    <contour>
-      <point x="561" y="1034" type="move" name="top"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 22:23:30 +0000</string>
-      <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
-      <string>==n</string>
-      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-      <string>=|e+5</string>
-      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-      <string>=n</string>
-    </dict>
-  </lib>
+<glyph name="a" format="2">
+	<advance width="1153"/>
+	<unicode hex="0061"/>
+	<guideline x="385" y="208" angle="0"/>
+	<anchor x="937" y="29" name="ogonek"/>
+	<anchor x="569" y="0" name="bottom"/>
+	<anchor x="569" y="1059" name="top"/>
+	<outline>
+		<contour>
+			<point x="472" y="-20" type="curve" smooth="yes"/>
+			<point x="628" y="-20"/>
+			<point x="780" y="39"/>
+			<point x="872" y="215" type="curve"/>
+			<point x="876" y="0" type="line"/>
+			<point x="949" y="0" type="line"/>
+			<point x="949" y="733" type="line" smooth="yes"/>
+			<point x="949" y="948"/>
+			<point x="796" y="1079"/>
+			<point x="571" y="1079" type="curve" smooth="yes"/>
+			<point x="325" y="1079"/>
+			<point x="196" y="926"/>
+			<point x="186" y="776" type="curve"/>
+			<point x="272" y="776" type="line"/>
+			<point x="294" y="922"/>
+			<point x="413" y="1001"/>
+			<point x="567" y="1001" type="curve" smooth="yes"/>
+			<point x="747" y="1001"/>
+			<point x="870" y="901"/>
+			<point x="870" y="731" type="curve" smooth="yes"/>
+			<point x="870" y="629" type="line"/>
+			<point x="626" y="621" type="line" smooth="yes"/>
+			<point x="274" y="608"/>
+			<point x="132" y="508"/>
+			<point x="132" y="270" type="curve" smooth="yes"/>
+			<point x="132" y="90"/>
+			<point x="263" y="-20"/>
+		</contour>
+		<contour>
+			<point x="485" y="55" type="curve" smooth="yes"/>
+			<point x="323" y="55"/>
+			<point x="216" y="137"/>
+			<point x="216" y="276" type="curve" smooth="yes"/>
+			<point x="216" y="461"/>
+			<point x="327" y="539"/>
+			<point x="665" y="545" type="curve" smooth="yes"/>
+			<point x="870" y="549" type="line"/>
+			<point x="870" y="342" type="line" smooth="yes"/>
+			<point x="870" y="199"/>
+			<point x="661" y="55"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>=|o*1.1</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>=n*1.2</string>
+		</dict>
+	</lib>
 </glyph>

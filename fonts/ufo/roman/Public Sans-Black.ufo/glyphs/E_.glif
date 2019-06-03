@@ -1,40 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="E" format="1">
-  <advance width="1285"/>
-  <unicode hex="0045"/>
-  <outline>
-    <contour>
-      <point x="130" y="0" type="line"/>
-      <point x="1200" y="0" type="line"/>
-      <point x="1200" y="324" type="line"/>
-      <point x="520" y="324" type="line"/>
-      <point x="520" y="570" type="line"/>
-      <point x="1086" y="570" type="line"/>
-      <point x="1086" y="884" type="line"/>
-      <point x="522" y="884" type="line"/>
-      <point x="522" y="1124" type="line"/>
-      <point x="1196" y="1124" type="line"/>
-      <point x="1198" y="1446" type="line"/>
-      <point x="130" y="1446" type="line"/>
-    </contour>
-    <contour>
-      <point x="664" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1198" y="20" type="move" name="ogonek"/>
-    </contour>
-    <contour>
-      <point x="664" y="1446" type="move" name="top"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-06 20:24:22 +0000</string>
-      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-      <string>H</string>
-      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-      <string>=85</string>
-    </dict>
-  </lib>
+<glyph name="E" format="2">
+	<advance width="1329"/>
+	<unicode hex="0045"/>
+	<anchor x="1234" y="20" name="ogonek"/>
+	<anchor x="687" y="0" name="bottom"/>
+	<anchor x="687" y="1481" name="top"/>
+	<outline>
+		<contour>
+			<point x="140" y="0" type="line"/>
+			<point x="1236" y="0" type="line"/>
+			<point x="1236" y="332" type="line"/>
+			<point x="539" y="332" type="line"/>
+			<point x="539" y="584" type="line"/>
+			<point x="1119" y="584" type="line"/>
+			<point x="1119" y="905" type="line"/>
+			<point x="542" y="905" type="line"/>
+			<point x="542" y="1151" type="line"/>
+			<point x="1232" y="1151" type="line"/>
+			<point x="1234" y="1481" type="line"/>
+			<point x="140" y="1481" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>H</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>=H/1.5</string>
+		</dict>
+	</lib>
 </glyph>

@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ohorndotbelow" format="1">
-  <advance width="1124"/>
-  <unicode hex="1EE3"/>
-  <outline>
-    <component base="dotbelowcomb" xOffset="492"/>
-    <component base="ohorn"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 19:27:32 +0000</string>
-      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-      <string>ohorn</string>
-      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-      <string>ohorn</string>
-    </dict>
-  </lib>
+<glyph name="ohorndotbelow" format="2">
+	<advance width="1151"/>
+	<unicode hex="1EE3"/>
+	<outline>
+		<component base="dotbelowcomb" xOffset="504"/>
+		<component base="ohorn"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>ohorn</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>ohorn</string>
+		</dict>
+	</lib>
 </glyph>

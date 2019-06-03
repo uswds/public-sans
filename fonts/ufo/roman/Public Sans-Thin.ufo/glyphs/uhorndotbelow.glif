@@ -1,30 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uhorndotbelow" format="1">
-  <advance width="1188"/>
-  <unicode hex="1EF1"/>
-  <outline>
-    <component base="dotbelowcomb" xOffset="500"/>
-    <component base="uhorn"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>uhorn</string>
-        </dict>
-      </array>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 19:27:32 +0000</string>
-      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-      <string>uhorn</string>
-      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-      <string>uhorn</string>
-    </dict>
-  </lib>
+<glyph name="uhorndotbelow" format="2">
+	<advance width="1217"/>
+	<unicode hex="1EF1"/>
+	<outline>
+		<component base="dotbelowcomb" xOffset="512"/>
+		<component base="uhorn"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>uhorn</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>uhorn</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>uhorn</string>
+		</dict>
+	</lib>
 </glyph>

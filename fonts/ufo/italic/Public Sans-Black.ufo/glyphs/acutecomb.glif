@@ -1,26 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="acutecomb" format="1">
-  <advance width="615"/>
-  <unicode hex="0301"/>
-  <outline>
-    <contour>
-      <point x="347" y="1446" type="line"/>
-      <point x="100" y="1155" type="line"/>
-      <point x="378" y="1155" type="line"/>
-      <point x="736" y="1446" type="line"/>
-    </contour>
-    <contour>
-      <point x="222" y="1034" type="move" name="_top"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 06:03:45 +0000</string>
-      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-      <string>gravecomb</string>
-      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-      <string>gravecomb</string>
-    </dict>
-  </lib>
+<glyph name="acutecomb" format="2">
+	<advance width="632"/>
+	<unicode hex="0301"/>
+	<anchor x="227" y="1059" name="_top"/>
+	<outline>
+		<contour>
+			<point x="355" y="1481" type="line"/>
+			<point x="102" y="1183" type="line"/>
+			<point x="387" y="1183" type="line"/>
+			<point x="754" y="1481" type="line"/>
+		</contour>
+	</outline>
 </glyph>

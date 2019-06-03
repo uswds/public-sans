@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Hbar" format="1">
-  <advance width="1398"/>
-  <unicode hex="0126"/>
-  <outline>
-    <contour>
-      <point x="1378" y="1206" type="line"/>
-      <point x="20" y="1206" type="line"/>
-      <point x="20" y="1128" type="line"/>
-      <point x="1378" y="1128" type="line"/>
-    </contour>
-    <component base="H" xOffset="2"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-16 18:49:16 +0000</string>
-    </dict>
-  </lib>
+<glyph name="Hbar" format="2">
+	<advance width="1432"/>
+	<unicode hex="0126"/>
+	<outline>
+		<contour>
+			<point x="1411" y="1235" type="line"/>
+			<point x="20" y="1235" type="line"/>
+			<point x="20" y="1155" type="line"/>
+			<point x="1411" y="1155" type="line"/>
+		</contour>
+		<component base="H" xOffset="2"/>
+	</outline>
 </glyph>

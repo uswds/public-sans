@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>.notdef</key>
@@ -400,6 +400,8 @@
 	<string>__horn.glif</string>
 	<key>_dot</key>
 	<string>_dot.glif</string>
+	<key>_emdash</key>
+	<string>_emdash.glif</string>
 	<key>_j-hook</key>
 	<string>_j-hook.glif</string>
 	<key>_ringacute</key>
@@ -1116,6 +1118,8 @@
 	<string>softhyphen.glif</string>
 	<key>space</key>
 	<string>space.glif</string>
+	<key>space_emdash_space.liga</key>
+	<string>space_emdash_space.liga.glif</string>
 	<key>sterling</key>
 	<string>sterling.glif</string>
 	<key>summation</key>

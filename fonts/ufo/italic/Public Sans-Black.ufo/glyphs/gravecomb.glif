@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="gravecomb" format="1">
-  <advance width="697"/>
-  <unicode hex="0300"/>
-  <outline>
-    <component base="acutecomb" xScale="-1" xOffset="877"/>
-    <contour>
-      <point x="637" y="1034" type="move" name="_top"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 23:00:56 +0000</string>
-    </dict>
-  </lib>
+<glyph name="gravecomb" format="2">
+	<advance width="716"/>
+	<unicode hex="0300"/>
+	<anchor x="653" y="1059" name="_top"/>
+	<outline>
+		<component base="acutecomb" xScale="-1" xOffset="900"/>
+	</outline>
 </glyph>

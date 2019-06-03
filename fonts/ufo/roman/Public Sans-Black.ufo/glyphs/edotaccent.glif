@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="edotaccent" format="1">
-  <advance width="1128"/>
-  <unicode hex="0117"/>
-  <outline>
-    <component base="e"/>
-    <component base="dotaccentcomb" xOffset="322"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
-      <integer>1</integer>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 21:34:32 +0000</string>
-    </dict>
-  </lib>
+<glyph name="edotaccent" format="2">
+	<advance width="1173"/>
+	<unicode hex="0117"/>
+	<outline>
+		<component base="e"/>
+		<component base="dotaccentcomb" xOffset="344"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
+			<integer>1</integer>
+		</dict>
+	</lib>
 </glyph>

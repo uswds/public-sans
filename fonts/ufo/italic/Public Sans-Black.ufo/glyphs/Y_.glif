@@ -1,34 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Y" format="1">
-  <advance width="1466"/>
-  <unicode hex="0059"/>
-  <outline>
-    <contour>
-      <point x="449" y="0" type="line"/>
-      <point x="835" y="0" type="line"/>
-      <point x="927" y="602" type="line"/>
-      <point x="1567" y="1446" type="line"/>
-      <point x="1145" y="1446" type="line"/>
-      <point x="785" y="932" type="line"/>
-      <point x="579" y="1446" type="line"/>
-      <point x="161" y="1446" type="line"/>
-      <point x="539" y="602" type="line"/>
-    </contour>
-    <contour>
-      <point x="643" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="845" y="1446" type="move" name="top"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 06:03:45 +0000</string>
-      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-      <string>X</string>
-      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-      <string>X</string>
-    </dict>
-  </lib>
+<glyph name="Y" format="2">
+	<advance width="1470"/>
+	<unicode hex="0059"/>
+	<guideline x="507" y="670" angle="58.823"/>
+	<anchor x="849" y="1481" name="top"/>
+	<anchor x="642" y="0" name="bottom"/>
+	<outline>
+		<contour>
+			<point x="444" y="0" type="line"/>
+			<point x="839" y="0" type="line"/>
+			<point x="933" y="616" type="line"/>
+			<point x="1589" y="1481" type="line"/>
+			<point x="1156" y="1481" type="line"/>
+			<point x="788" y="954" type="line"/>
+			<point x="577" y="1481" type="line"/>
+			<point x="149" y="1481" type="line"/>
+			<point x="536" y="616" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.layer.leftMetricsKey</key>
+			<string>==X/2</string>
+			<key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
+			<string>==X/2</string>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>=X/4</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>=X/4</string>
+		</dict>
+	</lib>
 </glyph>

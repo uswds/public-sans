@@ -1,29 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="guillemetleft" format="1">
-  <advance width="767"/>
-  <unicode hex="00AB"/>
-  <outline>
-    <contour>
-      <point x="572" y="152" type="line"/>
-      <point x="622" y="152" type="line"/>
-      <point x="454" y="502" type="line"/>
-      <point x="726" y="868" type="line"/>
-      <point x="674" y="868" type="line"/>
-      <point x="358" y="502" type="line"/>
-    </contour>
-    <contour>
-      <point x="272" y="152" type="line"/>
-      <point x="322" y="152" type="line"/>
-      <point x="154" y="502" type="line"/>
-      <point x="426" y="868" type="line"/>
-      <point x="374" y="868" type="line"/>
-      <point x="58" y="502" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 06:03:45 +0000</string>
-    </dict>
-  </lib>
+<glyph name="guillemetleft" format="2">
+	<advance width="784"/>
+	<unicode hex="00AB"/>
+	<outline>
+		<contour>
+			<point x="586" y="156" type="line"/>
+			<point x="637" y="156" type="line"/>
+			<point x="465" y="514" type="line"/>
+			<point x="743" y="889" type="line"/>
+			<point x="690" y="889" type="line"/>
+			<point x="367" y="514" type="line"/>
+		</contour>
+		<contour>
+			<point x="279" y="156" type="line"/>
+			<point x="330" y="156" type="line"/>
+			<point x="158" y="514" type="line"/>
+			<point x="436" y="889" type="line"/>
+			<point x="383" y="889" type="line"/>
+			<point x="59" y="514" type="line"/>
+		</contour>
+	</outline>
 </glyph>

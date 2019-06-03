@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uhornacute" format="1">
-  <advance width="1547"/>
-  <unicode hex="1EE9"/>
-  <outline>
-    <component base="u"/>
-    <component base="__horn" xOffset="1045" yOffset="-166"/>
-    <component base="acutecomb" xOffset="476"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 23:00:56 +0000</string>
-    </dict>
-  </lib>
+<glyph name="uhornacute" format="2">
+	<advance width="1539"/>
+	<unicode hex="1EE9"/>
+	<outline>
+		<component base="u"/>
+		<component base="__horn" xOffset="1048" yOffset="-170"/>
+		<component base="acutecomb" xOffset="466"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>uhorn</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>uhorn</string>
+		</dict>
+	</lib>
 </glyph>

@@ -1,29 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="idotless" format="1">
-  <advance width="458"/>
-  <unicode hex="0131"/>
-  <outline>
-    <contour>
-      <point x="268" y="1034" type="line"/>
-      <point x="190" y="1034" type="line"/>
-      <point x="190" y="0" type="line"/>
-      <point x="268" y="0" type="line"/>
-    </contour>
-    <contour>
-      <point x="252" y="26" type="move" name="ogonek"/>
-    </contour>
-    <contour>
-      <point x="228" y="1034" type="move" name="top"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 23:32:09 +0000</string>
-      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-      <string>i</string>
-      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-      <string>i</string>
-    </dict>
-  </lib>
+<glyph name="idotless" format="2">
+	<advance width="498"/>
+	<unicode hex="0131"/>
+	<anchor x="273" y="27" name="ogonek"/>
+	<anchor x="248" y="1059" name="top"/>
+	<outline>
+		<contour>
+			<point x="289" y="1059" type="line"/>
+			<point x="209" y="1059" type="line"/>
+			<point x="209" y="0" type="line"/>
+			<point x="289" y="0" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>i</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>i</string>
+		</dict>
+	</lib>
 </glyph>

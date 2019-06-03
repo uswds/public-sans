@@ -1,27 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="l.ss01" format="1">
-  <advance width="670"/>
-  <outline>
-    <contour>
-      <point x="140" y="0" type="line"/>
-      <point x="530" y="0" type="line"/>
-      <point x="530" y="1486" type="line"/>
-      <point x="140" y="1486" type="line"/>
-    </contour>
-    <contour>
-      <point x="330" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="348" y="1492" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="830" y="1530" type="move" name="topright"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-16 18:49:16 +0000</string>
-    </dict>
-  </lib>
+<glyph name="l.ss01" format="2">
+	<advance width="686"/>
+	<anchor x="356" y="1528" name="top"/>
+	<anchor x="338" y="0" name="bottom"/>
+	<anchor x="850" y="1567" name="topright"/>
+	<outline>
+		<contour>
+			<point x="143" y="0" type="line"/>
+			<point x="543" y="0" type="line"/>
+			<point x="543" y="1522" type="line"/>
+			<point x="143" y="1522" type="line"/>
+		</contour>
+	</outline>
 </glyph>

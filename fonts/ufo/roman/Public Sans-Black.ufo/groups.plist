@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>@MMK_L_0.tf</key>
+	<key>public.kern1.0.tf</key>
 	<array>
 		<string>zero.tf</string>
 		<string>one.tf</string>
@@ -15,7 +15,7 @@
 		<string>eight.tf</string>
 		<string>nine.tf</string>
 	</array>
-	<key>@MMK_L_A</key>
+	<key>public.kern1.A</key>
 	<array>
 		<string>A</string>
 		<string>Aacute</string>
@@ -43,11 +43,11 @@
 		<string>Aringacute</string>
 		<string>Atilde</string>
 	</array>
-	<key>@MMK_L_B</key>
+	<key>public.kern1.B</key>
 	<array>
 		<string>B</string>
 	</array>
-	<key>@MMK_L_C</key>
+	<key>public.kern1.C</key>
 	<array>
 		<string>C</string>
 		<string>Cacute</string>
@@ -55,8 +55,17 @@
 		<string>Ccedilla</string>
 		<string>Ccircumflex</string>
 		<string>Cdotaccent</string>
+		<string>colonsign</string>
 	</array>
-	<key>@MMK_L_E</key>
+	<key>public.kern1.D</key>
+	<array>
+		<string>D</string>
+		<string>Eth</string>
+		<string>Dcaron</string>
+		<string>Dcroat</string>
+		<string>Ddotbelow</string>
+	</array>
+	<key>public.kern1.E</key>
 	<array>
 		<string>AE</string>
 		<string>AEacute</string>
@@ -80,14 +89,14 @@
 		<string>Emacron</string>
 		<string>Eogonek</string>
 		<string>Etilde</string>
-		<string>F</string>
 		<string>OE</string>
 	</array>
-	<key>@MMK_L_F</key>
+	<key>public.kern1.F</key>
 	<array>
+		<string>F</string>
 		<string>franc</string>
 	</array>
-	<key>@MMK_L_G</key>
+	<key>public.kern1.G</key>
 	<array>
 		<string>G</string>
 		<string>Gbreve</string>
@@ -95,12 +104,12 @@
 		<string>Gcommaaccent</string>
 		<string>Gdotaccent</string>
 	</array>
-	<key>@MMK_L_K</key>
+	<key>public.kern1.K</key>
 	<array>
 		<string>K</string>
 		<string>Kcommaaccent</string>
 	</array>
-	<key>@MMK_L_L</key>
+	<key>public.kern1.L</key>
 	<array>
 		<string>L</string>
 		<string>Lacute</string>
@@ -109,7 +118,7 @@
 		<string>Ldot</string>
 		<string>Lslash</string>
 	</array>
-	<key>@MMK_L_N</key>
+	<key>public.kern1.N</key>
 	<array>
 		<string>H</string>
 		<string>Hbar</string>
@@ -129,8 +138,6 @@
 		<string>Imacron</string>
 		<string>Iogonek</string>
 		<string>Itilde</string>
-		<string>J</string>
-		<string>Jcircumflex</string>
 		<string>M</string>
 		<string>N</string>
 		<string>Nacute</string>
@@ -142,13 +149,8 @@
 		<string>won</string>
 		<string>yen</string>
 	</array>
-	<key>@MMK_L_O</key>
+	<key>public.kern1.O</key>
 	<array>
-		<string>D</string>
-		<string>Eth</string>
-		<string>Dcaron</string>
-		<string>Dcroat</string>
-		<string>Ddotbelow</string>
 		<string>O</string>
 		<string>Oacute</string>
 		<string>Obreve</string>
@@ -170,7 +172,7 @@
 		<string>Otilde</string>
 		<string>Q</string>
 	</array>
-	<key>@MMK_L_Ohorn</key>
+	<key>public.kern1.Ohorn</key>
 	<array>
 		<string>Ohorn</string>
 		<string>Ohornacute</string>
@@ -179,17 +181,17 @@
 		<string>Ohornhookabove</string>
 		<string>Ohorntilde</string>
 	</array>
-	<key>@MMK_L_Oslash</key>
+	<key>public.kern1.Oslash</key>
 	<array>
 		<string>Oslash</string>
 		<string>Oslashacute</string>
 	</array>
-	<key>@MMK_L_P</key>
+	<key>public.kern1.P</key>
 	<array>
 		<string>P</string>
 		<string>Thorn</string>
 	</array>
-	<key>@MMK_L_R</key>
+	<key>public.kern1.R</key>
 	<array>
 		<string>R</string>
 		<string>Racute</string>
@@ -199,7 +201,7 @@
 		<string>Rdotbelow</string>
 		<string>Rinvertedbreve</string>
 	</array>
-	<key>@MMK_L_S</key>
+	<key>public.kern1.S</key>
 	<array>
 		<string>S</string>
 		<string>Sacute</string>
@@ -209,7 +211,7 @@
 		<string>Scommaaccent</string>
 		<string>Sdotbelow</string>
 	</array>
-	<key>@MMK_L_T</key>
+	<key>public.kern1.T</key>
 	<array>
 		<string>T</string>
 		<string>Tbar</string>
@@ -218,8 +220,10 @@
 		<string>Tcommaaccent</string>
 		<string>Tdotbelow</string>
 	</array>
-	<key>@MMK_L_U</key>
+	<key>public.kern1.U</key>
 	<array>
+		<string>J</string>
+		<string>Jcircumflex</string>
 		<string>U</string>
 		<string>Uacute</string>
 		<string>Ubreve</string>
@@ -236,7 +240,7 @@
 		<string>Uring</string>
 		<string>Utilde</string>
 	</array>
-	<key>@MMK_L_Uhorn</key>
+	<key>public.kern1.Uhorn</key>
 	<array>
 		<string>Uhorn</string>
 		<string>Uhornacute</string>
@@ -245,23 +249,23 @@
 		<string>Uhornhookabove</string>
 		<string>Uhorntilde</string>
 	</array>
-	<key>@MMK_L_V</key>
+	<key>public.kern1.V</key>
 	<array>
 		<string>V</string>
 		<string>W</string>
 	</array>
-	<key>@MMK_L_W</key>
+	<key>public.kern1.W</key>
 	<array>
 		<string>Wacute</string>
 		<string>Wcircumflex</string>
 		<string>Wdieresis</string>
 		<string>Wgrave</string>
 	</array>
-	<key>@MMK_L_X</key>
+	<key>public.kern1.X</key>
 	<array>
 		<string>X</string>
 	</array>
-	<key>@MMK_L_Y</key>
+	<key>public.kern1.Y</key>
 	<array>
 		<string>Y</string>
 		<string>Yacute</string>
@@ -272,7 +276,7 @@
 		<string>Yhookabove</string>
 		<string>Ytilde</string>
 	</array>
-	<key>@MMK_L_Z</key>
+	<key>public.kern1.Z</key>
 	<array>
 		<string>Z</string>
 		<string>Zacute</string>
@@ -280,45 +284,47 @@
 		<string>Zdotaccent</string>
 		<string>Zdotbelow</string>
 	</array>
-	<key>@MMK_L_cent</key>
-	<array>
-		<string>colonsign</string>
-	</array>
-	<key>@MMK_L_colon</key>
+	<key>public.kern1.colon</key>
 	<array>
 		<string>semicolon</string>
 	</array>
-	<key>@MMK_L_comma</key>
+	<key>public.kern1.comma</key>
 	<array>
 		<string>quotesinglbase</string>
 	</array>
-	<key>@MMK_L_copyright</key>
+	<key>public.kern1.copyright</key>
 	<array>
 		<string>published</string>
 	</array>
-	<key>@MMK_L_e</key>
+	<key>public.kern1.e</key>
 	<array>
 		<string>Schwa</string>
-		<string>ae</string>
 		<string>aeacute</string>
-		<string>oe</string>
 	</array>
-	<key>@MMK_L_eight</key>
+	<key>public.kern1.eight</key>
 	<array>
-		<string>eight</string>
 		<string>eight.osf</string>
 	</array>
-	<key>@MMK_L_five</key>
+	<key>public.kern1.emdash</key>
+	<array>
+		<string>emdash</string>
+		<string>space_emdash_space.liga</string>
+	</array>
+	<key>public.kern1.f</key>
+	<array>
+		<string>f</string>
+	</array>
+	<key>public.kern1.five</key>
 	<array>
 		<string>five</string>
 		<string>five.osf</string>
 	</array>
-	<key>@MMK_L_four</key>
+	<key>public.kern1.four</key>
 	<array>
 		<string>four</string>
 		<string>four.osf</string>
 	</array>
-	<key>@MMK_L_g</key>
+	<key>public.kern1.g</key>
 	<array>
 		<string>g</string>
 		<string>gbreve</string>
@@ -326,27 +332,32 @@
 		<string>gcommaaccent</string>
 		<string>gdotaccent</string>
 	</array>
-	<key>@MMK_L_guilsinglleft</key>
+	<key>public.kern1.guilsinglleft</key>
 	<array>
 		<string>guillemetleft</string>
 	</array>
-	<key>@MMK_L_guilsinglright</key>
+	<key>public.kern1.guilsinglright</key>
 	<array>
 		<string>guillemetright</string>
 	</array>
-	<key>@MMK_L_hyphen</key>
+	<key>public.kern1.hyphen</key>
 	<array>
 		<string>hyphen</string>
 		<string>softhyphen</string>
 		<string>endash</string>
-		<string>emdash</string>
 	</array>
-	<key>@MMK_L_i</key>
+	<key>public.kern1.i</key>
 	<array>
 		<string>bar</string>
 		<string>brokenbar</string>
 	</array>
-	<key>@MMK_L_l</key>
+	<key>public.kern1.k</key>
+	<array>
+		<string>k</string>
+		<string>kcommaaccent</string>
+		<string>kgreenlandic</string>
+	</array>
+	<key>public.kern1.l</key>
 	<array>
 		<string>l</string>
 		<string>lacute</string>
@@ -356,7 +367,7 @@
 		<string>lslash</string>
 		<string>fl</string>
 	</array>
-	<key>@MMK_L_n</key>
+	<key>public.kern1.n</key>
 	<array>
 		<string>a</string>
 		<string>aacute</string>
@@ -396,13 +407,13 @@
 		<string>eng</string>
 		<string>ntilde</string>
 	</array>
-	<key>@MMK_L_nine</key>
+	<key>public.kern1.nine</key>
 	<array>
-		<string>nine</string>
 		<string>nine.osf</string>
 	</array>
-	<key>@MMK_L_o</key>
+	<key>public.kern1.o</key>
 	<array>
+		<string>ae</string>
 		<string>b</string>
 		<string>c</string>
 		<string>cacute</string>
@@ -453,11 +464,12 @@
 		<string>oslash</string>
 		<string>oslashacute</string>
 		<string>otilde</string>
+		<string>oe</string>
 		<string>p</string>
 		<string>thorn</string>
 		<string>at</string>
 	</array>
-	<key>@MMK_L_ohorn</key>
+	<key>public.kern1.ohorn</key>
 	<array>
 		<string>ohorn</string>
 		<string>ohornacute</string>
@@ -466,12 +478,28 @@
 		<string>ohornhookabove</string>
 		<string>ohorntilde</string>
 	</array>
-	<key>@MMK_L_one</key>
+	<key>public.kern1.one</key>
 	<array>
 		<string>one</string>
 		<string>one.osf</string>
 	</array>
-	<key>@MMK_L_period</key>
+	<key>public.kern1.one.numr</key>
+	<array>
+		<string>four.numr</string>
+	</array>
+	<key>public.kern1.onehalf</key>
+	<array>
+		<string>one.numr</string>
+		<string>onethird</string>
+		<string>twothirds</string>
+		<string>onequarter</string>
+		<string>threequarters</string>
+		<string>oneeighth</string>
+		<string>threeeighths</string>
+		<string>fiveeighths</string>
+		<string>seveneighths</string>
+	</array>
+	<key>public.kern1.period</key>
 	<array>
 		<string>period</string>
 		<string>comma</string>
@@ -480,7 +508,7 @@
 		<string>periodcentered</string>
 		<string>underscore</string>
 	</array>
-	<key>@MMK_L_plus</key>
+	<key>public.kern1.plus</key>
 	<array>
 		<string>plus</string>
 		<string>multiply</string>
@@ -496,32 +524,31 @@
 		<string>asciitilde</string>
 		<string>logicalnot</string>
 	</array>
-	<key>@MMK_L_q</key>
+	<key>public.kern1.q</key>
 	<array>
 		<string>g.ss01</string>
 	</array>
-	<key>@MMK_L_quoteleft</key>
+	<key>public.kern1.quoteleft</key>
 	<array>
 		<string>quotedblleft</string>
 		<string>quoteleft</string>
 	</array>
-	<key>@MMK_L_quoteright</key>
+	<key>public.kern1.quoteright</key>
 	<array>
 		<string>quotedblright</string>
 		<string>quoteright</string>
 	</array>
-	<key>@MMK_L_quotesinglbase</key>
+	<key>public.kern1.quotesinglbase</key>
 	<array>
 		<string>quotedblbase</string>
 	</array>
-	<key>@MMK_L_quotesingle</key>
+	<key>public.kern1.quotesingle</key>
 	<array>
 		<string>quotedbl</string>
 		<string>quotesingle</string>
 	</array>
-	<key>@MMK_L_r</key>
+	<key>public.kern1.r</key>
 	<array>
-		<string>f</string>
 		<string>r</string>
 		<string>racute</string>
 		<string>rcaron</string>
@@ -530,7 +557,7 @@
 		<string>rdotbelow</string>
 		<string>rinvertedbreve</string>
 	</array>
-	<key>@MMK_L_s</key>
+	<key>public.kern1.s</key>
 	<array>
 		<string>s</string>
 		<string>sacute</string>
@@ -541,17 +568,16 @@
 		<string>sdotbelow</string>
 		<string>germandbls</string>
 	</array>
-	<key>@MMK_L_seven</key>
+	<key>public.kern1.seven</key>
 	<array>
 		<string>seven</string>
 		<string>seven.osf</string>
 	</array>
-	<key>@MMK_L_six</key>
+	<key>public.kern1.six</key>
 	<array>
-		<string>six</string>
 		<string>six.osf</string>
 	</array>
-	<key>@MMK_L_t</key>
+	<key>public.kern1.t</key>
 	<array>
 		<string>t</string>
 		<string>tbar</string>
@@ -560,17 +586,16 @@
 		<string>tcommaaccent</string>
 		<string>tdotbelow</string>
 	</array>
-	<key>@MMK_L_three</key>
+	<key>public.kern1.three</key>
 	<array>
-		<string>three</string>
 		<string>three.osf</string>
 	</array>
-	<key>@MMK_L_two</key>
+	<key>public.kern1.two</key>
 	<array>
 		<string>two</string>
 		<string>two.osf</string>
 	</array>
-	<key>@MMK_L_u</key>
+	<key>public.kern1.u</key>
 	<array>
 		<string>d</string>
 		<string>dcaron</string>
@@ -614,7 +639,7 @@
 		<string>fi</string>
 		<string>micro</string>
 	</array>
-	<key>@MMK_L_uhorn</key>
+	<key>public.kern1.uhorn</key>
 	<array>
 		<string>uhorn</string>
 		<string>uhornacute</string>
@@ -622,7 +647,7 @@
 		<string>uhorngrave</string>
 		<string>uhornhookabove</string>
 	</array>
-	<key>@MMK_L_v</key>
+	<key>public.kern1.v</key>
 	<array>
 		<string>v</string>
 		<string>w</string>
@@ -639,14 +664,11 @@
 		<string>yhookabove</string>
 		<string>ytilde</string>
 	</array>
-	<key>@MMK_L_x</key>
+	<key>public.kern1.x</key>
 	<array>
-		<string>k</string>
-		<string>kcommaaccent</string>
-		<string>kgreenlandic</string>
 		<string>x</string>
 	</array>
-	<key>@MMK_L_z</key>
+	<key>public.kern1.z</key>
 	<array>
 		<string>z</string>
 		<string>zacute</string>
@@ -654,12 +676,33 @@
 		<string>zdotaccent</string>
 		<string>zdotbelow</string>
 	</array>
-	<key>@MMK_L_zero</key>
+	<key>public.kern1.zero</key>
 	<array>
 		<string>zero</string>
+		<string>three</string>
+		<string>six</string>
+		<string>eight</string>
+		<string>nine</string>
 		<string>zero.osf</string>
 	</array>
-	<key>@MMK_R_0.tf</key>
+	<key>public.kern1.zero.dnom</key>
+	<array>
+		<string>zero.dnom</string>
+		<string>two.dnom</string>
+		<string>three.dnom</string>
+		<string>six.dnom</string>
+		<string>eight.dnom</string>
+	</array>
+	<key>public.kern1.zero.numr</key>
+	<array>
+		<string>zero.numr</string>
+		<string>three.numr</string>
+		<string>five.numr</string>
+		<string>six.numr</string>
+		<string>eight.numr</string>
+		<string>nine.numr</string>
+	</array>
+	<key>public.kern2.0.tf</key>
 	<array>
 		<string>zero.tf</string>
 		<string>one.tf</string>
@@ -672,7 +715,7 @@
 		<string>eight.tf</string>
 		<string>nine.tf</string>
 	</array>
-	<key>@MMK_R_A</key>
+	<key>public.kern2.A</key>
 	<array>
 		<string>A</string>
 		<string>Aacute</string>
@@ -700,21 +743,25 @@
 		<string>Aringacute</string>
 		<string>Atilde</string>
 	</array>
-	<key>@MMK_R_AE</key>
+	<key>public.kern2.AE</key>
 	<array>
 		<string>AE</string>
 		<string>AEacute</string>
 	</array>
-	<key>@MMK_R_F</key>
+	<key>public.kern2.C</key>
+	<array>
+		<string>colonsign</string>
+	</array>
+	<key>public.kern2.F</key>
 	<array>
 		<string>franc</string>
 	</array>
-	<key>@MMK_R_J</key>
+	<key>public.kern2.J</key>
 	<array>
 		<string>J</string>
 		<string>Jcircumflex</string>
 	</array>
-	<key>@MMK_R_N</key>
+	<key>public.kern2.N</key>
 	<array>
 		<string>B</string>
 		<string>D</string>
@@ -790,7 +837,7 @@
 		<string>yen</string>
 		<string>numero</string>
 	</array>
-	<key>@MMK_R_O</key>
+	<key>public.kern2.O</key>
 	<array>
 		<string>C</string>
 		<string>Cacute</string>
@@ -831,12 +878,12 @@
 		<string>OE</string>
 		<string>Q</string>
 	</array>
-	<key>@MMK_R_Oslash</key>
+	<key>public.kern2.Oslash</key>
 	<array>
 		<string>Oslash</string>
 		<string>Oslashacute</string>
 	</array>
-	<key>@MMK_R_S</key>
+	<key>public.kern2.S</key>
 	<array>
 		<string>S</string>
 		<string>Sacute</string>
@@ -846,7 +893,7 @@
 		<string>Scommaaccent</string>
 		<string>Sdotbelow</string>
 	</array>
-	<key>@MMK_R_T</key>
+	<key>public.kern2.T</key>
 	<array>
 		<string>T</string>
 		<string>Tbar</string>
@@ -855,7 +902,7 @@
 		<string>Tcommaaccent</string>
 		<string>Tdotbelow</string>
 	</array>
-	<key>@MMK_R_U</key>
+	<key>public.kern2.U</key>
 	<array>
 		<string>U</string>
 		<string>Uacute</string>
@@ -879,23 +926,23 @@
 		<string>Uring</string>
 		<string>Utilde</string>
 	</array>
-	<key>@MMK_R_V</key>
+	<key>public.kern2.V</key>
 	<array>
 		<string>V</string>
 		<string>W</string>
 	</array>
-	<key>@MMK_R_W</key>
+	<key>public.kern2.W</key>
 	<array>
 		<string>Wacute</string>
 		<string>Wcircumflex</string>
 		<string>Wdieresis</string>
 		<string>Wgrave</string>
 	</array>
-	<key>@MMK_R_X</key>
+	<key>public.kern2.X</key>
 	<array>
 		<string>X</string>
 	</array>
-	<key>@MMK_R_Y</key>
+	<key>public.kern2.Y</key>
 	<array>
 		<string>Y</string>
 		<string>Yacute</string>
@@ -906,7 +953,7 @@
 		<string>Yhookabove</string>
 		<string>Ytilde</string>
 	</array>
-	<key>@MMK_R_Z</key>
+	<key>public.kern2.Z</key>
 	<array>
 		<string>Z</string>
 		<string>Zacute</string>
@@ -914,47 +961,77 @@
 		<string>Zdotaccent</string>
 		<string>Zdotbelow</string>
 	</array>
-	<key>@MMK_R_cent</key>
+	<key>public.kern2.a</key>
 	<array>
-		<string>colonsign</string>
+		<string>a</string>
+		<string>aacute</string>
+		<string>abreve</string>
+		<string>abreveacute</string>
+		<string>abrevedotbelow</string>
+		<string>abrevegrave</string>
+		<string>abrevehookabove</string>
+		<string>abrevetilde</string>
+		<string>acircumflex</string>
+		<string>acircumflexacute</string>
+		<string>acircumflexdotbelow</string>
+		<string>acircumflexgrave</string>
+		<string>acircumflexhookabove</string>
+		<string>acircumflextilde</string>
+		<string>adblgrave</string>
+		<string>adieresis</string>
+		<string>adotbelow</string>
+		<string>agrave</string>
+		<string>ahookabove</string>
+		<string>ainvertedbreve</string>
+		<string>amacron</string>
+		<string>aogonek</string>
+		<string>aring</string>
+		<string>aringacute</string>
+		<string>atilde</string>
+		<string>ae</string>
+		<string>aeacute</string>
 	</array>
-	<key>@MMK_R_colon</key>
+	<key>public.kern2.colon</key>
 	<array>
 		<string>colon</string>
 		<string>semicolon</string>
 	</array>
-	<key>@MMK_R_comma</key>
+	<key>public.kern2.comma</key>
 	<array>
 		<string>quotesinglbase</string>
 	</array>
-	<key>@MMK_R_copyright</key>
+	<key>public.kern2.copyright</key>
 	<array>
 		<string>published</string>
 	</array>
-	<key>@MMK_R_d</key>
-	<array>
-		<string>g.ss01</string>
-	</array>
-	<key>@MMK_R_e</key>
+	<key>public.kern2.e</key>
 	<array>
 		<string>Schwa</string>
 	</array>
-	<key>@MMK_R_eight</key>
+	<key>public.kern2.eight</key>
 	<array>
-		<string>eight</string>
 		<string>eight.osf</string>
 	</array>
-	<key>@MMK_R_five</key>
+	<key>public.kern2.emdash</key>
+	<array>
+		<string>emdash</string>
+		<string>space_emdash_space.liga</string>
+	</array>
+	<key>public.kern2.f</key>
+	<array>
+		<string>f</string>
+	</array>
+	<key>public.kern2.five</key>
 	<array>
 		<string>five</string>
 		<string>five.osf</string>
 	</array>
-	<key>@MMK_R_four</key>
+	<key>public.kern2.four</key>
 	<array>
 		<string>four</string>
 		<string>four.osf</string>
 	</array>
-	<key>@MMK_R_g</key>
+	<key>public.kern2.g</key>
 	<array>
 		<string>g</string>
 		<string>gbreve</string>
@@ -962,27 +1039,32 @@
 		<string>gcommaaccent</string>
 		<string>gdotaccent</string>
 	</array>
-	<key>@MMK_R_guilsinglleft</key>
+	<key>public.kern2.guilsinglleft</key>
 	<array>
 		<string>guillemetleft</string>
 	</array>
-	<key>@MMK_R_guilsinglright</key>
+	<key>public.kern2.guilsinglright</key>
 	<array>
 		<string>guillemetright</string>
 	</array>
-	<key>@MMK_R_hyphen</key>
+	<key>public.kern2.hyphen</key>
 	<array>
 		<string>hyphen</string>
 		<string>softhyphen</string>
 		<string>endash</string>
-		<string>emdash</string>
 	</array>
-	<key>@MMK_R_i</key>
+	<key>public.kern2.i</key>
 	<array>
 		<string>bar</string>
 		<string>brokenbar</string>
 	</array>
-	<key>@MMK_R_n</key>
+	<key>public.kern2.j</key>
+	<array>
+		<string>j</string>
+		<string>jdotless</string>
+		<string>jcircumflex</string>
+	</array>
+	<key>public.kern2.n</key>
 	<array>
 		<string>b</string>
 		<string>h</string>
@@ -1004,9 +1086,6 @@
 		<string>imacron</string>
 		<string>iogonek</string>
 		<string>itilde</string>
-		<string>j</string>
-		<string>jdotless</string>
-		<string>jcircumflex</string>
 		<string>k</string>
 		<string>kcommaaccent</string>
 		<string>kgreenlandic</string>
@@ -1036,40 +1115,12 @@
 		<string>germandbls</string>
 		<string>l.ss01</string>
 	</array>
-	<key>@MMK_R_nine</key>
+	<key>public.kern2.nine</key>
 	<array>
-		<string>nine</string>
 		<string>nine.osf</string>
 	</array>
-	<key>@MMK_R_o</key>
+	<key>public.kern2.o</key>
 	<array>
-		<string>a</string>
-		<string>aacute</string>
-		<string>abreve</string>
-		<string>abreveacute</string>
-		<string>abrevedotbelow</string>
-		<string>abrevegrave</string>
-		<string>abrevehookabove</string>
-		<string>abrevetilde</string>
-		<string>acircumflex</string>
-		<string>acircumflexacute</string>
-		<string>acircumflexdotbelow</string>
-		<string>acircumflexgrave</string>
-		<string>acircumflexhookabove</string>
-		<string>acircumflextilde</string>
-		<string>adblgrave</string>
-		<string>adieresis</string>
-		<string>adotbelow</string>
-		<string>agrave</string>
-		<string>ahookabove</string>
-		<string>ainvertedbreve</string>
-		<string>amacron</string>
-		<string>aogonek</string>
-		<string>aring</string>
-		<string>aringacute</string>
-		<string>atilde</string>
-		<string>ae</string>
-		<string>aeacute</string>
 		<string>c</string>
 		<string>cacute</string>
 		<string>ccaron</string>
@@ -1131,21 +1182,38 @@
 		<string>otilde</string>
 		<string>oe</string>
 		<string>q</string>
+		<string>g.ss01</string>
 		<string>at</string>
 	</array>
-	<key>@MMK_R_one</key>
+	<key>public.kern2.one</key>
 	<array>
 		<string>one</string>
 		<string>one.osf</string>
 	</array>
-	<key>@MMK_R_parenright</key>
+	<key>public.kern2.one.numr</key>
+	<array>
+		<string>four.numr</string>
+	</array>
+	<key>public.kern2.onehalf</key>
+	<array>
+		<string>one.numr</string>
+		<string>onethird</string>
+		<string>twothirds</string>
+		<string>onequarter</string>
+		<string>threequarters</string>
+		<string>oneeighth</string>
+		<string>threeeighths</string>
+		<string>fiveeighths</string>
+		<string>seveneighths</string>
+	</array>
+	<key>public.kern2.parenright</key>
 	<array>
 		<string>question</string>
 		<string>parenright</string>
 		<string>braceright</string>
 		<string>bracketright</string>
 	</array>
-	<key>@MMK_R_period</key>
+	<key>public.kern2.period</key>
 	<array>
 		<string>period</string>
 		<string>comma</string>
@@ -1153,7 +1221,7 @@
 		<string>periodcentered</string>
 		<string>underscore</string>
 	</array>
-	<key>@MMK_R_plus</key>
+	<key>public.kern2.plus</key>
 	<array>
 		<string>plus</string>
 		<string>multiply</string>
@@ -1169,25 +1237,25 @@
 		<string>asciitilde</string>
 		<string>logicalnot</string>
 	</array>
-	<key>@MMK_R_quoteleft</key>
+	<key>public.kern2.quoteleft</key>
 	<array>
 		<string>quotedblleft</string>
 	</array>
-	<key>@MMK_R_quoteright</key>
+	<key>public.kern2.quoteright</key>
 	<array>
 		<string>quotedblright</string>
 		<string>quoteright</string>
 	</array>
-	<key>@MMK_R_quotesinglbase</key>
+	<key>public.kern2.quotesinglbase</key>
 	<array>
 		<string>quotedblbase</string>
 	</array>
-	<key>@MMK_R_quotesingle</key>
+	<key>public.kern2.quotesingle</key>
 	<array>
 		<string>quotedbl</string>
 		<string>quotesingle</string>
 	</array>
-	<key>@MMK_R_s</key>
+	<key>public.kern2.s</key>
 	<array>
 		<string>s</string>
 		<string>sacute</string>
@@ -1197,19 +1265,17 @@
 		<string>scommaaccent</string>
 		<string>sdotbelow</string>
 	</array>
-	<key>@MMK_R_seven</key>
+	<key>public.kern2.seven</key>
 	<array>
 		<string>seven</string>
 		<string>seven.osf</string>
 	</array>
-	<key>@MMK_R_six</key>
+	<key>public.kern2.six</key>
 	<array>
-		<string>six</string>
 		<string>six.osf</string>
 	</array>
-	<key>@MMK_R_t</key>
+	<key>public.kern2.t</key>
 	<array>
-		<string>f</string>
 		<string>t</string>
 		<string>tbar</string>
 		<string>tcaron</string>
@@ -1219,17 +1285,16 @@
 		<string>fi</string>
 		<string>fl</string>
 	</array>
-	<key>@MMK_R_three</key>
+	<key>public.kern2.three</key>
 	<array>
-		<string>three</string>
 		<string>three.osf</string>
 	</array>
-	<key>@MMK_R_two</key>
+	<key>public.kern2.two</key>
 	<array>
 		<string>two</string>
 		<string>two.osf</string>
 	</array>
-	<key>@MMK_R_u</key>
+	<key>public.kern2.u</key>
 	<array>
 		<string>u</string>
 		<string>uacute</string>
@@ -1254,7 +1319,7 @@
 		<string>utilde</string>
 		<string>micro</string>
 	</array>
-	<key>@MMK_R_v</key>
+	<key>public.kern2.v</key>
 	<array>
 		<string>v</string>
 		<string>w</string>
@@ -1271,11 +1336,11 @@
 		<string>yhookabove</string>
 		<string>ytilde</string>
 	</array>
-	<key>@MMK_R_x</key>
+	<key>public.kern2.x</key>
 	<array>
 		<string>x</string>
 	</array>
-	<key>@MMK_R_z</key>
+	<key>public.kern2.z</key>
 	<array>
 		<string>z</string>
 		<string>zacute</string>
@@ -1283,10 +1348,32 @@
 		<string>zdotaccent</string>
 		<string>zdotbelow</string>
 	</array>
-	<key>@MMK_R_zero</key>
+	<key>public.kern2.zero</key>
 	<array>
 		<string>zero</string>
+		<string>three</string>
+		<string>six</string>
+		<string>eight</string>
+		<string>nine</string>
 		<string>zero.osf</string>
+	</array>
+	<key>public.kern2.zero.dnom</key>
+	<array>
+		<string>zero.dnom</string>
+		<string>two.dnom</string>
+		<string>three.dnom</string>
+		<string>six.dnom</string>
+		<string>eight.dnom</string>
+	</array>
+	<key>public.kern2.zero.numr</key>
+	<array>
+		<string>zero.numr</string>
+		<string>two.numr</string>
+		<string>three.numr</string>
+		<string>five.numr</string>
+		<string>six.numr</string>
+		<string>eight.numr</string>
+		<string>nine.numr</string>
 	</array>
 </dict>
 </plist>

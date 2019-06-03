@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="twothirds" format="1">
-  <advance width="1970"/>
-  <unicode hex="2154"/>
-  <outline>
-    <component base="two.numr"/>
-    <component base="fraction" xOffset="712"/>
-    <component base="three.dnom" xOffset="1202"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-21 14:03:54 +0000</string>
-    </dict>
-  </lib>
+<glyph name="twothirds" format="2">
+	<advance width="1996"/>
+	<unicode hex="2154"/>
+	<outline>
+		<component base="two.numr"/>
+		<component base="fraction" xOffset="789"/>
+		<component base="three.dnom" xOffset="1224"/>
+	</outline>
 </glyph>

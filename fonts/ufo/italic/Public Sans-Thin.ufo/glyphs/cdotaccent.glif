@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="cdotaccent" format="1">
-  <advance width="1053"/>
-  <unicode hex="010B"/>
-  <outline>
-    <component base="c"/>
-    <component base="dotaccentcomb" xOffset="478"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
-      <integer>1</integer>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 23:00:56 +0000</string>
-    </dict>
-  </lib>
+<glyph name="cdotaccent" format="2">
+	<advance width="1044"/>
+	<unicode hex="010B"/>
+	<outline>
+		<component base="c"/>
+		<component base="dotaccentcomb" xOffset="477"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
+			<integer>1</integer>
+		</dict>
+	</lib>
 </glyph>

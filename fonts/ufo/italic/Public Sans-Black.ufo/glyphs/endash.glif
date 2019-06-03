@@ -1,23 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="endash" format="1">
-  <advance width="1255"/>
-  <unicode hex="2013"/>
-  <outline>
-    <contour>
-      <point x="87" y="356" type="line"/>
-      <point x="1099" y="356" type="line"/>
-      <point x="1141" y="630" type="line"/>
-      <point x="129" y="630" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 06:03:45 +0000</string>
-      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-      <string>hyphen</string>
-      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-      <string>hyphen</string>
-    </dict>
-  </lib>
+<glyph name="endash" format="2">
+	<advance width="1280"/>
+	<unicode hex="2013"/>
+	<outline>
+		<contour>
+			<point x="97" y="365" type="line"/>
+			<point x="1133" y="365" type="line"/>
+			<point x="1176" y="645" type="line"/>
+			<point x="140" y="645" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>hyphen</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>hyphen</string>
+		</dict>
+	</lib>
 </glyph>

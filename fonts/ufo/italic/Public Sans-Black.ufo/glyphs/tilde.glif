@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="tilde" format="1">
-  <advance width="956"/>
-  <unicode hex="02DC"/>
-  <outline>
-    <component base="tildecomb"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 06:03:45 +0000</string>
-      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-      <string>tildecomb</string>
-      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-      <string>tildecomb</string>
-    </dict>
-  </lib>
+<glyph name="tilde" format="2">
+	<advance width="978"/>
+	<unicode hex="02DC"/>
+	<outline>
+		<component base="tildecomb"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>tildecomb</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>tildecomb</string>
+		</dict>
+	</lib>
 </glyph>

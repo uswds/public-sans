@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Ydieresis" format="1">
-  <advance width="1474"/>
-  <unicode hex="0178"/>
-  <outline>
-    <component base="Y"/>
-    <component base="dieresiscomb" xOffset="327" yOffset="412"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-30 22:04:38 +0000</string>
-    </dict>
-  </lib>
+<glyph name="Ydieresis" format="2">
+	<advance width="1478"/>
+	<unicode hex="0178"/>
+	<outline>
+		<component base="Y"/>
+		<component base="dieresiscomb" xOffset="319" yOffset="422"/>
+	</outline>
 </glyph>

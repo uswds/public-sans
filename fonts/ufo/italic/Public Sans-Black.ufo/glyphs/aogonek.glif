@@ -1,15 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="aogonek" format="1">
-  <advance width="1161"/>
-  <unicode hex="0105"/>
-  <outline>
-    <component base="a"/>
-    <component base="ogonekcomb" xOffset="542"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 23:00:56 +0000</string>
-    </dict>
-  </lib>
+<glyph name="aogonek" format="2">
+	<advance width="1188"/>
+	<unicode hex="0105"/>
+	<outline>
+		<component base="a"/>
+		<component base="ogonekcomb" xOffset="554"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>a</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>ogonekcomb</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
 </glyph>

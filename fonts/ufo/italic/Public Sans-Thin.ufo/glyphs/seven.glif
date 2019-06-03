@@ -1,26 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="seven" format="1">
-  <advance width="1074"/>
-  <unicode hex="0037"/>
-  <outline>
-    <contour>
-      <point x="265" y="0" type="curve"/>
-      <point x="345" y="0" type="line"/>
-      <point x="435" y="274"/>
-      <point x="771" y="946"/>
-      <point x="1093" y="1366" type="curve"/>
-      <point x="1105" y="1446" type="line"/>
-      <point x="231" y="1446" type="line"/>
-      <point x="219" y="1366" type="line"/>
-      <point x="999" y="1366" type="line"/>
-      <point x="639" y="872"/>
-      <point x="367" y="294"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 06:03:45 +0000</string>
-    </dict>
-  </lib>
+<glyph name="seven" format="2">
+	<advance width="1096"/>
+	<unicode hex="0037"/>
+	<outline>
+		<contour>
+			<point x="269" y="0" type="curve"/>
+			<point x="351" y="0" type="line"/>
+			<point x="443" y="281"/>
+			<point x="788" y="969"/>
+			<point x="1117" y="1399" type="curve"/>
+			<point x="1130" y="1481" type="line"/>
+			<point x="235" y="1481" type="line"/>
+			<point x="222" y="1399" type="line"/>
+			<point x="1021" y="1399" type="line"/>
+			<point x="652" y="893"/>
+			<point x="374" y="301"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>one</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>=|one</string>
+		</dict>
+	</lib>
 </glyph>

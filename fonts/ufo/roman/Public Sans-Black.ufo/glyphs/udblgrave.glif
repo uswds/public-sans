@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="udblgrave" format="1">
-  <advance width="1256"/>
-  <unicode hex="0215"/>
-  <outline>
-    <component base="u"/>
-    <component base="dblgravecomb" xOffset="-59"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 21:34:32 +0000</string>
-    </dict>
-  </lib>
+<glyph name="udblgrave" format="2">
+	<advance width="1241"/>
+	<unicode hex="0215"/>
+	<outline>
+		<component base="u"/>
+		<component base="dblgravecomb" xOffset="-84"/>
+	</outline>
 </glyph>

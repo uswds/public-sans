@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="four.dnom" format="1">
-  <advance width="862"/>
-  <outline>
-    <component base="four" xScale="0.629" yScale="0.629" xOffset="4"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-16 18:49:16 +0000</string>
-    </dict>
-  </lib>
+<glyph name="four.dnom" format="2">
+	<advance width="872"/>
+	<outline>
+		<component base="four.numr" yOffset="-548"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>four.numr</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>four.numr</string>
+		</dict>
+	</lib>
 </glyph>
