@@ -1,25 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="caroncomb" format="1">
-  <advance width="542"/>
-  <unicode hex="030C"/>
-  <outline>
-    <contour>
-      <point x="418" y="1345" type="line"/>
-      <point x="270" y="1225" type="line"/>
-      <point x="114" y="1345" type="line"/>
-      <point x="0" y="1345" type="line"/>
-      <point x="240" y="1155" type="line"/>
-      <point x="304" y="1155" type="line"/>
-      <point x="538" y="1345" type="line"/>
-    </contour>
-    <contour>
-      <point x="270" y="1034" type="move" name="_top"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-23 21:14:21 +0000</string>
-    </dict>
-  </lib>
+<glyph name="caroncomb" format="2">
+	<advance width="555"/>
+	<unicode hex="030C"/>
+	<anchor x="276" y="1059" name="_top"/>
+	<outline>
+		<contour>
+			<point x="428" y="1377" type="line"/>
+			<point x="276" y="1254" type="line"/>
+			<point x="117" y="1377" type="line"/>
+			<point x="0" y="1377" type="line"/>
+			<point x="246" y="1183" type="line"/>
+			<point x="311" y="1183" type="line"/>
+			<point x="551" y="1377" type="line"/>
+		</contour>
+	</outline>
 </glyph>

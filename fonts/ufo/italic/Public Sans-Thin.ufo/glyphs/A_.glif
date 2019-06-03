@@ -1,41 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="A" format="1">
-  <advance width="1234"/>
-  <unicode hex="0041"/>
-  <outline>
-    <contour>
-      <point x="7" y="0" type="line"/>
-      <point x="84" y="0" type="line"/>
-      <point x="304" y="456" type="line"/>
-      <point x="914" y="456" type="line"/>
-      <point x="1002" y="0" type="line"/>
-      <point x="1081" y="0" type="line"/>
-      <point x="799" y="1446" type="line"/>
-      <point x="697" y="1446" type="line"/>
-    </contour>
-    <contour>
-      <point x="342" y="542" type="line"/>
-      <point x="739" y="1362" type="line"/>
-      <point x="898" y="542" type="line"/>
-    </contour>
-    <contour>
-      <point x="544" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1082" y="24" type="move" name="ogonek"/>
-    </contour>
-    <contour>
-      <point x="748" y="1446" type="move" name="top"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-01 05:36:38 +0000</string>
-      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-      <string>X</string>
-      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-      <string>X</string>
-    </dict>
-  </lib>
+<glyph name="A" format="2">
+	<advance width="1340"/>
+	<unicode hex="0041"/>
+	<guideline x="-338" y="110" angle="69.4967"/>
+	<guideline x="21" y="110" angle="110.0797"/>
+	<anchor x="1147" y="25" name="ogonek"/>
+	<anchor x="596" y="0" name="bottom"/>
+	<anchor x="805" y="1481" name="top"/>
+	<outline>
+		<contour>
+			<point x="46" y="0" type="line"/>
+			<point x="125" y="0" type="line"/>
+			<point x="350" y="467" type="line"/>
+			<point x="975" y="467" type="line"/>
+			<point x="1065" y="0" type="line"/>
+			<point x="1146" y="0" type="line"/>
+			<point x="857" y="1481" type="line"/>
+			<point x="753" y="1481" type="line"/>
+		</contour>
+		<contour>
+			<point x="389" y="555" type="line"/>
+			<point x="796" y="1395" type="line"/>
+			<point x="959" y="555" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>X</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>X</string>
+		</dict>
+	</lib>
 </glyph>

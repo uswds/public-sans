@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="oneeighth" format="1">
-  <advance width="1836"/>
-  <unicode hex="215B"/>
-  <outline>
-    <component base="one.numr"/>
-    <component base="fraction" xOffset="574"/>
-    <component base="eight.dnom" xOffset="1064"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-16 18:49:16 +0000</string>
-    </dict>
-  </lib>
+<glyph name="oneeighth" format="2">
+	<advance width="1747"/>
+	<unicode hex="215B"/>
+	<outline>
+		<component base="one.numr"/>
+		<component base="fraction" xOffset="497"/>
+		<component base="eight.dnom" xOffset="932"/>
+	</outline>
 </glyph>

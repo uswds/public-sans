@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="three.dnom" format="1">
-  <advance width="834"/>
-  <outline>
-    <component base="three" xScale="0.629" yScale="0.629" xOffset="18" yOffset="-6"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-16 18:49:16 +0000</string>
-    </dict>
-  </lib>
+<glyph name="three.dnom" format="2">
+	<advance width="914"/>
+	<outline>
+		<component base="three.numr" yOffset="-553"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>three.numr</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>three.numr</string>
+		</dict>
+	</lib>
 </glyph>

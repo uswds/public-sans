@@ -1,21 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="hungarumlautcomb" format="1">
-  <advance width="954"/>
-  <unicode hex="030B"/>
-  <outline>
-    <component base="dblgravecomb" xScale="-1" xOffset="1216"/>
-    <contour>
-      <point x="432" y="1034" type="move" name="_top"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 23:00:56 +0000</string>
-      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-      <string>gravecomb</string>
-      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-      <string>gravecomb</string>
-    </dict>
-  </lib>
+<glyph name="hungarumlautcomb" format="2">
+	<advance width="977"/>
+	<unicode hex="030B"/>
+	<anchor x="442" y="1059" name="_top"/>
+	<outline>
+		<component base="dblgravecomb" xScale="-1" xOffset="1245"/>
+	</outline>
 </glyph>

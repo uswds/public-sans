@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Rcommaaccent" format="1">
-  <advance width="1209"/>
-  <unicode hex="0156"/>
-  <outline>
-    <component base="R"/>
-    <component base="commaaccentcomb" xOffset="546"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 06:03:45 +0000</string>
-    </dict>
-  </lib>
+<glyph name="Rcommaaccent" format="2">
+	<advance width="1275"/>
+	<unicode hex="0156"/>
+	<outline>
+		<component base="R"/>
+		<component base="commaaccentcomb" xOffset="560"/>
+	</outline>
 </glyph>

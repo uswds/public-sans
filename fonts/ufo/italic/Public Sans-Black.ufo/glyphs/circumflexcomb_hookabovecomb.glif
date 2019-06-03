@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="circumflexcomb_hookabovecomb" format="1">
-  <advance width="905"/>
-  <outline>
-    <component base="circumflexcomb"/>
-    <component base="hookabovecomb" xOffset="110" yOffset="220"/>
-    <contour>
-      <point x="506" y="1034" type="move" name="_top"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 06:03:45 +0000</string>
-      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-      <string>circumflexcomb</string>
-      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-      <string>circumflexcomb</string>
-    </dict>
-  </lib>
+<glyph name="circumflexcomb_hookabovecomb" format="2">
+	<advance width="928"/>
+	<anchor x="518" y="1059" name="_top"/>
+	<outline>
+		<component base="circumflexcomb"/>
+		<component base="hookabovecomb" xOffset="113" yOffset="225"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>circumflexcomb</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>circumflexcomb</string>
+		</dict>
+	</lib>
 </glyph>

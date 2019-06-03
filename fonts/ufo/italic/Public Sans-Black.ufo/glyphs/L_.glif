@@ -1,34 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="L" format="1">
-  <advance width="1125"/>
-  <unicode hex="004C"/>
-  <outline>
-    <contour>
-      <point x="57" y="0" type="line"/>
-      <point x="1019" y="0" type="line"/>
-      <point x="1067" y="320" type="line"/>
-      <point x="493" y="320" type="line"/>
-      <point x="663" y="1446" type="line"/>
-      <point x="277" y="1446" type="line"/>
-    </contour>
-    <contour>
-      <point x="531" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="461" y="1446" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="1113" y="1446" type="move" name="topright"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-01 05:36:38 +0000</string>
-      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-      <string>H</string>
-      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-      <string>X</string>
-    </dict>
-  </lib>
+<glyph name="L" format="2">
+	<advance width="1185"/>
+	<unicode hex="004C"/>
+	<anchor x="480" y="1481" name="top"/>
+	<anchor x="552" y="0" name="bottom"/>
+	<anchor x="1148" y="1481" name="topright"/>
+	<outline>
+		<contour>
+			<point x="66" y="0" type="line"/>
+			<point x="1051" y="0" type="line"/>
+			<point x="1101" y="328" type="line"/>
+			<point x="513" y="328" type="line"/>
+			<point x="687" y="1481" type="line"/>
+			<point x="292" y="1481" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
+			<string>==H/2.5</string>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>H</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>X</string>
+		</dict>
+	</lib>
 </glyph>

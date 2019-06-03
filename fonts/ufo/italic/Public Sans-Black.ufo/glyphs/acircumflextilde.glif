@@ -1,15 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="acircumflextilde" format="1">
-  <advance width="1161"/>
-  <unicode hex="1EAB"/>
-  <outline>
-    <component base="a"/>
-    <component base="circumflexcomb_tildecomb" xOffset="155"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 23:00:56 +0000</string>
-    </dict>
-  </lib>
+<glyph name="acircumflextilde" format="2">
+	<advance width="1181"/>
+	<unicode hex="1EAB"/>
+	<outline>
+		<component base="a" xOffset="-7"/>
+		<component base="circumflexcomb_tildecomb" xOffset="150"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>a</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>circumflexcomb_tildecomb</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
 </glyph>

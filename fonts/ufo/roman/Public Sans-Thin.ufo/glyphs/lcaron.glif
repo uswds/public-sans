@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="lcaron" format="1">
-  <advance width="538"/>
-  <unicode hex="013E"/>
-  <outline>
-    <component base="l"/>
-    <component base="caroncomb.alt" xOffset="336"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 21:27:06 +0000</string>
-      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-      <string>l</string>
-      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-      <string>caroncomb.alt</string>
-      <key>public.markColor</key>
-      <string>0.99,0.62,0.11,1</string>
-    </dict>
-  </lib>
+<glyph name="lcaron" format="2">
+	<advance width="565"/>
+	<unicode hex="013E"/>
+	<outline>
+		<component base="l"/>
+		<component base="caroncomb.alt" xOffset="371"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>l</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>caroncomb.alt</string>
+			<key>public.markColor</key>
+			<string>0.99,0.62,0.11,1</string>
+		</dict>
+	</lib>
 </glyph>

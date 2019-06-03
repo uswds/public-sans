@@ -1,41 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="micro" format="1">
-  <advance width="1272"/>
-  <unicode hex="00B5"/>
-  <outline>
-    <contour>
-      <point x="110" y="-330" type="line"/>
-      <point x="510" y="-330" type="line"/>
-      <point x="510" y="68" type="line"/>
-      <point x="556" y="60"/>
-      <point x="606" y="64"/>
-      <point x="648" y="78" type="curve" smooth="yes"/>
-      <point x="696" y="94"/>
-      <point x="738" y="124"/>
-      <point x="764" y="164" type="curve"/>
-      <point x="764" y="0" type="line"/>
-      <point x="1154" y="0" type="line"/>
-      <point x="1162" y="1060" type="line"/>
-      <point x="758" y="1060" type="line"/>
-      <point x="758" y="458" type="line"/>
-      <point x="754" y="394"/>
-      <point x="706" y="352"/>
-      <point x="638" y="352" type="curve" smooth="yes"/>
-      <point x="562" y="352"/>
-      <point x="510" y="394"/>
-      <point x="510" y="458" type="curve"/>
-      <point x="510" y="1060" type="line"/>
-      <point x="110" y="1060" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 21:27:06 +0000</string>
-      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-      <string>u</string>
-      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-      <string>u</string>
-    </dict>
-  </lib>
+<glyph name="micro" format="2">
+	<advance width="1257"/>
+	<unicode hex="00B5"/>
+	<outline>
+		<contour>
+			<point x="90" y="-338" type="line"/>
+			<point x="499" y="-338" type="line"/>
+			<point x="499" y="70" type="line"/>
+			<point x="546" y="61"/>
+			<point x="598" y="66"/>
+			<point x="641" y="80" type="curve" smooth="yes"/>
+			<point x="690" y="96"/>
+			<point x="733" y="127"/>
+			<point x="759" y="168" type="curve"/>
+			<point x="759" y="0" type="line"/>
+			<point x="1159" y="0" type="line"/>
+			<point x="1167" y="1085" type="line"/>
+			<point x="753" y="1085" type="line"/>
+			<point x="753" y="469" type="line"/>
+			<point x="749" y="403"/>
+			<point x="700" y="360"/>
+			<point x="630" y="360" type="curve" smooth="yes"/>
+			<point x="552" y="360"/>
+			<point x="499" y="403"/>
+			<point x="499" y="469" type="curve"/>
+			<point x="499" y="1085" type="line"/>
+			<point x="90" y="1085" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>u</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>u</string>
+		</dict>
+	</lib>
 </glyph>

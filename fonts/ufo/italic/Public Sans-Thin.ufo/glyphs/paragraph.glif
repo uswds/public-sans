@@ -1,35 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="paragraph" format="1">
-  <advance width="1006"/>
-  <unicode hex="00B6"/>
-  <outline>
-    <contour>
-      <point x="430" y="-166" type="line"/>
-      <point x="492" y="-166" type="line"/>
-      <point x="710" y="1384" type="line"/>
-      <point x="788" y="1384" type="line"/>
-      <point x="570" y="-166" type="line"/>
-      <point x="632" y="-166" type="line"/>
-      <point x="850" y="1384" type="line"/>
-      <point x="958" y="1384" type="line"/>
-      <point x="966" y="1446" type="line"/>
-      <point x="676" y="1446" type="line" smooth="yes"/>
-      <point x="394" y="1446"/>
-      <point x="228" y="1220"/>
-      <point x="198" y="1002" type="curve" smooth="yes"/>
-      <point x="168" y="796"/>
-      <point x="276" y="592"/>
-      <point x="536" y="592" type="curve"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 23:00:56 +0000</string>
-      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-      <string>o</string>
-      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-      <string>n</string>
-    </dict>
-  </lib>
+<glyph name="paragraph" format="2">
+	<advance width="1013"/>
+	<unicode hex="00B6"/>
+	<outline>
+		<contour>
+			<point x="427" y="-170" type="line"/>
+			<point x="491" y="-170" type="line"/>
+			<point x="714" y="1417" type="line"/>
+			<point x="794" y="1417" type="line"/>
+			<point x="571" y="-170" type="line"/>
+			<point x="634" y="-170" type="line"/>
+			<point x="857" y="1417" type="line"/>
+			<point x="968" y="1417" type="line"/>
+			<point x="976" y="1481" type="line"/>
+			<point x="679" y="1481" type="line" smooth="yes"/>
+			<point x="391" y="1481"/>
+			<point x="221" y="1249"/>
+			<point x="190" y="1026" type="curve" smooth="yes"/>
+			<point x="159" y="815"/>
+			<point x="270" y="606"/>
+			<point x="536" y="606" type="curve"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>o</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>n</string>
+		</dict>
+	</lib>
 </glyph>

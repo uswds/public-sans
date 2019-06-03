@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="commaaccentcomb" format="1">
-  <advance width="359"/>
-  <unicode hex="0326"/>
-  <outline>
-    <component base="comma" xOffset="-165" yOffset="-434"/>
-    <contour>
-      <point x="111" y="0" type="move" name="_bottom"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 16:32:09 +0000</string>
-    </dict>
-  </lib>
+<glyph name="commaaccentcomb" format="2">
+	<advance width="367"/>
+	<unicode hex="0326"/>
+	<anchor x="115" y="0" name="_bottom"/>
+	<outline>
+		<component base="comma" xOffset="-169" yOffset="-444"/>
+	</outline>
 </glyph>

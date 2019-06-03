@@ -1,32 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="dblgravecomb" format="1">
-  <advance width="532"/>
-  <unicode hex="030F"/>
-  <outline>
-    <contour>
-      <point x="473" y="1446" type="line"/>
-      <point x="363" y="1446" type="line"/>
-      <point x="544" y="1155" type="line"/>
-      <point x="612" y="1155" type="line"/>
-    </contour>
-    <contour>
-      <point x="250" y="1446" type="line"/>
-      <point x="141" y="1446" type="line"/>
-      <point x="354" y="1155" type="line"/>
-      <point x="422" y="1155" type="line"/>
-    </contour>
-    <contour>
-      <point x="487" y="1034" type="move" name="_top"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 06:03:45 +0000</string>
-      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-      <string>gravecomb</string>
-      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-      <string>gravecomb</string>
-    </dict>
-  </lib>
+<glyph name="dblgravecomb" format="2">
+	<advance width="547"/>
+	<unicode hex="030F"/>
+	<anchor x="499" y="1059" name="_top"/>
+	<outline>
+		<contour>
+			<point x="484" y="1481" type="line"/>
+			<point x="372" y="1481" type="line"/>
+			<point x="557" y="1183" type="line"/>
+			<point x="627" y="1183" type="line"/>
+		</contour>
+		<contour>
+			<point x="256" y="1481" type="line"/>
+			<point x="144" y="1481" type="line"/>
+			<point x="362" y="1183" type="line"/>
+			<point x="432" y="1183" type="line"/>
+		</contour>
+	</outline>
 </glyph>

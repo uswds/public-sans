@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="dotbelowcomb" format="1">
-  <advance width="410"/>
-  <unicode hex="0323"/>
-  <outline>
-    <component base="dotaccentcomb" xOffset="-40" yOffset="-1588"/>
-    <contour>
-      <point x="204" y="0" type="move" name="_bottom"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-16 18:49:17 +0000</string>
-    </dict>
-  </lib>
+<glyph name="dotbelowcomb" format="2">
+	<advance width="420"/>
+	<unicode hex="0323"/>
+	<anchor x="209" y="0" name="_bottom"/>
+	<outline>
+		<component base="dotaccentcomb" xOffset="-41" yOffset="-1626"/>
+	</outline>
 </glyph>

@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Ecircumflexgrave" format="1">
-  <advance width="1150"/>
-  <unicode hex="1EC0"/>
-  <outline>
-    <component base="E"/>
-    <component base="circumflexcomb_gravecomb" xOffset="399" yOffset="412"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-06 20:27:36 +0000</string>
-    </dict>
-  </lib>
+<glyph name="Ecircumflexgrave" format="2">
+	<advance width="1175"/>
+	<unicode hex="1EC0"/>
+	<outline>
+		<component base="E"/>
+		<component base="circumflexcomb_gravecomb" xOffset="408" yOffset="422"/>
+	</outline>
 </glyph>

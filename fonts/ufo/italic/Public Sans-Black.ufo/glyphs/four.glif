@@ -1,31 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="four" format="1">
-  <advance width="1295"/>
-  <unicode hex="0034"/>
-  <outline>
-    <contour>
-      <point x="610" y="0" type="line"/>
-      <point x="978" y="0" type="line"/>
-      <point x="1020" y="276" type="line"/>
-      <point x="1228" y="276" type="line"/>
-      <point x="1276" y="594" type="line"/>
-      <point x="1070" y="594" type="line"/>
-      <point x="1198" y="1446" type="line"/>
-      <point x="824" y="1446" type="line"/>
-      <point x="52" y="580" type="line"/>
-      <point x="6" y="276" type="line"/>
-      <point x="654" y="276" type="line"/>
-    </contour>
-    <contour>
-      <point x="406" y="594" type="line"/>
-      <point x="766" y="996" type="line"/>
-      <point x="706" y="594" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 06:03:45 +0000</string>
-    </dict>
-  </lib>
+<glyph name="four" format="2">
+	<advance width="1415"/>
+	<unicode hex="0034"/>
+	<guideline x="249" y="297" angle="53.388"/>
+	<outline>
+		<contour>
+			<point x="664" y="0" type="line"/>
+			<point x="1040" y="0" type="line"/>
+			<point x="1083" y="283" type="line"/>
+			<point x="1296" y="283" type="line"/>
+			<point x="1346" y="608" type="line"/>
+			<point x="1135" y="608" type="line"/>
+			<point x="1266" y="1481" type="line"/>
+			<point x="883" y="1481" type="line"/>
+			<point x="92" y="594" type="line"/>
+			<point x="45" y="283" type="line"/>
+			<point x="709" y="283" type="line"/>
+		</contour>
+		<contour>
+			<point x="455" y="608" type="line"/>
+			<point x="823" y="1020" type="line"/>
+			<point x="762" y="608" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>one</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>=|one</string>
+		</dict>
+	</lib>
 </glyph>

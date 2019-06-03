@@ -1,37 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="w" format="1">
-  <advance width="1616"/>
-  <unicode hex="0077"/>
-  <outline>
-    <contour>
-      <point x="1596" y="1034" type="line"/>
-      <point x="1250" y="1034" type="line"/>
-      <point x="1090" y="530" type="line"/>
-      <point x="1090" y="530" type="line"/>
-      <point x="942" y="1034" type="line"/>
-      <point x="672" y="1034" type="line"/>
-      <point x="520" y="532" type="line"/>
-      <point x="520" y="532" type="line"/>
-      <point x="358" y="1034" type="line"/>
-      <point x="20" y="1034" type="line"/>
-      <point x="370" y="0" type="line"/>
-      <point x="636" y="0" type="line"/>
-      <point x="800" y="502" type="line"/>
-      <point x="954" y="0" type="line"/>
-      <point x="1232" y="0" type="line"/>
-    </contour>
-    <contour>
-      <point x="816" y="1034" type="move" name="top"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 21:27:06 +0000</string>
-      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-      <string>=x+10</string>
-      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-      <string>x</string>
-    </dict>
-  </lib>
+<glyph name="w" format="2">
+	<advance width="1634"/>
+	<unicode hex="0077"/>
+	<anchor x="825" y="1059" name="top"/>
+	<outline>
+		<contour>
+			<point x="1624" y="1059" type="line"/>
+			<point x="1269" y="1059" type="line"/>
+			<point x="1105" y="543" type="line"/>
+			<point x="1105" y="543" type="line"/>
+			<point x="954" y="1059" type="line"/>
+			<point x="677" y="1059" type="line"/>
+			<point x="522" y="545" type="line"/>
+			<point x="522" y="545" type="line"/>
+			<point x="356" y="1059" type="line"/>
+			<point x="10" y="1059" type="line"/>
+			<point x="368" y="0" type="line"/>
+			<point x="641" y="0" type="line"/>
+			<point x="808" y="514" type="line"/>
+			<point x="966" y="0" type="line"/>
+			<point x="1251" y="0" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>=v*1.25</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>=v*1.25</string>
+		</dict>
+	</lib>
 </glyph>

@@ -1,25 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="exclamdown" format="1">
-  <advance width="612"/>
-  <unicode hex="00A1"/>
-  <outline>
-    <contour>
-      <point x="500" y="650" type="line"/>
-      <point x="500" y="1034" type="line"/>
-      <point x="90" y="1034" type="line"/>
-      <point x="90" y="650" type="line"/>
-    </contour>
-    <contour>
-      <point x="522" y="-322" type="line"/>
-      <point x="416" y="514" type="line"/>
-      <point x="180" y="514" type="line"/>
-      <point x="70" y="-322" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-16 18:49:16 +0000</string>
-    </dict>
-  </lib>
+<glyph name="exclamdown" format="2">
+	<advance width="627"/>
+	<unicode hex="00A1"/>
+	<outline>
+		<contour>
+			<point x="512" y="666" type="line"/>
+			<point x="512" y="1059" type="line"/>
+			<point x="92" y="1059" type="line"/>
+			<point x="92" y="666" type="line"/>
+		</contour>
+		<contour>
+			<point x="535" y="-330" type="line"/>
+			<point x="426" y="526" type="line"/>
+			<point x="184" y="526" type="line"/>
+			<point x="72" y="-330" type="line"/>
+		</contour>
+	</outline>
 </glyph>

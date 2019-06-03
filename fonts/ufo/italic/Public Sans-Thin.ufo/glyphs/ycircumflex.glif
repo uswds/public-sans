@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ycircumflex" format="1">
-  <advance width="1008"/>
-  <unicode hex="0177"/>
-  <outline>
-    <component base="y"/>
-    <component base="circumflexcomb" xOffset="261"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 23:00:56 +0000</string>
-    </dict>
-  </lib>
+<glyph name="ycircumflex" format="2">
+	<advance width="963"/>
+	<unicode hex="0177"/>
+	<outline>
+		<component base="y"/>
+		<component base="circumflexcomb" xOffset="231"/>
+	</outline>
 </glyph>

@@ -1,13 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="three.numr" format="1">
-  <advance width="768"/>
-  <outline>
-    <component base="three" xScale="0.629" yScale="0.629" xOffset="-12" yOffset="558"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-16 18:49:16 +0000</string>
-    </dict>
-  </lib>
+<glyph name="three.numr" format="2">
+	<advance width="772"/>
+	<outline>
+		<contour>
+			<point x="87" y="1218" type="curve"/>
+			<point x="153" y="1218" type="line"/>
+			<point x="150" y="1361"/>
+			<point x="271" y="1431"/>
+			<point x="380" y="1431" type="curve" smooth="yes"/>
+			<point x="535" y="1431"/>
+			<point x="609" y="1345"/>
+			<point x="609" y="1261" type="curve" smooth="yes"/>
+			<point x="609" y="1160"/>
+			<point x="492" y="1071"/>
+			<point x="355" y="1071" type="curve" smooth="yes"/>
+			<point x="274" y="1071" type="line"/>
+			<point x="274" y="1010" type="line"/>
+			<point x="355" y="1010" type="line" smooth="yes"/>
+			<point x="527" y="1010"/>
+			<point x="637" y="928"/>
+			<point x="637" y="799" type="curve" smooth="yes"/>
+			<point x="637" y="680"/>
+			<point x="533" y="601"/>
+			<point x="378" y="601" type="curve" smooth="yes"/>
+			<point x="244" y="601"/>
+			<point x="150" y="680"/>
+			<point x="135" y="805" type="curve"/>
+			<point x="69" y="805" type="line"/>
+			<point x="74" y="653"/>
+			<point x="202" y="542"/>
+			<point x="372" y="539" type="curve" smooth="yes"/>
+			<point x="569" y="536"/>
+			<point x="703" y="643"/>
+			<point x="703" y="803" type="curve" smooth="yes"/>
+			<point x="703" y="920"/>
+			<point x="631" y="1006"/>
+			<point x="502" y="1045" type="curve"/>
+			<point x="611" y="1088"/>
+			<point x="674" y="1167"/>
+			<point x="674" y="1261" type="curve" smooth="yes"/>
+			<point x="674" y="1400"/>
+			<point x="556" y="1493"/>
+			<point x="377" y="1493" type="curve" smooth="yes"/>
+			<point x="211" y="1493"/>
+			<point x="85" y="1374"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>eight.numr</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>eight.numr</string>
+		</dict>
+	</lib>
 </glyph>

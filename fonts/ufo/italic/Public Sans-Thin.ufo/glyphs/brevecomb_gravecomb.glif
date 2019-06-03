@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="brevecomb_gravecomb" format="1">
-  <advance width="502"/>
-  <outline>
-    <component base="brevecomb"/>
-    <component base="gravecomb.viet" xOffset="74" yOffset="187"/>
-    <contour>
-      <point x="302" y="1034" type="move" name="_top"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 16:32:18 +0000</string>
-      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-      <string>brevecomb</string>
-      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-      <string>brevecomb</string>
-    </dict>
-  </lib>
+<glyph name="brevecomb_gravecomb" format="2">
+	<advance width="513"/>
+	<anchor x="309" y="1059" name="_top"/>
+	<outline>
+		<component base="brevecomb"/>
+		<component base="gravecomb.viet" xOffset="76" yOffset="193"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>brevecomb</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>brevecomb</string>
+		</dict>
+	</lib>
 </glyph>

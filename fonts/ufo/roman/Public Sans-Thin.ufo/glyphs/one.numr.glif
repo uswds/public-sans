@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="one.numr" format="1">
-  <advance width="574"/>
-  <outline>
-    <component base="one" xScale="0.629" yScale="0.629" xOffset="-52" yOffset="552"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-16 18:49:16 +0000</string>
-    </dict>
-  </lib>
+<glyph name="one.numr" format="2">
+	<advance width="457"/>
+	<outline>
+		<contour>
+			<point x="242" y="549" type="line"/>
+			<point x="307" y="549" type="line"/>
+			<point x="307" y="1481" type="line"/>
+			<point x="252" y="1481" type="line"/>
+			<point x="253" y="1403"/>
+			<point x="217" y="1384"/>
+			<point x="50" y="1385" type="curve"/>
+			<point x="50" y="1325" type="line"/>
+			<point x="242" y="1325" type="line"/>
+		</contour>
+	</outline>
 </glyph>

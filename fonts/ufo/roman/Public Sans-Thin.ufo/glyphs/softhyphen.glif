@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="softhyphen" format="1">
-  <advance width="730"/>
-  <unicode hex="00AD"/>
-  <outline>
-    <component base="hyphen"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-16 18:49:16 +0000</string>
-      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-      <string>hyphen</string>
-      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-      <string>hyphen</string>
-    </dict>
-  </lib>
+<glyph name="softhyphen" format="2">
+	<advance width="741"/>
+	<unicode hex="00AD"/>
+	<outline>
+		<component base="hyphen"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>hyphen</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>hyphen</string>
+		</dict>
+	</lib>
 </glyph>

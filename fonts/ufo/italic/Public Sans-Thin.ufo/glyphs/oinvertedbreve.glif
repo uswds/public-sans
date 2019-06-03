@@ -1,18 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="oinvertedbreve" format="1">
-  <advance width="1079"/>
-  <unicode hex="020F"/>
-  <outline>
-    <component base="o"/>
-    <component base="breveinvertedcomb" xOffset="289"/>
-    <contour>
-      <point x="564" y="1034" type="move" name="top"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 23:00:41 +0000</string>
-    </dict>
-  </lib>
+<glyph name="oinvertedbreve" format="2">
+	<advance width="1079"/>
+	<unicode hex="020F"/>
+	<anchor x="578" y="1059" name="top"/>
+	<outline>
+		<component base="o"/>
+		<component base="breveinvertedcomb" xOffset="283"/>
+	</outline>
 </glyph>

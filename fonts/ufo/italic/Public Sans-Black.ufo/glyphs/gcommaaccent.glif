@@ -1,30 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="gcommaaccent" format="1">
-  <advance width="1275"/>
-  <unicode hex="0123"/>
-  <outline>
-    <contour>
-      <point x="562" y="1168" type="line"/>
-      <point x="814" y="1168" type="line"/>
-      <point x="842" y="1368" type="line"/>
-      <point x="720" y="1368" type="line"/>
-      <point x="880" y="1552" type="line"/>
-      <point x="748" y="1552" type="line"/>
-      <point x="592" y="1384" type="line"/>
-    </contour>
-    <component base="g"/>
-    <contour>
-      <point x="694" y="1034" type="move" name="_top"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 23:00:56 +0000</string>
-      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-      <string>g</string>
-      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-      <string>g</string>
-    </dict>
-  </lib>
+<glyph name="gcommaaccent" format="2">
+	<advance width="1296"/>
+	<unicode hex="0123"/>
+	<anchor x="711" y="1059" name="_top"/>
+	<outline>
+		<contour>
+			<point x="575" y="1196" type="line"/>
+			<point x="834" y="1196" type="line"/>
+			<point x="862" y="1401" type="line"/>
+			<point x="737" y="1401" type="line"/>
+			<point x="901" y="1589" type="line"/>
+			<point x="766" y="1589" type="line"/>
+			<point x="606" y="1417" type="line"/>
+		</contour>
+		<component base="g"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>g</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>g</string>
+		</dict>
+	</lib>
 </glyph>

@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Zcaron" format="1">
-  <advance width="1097"/>
-  <unicode hex="017D"/>
-  <outline>
-    <component base="Z"/>
-    <component base="caroncomb" xOffset="364" yOffset="412"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 06:03:45 +0000</string>
-    </dict>
-  </lib>
+<glyph name="Zcaron" format="2">
+	<advance width="1162"/>
+	<unicode hex="017D"/>
+	<outline>
+		<component base="Z"/>
+		<component base="caroncomb" xOffset="410" yOffset="422"/>
+	</outline>
 </glyph>

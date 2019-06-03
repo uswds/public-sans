@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="hbar" format="1">
-  <advance width="1346"/>
-  <unicode hex="0127"/>
-  <outline>
-    <contour>
-      <point x="128" y="1132" type="line"/>
-      <point x="850" y="1132" type="line"/>
-      <point x="878" y="1340" type="line"/>
-      <point x="156" y="1340" type="line"/>
-    </contour>
-    <component base="h" xOffset="100"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 23:00:56 +0000</string>
-      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-      <string>h</string>
-    </dict>
-  </lib>
+<glyph name="hbar" format="2">
+	<advance width="1343"/>
+	<unicode hex="0127"/>
+	<outline>
+		<contour>
+			<point x="130" y="1159" type="line"/>
+			<point x="869" y="1159" type="line"/>
+			<point x="898" y="1372" type="line"/>
+			<point x="159" y="1372" type="line"/>
+		</contour>
+		<component base="h" xOffset="101"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>h</string>
+		</dict>
+	</lib>
 </glyph>

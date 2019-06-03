@@ -1,35 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="W" format="1">
-  <advance width="1928"/>
-  <unicode hex="0057"/>
-  <outline>
-    <contour>
-      <point x="1848" y="1446" type="line"/>
-      <point x="1762" y="1446" type="line"/>
-      <point x="1378" y="98" type="line"/>
-      <point x="1000" y="1446" type="line"/>
-      <point x="922" y="1446" type="line"/>
-      <point x="538" y="98" type="line"/>
-      <point x="168" y="1446" type="line"/>
-      <point x="80" y="1446" type="line"/>
-      <point x="486" y="0" type="line"/>
-      <point x="590" y="0" type="line"/>
-      <point x="960" y="1296" type="line"/>
-      <point x="1322" y="0" type="line"/>
-      <point x="1432" y="0" type="line"/>
-    </contour>
-    <contour>
-      <point x="962" y="1446" type="move" name="top"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 16:26:59 +0000</string>
-      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-      <string>X</string>
-      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-      <string>X</string>
-    </dict>
-  </lib>
+<glyph name="W" format="2">
+	<advance width="1930"/>
+	<unicode hex="0057"/>
+	<guideline x="95" y="116" angle="0"/>
+	<anchor x="963" y="1481" name="top"/>
+	<outline>
+		<contour>
+			<point x="1870" y="1481" type="line"/>
+			<point x="1782" y="1481" type="line"/>
+			<point x="1389" y="100" type="line"/>
+			<point x="1002" y="1481" type="line"/>
+			<point x="922" y="1481" type="line"/>
+			<point x="529" y="100" type="line"/>
+			<point x="150" y="1481" type="line"/>
+			<point x="60" y="1481" type="line"/>
+			<point x="476" y="0" type="line"/>
+			<point x="582" y="0" type="line"/>
+			<point x="961" y="1327" type="line"/>
+			<point x="1332" y="0" type="line"/>
+			<point x="1444" y="0" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.layer.leftMetricsKey</key>
+			<string>==X/2</string>
+			<key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
+			<string>==X/2</string>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>X</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>X</string>
+		</dict>
+	</lib>
 </glyph>

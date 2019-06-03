@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Eth" format="1">
-  <advance width="1303"/>
-  <unicode hex="00D0"/>
-  <outline>
-    <contour>
-      <point x="106" y="688" type="line"/>
-      <point x="704" y="688" type="line"/>
-      <point x="704" y="770" type="line"/>
-      <point x="106" y="770" type="line"/>
-    </contour>
-    <component base="D" xOffset="32"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-01 05:36:21 +0000</string>
-      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-      <string>D</string>
-    </dict>
-  </lib>
+<glyph name="Eth" format="2">
+	<advance width="1370"/>
+	<unicode hex="00D0"/>
+	<outline>
+		<contour>
+			<point x="148" y="705" type="line"/>
+			<point x="760" y="705" type="line"/>
+			<point x="760" y="788" type="line"/>
+			<point x="148" y="788" type="line"/>
+		</contour>
+		<component base="D" xOffset="72"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>D</string>
+		</dict>
+	</lib>
 </glyph>

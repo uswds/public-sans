@@ -1,28 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="dieresiscomb" format="1">
-  <advance width="918"/>
-  <unicode hex="0308"/>
-  <outline>
-    <contour>
-      <point x="606" y="1158" type="line"/>
-      <point x="994" y="1158" type="line"/>
-      <point x="1044" y="1486" type="line"/>
-      <point x="656" y="1486" type="line"/>
-    </contour>
-    <contour>
-      <point x="100" y="1158" type="line"/>
-      <point x="488" y="1158" type="line"/>
-      <point x="538" y="1486" type="line"/>
-      <point x="150" y="1486" type="line"/>
-    </contour>
-    <contour>
-      <point x="534" y="1040" type="move" name="_top"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 06:03:45 +0000</string>
-    </dict>
-  </lib>
+<glyph name="dieresiscomb" format="2">
+	<advance width="940"/>
+	<unicode hex="0308"/>
+	<anchor x="547" y="1065" name="_top"/>
+	<outline>
+		<contour>
+			<point x="621" y="1186" type="line"/>
+			<point x="1018" y="1186" type="line"/>
+			<point x="1069" y="1522" type="line"/>
+			<point x="672" y="1522" type="line"/>
+		</contour>
+		<contour>
+			<point x="102" y="1186" type="line"/>
+			<point x="500" y="1186" type="line"/>
+			<point x="551" y="1522" type="line"/>
+			<point x="154" y="1522" type="line"/>
+		</contour>
+	</outline>
 </glyph>

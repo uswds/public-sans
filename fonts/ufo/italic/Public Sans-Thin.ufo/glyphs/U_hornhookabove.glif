@@ -1,16 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Uhornhookabove" format="1">
-  <advance width="1457"/>
-  <unicode hex="1EEC"/>
-  <outline>
-    <component base="U"/>
-    <component base="__horn" xOffset="1106" yOffset="232"/>
-    <component base="hookabovecomb" xOffset="116" yOffset="386"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 06:04:45 +0000</string>
-    </dict>
-  </lib>
+<glyph name="Uhornhookabove" format="2">
+	<advance width="1460"/>
+	<unicode hex="1EEC"/>
+	<outline>
+		<component base="U"/>
+		<component base="__horn" xOffset="1132" yOffset="237"/>
+		<component base="hookabovecomb" xOffset="119" yOffset="396"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>U</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>__horn</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>2</integer>
+					<key>name</key>
+					<string>hookabovecomb</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>Uhorn</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>Uhorn</string>
+		</dict>
+	</lib>
 </glyph>

@@ -1,50 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="R" format="1">
-  <advance width="1384"/>
-  <unicode hex="0052"/>
-  <outline>
-    <contour>
-      <point x="57" y="0" type="line"/>
-      <point x="443" y="0" type="line"/>
-      <point x="519" y="498" type="line"/>
-      <point x="723" y="498" type="line"/>
-      <point x="855" y="0" type="line"/>
-      <point x="1251" y="0" type="line"/>
-      <point x="1083" y="560" type="line"/>
-      <point x="1229" y="642"/>
-      <point x="1341" y="758"/>
-      <point x="1375" y="980" type="curve" smooth="yes"/>
-      <point x="1415" y="1242"/>
-      <point x="1301" y="1446"/>
-      <point x="927" y="1446" type="curve" smooth="yes"/>
-      <point x="275" y="1446" type="line"/>
-    </contour>
-    <contour>
-      <point x="563" y="788" type="line"/>
-      <point x="619" y="1158" type="line"/>
-      <point x="841" y="1158" type="line" smooth="yes"/>
-      <point x="927" y="1158"/>
-      <point x="1001" y="1076"/>
-      <point x="985" y="976" type="curve" smooth="yes"/>
-      <point x="971" y="882"/>
-      <point x="883" y="788"/>
-      <point x="785" y="788" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="637" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="837" y="1446" type="move" name="top"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 06:03:45 +0000</string>
-      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-      <string>H</string>
-      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-      <string>=X+30</string>
-    </dict>
-  </lib>
+<glyph name="R" format="2">
+	<advance width="1456"/>
+	<unicode hex="0052"/>
+	<anchor x="865" y="1481" name="top"/>
+	<anchor x="660" y="0" name="bottom"/>
+	<outline>
+		<contour>
+			<point x="66" y="0" type="line"/>
+			<point x="462" y="0" type="line"/>
+			<point x="539" y="510" type="line"/>
+			<point x="748" y="510" type="line"/>
+			<point x="884" y="0" type="line"/>
+			<point x="1289" y="0" type="line"/>
+			<point x="1117" y="573" type="line"/>
+			<point x="1266" y="657"/>
+			<point x="1381" y="776"/>
+			<point x="1416" y="1004" type="curve" smooth="yes"/>
+			<point x="1457" y="1272"/>
+			<point x="1340" y="1481"/>
+			<point x="957" y="1481" type="curve" smooth="yes"/>
+			<point x="290" y="1481" type="line"/>
+		</contour>
+		<contour>
+			<point x="585" y="807" type="line"/>
+			<point x="642" y="1186" type="line"/>
+			<point x="869" y="1186" type="line" smooth="yes"/>
+			<point x="957" y="1186"/>
+			<point x="1033" y="1102"/>
+			<point x="1017" y="999" type="curve" smooth="yes"/>
+			<point x="1002" y="903"/>
+			<point x="912" y="807"/>
+			<point x="812" y="807" type="curve" smooth="yes"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
+			<string>==H/1.5</string>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>H</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>=X+30</string>
+		</dict>
+	</lib>
 </glyph>

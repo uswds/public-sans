@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="i" format="1">
-  <advance width="469"/>
-  <unicode hex="0069"/>
-  <outline>
-    <contour>
-      <point x="127" y="0" type="line"/>
-      <point x="199" y="0" type="line"/>
-      <point x="343" y="1034" type="line"/>
-      <point x="271" y="1034" type="line"/>
-    </contour>
-    <contour>
-      <point x="299" y="1294" type="line"/>
-      <point x="387" y="1294" type="line"/>
-      <point x="405" y="1414" type="line"/>
-      <point x="317" y="1414" type="line"/>
-    </contour>
-    <contour>
-      <point x="161" y="0" type="move" name="bottom"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 23:00:41 +0000</string>
-    </dict>
-  </lib>
+<glyph name="i" format="2">
+	<advance width="510"/>
+	<unicode hex="0069"/>
+	<anchor x="180" y="0" name="bottom"/>
+	<outline>
+		<contour>
+			<point x="145" y="0" type="line"/>
+			<point x="219" y="0" type="line"/>
+			<point x="366" y="1059" type="line"/>
+			<point x="293" y="1059" type="line"/>
+		</contour>
+		<contour>
+			<point x="321" y="1325" type="line"/>
+			<point x="411" y="1325" type="line"/>
+			<point x="430" y="1448" type="line"/>
+			<point x="340" y="1448" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>=n*1.1</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>=|n*1.1</string>
+		</dict>
+	</lib>
 </glyph>

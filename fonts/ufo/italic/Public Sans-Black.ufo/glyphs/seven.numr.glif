@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="seven.numr" format="1">
-  <advance width="764"/>
-  <outline>
-    <component base="seven" xScale="0.629" yScale="0.629" xOffset="78" yOffset="550"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 06:03:45 +0000</string>
-    </dict>
-  </lib>
+<glyph name="seven.numr" format="2">
+	<advance width="791"/>
+	<outline>
+		<component base="seven" xScale="0.629" yScale="0.629" xOffset="41" yOffset="563"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>one.numr</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>=|one.numr-20</string>
+		</dict>
+	</lib>
 </glyph>

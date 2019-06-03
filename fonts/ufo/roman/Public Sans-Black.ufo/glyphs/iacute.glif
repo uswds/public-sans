@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="iacute" format="1">
-  <advance width="610"/>
-  <unicode hex="00ED"/>
-  <outline>
-    <component base="idotless"/>
-    <component base="acutecomb.001" xOffset="138"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 21:34:32 +0000</string>
-    </dict>
-  </lib>
+<glyph name="iacute" format="2">
+	<advance width="599"/>
+	<unicode hex="00ED"/>
+	<guideline x="535" y="668" angle="0"/>
+	<outline>
+		<component base="idotless"/>
+		<component base="acutecomb.001" xOffset="138"/>
+	</outline>
 </glyph>

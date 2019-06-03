@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="two.numr" format="1">
-  <advance width="817"/>
-  <outline>
-    <component base="two" xScale="0.629" yScale="0.629" xOffset="41" yOffset="558"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 16:32:09 +0000</string>
-    </dict>
-  </lib>
+<glyph name="two.numr" format="2">
+	<advance width="846"/>
+	<outline>
+		<component base="two" xScale="0.629" yScale="0.629" xOffset="42" yOffset="571"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>one.numr</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>zero.numr</string>
+		</dict>
+	</lib>
 </glyph>

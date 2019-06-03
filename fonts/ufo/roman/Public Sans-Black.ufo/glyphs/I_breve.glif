@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Ibreve" format="1">
-  <advance width="650"/>
-  <unicode hex="012C"/>
-  <outline>
-    <component base="I"/>
-    <component base="brevecomb" xOffset="-108" yOffset="412"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-30 22:04:38 +0000</string>
-    </dict>
-  </lib>
+<glyph name="Ibreve" format="2">
+	<advance width="679"/>
+	<unicode hex="012C"/>
+	<outline>
+		<component base="I"/>
+		<component base="brevecomb" xOffset="-103" yOffset="422"/>
+	</outline>
 </glyph>

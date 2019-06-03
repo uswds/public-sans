@@ -1,24 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="asciicircum" format="1">
-  <advance width="988"/>
-  <unicode hex="005E"/>
-  <outline>
-    <contour>
-      <point x="664" y="234" type="line"/>
-      <point x="908" y="234" type="line"/>
-      <point x="588" y="984" type="line" smooth="yes"/>
-      <point x="546" y="1078"/>
-      <point x="414" y="1072"/>
-      <point x="374" y="982" type="curve" smooth="yes"/>
-      <point x="50" y="234" type="line"/>
-      <point x="296" y="234" type="line"/>
-      <point x="480" y="678" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-16 18:49:16 +0000</string>
-    </dict>
-  </lib>
+<glyph name="asciicircum" format="2">
+	<advance width="1012"/>
+	<unicode hex="005E"/>
+	<outline>
+		<contour>
+			<point x="680" y="240" type="line"/>
+			<point x="930" y="240" type="line"/>
+			<point x="602" y="1008" type="line" smooth="yes"/>
+			<point x="559" y="1104"/>
+			<point x="424" y="1098"/>
+			<point x="383" y="1006" type="curve" smooth="yes"/>
+			<point x="51" y="240" type="line"/>
+			<point x="303" y="240" type="line"/>
+			<point x="492" y="694" type="line"/>
+		</contour>
+	</outline>
 </glyph>

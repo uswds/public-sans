@@ -1,38 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="colonsign" format="1">
-  <advance width="1130"/>
-  <unicode hex="20A1"/>
-  <outline>
-    <contour>
-      <point x="558" y="1188" type="line"/>
-      <point x="628" y="1446" type="line"/>
-      <point x="544" y="1446" type="line"/>
-      <point x="480" y="1208" type="line"/>
-    </contour>
-    <contour>
-      <point x="746" y="1188" type="line"/>
-      <point x="816" y="1446" type="line"/>
-      <point x="734" y="1446" type="line"/>
-      <point x="668" y="1208" type="line"/>
-    </contour>
-    <contour>
-      <point x="580" y="0" type="line"/>
-      <point x="646" y="240" type="line"/>
-      <point x="568" y="260" type="line"/>
-      <point x="498" y="0" type="line"/>
-    </contour>
-    <contour>
-      <point x="392" y="0" type="line"/>
-      <point x="456" y="240" type="line"/>
-      <point x="378" y="260" type="line"/>
-      <point x="308" y="0" type="line"/>
-    </contour>
-    <component base="c" yOffset="206"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-16 18:49:16 +0000</string>
-    </dict>
-  </lib>
+<glyph name="colonsign" format="2">
+	<advance width="1364"/>
+	<unicode hex="20A1"/>
+	<outline>
+		<contour>
+			<point x="741" y="1597" type="line"/>
+			<point x="414" y="-125" type="line"/>
+			<point x="489" y="-125" type="line"/>
+			<point x="817" y="1597" type="line"/>
+		</contour>
+		<contour>
+			<point x="950" y="1597" type="line"/>
+			<point x="623" y="-125" type="line"/>
+			<point x="698" y="-125" type="line"/>
+			<point x="1026" y="1597" type="line"/>
+		</contour>
+		<component base="C"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>C</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>C</string>
+		</dict>
+	</lib>
 </glyph>

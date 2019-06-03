@@ -1,32 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="lessequal" format="1">
-  <advance width="1238"/>
-  <unicode hex="2264"/>
-  <outline>
-    <contour>
-      <point x="1104" y="678" type="line"/>
-      <point x="524" y="890" type="line"/>
-      <point x="1104" y="1108" type="line"/>
-      <point x="1104" y="1430" type="line"/>
-      <point x="112" y="1048" type="line"/>
-      <point x="112" y="738" type="line"/>
-      <point x="1104" y="354" type="line"/>
-    </contour>
-    <contour>
-      <point x="1128" y="290" type="line"/>
-      <point x="110" y="290" type="line"/>
-      <point x="110" y="16" type="line"/>
-      <point x="1128" y="16" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-16 18:49:16 +0000</string>
-      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-      <string>plus</string>
-      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-      <string>plus</string>
-    </dict>
-  </lib>
+<glyph name="lessequal" format="2">
+	<advance width="1268"/>
+	<unicode hex="2264"/>
+	<outline>
+		<contour>
+			<point x="1130" y="694" type="line"/>
+			<point x="537" y="911" type="line"/>
+			<point x="1130" y="1135" type="line"/>
+			<point x="1130" y="1464" type="line"/>
+			<point x="115" y="1073" type="line"/>
+			<point x="115" y="756" type="line"/>
+			<point x="1130" y="362" type="line"/>
+		</contour>
+		<contour>
+			<point x="1155" y="297" type="line"/>
+			<point x="113" y="297" type="line"/>
+			<point x="113" y="16" type="line"/>
+			<point x="1155" y="16" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>plus</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>plus</string>
+		</dict>
+	</lib>
 </glyph>

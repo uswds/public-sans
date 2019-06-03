@@ -1,23 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="increment" format="1">
-  <advance width="1654"/>
-  <unicode hex="2206"/>
-  <outline>
-    <contour>
-      <point x="-43" y="0" type="line"/>
-      <point x="1551" y="0" type="line"/>
-      <point x="993" y="1446" type="line"/>
-    </contour>
-    <contour>
-      <point x="563" y="318" type="line"/>
-      <point x="891" y="772" type="line"/>
-      <point x="1059" y="318" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 06:03:45 +0000</string>
-    </dict>
-  </lib>
+<glyph name="increment" format="2">
+	<advance width="1694"/>
+	<unicode hex="2206"/>
+	<guideline x="118" y="400" angle="239.873"/>
+	<guideline x="899" y="0" angle="301.3682"/>
+	<guideline x="438" y="290" angle="90"/>
+	<outline>
+		<contour>
+			<point x="-43" y="0" type="line"/>
+			<point x="1589" y="0" type="line"/>
+			<point x="1018" y="1481" type="line"/>
+		</contour>
+		<contour>
+			<point x="578" y="326" type="line"/>
+			<point x="913" y="791" type="line"/>
+			<point x="1085" y="326" type="line"/>
+		</contour>
+	</outline>
 </glyph>

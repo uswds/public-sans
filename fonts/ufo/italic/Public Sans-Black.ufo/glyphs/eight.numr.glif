@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="eight.numr" format="1">
-  <advance width="825"/>
-  <outline>
-    <component base="eight" xScale="0.629" yScale="0.629" xOffset="45" yOffset="558"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 06:03:45 +0000</string>
-    </dict>
-  </lib>
+<glyph name="eight.numr" format="2">
+	<advance width="903"/>
+	<outline>
+		<component base="eight" xScale="0.629" yScale="0.629" xOffset="62" yOffset="571"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>=zero.numr+10</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>=zero.numr+10</string>
+		</dict>
+	</lib>
 </glyph>

@@ -1,13 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="four.numr" format="1">
-  <advance width="802"/>
-  <outline>
-    <component base="four" xScale="0.629" yScale="0.629" xOffset="-22" yOffset="552"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-16 18:49:16 +0000</string>
-    </dict>
-  </lib>
+<glyph name="four.numr" format="2">
+	<advance width="768"/>
+	<outline>
+		<contour>
+			<point x="491" y="1481" type="line"/>
+			<point x="50" y="884" type="line"/>
+			<point x="50" y="815" type="line"/>
+			<point x="493" y="815" type="line"/>
+			<point x="493" y="549" type="line"/>
+			<point x="555" y="549" type="line"/>
+			<point x="555" y="815" type="line"/>
+			<point x="718" y="815" type="line"/>
+			<point x="718" y="877" type="line"/>
+			<point x="555" y="877" type="line"/>
+			<point x="555" y="1481" type="line"/>
+		</contour>
+		<contour>
+			<point x="118" y="877" type="line"/>
+			<point x="488" y="1375" type="line"/>
+			<point x="488" y="877" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>one.numr</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>=|one.numr</string>
+		</dict>
+	</lib>
 </glyph>

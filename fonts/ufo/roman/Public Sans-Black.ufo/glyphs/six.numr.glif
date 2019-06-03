@@ -1,13 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="six.numr" format="1">
-  <advance width="842"/>
-  <outline>
-    <component base="six" xScale="0.629" yScale="0.629" xOffset="-18" yOffset="560"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-16 18:49:16 +0000</string>
-    </dict>
-  </lib>
+<glyph name="six.numr" format="2">
+	<advance width="892"/>
+	<outline>
+		<contour>
+			<point x="465.46" y="1491.129" type="curve" smooth="yes"/>
+			<point x="212.602" y="1491.129"/>
+			<point x="50.32" y="1304.316"/>
+			<point x="50.32" y="991.703" type="curve" smooth="yes"/>
+			<point x="50.32" y="720.604"/>
+			<point x="202.538" y="539.452"/>
+			<point x="460.428" y="539.452" type="curve" smooth="yes"/>
+			<point x="680.578" y="539.452"/>
+			<point x="841.602" y="672.171"/>
+			<point x="841.602" y="850.807" type="curve" smooth="yes"/>
+			<point x="841.602" y="1014.347"/>
+			<point x="711.399" y="1128.196"/>
+			<point x="517.038" y="1128.196" type="curve" smooth="yes"/>
+			<point x="449.735" y="1128.196"/>
+			<point x="380.545" y="1116.245"/>
+			<point x="330.225" y="1085.424" type="curve"/>
+			<point x="310.726" y="1193.612"/>
+			<point x="366.078" y="1298.026"/>
+			<point x="471.75" y="1298.026" type="curve" smooth="yes"/>
+			<point x="537.795" y="1298.026"/>
+			<point x="578.68" y="1268.463"/>
+			<point x="599.437" y="1198.644" type="curve"/>
+			<point x="825.877" y="1198.644" type="line"/>
+			<point x="825.877" y="1382.941"/>
+			<point x="658.563" y="1491.129"/>
+		</contour>
+		<contour>
+			<point x="450.993" y="947.673" type="curve" smooth="yes"/>
+			<point x="510.748" y="947.673"/>
+			<point x="578.68" y="919.368"/>
+			<point x="578.68" y="839.485" type="curve" smooth="yes"/>
+			<point x="578.68" y="769.666"/>
+			<point x="515.78" y="720.604"/>
+			<point x="449.735" y="720.604" type="curve" smooth="yes"/>
+			<point x="378.029" y="720.604"/>
+			<point x="327.709" y="770.924"/>
+			<point x="327.709" y="879.112" type="curve"/>
+			<point x="327.709" y="902.385"/>
+			<point x="393.125" y="947.673"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>zero.numr</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>zero.numr</string>
+		</dict>
+	</lib>
 </glyph>

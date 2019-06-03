@@ -1,53 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="q" format="1">
-  <advance width="1238"/>
-  <unicode hex="0071"/>
-  <outline>
-    <contour>
-      <point x="1128" y="-322" type="line"/>
-      <point x="1128" y="1034" type="line"/>
-      <point x="736" y="1034" type="line"/>
-      <point x="736" y="954" type="line"/>
-      <point x="656" y="1020"/>
-      <point x="550" y="1054"/>
-      <point x="452" y="1054" type="curve" smooth="yes"/>
-      <point x="236" y="1054"/>
-      <point x="50" y="886"/>
-      <point x="50" y="520" type="curve" smooth="yes"/>
-      <point x="50" y="126"/>
-      <point x="244" y="-20"/>
-      <point x="462" y="-20" type="curve" smooth="yes"/>
-      <point x="550" y="-20"/>
-      <point x="640" y="4"/>
-      <point x="738" y="96" type="curve"/>
-      <point x="738" y="-322" type="line"/>
-    </contour>
-    <contour>
-      <point x="598" y="232" type="curve"/>
-      <point x="510" y="232"/>
-      <point x="444" y="342"/>
-      <point x="444" y="528" type="curve" smooth="yes"/>
-      <point x="444" y="716"/>
-      <point x="510" y="800"/>
-      <point x="598" y="800" type="curve" smooth="yes"/>
-      <point x="686" y="800"/>
-      <point x="738" y="716"/>
-      <point x="738" y="528" type="curve"/>
-      <point x="738" y="528" type="line"/>
-      <point x="738" y="342"/>
-      <point x="686" y="232"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 21:27:06 +0000</string>
-      <key>com.schriftgestaltung.Glyphs.layer.leftMetricsKey</key>
-      <string>==o+10</string>
-      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-      <string>o</string>
-      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-      <string>=|n</string>
-    </dict>
-  </lib>
+<glyph name="q" format="2">
+	<advance width="1254"/>
+	<unicode hex="0071"/>
+	<outline>
+		<contour>
+			<point x="1154" y="-330" type="line"/>
+			<point x="1154" y="1059" type="line"/>
+			<point x="753" y="1059" type="line"/>
+			<point x="753" y="977" type="line"/>
+			<point x="671" y="1044"/>
+			<point x="562" y="1079"/>
+			<point x="462" y="1079" type="curve" smooth="yes"/>
+			<point x="241" y="1079"/>
+			<point x="50" y="907"/>
+			<point x="50" y="532" type="curve" smooth="yes"/>
+			<point x="50" y="129"/>
+			<point x="249" y="-20"/>
+			<point x="472" y="-20" type="curve" smooth="yes"/>
+			<point x="562" y="-20"/>
+			<point x="655" y="4"/>
+			<point x="755" y="98" type="curve"/>
+			<point x="755" y="-330" type="line"/>
+		</contour>
+		<contour>
+			<point x="612" y="238" type="curve"/>
+			<point x="521" y="238"/>
+			<point x="454" y="350"/>
+			<point x="454" y="541" type="curve" smooth="yes"/>
+			<point x="454" y="733"/>
+			<point x="521" y="819"/>
+			<point x="612" y="819" type="curve" smooth="yes"/>
+			<point x="702" y="819"/>
+			<point x="755" y="733"/>
+			<point x="755" y="541" type="curve"/>
+			<point x="755" y="541" type="line"/>
+			<point x="755" y="350"/>
+			<point x="702" y="238"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>o</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>=|n</string>
+		</dict>
+	</lib>
 </glyph>

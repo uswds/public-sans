@@ -1,26 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="naira" format="1">
-  <advance width="1271"/>
-  <unicode hex="20A6"/>
-  <outline>
-    <contour>
-      <point x="60" y="866" type="line"/>
-      <point x="1310" y="868" type="line"/>
-      <point x="1320" y="942" type="line"/>
-      <point x="70" y="940" type="line"/>
-    </contour>
-    <contour>
-      <point x="16" y="554" type="line"/>
-      <point x="1266" y="556" type="line"/>
-      <point x="1276" y="630" type="line"/>
-      <point x="26" y="628" type="line"/>
-    </contour>
-    <component base="N" xScale="0.92" yxScale="0.1405" xOffset="-72"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 06:03:45 +0000</string>
-    </dict>
-  </lib>
+<glyph name="naira" format="2">
+	<advance width="1300"/>
+	<unicode hex="20A6"/>
+	<outline>
+		<contour>
+			<point x="60" y="887" type="line"/>
+			<point x="1340" y="889" type="line"/>
+			<point x="1351" y="965" type="line"/>
+			<point x="71" y="963" type="line"/>
+		</contour>
+		<contour>
+			<point x="15" y="567" type="line"/>
+			<point x="1295" y="569" type="line"/>
+			<point x="1306" y="645" type="line"/>
+			<point x="26" y="643" type="line"/>
+		</contour>
+		<component base="N" xScale="0.92" yxScale="0.1405" xOffset="-75"/>
+	</outline>
 </glyph>

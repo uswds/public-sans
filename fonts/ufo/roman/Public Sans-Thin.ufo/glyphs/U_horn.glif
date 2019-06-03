@@ -1,38 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Uhorn" format="1">
-  <advance width="1534"/>
-  <unicode hex="01AF"/>
-  <outline>
-    <component base="U"/>
-    <component base="__horn" xOffset="1148" yOffset="232"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>U</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>__horn</string>
-        </dict>
-      </array>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-01 04:58:12 +0000</string>
-      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-      <string>U</string>
-      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-      <string>=U-60</string>
-    </dict>
-  </lib>
+<glyph name="Uhorn" format="2">
+	<advance width="1558"/>
+	<unicode hex="01AF"/>
+	<outline>
+		<component base="U"/>
+		<component base="__horn" xOffset="1176" yOffset="238"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>U</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>__horn</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>U</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>=U-60</string>
+		</dict>
+	</lib>
 </glyph>

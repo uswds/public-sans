@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="iogonek" format="1">
-  <advance width="610"/>
-  <unicode hex="012F"/>
-  <outline>
-    <component base="idotless"/>
-    <component base="dotaccentcomb" xOffset="56"/>
-    <component base="ogonekcomb" xOffset="-2" yOffset="-2"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 21:34:32 +0000</string>
-    </dict>
-  </lib>
+<glyph name="iogonek" format="2">
+	<advance width="599"/>
+	<unicode hex="012F"/>
+	<outline>
+		<component base="idotless"/>
+		<component base="dotaccentcomb" xOffset="54"/>
+		<component base="ogonekcomb" xOffset="-5" yOffset="-2"/>
+	</outline>
 </glyph>

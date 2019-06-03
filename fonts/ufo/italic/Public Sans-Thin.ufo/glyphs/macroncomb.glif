@@ -1,22 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="macroncomb" format="1">
-  <advance width="488"/>
-  <unicode hex="0304"/>
-  <outline>
-    <contour>
-      <point x="116" y="1211" type="line"/>
-      <point x="568" y="1211" type="line"/>
-      <point x="578" y="1285" type="line"/>
-      <point x="126" y="1285" type="line"/>
-    </contour>
-    <contour>
-      <point x="317" y="1034" type="move" name="_top"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 06:03:45 +0000</string>
-    </dict>
-  </lib>
+<glyph name="macroncomb" format="2">
+	<advance width="501"/>
+	<unicode hex="0304"/>
+	<anchor x="325" y="1059" name="_top"/>
+	<outline>
+		<contour>
+			<point x="119" y="1240" type="line"/>
+			<point x="582" y="1240" type="line"/>
+			<point x="592" y="1316" type="line"/>
+			<point x="129" y="1316" type="line"/>
+		</contour>
+	</outline>
 </glyph>

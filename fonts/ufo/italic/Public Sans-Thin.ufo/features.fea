@@ -2,14 +2,15 @@
 # automatic
 languagesystem DFLT dflt;
 languagesystem latn dflt;
+languagesystem cyrl dflt;
 languagesystem latn CAT;
 languagesystem latn ROM;
 languagesystem latn MOL;
 languagesystem latn KAZ;
-languagesystem latn TAT;
 languagesystem latn TRK;
 languagesystem latn CRT;
 languagesystem latn AZE;
+languagesystem cyrl TAT;
 
 feature aalt {
 # automatic
@@ -38,6 +39,11 @@ lookup ccmp_Other_1 {
 	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
 } ccmp_Other_1;
 
+lookup ccmp_Other_2 {
+	lookupflag 0;
+	sub space emdash space by space_emdash_space.liga;
+} ccmp_Other_2;
+
 lookup ccmp_latn_1 {
 	lookupflag 0;
 	sub brevecomb acutecomb by brevecomb_acutecomb;
@@ -51,6 +57,7 @@ lookup ccmp_latn_1 {
 } ccmp_latn_1;
 
 script latn;
+lookup ccmp_latn_1;
 } ccmp;
 
 feature locl {
@@ -71,13 +78,15 @@ sub Tcedilla by Tcommaaccent;
 sub tcedilla by tcommaaccent;
 language KAZ;
 sub i by idotaccent;
-language TAT;
-sub i by idotaccent;
 language TRK;
 sub i by idotaccent;
 language CRT;
 sub i by idotaccent;
 language AZE;
+sub i by idotaccent;
+
+script cyrl;
+language TAT;
 sub i by idotaccent;
 } locl;
 
@@ -237,6 +246,7 @@ feature liga {
 sub colon f l a g two colon by colon_f_l_a_g_two_colon.liga;
 sub colon f l a g colon by colon_f_l_a_g_colon.liga;
 sub colon one eight F colon by colon_one_eight_F_colon.liga;
+sub space emdash space by space_emdash_space.liga;
 sub f i by fi;
 sub f l by fl;
 } liga;

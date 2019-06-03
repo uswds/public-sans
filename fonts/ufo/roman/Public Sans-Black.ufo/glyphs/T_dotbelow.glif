@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Tdotbelow" format="1">
-  <advance width="1274"/>
-  <unicode hex="1E6C"/>
-  <outline>
-    <component base="T"/>
-    <component base="dotbelowcomb" xOffset="450"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-30 22:04:38 +0000</string>
-    </dict>
-  </lib>
+<glyph name="Tdotbelow" format="2">
+	<advance width="1303"/>
+	<unicode hex="1E6C"/>
+	<outline>
+		<component base="T"/>
+		<component base="dotbelowcomb" xOffset="460"/>
+	</outline>
 </glyph>

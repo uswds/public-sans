@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="two.dnom" format="1">
-  <advance width="792"/>
-  <outline>
-    <component base="two" xScale="0.629" yScale="0.629" xOffset="-10"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-16 18:49:16 +0000</string>
-    </dict>
-  </lib>
+<glyph name="two.dnom" format="2">
+	<advance width="850"/>
+	<outline>
+		<component base="two.numr" yOffset="-551"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>two.numr</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>two.numr</string>
+		</dict>
+	</lib>
 </glyph>

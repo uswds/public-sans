@@ -1,35 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="quotedblleft" format="1">
-  <advance width="1069"/>
-  <unicode hex="201C"/>
-  <outline>
-    <contour>
-      <point x="586" y="802" type="line"/>
-      <point x="938" y="802" type="line"/>
-      <point x="990" y="1138" type="line"/>
-      <point x="876" y="1152" type="line"/>
-      <point x="1040" y="1446" type="line"/>
-      <point x="912" y="1446" type="line"/>
-      <point x="632" y="1100" type="line"/>
-    </contour>
-    <contour>
-      <point x="90" y="802" type="line"/>
-      <point x="442" y="802" type="line"/>
-      <point x="492" y="1138" type="line"/>
-      <point x="380" y="1152" type="line"/>
-      <point x="544" y="1446" type="line"/>
-      <point x="416" y="1446" type="line"/>
-      <point x="136" y="1100" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 06:03:45 +0000</string>
-      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-      <string>quoteleft</string>
-      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-      <string>quoteleft</string>
-    </dict>
-  </lib>
+<glyph name="quotedblleft" format="2">
+	<advance width="1093"/>
+	<unicode hex="201C"/>
+	<guideline x="117" y="974" angle="81.2397"/>
+	<guideline x="625" y="974" angle="81.2397"/>
+	<outline>
+		<component base="quoteright" xScale="-1" yScale="-1.0098" xOffset="1210" yOffset="2341"/>
+		<component base="quoteright" xScale="-1" yScale="-1.0098" xOffset="703" yOffset="2341"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>quoteleft</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>quoteleft</string>
+		</dict>
+	</lib>
 </glyph>

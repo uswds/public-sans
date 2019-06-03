@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="nine.dnom" format="1">
-  <advance width="848"/>
-  <outline>
-    <component base="nine" xScale="0.629" yScale="0.629" xOffset="-4" yOffset="-10"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-16 18:49:16 +0000</string>
-    </dict>
-  </lib>
+<glyph name="nine.dnom" format="2">
+	<advance width="886"/>
+	<outline>
+		<component base="nine.numr" yOffset="-551"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>nine.numr</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>nine.numr</string>
+		</dict>
+	</lib>
 </glyph>

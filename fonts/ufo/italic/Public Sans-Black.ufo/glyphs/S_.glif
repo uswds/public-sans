@@ -1,61 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="S" format="1">
-  <advance width="1478"/>
-  <unicode hex="0053"/>
-  <outline>
-    <contour>
-      <point x="669" y="-20" type="curve" smooth="yes"/>
-      <point x="1029" y="-20"/>
-      <point x="1327" y="164"/>
-      <point x="1363" y="410" type="curve" smooth="yes"/>
-      <point x="1385" y="554"/>
-      <point x="1399" y="814"/>
-      <point x="993" y="886" type="curve" smooth="yes"/>
-      <point x="775" y="924" type="line" smooth="yes"/>
-      <point x="653" y="946"/>
-      <point x="627" y="984"/>
-      <point x="637" y="1050" type="curve" smooth="yes"/>
-      <point x="645" y="1102"/>
-      <point x="699" y="1164"/>
-      <point x="851" y="1164" type="curve" smooth="yes"/>
-      <point x="985" y="1164"/>
-      <point x="1059" y="1120"/>
-      <point x="1053" y="1008" type="curve"/>
-      <point x="1445" y="1008" type="line"/>
-      <point x="1455" y="1246"/>
-      <point x="1239" y="1464"/>
-      <point x="887" y="1464" type="curve" smooth="yes"/>
-      <point x="557" y="1464"/>
-      <point x="257" y="1294"/>
-      <point x="215" y="1002" type="curve" smooth="yes"/>
-      <point x="183" y="756"/>
-      <point x="309" y="612"/>
-      <point x="529" y="576" type="curve" smooth="yes"/>
-      <point x="747" y="538" type="line" smooth="yes"/>
-      <point x="865" y="518"/>
-      <point x="981" y="498"/>
-      <point x="969" y="410" type="curve" smooth="yes"/>
-      <point x="953" y="308"/>
-      <point x="833" y="278"/>
-      <point x="711" y="278" type="curve" smooth="yes"/>
-      <point x="577" y="278"/>
-      <point x="497" y="338"/>
-      <point x="491" y="440" type="curve"/>
-      <point x="89" y="440" type="line"/>
-      <point x="65" y="118"/>
-      <point x="367" y="-20"/>
-    </contour>
-    <contour>
-      <point x="665" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="885" y="1446" type="move" name="top"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 06:03:45 +0000</string>
-    </dict>
-  </lib>
+<glyph name="S" format="2">
+	<advance width="1481"/>
+	<unicode hex="0053"/>
+	<guideline x="686" y="302" angle="214.3236"/>
+	<anchor x="894" y="1481" name="top"/>
+	<anchor x="669" y="0" name="bottom"/>
+	<outline>
+		<contour>
+			<point x="673" y="-20" type="curve" smooth="yes"/>
+			<point x="1042" y="-20"/>
+			<point x="1347" y="168"/>
+			<point x="1384" y="420" type="curve" smooth="yes"/>
+			<point x="1406" y="567"/>
+			<point x="1421" y="834"/>
+			<point x="1005" y="907" type="curve" smooth="yes"/>
+			<point x="782" y="946" type="line" smooth="yes"/>
+			<point x="657" y="969"/>
+			<point x="630" y="1008"/>
+			<point x="640" y="1075" type="curve" smooth="yes"/>
+			<point x="648" y="1128"/>
+			<point x="704" y="1192"/>
+			<point x="859" y="1192" type="curve" smooth="yes"/>
+			<point x="997" y="1192"/>
+			<point x="1072" y="1147"/>
+			<point x="1066" y="1032" type="curve"/>
+			<point x="1468" y="1032" type="line"/>
+			<point x="1478" y="1276"/>
+			<point x="1257" y="1499"/>
+			<point x="896" y="1499" type="curve" smooth="yes"/>
+			<point x="558" y="1499"/>
+			<point x="251" y="1325"/>
+			<point x="208" y="1026" type="curve" smooth="yes"/>
+			<point x="175" y="774"/>
+			<point x="304" y="627"/>
+			<point x="530" y="590" type="curve" smooth="yes"/>
+			<point x="753" y="551" type="line" smooth="yes"/>
+			<point x="874" y="530"/>
+			<point x="993" y="510"/>
+			<point x="980" y="420" type="curve" smooth="yes"/>
+			<point x="964" y="315"/>
+			<point x="841" y="285"/>
+			<point x="716" y="285" type="curve" smooth="yes"/>
+			<point x="579" y="285"/>
+			<point x="497" y="346"/>
+			<point x="491" y="451" type="curve"/>
+			<point x="79" y="451" type="line"/>
+			<point x="55" y="121"/>
+			<point x="364" y="-20"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.layer.leftMetricsKey</key>
+			<string>==O</string>
+			<key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
+			<string>==O/1.1</string>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>=O*1.1</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>=O</string>
+		</dict>
+	</lib>
 </glyph>

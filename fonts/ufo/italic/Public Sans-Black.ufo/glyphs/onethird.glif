@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="onethird" format="1">
-  <advance width="2009"/>
-  <unicode hex="2153"/>
-  <outline>
-    <component base="one.numr"/>
-    <component base="fraction" xOffset="637"/>
-    <component base="three.dnom" xOffset="1181"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 23:00:41 +0000</string>
-    </dict>
-  </lib>
+<glyph name="onethird" format="2">
+	<advance width="1976"/>
+	<unicode hex="2153"/>
+	<outline>
+		<component base="one.numr"/>
+		<component base="fraction" xOffset="606"/>
+		<component base="three.dnom" xOffset="1069"/>
+	</outline>
 </glyph>

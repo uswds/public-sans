@@ -1,13 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="six.numr" format="1">
-  <advance width="714"/>
-  <outline>
-    <component base="six" xScale="0.629" yScale="0.629" yOffset="560"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-16 18:49:16 +0000</string>
-    </dict>
-  </lib>
+<glyph name="six.numr" format="2">
+	<advance width="739"/>
+	<outline>
+		<contour>
+			<point x="397" y="1493" type="curve" smooth="yes"/>
+			<point x="181" y="1493"/>
+			<point x="59" y="1315"/>
+			<point x="59" y="1004" type="curve" smooth="yes"/>
+			<point x="59" y="713"/>
+			<point x="182" y="536"/>
+			<point x="384" y="536" type="curve" smooth="yes"/>
+			<point x="567" y="536"/>
+			<point x="680" y="659"/>
+			<point x="680" y="855" type="curve" smooth="yes"/>
+			<point x="680" y="1044"/>
+			<point x="565" y="1161"/>
+			<point x="379" y="1161" type="curve" smooth="yes"/>
+			<point x="260" y="1161"/>
+			<point x="157" y="1086"/>
+			<point x="120" y="975" type="curve"/>
+			<point x="115" y="1279"/>
+			<point x="208" y="1433"/>
+			<point x="397" y="1433" type="curve" smooth="yes"/>
+			<point x="505" y="1433"/>
+			<point x="588" y="1370"/>
+			<point x="614" y="1270" type="curve"/>
+			<point x="676" y="1270" type="line"/>
+			<point x="648" y="1406"/>
+			<point x="539" y="1493"/>
+		</contour>
+		<contour>
+			<point x="386" y="1099" type="curve" smooth="yes"/>
+			<point x="532" y="1099"/>
+			<point x="612" y="1012"/>
+			<point x="612" y="853" type="curve" smooth="yes"/>
+			<point x="612" y="700"/>
+			<point x="523" y="598"/>
+			<point x="388" y="598" type="curve" smooth="yes"/>
+			<point x="246" y="598"/>
+			<point x="146" y="715"/>
+			<point x="149" y="878" type="curve" smooth="yes"/>
+			<point x="151" y="997"/>
+			<point x="256" y="1099"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>zero.numr</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>zero.numr</string>
+		</dict>
+	</lib>
 </glyph>

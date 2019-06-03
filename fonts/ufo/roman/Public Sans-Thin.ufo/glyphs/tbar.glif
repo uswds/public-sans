@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="tbar" format="1">
-  <advance width="700"/>
-  <unicode hex="0167"/>
-  <outline>
-    <contour>
-      <point x="576" y="614" type="line"/>
-      <point x="130" y="614" type="line"/>
-      <point x="130" y="546" type="line"/>
-      <point x="576" y="546" type="line"/>
-    </contour>
-    <component base="t" xOffset="32"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 21:27:06 +0000</string>
-      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-      <string>=t+10</string>
-    </dict>
-  </lib>
+<glyph name="tbar" format="2">
+	<advance width="744"/>
+	<unicode hex="0167"/>
+	<outline>
+		<contour>
+			<point x="617" y="629" type="line"/>
+			<point x="160" y="629" type="line"/>
+			<point x="160" y="559" type="line"/>
+			<point x="617" y="559" type="line"/>
+		</contour>
+		<component base="t" xOffset="60"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>=t+10</string>
+		</dict>
+	</lib>
 </glyph>

@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="abrevedotbelow" format="1">
-  <advance width="1103"/>
-  <unicode hex="1EB7"/>
-  <outline>
-    <component base="a"/>
-    <component base="dotbelowcomb" xOffset="493"/>
-    <component base="brevecomb" xOffset="290" yOffset="-4"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 21:43:13 +0000</string>
-    </dict>
-  </lib>
+<glyph name="abrevedotbelow" format="2">
+	<advance width="1153"/>
+	<unicode hex="1EB7"/>
+	<outline>
+		<component base="a"/>
+		<component base="dotbelowcomb" xOffset="499"/>
+		<component base="brevecomb" xOffset="291" yOffset="-4"/>
+	</outline>
 </glyph>

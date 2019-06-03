@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Ohornhookabove" format="1">
-  <advance width="1760"/>
-  <unicode hex="1EDE"/>
-  <outline>
-    <component base="Ohorn"/>
-    <component base="hookabovecomb" xOffset="236" yOffset="412"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-29 18:44:51 +0000</string>
-    </dict>
-  </lib>
+<glyph name="Ohornhookabove" format="2">
+	<advance width="1802"/>
+	<unicode hex="1EDE"/>
+	<outline>
+		<component base="Ohorn"/>
+		<component base="hookabovecomb" xOffset="229" yOffset="422"/>
+	</outline>
 </glyph>

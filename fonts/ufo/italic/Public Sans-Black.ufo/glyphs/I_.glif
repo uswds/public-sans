@@ -1,32 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="I" format="1">
-  <advance width="662"/>
-  <unicode hex="0049"/>
-  <outline>
-    <contour>
-      <point x="57" y="0" type="line"/>
-      <point x="445" y="0" type="line"/>
-      <point x="663" y="1446" type="line"/>
-      <point x="275" y="1446" type="line"/>
-    </contour>
-    <contour>
-      <point x="271" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="397" y="6" type="move" name="ogonek"/>
-    </contour>
-    <contour>
-      <point x="471" y="1446" type="move" name="top"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-01 05:36:38 +0000</string>
-      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-      <string>H</string>
-      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-      <string>H</string>
-    </dict>
-  </lib>
+<glyph name="I" format="2">
+	<advance width="693"/>
+	<unicode hex="0049"/>
+	<anchor x="415" y="6" name="ogonek"/>
+	<anchor x="286" y="0" name="bottom"/>
+	<anchor x="490" y="1481" name="top"/>
+	<outline>
+		<contour>
+			<point x="66" y="0" type="line"/>
+			<point x="464" y="0" type="line"/>
+			<point x="687" y="1481" type="line"/>
+			<point x="290" y="1481" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>H</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>H</string>
+		</dict>
+	</lib>
 </glyph>

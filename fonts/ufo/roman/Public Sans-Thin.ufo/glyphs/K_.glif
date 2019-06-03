@@ -1,37 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="K" format="1">
-  <advance width="1292"/>
-  <unicode hex="004B"/>
-  <outline>
-    <contour>
-      <point x="1212" y="0" type="line"/>
-      <point x="656" y="876" type="line"/>
-      <point x="1178" y="1446" type="line"/>
-      <point x="1070" y="1446" type="line"/>
-      <point x="302" y="612" type="line"/>
-      <point x="302" y="1446" type="line"/>
-      <point x="220" y="1446" type="line"/>
-      <point x="220" y="0" type="line"/>
-      <point x="302" y="0" type="line"/>
-      <point x="302" y="496" type="line"/>
-      <point x="588" y="814" type="line"/>
-      <point x="1108" y="0" type="line"/>
-    </contour>
-    <contour>
-      <point x="664" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="698" y="1446" type="move" name="top"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-06 19:22:05 +0000</string>
-      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-      <string>H</string>
-      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-      <string>X</string>
-    </dict>
-  </lib>
+<glyph name="K" format="2">
+	<advance width="1332"/>
+	<unicode hex="004B"/>
+	<guideline x="607" y="836" angle="47.5607"/>
+	<guideline x="1135" y="0" angle="302.5822"/>
+	<anchor x="715" y="1481" name="top"/>
+	<anchor x="680" y="0" name="bottom"/>
+	<outline>
+		<contour>
+			<point x="1236" y="0" type="line"/>
+			<point x="665" y="890" type="line"/>
+			<point x="1206" y="1481" type="line"/>
+			<point x="1096" y="1481" type="line"/>
+			<point x="309" y="627" type="line"/>
+			<point x="309" y="1481" type="line"/>
+			<point x="225" y="1481" type="line"/>
+			<point x="225" y="0" type="line"/>
+			<point x="309" y="0" type="line"/>
+			<point x="309" y="509" type="line"/>
+			<point x="604" y="831" type="line"/>
+			<point x="1135" y="0" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
+			<string>==X/1.25</string>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>H</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>=X*1.25</string>
+		</dict>
+	</lib>
 </glyph>

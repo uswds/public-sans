@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="oslashacute" format="1">
-  <advance width="989"/>
-  <unicode hex="01FF"/>
-  <outline>
-    <component base="oslash"/>
-    <component base="acutecomb" xOffset="372"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 23:00:41 +0000</string>
-    </dict>
-  </lib>
+<glyph name="oslashacute" format="2">
+	<advance width="1013"/>
+	<unicode hex="01FF"/>
+	<outline>
+		<component base="oslash"/>
+		<component base="acutecomb" xOffset="381"/>
+	</outline>
 </glyph>

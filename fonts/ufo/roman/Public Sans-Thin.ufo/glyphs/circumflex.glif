@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="circumflex" format="1">
-  <advance width="540"/>
-  <unicode hex="02C6"/>
-  <outline>
-    <component base="circumflexcomb"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-16 18:49:17 +0000</string>
-      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-      <string>circumflexcomb</string>
-      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-      <string>circumflexcomb</string>
-    </dict>
-  </lib>
+<glyph name="circumflex" format="2">
+	<advance width="553"/>
+	<unicode hex="02C6"/>
+	<outline>
+		<component base="circumflexcomb"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>circumflexcomb</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>circumflexcomb</string>
+		</dict>
+	</lib>
 </glyph>

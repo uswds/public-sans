@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Ugrave" format="1">
-  <advance width="1478"/>
-  <unicode hex="00D9"/>
-  <outline>
-    <component base="U"/>
-    <component base="gravecomb" xOffset="287" yOffset="412"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-30 22:04:38 +0000</string>
-    </dict>
-  </lib>
+<glyph name="Ugrave" format="2">
+	<advance width="1530"/>
+	<unicode hex="00D9"/>
+	<outline>
+		<component base="U"/>
+		<component base="gravecomb" xOffset="301" yOffset="422"/>
+	</outline>
 </glyph>

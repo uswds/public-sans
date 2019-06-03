@@ -1,44 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="l" format="1">
-  <advance width="685"/>
-  <unicode hex="006C"/>
-  <outline>
-    <contour>
-      <point x="423" y="-22" type="curve" smooth="yes"/>
-      <point x="471" y="-22"/>
-      <point x="523" y="-8"/>
-      <point x="571" y="10" type="curve"/>
-      <point x="607" y="246" type="line"/>
-      <point x="567" y="250" type="line"/>
-      <point x="465" y="264"/>
-      <point x="461" y="314"/>
-      <point x="469" y="364" type="curve" smooth="yes"/>
-      <point x="639" y="1486" type="line"/>
-      <point x="259" y="1486" type="line"/>
-      <point x="81" y="312" type="line"/>
-      <point x="59" y="160"/>
-      <point x="43" y="-22"/>
-    </contour>
-    <contour>
-      <point x="199" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="459" y="1530" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="941" y="1530" type="move" name="topright"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 23:00:56 +0000</string>
-      <key>com.schriftgestaltung.Glyphs.layer.leftMetricsKey</key>
-      <string>==n</string>
-      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-      <string>=n-10</string>
-      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-      <string>=x+20</string>
-    </dict>
-  </lib>
+<glyph name="l" format="2">
+	<advance width="707"/>
+	<unicode hex="006C"/>
+	<anchor x="457" y="1567" name="top"/>
+	<anchor x="191" y="0" name="bottom"/>
+	<anchor x="951" y="1567" name="topright"/>
+	<outline>
+		<contour>
+			<point x="420" y="-23" type="curve" smooth="yes"/>
+			<point x="469" y="-23"/>
+			<point x="523" y="-8"/>
+			<point x="572" y="10" type="curve"/>
+			<point x="609" y="252" type="line"/>
+			<point x="568" y="256" type="line"/>
+			<point x="463" y="270"/>
+			<point x="459" y="322"/>
+			<point x="467" y="373" type="curve" smooth="yes"/>
+			<point x="641" y="1522" type="line"/>
+			<point x="252" y="1522" type="line"/>
+			<point x="70" y="319" type="line"/>
+			<point x="47" y="164"/>
+			<point x="31" y="-23"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>n</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>=u*.65</string>
+		</dict>
+	</lib>
 </glyph>

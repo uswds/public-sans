@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="quotedblbase" format="1">
-  <advance width="704"/>
-  <unicode hex="201E"/>
-  <outline>
-    <component base="quotesinglbase" xOffset="292"/>
-    <component base="quotesinglbase"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-16 18:49:16 +0000</string>
-      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-      <string>comma</string>
-      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-      <string>comma</string>
-    </dict>
-  </lib>
+<glyph name="quotedblbase" format="2">
+	<advance width="721"/>
+	<unicode hex="201E"/>
+	<outline>
+		<component base="quotesinglbase" xOffset="299"/>
+		<component base="quotesinglbase"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>comma</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>comma</string>
+		</dict>
+	</lib>
 </glyph>

@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="eogonek" format="1">
-  <advance width="1119"/>
-  <unicode hex="0119"/>
-  <outline>
-    <component base="e"/>
-    <component base="ogonekcomb" xOffset="373" yOffset="30"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
-      <integer>1</integer>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 23:00:41 +0000</string>
-    </dict>
-  </lib>
+<glyph name="eogonek" format="2">
+	<advance width="1164"/>
+	<unicode hex="0119"/>
+	<outline>
+		<component base="e"/>
+		<component base="ogonekcomb" xOffset="396" yOffset="31"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
+			<integer>1</integer>
+		</dict>
+	</lib>
 </glyph>

@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Tcaron" format="1">
-  <advance width="1190"/>
-  <unicode hex="0164"/>
-  <outline>
-    <component base="T"/>
-    <component base="caroncomb" xOffset="348" yOffset="412"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-04-30 22:04:38 +0000</string>
-    </dict>
-  </lib>
+<glyph name="Tcaron" format="2">
+	<advance width="1115"/>
+	<unicode hex="0164"/>
+	<outline>
+		<component base="T"/>
+		<component base="caroncomb" xOffset="305" yOffset="422"/>
+	</outline>
 </glyph>

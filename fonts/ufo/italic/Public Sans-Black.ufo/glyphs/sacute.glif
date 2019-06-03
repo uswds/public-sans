@@ -1,15 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="sacute" format="1">
-  <advance width="1045"/>
-  <unicode hex="015B"/>
-  <outline>
-    <component base="s"/>
-    <component base="acutecomb" xOffset="465"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019-05-07 23:00:56 +0000</string>
-    </dict>
-  </lib>
+<glyph name="sacute" format="2">
+	<advance width="1151"/>
+	<unicode hex="015B"/>
+	<outline>
+		<component base="s"/>
+		<component base="acutecomb" xOffset="476"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>s</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>acutecomb</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
 </glyph>
