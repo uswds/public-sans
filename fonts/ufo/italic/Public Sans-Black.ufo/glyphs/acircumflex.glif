@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="acircumflex" format="2">
-	<advance width="1181"/>
+	<advance width="1188"/>
 	<unicode hex="00E2"/>
 	<outline>
-		<component base="a" xOffset="-7"/>
-		<component base="circumflexcomb" xOffset="156"/>
+		<component base="a"/>
+		<component base="circumflexcomb" xOffset="163"/>
 	</outline>
 	<lib>
 		<dict>
@@ -27,6 +27,8 @@
 					<string>circumflexcomb</string>
 				</dict>
 			</array>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>a</string>
 		</dict>
 	</lib>
 </glyph>

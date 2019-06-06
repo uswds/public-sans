@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="aeacute" format="2">
-	<advance width="1928"/>
+	<advance width="1796"/>
 	<unicode hex="01FD"/>
 	<outline>
-		<component base="ae" xOffset="132"/>
-		<component base="acutecomb" xOffset="953"/>
+		<component base="ae"/>
+		<component base="acutecomb" xOffset="821"/>
 	</outline>
 	<lib>
 		<dict>
@@ -29,6 +29,8 @@
 					<string>acutecomb</string>
 				</dict>
 			</array>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>a</string>
 		</dict>
 	</lib>
 </glyph>

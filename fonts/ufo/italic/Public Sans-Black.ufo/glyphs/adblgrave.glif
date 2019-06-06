@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="adblgrave" format="2">
-	<advance width="1180"/>
+	<advance width="1332"/>
 	<unicode hex="0201"/>
 	<outline>
-		<component base="a" xOffset="-8"/>
-		<component base="dblgravecomb" xOffset="-107"/>
+		<component base="a" xOffset="144"/>
+		<component base="dblgravecomb" xOffset="45"/>
 	</outline>
 	<lib>
 		<dict>
@@ -27,6 +27,8 @@
 					<string>dblgravecomb</string>
 				</dict>
 			</array>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>a</string>
 		</dict>
 	</lib>
 </glyph>

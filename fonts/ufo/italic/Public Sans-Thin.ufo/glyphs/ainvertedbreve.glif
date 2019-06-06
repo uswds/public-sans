@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ainvertedbreve" format="2">
-	<advance width="1221"/>
+	<advance width="1089"/>
 	<unicode hex="0203"/>
 	<outline>
-		<component base="a" xOffset="132"/>
-		<component base="breveinvertedcomb" xOffset="402"/>
+		<component base="a"/>
+		<component base="breveinvertedcomb" xOffset="270"/>
 	</outline>
 	<lib>
 		<dict>
@@ -27,6 +27,8 @@
 					<string>breveinvertedcomb</string>
 				</dict>
 			</array>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>a</string>
 		</dict>
 	</lib>
 </glyph>
