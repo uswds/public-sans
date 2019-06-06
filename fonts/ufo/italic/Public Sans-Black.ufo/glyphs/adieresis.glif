@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="adieresis" format="2">
-	<advance width="1181"/>
+	<advance width="1188"/>
 	<unicode hex="00E4"/>
 	<outline>
-		<component base="a" xOffset="-7"/>
-		<component base="dieresiscomb" xOffset="122" yOffset="-6"/>
+		<component base="a"/>
+		<component base="dieresiscomb" xOffset="129" yOffset="-6"/>
 	</outline>
 	<lib>
 		<dict>
@@ -27,6 +27,8 @@
 					<string>dieresiscomb</string>
 				</dict>
 			</array>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>a</string>
 		</dict>
 	</lib>
 </glyph>

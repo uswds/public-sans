@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="abrevedotbelow" format="2">
-	<advance width="1181"/>
+	<advance width="1188"/>
 	<unicode hex="1EB7"/>
 	<outline>
-		<component base="a" xOffset="-7"/>
-		<component base="dotbelowcomb" xOffset="371"/>
-		<component base="brevecomb" xOffset="156"/>
+		<component base="a"/>
+		<component base="dotbelowcomb" xOffset="378"/>
+		<component base="brevecomb" xOffset="163"/>
 	</outline>
 	<lib>
 		<dict>
@@ -36,6 +36,10 @@
 					<string>brevecomb</string>
 				</dict>
 			</array>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>a</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>a</string>
 		</dict>
 	</lib>
 </glyph>

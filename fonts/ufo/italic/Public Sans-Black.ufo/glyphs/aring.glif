@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="aring" format="2">
-	<advance width="1181"/>
+	<advance width="1188"/>
 	<unicode hex="00E5"/>
 	<outline>
-		<component base="a" xOffset="-7"/>
-		<component base="ringcomb" xOffset="327" yOffset="23"/>
+		<component base="a"/>
+		<component base="ringcomb" xOffset="341" yOffset="23"/>
 	</outline>
 	<lib>
 		<dict>
@@ -18,15 +18,9 @@
 					<key>name</key>
 					<string>a</string>
 				</dict>
-				<dict>
-					<key>alignment</key>
-					<integer>-1</integer>
-					<key>index</key>
-					<integer>1</integer>
-					<key>name</key>
-					<string>ringcomb</string>
-				</dict>
 			</array>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>a</string>
 		</dict>
 	</lib>
 </glyph>

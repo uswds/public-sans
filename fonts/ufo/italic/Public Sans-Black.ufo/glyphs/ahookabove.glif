@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ahookabove" format="2">
-	<advance width="1181"/>
+	<advance width="1188"/>
 	<unicode hex="1EA3"/>
 	<outline>
-		<component base="a" xOffset="-7"/>
-		<component base="hookabovecomb" xOffset="-1"/>
+		<component base="a"/>
+		<component base="hookabovecomb" xOffset="6"/>
 	</outline>
 	<lib>
 		<dict>
@@ -27,6 +27,8 @@
 					<string>hookabovecomb</string>
 				</dict>
 			</array>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>a</string>
 		</dict>
 	</lib>
 </glyph>

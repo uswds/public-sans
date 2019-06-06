@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="abreveacute" format="2">
-	<advance width="1221"/>
+	<advance width="1089"/>
 	<unicode hex="1EAF"/>
 	<outline>
-		<component base="a" xOffset="132"/>
-		<component base="brevecomb_acutecomb" xOffset="435"/>
+		<component base="a"/>
+		<component base="brevecomb_acutecomb" xOffset="303"/>
 	</outline>
 	<lib>
 		<dict>
@@ -27,6 +27,8 @@
 					<string>brevecomb_acutecomb</string>
 				</dict>
 			</array>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>a</string>
 		</dict>
 	</lib>
 </glyph>
