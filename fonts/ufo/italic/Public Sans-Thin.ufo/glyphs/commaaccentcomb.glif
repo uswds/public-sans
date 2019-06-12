@@ -2,8 +2,16 @@
 <glyph name="commaaccentcomb" format="2">
 	<advance width="148"/>
 	<unicode hex="0326"/>
-	<anchor x="-2" y="0" name="_bottom"/>
+	<anchor x="4" y="0" name="_bottom"/>
 	<outline>
-		<component base="comma" xOffset="-169" yOffset="-328"/>
+		<contour>
+			<point x="-123" y="-320" type="line"/>
+			<point x="-78" y="-320" type="line"/>
+			<point x="34" y="-203" type="line"/>
+			<point x="49" y="-100" type="line"/>
+			<point x="-67" y="-100" type="line"/>
+			<point x="-84" y="-221" type="line"/>
+			<point x="-43" y="-221" type="line"/>
+		</contour>
 	</outline>
 </glyph>
