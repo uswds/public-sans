@@ -2,6 +2,11 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>Q</key>
+	<dict>
+		<key>public.kern2.period</key>
+		<integer>-20</integer>
+	</dict>
 	<key>ampersand</key>
 	<dict>
 		<key>public.kern2.T</key>
@@ -238,7 +243,7 @@
 		<key>public.kern2.parenright</key>
 		<integer>60</integer>
 		<key>public.kern2.period</key>
-		<integer>-150</integer>
+		<integer>-190</integer>
 		<key>public.kern2.s</key>
 		<integer>-30</integer>
 		<key>public.kern2.t</key>
@@ -382,6 +387,8 @@
 		<integer>-40</integer>
 		<key>public.kern2.o</key>
 		<integer>-40</integer>
+		<key>public.kern2.period</key>
+		<integer>-70</integer>
 		<key>public.kern2.s</key>
 		<integer>-30</integer>
 		<key>public.kern2.seven</key>
@@ -634,7 +641,7 @@
 		<key>public.kern2.g</key>
 		<integer>-20</integer>
 		<key>public.kern2.period</key>
-		<integer>-80</integer>
+		<integer>-60</integer>
 	</dict>
 	<key>public.kern1.Uhorn</key>
 	<dict>
@@ -712,7 +719,7 @@
 		<key>public.kern2.parenright</key>
 		<integer>80</integer>
 		<key>public.kern2.period</key>
-		<integer>-120</integer>
+		<integer>-160</integer>
 		<key>public.kern2.s</key>
 		<integer>-120</integer>
 		<key>public.kern2.t</key>
@@ -1139,7 +1146,13 @@
 	<dict>
 		<key>l</key>
 		<integer>-30</integer>
+		<key>public.kern2.J</key>
+		<integer>20</integer>
 		<key>public.kern2.T</key>
+		<integer>-70</integer>
+		<key>public.kern2.V</key>
+		<integer>-50</integer>
+		<key>public.kern2.Y</key>
 		<integer>-70</integer>
 		<key>public.kern2.a</key>
 		<integer>-10</integer>
@@ -1150,7 +1163,7 @@
 		<key>public.kern2.g</key>
 		<integer>10</integer>
 		<key>public.kern2.hyphen</key>
-		<integer>60</integer>
+		<integer>-30</integer>
 		<key>public.kern2.i</key>
 		<integer>30</integer>
 		<key>public.kern2.n</key>
@@ -1302,9 +1315,9 @@
 		<key>public.kern2.O</key>
 		<integer>-60</integer>
 		<key>public.kern2.S</key>
-		<integer>60</integer>
+		<integer>20</integer>
 		<key>public.kern2.V</key>
-		<integer>-135</integer>
+		<integer>-75</integer>
 		<key>public.kern2.Y</key>
 		<integer>-310</integer>
 		<key>public.kern2.g</key>
@@ -1421,7 +1434,7 @@
 	<key>public.kern1.s</key>
 	<dict>
 		<key>public.kern2.a</key>
-		<integer>30</integer>
+		<integer>10</integer>
 		<key>public.kern2.comma</key>
 		<integer>-20</integer>
 		<key>public.kern2.emdash</key>
@@ -1489,7 +1502,7 @@
 		<key>public.kern2.u</key>
 		<integer>-10</integer>
 		<key>public.kern2.v</key>
-		<integer>10</integer>
+		<integer>0</integer>
 		<key>public.kern2.x</key>
 		<integer>10</integer>
 		<key>public.kern2.z</key>
@@ -1588,7 +1601,7 @@
 		<key>public.kern2.s</key>
 		<integer>-40</integer>
 		<key>public.kern2.t</key>
-		<integer>20</integer>
+		<integer>10</integer>
 		<key>public.kern2.u</key>
 		<integer>-30</integer>
 		<key>public.kern2.v</key>

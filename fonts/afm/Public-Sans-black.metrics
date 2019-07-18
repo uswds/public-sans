@@ -39,7 +39,7 @@ Cdotaccent;1490;85;85;
 D;1488;135;85;
 Eth;1574;70;85;
 Dcaron;1488;135;85;
-Dcroat;1576;70;85;
+Dcroat;1574;70;85;
 Ddotbelow;1488;135;85;
 E;1295;135;90;
 Eacute;1295;135;90;
@@ -141,13 +141,13 @@ Rcommaaccent;1427;135;90;
 Rdblgrave;1427;18;90;
 Rdotbelow;1427;135;90;
 Rinvertedbreve;1427;135;90;
-S;1450;85;77;
-Sacute;1450;85;77;
-Scaron;1450;85;77;
-Scedilla;1450;85;77;
-Scircumflex;1450;85;77;
-Scommaaccent;1450;85;77;
-Sdotbelow;1450;85;77;
+S;1424;85;77;
+Sacute;1424;85;77;
+Scaron;1424;85;77;
+Scedilla;1424;85;77;
+Scircumflex;1424;85;77;
+Scommaaccent;1424;85;77;
+Sdotbelow;1424;85;77;
 Schwa;1566;85;85;
 T;1274;30;30;
 Tbar;1274;30;30;
@@ -223,7 +223,7 @@ aringacute;1164;55;108;
 atilde;1164;55;108;
 ae;1793;55;55;
 aeacute;1793;55;55;
-b;1225;100;50;
+b;1228;100;50;
 c;1080;50;55;
 cacute;1080;50;55;
 ccaron;1080;50;55;
@@ -331,7 +331,7 @@ otilde;1150;50;50;
 oe;1821;50;55;
 p;1225;100;50;
 thorn;1225;100;50;
-q;1228;50;100;
+q;1225;50;100;
 r;848;100;10;
 racute;848;100;-78;
 rcaron;848;64;-24;
@@ -589,7 +589,7 @@ literSign;1256;40;74;
 dagger;1156;90;110;
 daggerdbl;1156;90;110;
 numero;2396;135;50;
-servicemark;2090;53;85;
+servicemark;2074;53;85;
 apostrophemod;574;100;120;
 commaturnedmod;574;100;120;
 dieresiscomb;918;10;10;
@@ -868,7 +868,7 @@ SEGMENT KERNING
 @MMK_L_F;@MMK_R_g;-20
 @MMK_L_F;@MMK_R_o;-50
 @MMK_L_F;@MMK_R_parenright;60
-@MMK_L_F;@MMK_R_period;-150
+@MMK_L_F;@MMK_R_period;-190
 @MMK_L_F;@MMK_R_s;-30
 @MMK_L_F;@MMK_R_t;20
 @MMK_L_F;@MMK_R_u;-20
@@ -933,6 +933,7 @@ SEGMENT KERNING
 @MMK_L_O;@MMK_R_emdash;10
 @MMK_L_O;@MMK_R_n;-40
 @MMK_L_O;@MMK_R_o;-40
+@MMK_L_O;@MMK_R_period;-70
 @MMK_L_O;@MMK_R_s;-30
 @MMK_L_O;@MMK_R_seven;-30
 @MMK_L_O;@MMK_R_t;-20
@@ -1048,7 +1049,7 @@ SEGMENT KERNING
 @MMK_L_U;@MMK_R_AE;-165
 @MMK_L_U;@MMK_R_S;40
 @MMK_L_U;@MMK_R_g;-20
-@MMK_L_U;@MMK_R_period;-80
+@MMK_L_U;@MMK_R_period;-60
 @MMK_L_Uhorn;@MMK_R_A;-265
 @MMK_L_Uhorn;@MMK_R_J;-195
 @MMK_L_Uhorn;@MMK_R_a;-180
@@ -1079,7 +1080,7 @@ SEGMENT KERNING
 @MMK_L_V;@MMK_R_n;-40
 @MMK_L_V;@MMK_R_o;-120
 @MMK_L_V;@MMK_R_parenright;80
-@MMK_L_V;@MMK_R_period;-120
+@MMK_L_V;@MMK_R_period;-160
 @MMK_L_V;@MMK_R_s;-120
 @MMK_L_V;@MMK_R_t;-20
 @MMK_L_V;@MMK_R_v;0
@@ -1276,12 +1277,15 @@ SEGMENT KERNING
 @MMK_L_k;@MMK_R_t;30
 @MMK_L_k;@MMK_R_u;-10
 @MMK_L_k;@MMK_R_v;40
+@MMK_L_l;@MMK_R_J;20
 @MMK_L_l;@MMK_R_T;-70
+@MMK_L_l;@MMK_R_V;-50
+@MMK_L_l;@MMK_R_Y;-70
 @MMK_L_l;@MMK_R_a;-10
 @MMK_L_l;@MMK_R_emdash;105
 @MMK_L_l;@MMK_R_f;-40
 @MMK_L_l;@MMK_R_g;10
-@MMK_L_l;@MMK_R_hyphen;60
+@MMK_L_l;@MMK_R_hyphen;-30
 @MMK_L_l;@MMK_R_i;30
 @MMK_L_l;@MMK_R_n;-10
 @MMK_L_l;@MMK_R_o;-10
@@ -1346,8 +1350,8 @@ SEGMENT KERNING
 @MMK_L_onehalf;fraction;50
 @MMK_L_period;@MMK_R_A;40
 @MMK_L_period;@MMK_R_O;-60
-@MMK_L_period;@MMK_R_S;60
-@MMK_L_period;@MMK_R_V;-135
+@MMK_L_period;@MMK_R_S;20
+@MMK_L_period;@MMK_R_V;-75
 @MMK_L_period;@MMK_R_Y;-310
 @MMK_L_period;@MMK_R_g;40
 @MMK_L_period;@MMK_R_period;40
@@ -1398,7 +1402,7 @@ SEGMENT KERNING
 @MMK_L_r;@MMK_R_v;40
 @MMK_L_r;@MMK_R_x;20
 @MMK_L_r;@MMK_R_z;0
-@MMK_L_s;@MMK_R_a;30
+@MMK_L_s;@MMK_R_a;10
 @MMK_L_s;@MMK_R_comma;-20
 @MMK_L_s;@MMK_R_emdash;105
 @MMK_L_s;@MMK_R_g;-10
@@ -1429,7 +1433,7 @@ SEGMENT KERNING
 @MMK_L_t;@MMK_R_quotesingle;-10
 @MMK_L_t;@MMK_R_s;-10
 @MMK_L_t;@MMK_R_u;-10
-@MMK_L_t;@MMK_R_v;10
+@MMK_L_t;@MMK_R_v;0
 @MMK_L_t;@MMK_R_x;10
 @MMK_L_t;@MMK_R_z;-10
 @MMK_L_two;@MMK_R_one.numr;100
@@ -1471,7 +1475,7 @@ SEGMENT KERNING
 @MMK_L_x;@MMK_R_hyphen;-80
 @MMK_L_x;@MMK_R_o;-70
 @MMK_L_x;@MMK_R_s;-40
-@MMK_L_x;@MMK_R_t;20
+@MMK_L_x;@MMK_R_t;10
 @MMK_L_x;@MMK_R_u;-30
 @MMK_L_x;@MMK_R_v;20
 @MMK_L_x;@MMK_R_x;30
@@ -1493,6 +1497,7 @@ SEGMENT KERNING
 @MMK_L_zero;onehalf;120
 @MMK_L_zero.numr;fraction;-40
 @MMK_L_zero.numr;seven.numr;-10
+Q;@MMK_R_period;-20
 ampersand;@MMK_R_T;-130
 ampersand;@MMK_R_V;-150
 dcroat;@MMK_R_o;-100

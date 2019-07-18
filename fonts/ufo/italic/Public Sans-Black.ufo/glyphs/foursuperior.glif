@@ -3,6 +3,21 @@
 	<advance width="848"/>
 	<unicode hex="2074"/>
 	<outline>
-		<component base="four.numr" xOffset="29" yOffset="208"/>
+		<component base="four.numr" yOffset="208"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>four.numr</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
 </glyph>
