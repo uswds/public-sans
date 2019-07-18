@@ -3,11 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>ascender</key>
-	<integer>1597</integer>
+	<integer>2000</integer>
 	<key>capHeight</key>
-	<integer>1481</integer>
+	<integer>1446</integer>
+	<key>copyright</key>
+	<string>Copyright (c) 2015, Impallari Type (www.impallari.com)</string>
 	<key>descender</key>
-	<integer>-451</integer>
+	<integer>-450</integer>
 	<key>familyName</key>
 	<string>Public Sans</string>
 	<key>guidelines</key>
@@ -16,49 +18,49 @@
 			<key>angle</key>
 			<integer>0</integer>
 			<key>x</key>
-			<integer>-82</integer>
+			<integer>-80</integer>
 			<key>y</key>
-			<integer>-504</integer>
+			<integer>-545</integer>
 		</dict>
 		<dict>
 			<key>angle</key>
 			<integer>0</integer>
 			<key>x</key>
-			<integer>104</integer>
+			<integer>60</integer>
 			<key>y</key>
-			<integer>2056</integer>
+			<integer>1855</integer>
 		</dict>
 		<dict>
 			<key>angle</key>
 			<real>82.093</real>
 			<key>x</key>
-			<integer>83</integer>
+			<integer>696</integer>
 			<key>y</key>
-			<integer>168</integer>
+			<integer>187</integer>
 		</dict>
 		<dict>
 			<key>angle</key>
 			<integer>0</integer>
 			<key>x</key>
-			<integer>563</integer>
+			<integer>550</integer>
 			<key>y</key>
-			<integer>1282</integer>
+			<integer>1252</integer>
 		</dict>
 		<dict>
 			<key>angle</key>
 			<integer>0</integer>
 			<key>x</key>
-			<integer>512</integer>
+			<integer>580</integer>
 			<key>y</key>
-			<integer>1047</integer>
+			<integer>834</integer>
 		</dict>
 		<dict>
 			<key>angle</key>
 			<integer>0</integer>
 			<key>x</key>
-			<integer>-66</integer>
+			<integer>-5</integer>
 			<key>y</key>
-			<integer>1184</integer>
+			<integer>720</integer>
 		</dict>
 	</array>
 	<key>italicAngle</key>
@@ -68,15 +70,17 @@
 
 </string>
 	<key>openTypeHeadCreated</key>
-	<string>2019/06/06 07:56:17</string>
+	<string>2019/06/12 07:56:17</string>
 	<key>openTypeHheaAscender</key>
-	<integer>2038</integer>
+	<integer>2000</integer>
 	<key>openTypeHheaDescender</key>
-	<integer>-451</integer>
+	<integer>-450</integer>
+	<key>openTypeHheaLineGap</key>
+	<integer>0</integer>
 	<key>openTypeNameDescription</key>
 	<string>Libre Franklin is a reinterpretation and expansion of the 1912 Morris Fuller Benton￢ﾀﾙs classic.</string>
 	<key>openTypeNameDesigner</key>
-	<string>Pablo Impallari, Rodrigo Fuenzalida (Modified by Dan O. Williams)</string>
+	<string>Pablo Impallari, Rodrigo Fuenzalida (Modified by Dan O. Williams and USWDS)</string>
 	<key>openTypeNameDesignerURL</key>
 	<string>https://designsystem.digital.gov</string>
 	<key>openTypeNamePreferredFamilyName</key>
@@ -86,51 +90,52 @@
 	<key>openTypeOS2Type</key>
 	<array/>
 	<key>openTypeOS2TypoAscender</key>
-	<integer>1597</integer>
+	<integer>2000</integer>
 	<key>openTypeOS2TypoDescender</key>
-	<integer>-451</integer>
+	<integer>-450</integer>
 	<key>openTypeOS2TypoLineGap</key>
 	<integer>0</integer>
-	<key>openTypeOS2VendorID</key>
-	<string>IMPA</string>
 	<key>openTypeOS2WeightClass</key>
 	<integer>100</integer>
 	<key>openTypeOS2WidthClass</key>
 	<integer>5</integer>
 	<key>openTypeOS2WinAscent</key>
-	<integer>2038</integer>
+	<integer>2315</integer>
 	<key>openTypeOS2WinDescent</key>
-	<integer>451</integer>
+	<integer>495</integer>
 	<key>postscriptBlueValues</key>
 	<array>
-		<integer>-23</integer>
+		<integer>-22</integer>
 		<integer>0</integer>
-		<integer>1059</integer>
-		<integer>1082</integer>
-		<integer>1481</integer>
-		<integer>1501</integer>
-		<integer>1507</integer>
-		<integer>1522</integer>
+		<integer>1034</integer>
+		<integer>1056</integer>
+		<integer>1446</integer>
+		<integer>1466</integer>
+		<integer>1472</integer>
+		<integer>1486</integer>
 	</array>
 	<key>postscriptFontName</key>
 	<string>PublicSans-ThinItalic</string>
 	<key>postscriptOtherBlues</key>
 	<array>
-		<integer>-338</integer>
 		<integer>-330</integer>
+		<integer>-322</integer>
 	</array>
 	<key>postscriptStemSnapH</key>
 	<array>
-		<integer>75</integer>
+		<integer>78</integer>
+		<integer>82</integer>
+		<integer>86</integer>
 	</array>
 	<key>postscriptStemSnapV</key>
 	<array>
+		<integer>72</integer>
 		<integer>80</integer>
 	</array>
 	<key>postscriptUnderlinePosition</key>
-	<integer>-379</integer>
+	<integer>-370</integer>
 	<key>postscriptUnderlineThickness</key>
-	<integer>123</integer>
+	<integer>140</integer>
 	<key>styleMapFamilyName</key>
 	<string>Public Sans Thin</string>
 	<key>styleMapStyleName</key>
@@ -140,12 +145,12 @@
 	<key>trademark</key>
 	<string>Public Sans is based on Libre Franklin, which is a trademark of Impallari Type.</string>
 	<key>unitsPerEm</key>
-	<integer>2048</integer>
+	<integer>2000</integer>
 	<key>versionMajor</key>
 	<integer>1</integer>
 	<key>versionMinor</key>
-	<integer>5</integer>
+	<integer>6</integer>
 	<key>xHeight</key>
-	<integer>1059</integer>
+	<integer>1034</integer>
 </dict>
 </plist>

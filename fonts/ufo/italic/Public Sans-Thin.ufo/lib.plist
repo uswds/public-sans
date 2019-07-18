@@ -13,10 +13,8 @@
 			<string>wght</string>
 		</dict>
 	</array>
-	<key>com.schriftgestaltung.font.Variable Font Family Name</key>
-	<string>Public Sans Italic VF</string>
-	<key>com.schriftgestaltung.font.Variable Font File Name</key>
-	<string>PublicSans-Italic-VF</string>
+	<key>com.schriftgestaltung.font.Use Typo Metrics</key>
+	<true/>
 	<key>com.schriftgestaltung.font.license</key>
 	<string>This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL</string>
 	<key>com.schriftgestaltung.font.licenseURL</key>
@@ -69,8 +67,6 @@
 			</dict>
 		</dict>
 	</dict>
-	<key>com.schriftgestaltung.font.vsuffix</key>
-	<string></string>
 	<key>com.schriftgestaltung.fontMaster.userData</key>
 	<dict>
 		<key>GSCornerRadius</key>
@@ -555,6 +551,7 @@
 		<string>sevensuperior</string>
 		<string>eightsuperior</string>
 		<string>ninesuperior</string>
+		<string>fraction.alt</string>
 		<string>fraction</string>
 		<string>onehalf</string>
 		<string>onethird</string>
@@ -695,19 +692,19 @@
 		<string>commaaccentcomb</string>
 		<string>cedillacomb</string>
 		<string>ogonekcomb</string>
-		<string>acute</string>
-		<string>breve</string>
-		<string>caron</string>
-		<string>cedilla</string>
-		<string>circumflex</string>
 		<string>dieresis</string>
 		<string>dotaccent</string>
 		<string>grave</string>
+		<string>acute</string>
 		<string>hungarumlaut</string>
-		<string>macron</string>
-		<string>ogonek</string>
+		<string>circumflex</string>
+		<string>caron</string>
+		<string>breve</string>
 		<string>ring</string>
 		<string>tilde</string>
+		<string>macron</string>
+		<string>cedilla</string>
+		<string>ogonek</string>
 		<string>acutecomb.001</string>
 		<string>gravecomb.viet</string>
 		<string>acutecomb.viet</string>

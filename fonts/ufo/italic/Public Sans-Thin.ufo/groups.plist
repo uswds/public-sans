@@ -252,10 +252,10 @@
 	<key>public.kern1.V</key>
 	<array>
 		<string>V</string>
+		<string>W</string>
 	</array>
 	<key>public.kern1.W</key>
 	<array>
-		<string>W</string>
 		<string>Wacute</string>
 		<string>Wcircumflex</string>
 		<string>Wdieresis</string>
@@ -296,26 +296,23 @@
 	<array>
 		<string>published</string>
 	</array>
-	<key>public.kern1.d</key>
-	<array>
-		<string>germandbls</string>
-	</array>
 	<key>public.kern1.e</key>
 	<array>
 		<string>Schwa</string>
-		<string>ae</string>
 		<string>aeacute</string>
-		<string>oe</string>
 	</array>
 	<key>public.kern1.eight</key>
 	<array>
-		<string>eight</string>
 		<string>eight.osf</string>
 	</array>
 	<key>public.kern1.emdash</key>
 	<array>
 		<string>emdash</string>
 		<string>space_emdash_space.liga</string>
+	</array>
+	<key>public.kern1.f</key>
+	<array>
+		<string>f</string>
 	</array>
 	<key>public.kern1.five</key>
 	<array>
@@ -412,11 +409,11 @@
 	</array>
 	<key>public.kern1.nine</key>
 	<array>
-		<string>nine</string>
 		<string>nine.osf</string>
 	</array>
 	<key>public.kern1.o</key>
 	<array>
+		<string>ae</string>
 		<string>b</string>
 		<string>c</string>
 		<string>cacute</string>
@@ -467,6 +464,7 @@
 		<string>oslash</string>
 		<string>oslashacute</string>
 		<string>otilde</string>
+		<string>oe</string>
 		<string>p</string>
 		<string>thorn</string>
 		<string>at</string>
@@ -492,7 +490,6 @@
 	<key>public.kern1.onehalf</key>
 	<array>
 		<string>one.numr</string>
-		<string>onehalf</string>
 		<string>onethird</string>
 		<string>twothirds</string>
 		<string>onequarter</string>
@@ -526,6 +523,10 @@
 		<string>approxequal</string>
 		<string>asciitilde</string>
 		<string>logicalnot</string>
+	</array>
+	<key>public.kern1.q</key>
+	<array>
+		<string>g.ss01</string>
 	</array>
 	<key>public.kern1.quoteleft</key>
 	<array>
@@ -565,6 +566,7 @@
 		<string>scircumflex</string>
 		<string>scommaaccent</string>
 		<string>sdotbelow</string>
+		<string>germandbls</string>
 	</array>
 	<key>public.kern1.seven</key>
 	<array>
@@ -573,12 +575,10 @@
 	</array>
 	<key>public.kern1.six</key>
 	<array>
-		<string>six</string>
 		<string>six.osf</string>
 	</array>
 	<key>public.kern1.t</key>
 	<array>
-		<string>f</string>
 		<string>t</string>
 		<string>tbar</string>
 		<string>tcaron</string>
@@ -588,7 +588,6 @@
 	</array>
 	<key>public.kern1.three</key>
 	<array>
-		<string>three</string>
 		<string>three.osf</string>
 	</array>
 	<key>public.kern1.two</key>
@@ -629,13 +628,13 @@
 		<string>udotbelow</string>
 		<string>ugrave</string>
 		<string>uhookabove</string>
+		<string>uhorntilde</string>
 		<string>uhungarumlaut</string>
 		<string>uinvertedbreve</string>
 		<string>umacron</string>
 		<string>uogonek</string>
 		<string>uring</string>
 		<string>utilde</string>
-		<string>g.ss01</string>
 		<string>l.ss01</string>
 		<string>fi</string>
 		<string>micro</string>
@@ -647,7 +646,6 @@
 		<string>uhorndotbelow</string>
 		<string>uhorngrave</string>
 		<string>uhornhookabove</string>
-		<string>uhorntilde</string>
 	</array>
 	<key>public.kern1.v</key>
 	<array>
@@ -681,6 +679,10 @@
 	<key>public.kern1.zero</key>
 	<array>
 		<string>zero</string>
+		<string>three</string>
+		<string>six</string>
+		<string>eight</string>
+		<string>nine</string>
 		<string>zero.osf</string>
 	</array>
 	<key>public.kern1.zero.dnom</key>
@@ -693,6 +695,7 @@
 	</array>
 	<key>public.kern1.zero.numr</key>
 	<array>
+		<string>zero.numr</string>
 		<string>three.numr</string>
 		<string>five.numr</string>
 		<string>six.numr</string>
@@ -926,10 +929,10 @@
 	<key>public.kern2.V</key>
 	<array>
 		<string>V</string>
+		<string>W</string>
 	</array>
 	<key>public.kern2.W</key>
 	<array>
-		<string>W</string>
 		<string>Wacute</string>
 		<string>Wcircumflex</string>
 		<string>Wdieresis</string>
@@ -1007,13 +1010,16 @@
 	</array>
 	<key>public.kern2.eight</key>
 	<array>
-		<string>eight</string>
 		<string>eight.osf</string>
 	</array>
 	<key>public.kern2.emdash</key>
 	<array>
 		<string>emdash</string>
 		<string>space_emdash_space.liga</string>
+	</array>
+	<key>public.kern2.f</key>
+	<array>
+		<string>f</string>
 	</array>
 	<key>public.kern2.five</key>
 	<array>
@@ -1040,10 +1046,6 @@
 	<key>public.kern2.guilsinglright</key>
 	<array>
 		<string>guillemetright</string>
-	</array>
-	<key>public.kern2.h</key>
-	<array>
-		<string>germandbls</string>
 	</array>
 	<key>public.kern2.hyphen</key>
 	<array>
@@ -1110,11 +1112,11 @@
 		<string>rdblgrave</string>
 		<string>rdotbelow</string>
 		<string>rinvertedbreve</string>
+		<string>germandbls</string>
 		<string>l.ss01</string>
 	</array>
 	<key>public.kern2.nine</key>
 	<array>
-		<string>nine</string>
 		<string>nine.osf</string>
 	</array>
 	<key>public.kern2.o</key>
@@ -1195,7 +1197,6 @@
 	<key>public.kern2.onehalf</key>
 	<array>
 		<string>one.numr</string>
-		<string>onehalf</string>
 		<string>onethird</string>
 		<string>twothirds</string>
 		<string>onequarter</string>
@@ -1271,12 +1272,10 @@
 	</array>
 	<key>public.kern2.six</key>
 	<array>
-		<string>six</string>
 		<string>six.osf</string>
 	</array>
 	<key>public.kern2.t</key>
 	<array>
-		<string>f</string>
 		<string>t</string>
 		<string>tbar</string>
 		<string>tcaron</string>
@@ -1288,7 +1287,6 @@
 	</array>
 	<key>public.kern2.three</key>
 	<array>
-		<string>three</string>
 		<string>three.osf</string>
 	</array>
 	<key>public.kern2.two</key>
@@ -1353,6 +1351,10 @@
 	<key>public.kern2.zero</key>
 	<array>
 		<string>zero</string>
+		<string>three</string>
+		<string>six</string>
+		<string>eight</string>
+		<string>nine</string>
 		<string>zero.osf</string>
 	</array>
 	<key>public.kern2.zero.dnom</key>
@@ -1365,6 +1367,7 @@
 	</array>
 	<key>public.kern2.zero.numr</key>
 	<array>
+		<string>zero.numr</string>
 		<string>two.numr</string>
 		<string>three.numr</string>
 		<string>five.numr</string>
