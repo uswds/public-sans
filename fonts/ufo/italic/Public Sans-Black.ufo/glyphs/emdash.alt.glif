@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="space_emdash_space.liga" format="2">
-	<advance width="2670"/>
+<glyph name="emdash.alt" format="2">
+	<advance width="1653"/>
 	<outline>
-		<component base="_emdash" xOffset="250"/>
+		<component base="_emdash" xOffset="-352"/>
 	</outline>
 	<lib>
 		<dict>
@@ -17,10 +17,6 @@
 					<string>_emdash</string>
 				</dict>
 			</array>
-			<key>com.schriftgestaltung.Glyphs.layer.leftMetricsKey</key>
-			<string>==emdash+250</string>
-			<key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
-			<string>==emdash+250</string>
 		</dict>
 	</lib>
 </glyph>

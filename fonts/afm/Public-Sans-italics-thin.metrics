@@ -67,10 +67,10 @@ Gbreve;1339;139;145;
 Gcircumflex;1339;139;145;
 Gcommaaccent;1339;139;145;
 Gdotaccent;1339;139;145;
-H;1318;147;89;
-Hbar;1291;106;-77;
-Hcircumflex;1318;147;89;
-Hdotbelow;1318;147;89;
+H;1444;148;90;
+Hbar;1491;106;-77;
+Hcircumflex;1444;148;90;
+Hdotbelow;1444;148;90;
 I;514;149;91;
 Iacute;514;149;-192;
 Ibreve;514;149;-154;
@@ -132,7 +132,7 @@ Oslashacute;1346;3;-55;
 Otilde;1329;138;81;
 OE;2047;138;38;
 P;1168;149;-17;
-Thorn;1170;149;19;
+Thorn;1173;148;19;
 Q;1361;139;112;
 R;1244;147;60;
 Racute;1244;147;60;
@@ -260,10 +260,10 @@ f;773;172;-36;
 g;1143;23;41;
 gbreve;1143;23;41;
 gcircumflex;1143;23;41;
-gcommaaccent;1144;23;42;
+gcommaaccent;1143;23;41;
 gdotaccent;1143;23;41;
 h;1090;128;136;
-hbar;1171;141;117;
+hbar;1190;141;136;
 hcircumflex;1090;128;136;
 hdotbelow;1090;128;136;
 i;498;142;78;
@@ -510,6 +510,7 @@ softhyphen;686;122;122;
 endash;975;121;124;
 emdash;2171;374;377;
 underscore;909;30;219;
+emdash.alt;1409;-7;-4;
 quotesinglbase;395;-24;181;
 quotedblbase;687;-24;181;
 quotedblleft;729;218;-42;
@@ -529,9 +530,8 @@ space;498;0;0;
 nbspace;498;0;0;
 CR;458;0;0;
 .notdef;1697;374;331;
-space_emdash_space.liga;2671;624;627;
 cent;984;136;22;
-colonsign;1255;140;62;
+colonsign;1252;140;59;
 currency;942;116;58;
 dollar;1191;114;86;
 dong;894;53;-81;
@@ -545,6 +545,18 @@ rupeeIndian;972;29;-99;
 sterling;1075;-52;107;
 won;1779;36;-39;
 yen;1042;161;-101;
+cent.tf;1400;315;259;
+colonsign.tf;1318;153;112;
+dollar.tf;1327;144;185;
+dong.tf;1400;265;207;
+euro.tf;1400;133;174;
+florin.tf;1400;190;274;
+franc.tf;1400;139;123;
+lira.tf;1400;141;233;
+liraTurkish.tf;1400;280;288;
+rupeeIndian.tf;1400;246;104;
+sterling.tf;1400;141;233;
+yen.tf;1400;321;90;
 bulletoperator;548;220;158;
 plus;980;154;96;
 minus;980;154;96;
@@ -612,19 +624,19 @@ dotbelowcomb;125;-98;119;
 commaaccentcomb;148;-123;99;
 cedillacomb;350;-106;125;
 ogonekcomb;350;-81;123;
-acute;320;100;-121;
-breve;489;125;-106;
-caron;500;131;-127;
-cedilla;350;-106;125;
-circumflex;498;92;-88;
 dieresis;341;120;-115;
 dotaccent;125;123;-102;
 grave;402;141;-80;
+acute;320;100;-121;
 hungarumlaut;451;101;-121;
-macron;488;116;-90;
-ogonek;350;-81;123;
+circumflex;498;92;-88;
+caron;500;131;-127;
+breve;489;125;-106;
 ring;393;136;-105;
 tilde;506;120;-86;
+macron;488;116;-90;
+cedilla;350;-106;125;
+ogonek;350;-81;123;
 acutecomb.001;257;100;-121;
 gravecomb.viet;256;128;-79;
 acutecomb.viet;222;100;-109;
@@ -649,14 +661,14 @@ SEGMENT CLASSES
 @MMK_L_A;A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adblgrave Adieresis Adotbelow Agrave Ahookabove Ainvertedbreve Amacron Aogonek Aring Aringacute Atilde
 @MMK_R_AE;AE AEacute
 @MMK_L_E;AE AEacute E Eacute Ebreve Ecaron Ecircumflex Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edblgrave Edieresis Edotaccent Edotbelow Egrave Ehookabove Einvertedbreve Emacron Eogonek Etilde OE
-@MMK_R_N;B D Eth Dcaron Dcroat Ddotbelow E Eacute Ebreve Ecaron Ecircumflex Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edblgrave Edieresis Edotaccent Edotbelow Egrave Ehookabove Einvertedbreve Emacron Eogonek Etilde F H Hbar Hcircumflex Hdotbelow I Iacute Ibreve Icircumflex Idblgrave Idieresis Idotaccent Idotbelow Igrave Ihookabove Iinvertedbreve Imacron Iogonek Itilde K Kcommaaccent L Lacute Lcaron Lcommaaccent Ldot Lslash M N Nacute Ncaron Ncommaaccent Ndotaccent Eng Ntilde P Thorn R Racute Rcaron Rcommaaccent Rdblgrave Rdotbelow Rinvertedbreve won yen numero
+@MMK_R_N;B D Eth Dcaron Dcroat Ddotbelow E Eacute Ebreve Ecaron Ecircumflex Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edblgrave Edieresis Edotaccent Edotbelow Egrave Ehookabove Einvertedbreve Emacron Eogonek Etilde F H Hbar Hcircumflex Hdotbelow I Iacute Ibreve Icircumflex Idblgrave Idieresis Idotaccent Idotbelow Igrave Ihookabove Iinvertedbreve Imacron Iogonek Itilde K Kcommaaccent L Lacute Lcaron Lcommaaccent Ldot Lslash M N Nacute Ncaron Ncommaaccent Ndotaccent Eng Ntilde P Thorn R Racute Rcaron Rcommaaccent Rdblgrave Rdotbelow Rinvertedbreve won yen yen.tf numero
 @MMK_L_B;B
 @MMK_R_O;C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent G Gbreve Gcircumflex Gcommaaccent Gdotaccent O Oacute Obreve Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odblgrave Odieresis Odotbelow Ograve Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Ohungarumlaut Oinvertedbreve Omacron Oogonek Otilde OE Q
-@MMK_L_C;C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent colonsign
+@MMK_L_C;C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent colonsign colonsign.tf
 @MMK_L_D;D Eth Dcaron Dcroat Ddotbelow
-@MMK_L_F;F franc
+@MMK_L_F;F franc franc.tf
 @MMK_L_G;G Gbreve Gcircumflex Gcommaaccent Gdotaccent
-@MMK_L_N;H Hbar Hcircumflex Hdotbelow I Iacute Ibreve Icircumflex Idblgrave Idieresis Idotaccent Idotbelow Igrave Ihookabove Iinvertedbreve Imacron Iogonek Itilde M N Nacute Ncaron Ncommaaccent Ndotaccent Eng Ntilde won yen
+@MMK_L_N;H Hbar Hcircumflex Hdotbelow I Iacute Ibreve Icircumflex Idblgrave Idieresis Idotaccent Idotbelow Igrave Ihookabove Iinvertedbreve Imacron Iogonek Itilde M N Nacute Ncaron Ncommaaccent Ndotaccent Eng Ntilde won yen yen.tf
 @MMK_R_J;J Jcircumflex
 @MMK_L_U;J Jcircumflex U Uacute Ubreve Ucircumflex Udblgrave Udieresis Udotbelow Ugrave Uhookabove Uhungarumlaut Uinvertedbreve Umacron Uogonek Uring Utilde
 @MMK_L_K;K Kcommaaccent
@@ -750,8 +762,8 @@ SEGMENT CLASSES
 @MMK_R_parenright;question parenright braceright bracketright
 @MMK_R_hyphen;hyphen softhyphen endash
 @MMK_L_hyphen;hyphen softhyphen endash
-@MMK_R_emdash;emdash space_emdash_space.liga
-@MMK_L_emdash;emdash space_emdash_space.liga
+@MMK_R_emdash;emdash emdash.alt
+@MMK_L_emdash;emdash emdash.alt
 @MMK_R_comma;quotesinglbase
 @MMK_L_comma;quotesinglbase
 @MMK_R_quotesinglbase;quotedblbase
@@ -766,8 +778,8 @@ SEGMENT CLASSES
 @MMK_L_guilsinglright;guillemetright
 @MMK_R_quotesingle;quotedbl quotesingle
 @MMK_L_quotesingle;quotedbl quotesingle
-@MMK_R_C;colonsign
-@MMK_R_F;franc
+@MMK_R_C;colonsign colonsign.tf
+@MMK_R_F;franc franc.tf
 @MMK_R_plus;plus multiply divide equal notequal greater less greaterequal lessequal plusminus approxequal asciitilde logicalnot
 @MMK_L_plus;plus multiply divide equal notequal greater less greaterequal lessequal plusminus approxequal asciitilde logicalnot
 @MMK_R_copyright;published
@@ -851,7 +863,7 @@ SEGMENT KERNING
 @MMK_L_E;@MMK_R_o;-20
 @MMK_L_E;@MMK_R_period;-75
 @MMK_L_E;@MMK_R_s;-30
-@MMK_L_E;@MMK_R_t;-10
+@MMK_L_E;@MMK_R_t;-70
 @MMK_L_E;@MMK_R_u;-10
 @MMK_L_E;@MMK_R_v;-30
 @MMK_L_E;@MMK_R_x;-30
@@ -1193,7 +1205,7 @@ SEGMENT KERNING
 @MMK_L_g;@MMK_R_a;-30
 @MMK_L_g;@MMK_R_comma;-10
 @MMK_L_g;@MMK_R_f;10
-@MMK_L_g;@MMK_R_g;-10
+@MMK_L_g;@MMK_R_g;-20
 @MMK_L_g;@MMK_R_hyphen;-90
 @MMK_L_g;@MMK_R_i;30
 @MMK_L_g;@MMK_R_j;40
@@ -1353,7 +1365,7 @@ SEGMENT KERNING
 @MMK_L_s;@MMK_R_comma;-10
 @MMK_L_s;@MMK_R_hyphen;50
 @MMK_L_s;@MMK_R_quotesingle;-20
-@MMK_L_s;@MMK_R_s;-30
+@MMK_L_s;@MMK_R_s;-20
 @MMK_L_s;@MMK_R_t;-60
 @MMK_L_s;@MMK_R_x;-20
 @MMK_L_seven;@MMK_R_eight;-60
@@ -1377,7 +1389,7 @@ SEGMENT KERNING
 @MMK_L_t;@MMK_R_hyphen;-60
 @MMK_L_t;@MMK_R_o;-20
 @MMK_L_t;@MMK_R_quotesingle;-60
-@MMK_L_t;@MMK_R_t;-30
+@MMK_L_t;@MMK_R_t;-40
 @MMK_L_t;@MMK_R_u;-10
 @MMK_L_t;@MMK_R_v;10
 @MMK_L_three;@MMK_R_four;-20

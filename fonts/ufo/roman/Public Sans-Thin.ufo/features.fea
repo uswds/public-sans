@@ -1,3 +1,5 @@
+@all_but_space = [  ];
+
 # Prefix: Languagesystems
 # automatic
 languagesystem DFLT dflt;
@@ -240,7 +242,6 @@ feature liga {
 sub colon f l a g two colon by colon_f_l_a_g_two_colon.liga;
 sub colon f l a g colon by colon_f_l_a_g_colon.liga;
 sub colon one eight F colon by colon_one_eight_F_colon.liga;
-sub space emdash space by space_emdash_space.liga;
 sub f i by fi;
 sub f l by fl;
 } liga;
@@ -256,4 +257,36 @@ feature ss01 {
 sub g by g.ss01;
 sub l by l.ss01;
 } ss01;
+
+feature calt {
+sub space emdash' space by emdash.alt;
+} calt;
+
+feature tnum {
+# automatic
+sub zero by zero.tf;
+sub one by one.tf;
+sub two by two.tf;
+sub three by three.tf;
+sub four by four.tf;
+sub five by five.tf;
+sub six by six.tf;
+sub seven by seven.tf;
+sub eight by eight.tf;
+sub nine by nine.tf;
+sub period by period.tf;
+sub comma by comma.tf;
+sub cent by cent.tf;
+sub colonsign by colonsign.tf;
+sub dollar by dollar.tf;
+sub dong by dong.tf;
+sub euro by euro.tf;
+sub florin by florin.tf;
+sub franc by franc.tf;
+sub lira by lira.tf;
+sub liraTurkish by liraTurkish.tf;
+sub rupeeIndian by rupeeIndian.tf;
+sub sterling by sterling.tf;
+sub yen by yen.tf;
+} tnum;
 

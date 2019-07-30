@@ -1,16 +1,16 @@
 # Prefix: Languagesystems
 # automatic
 languagesystem DFLT dflt;
+
 languagesystem latn dflt;
-languagesystem cyrl dflt;
 languagesystem latn CAT;
 languagesystem latn ROM;
 languagesystem latn MOL;
 languagesystem latn KAZ;
+languagesystem latn TAT;
 languagesystem latn TRK;
 languagesystem latn CRT;
 languagesystem latn AZE;
-languagesystem cyrl TAT;
 
 feature aalt {
 # automatic
@@ -28,6 +28,7 @@ feature tnum;
 feature onum;
 feature salt;
 feature ss01;
+feature calt;
 } aalt;
 
 feature ccmp {
@@ -38,11 +39,6 @@ lookup ccmp_Other_1 {
 	sub [i j]' @CombiningTopAccents by [idotless jdotless];
 	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
 } ccmp_Other_1;
-
-lookup ccmp_Other_2 {
-	lookupflag 0;
-	sub space emdash space by space_emdash_space.liga;
-} ccmp_Other_2;
 
 lookup ccmp_latn_1 {
 	lookupflag 0;
@@ -78,15 +74,13 @@ sub Tcedilla by Tcommaaccent;
 sub tcedilla by tcommaaccent;
 language KAZ;
 sub i by idotaccent;
+language TAT;
+sub i by idotaccent;
 language TRK;
 sub i by idotaccent;
 language CRT;
 sub i by idotaccent;
 language AZE;
-sub i by idotaccent;
-
-script cyrl;
-language TAT;
 sub i by idotaccent;
 } locl;
 
@@ -209,6 +203,18 @@ sub eight.tf by eight;
 sub nine.tf by nine;
 sub period.tf by period;
 sub comma.tf by comma;
+sub cent.tf by cent;
+sub colonsign.tf by colonsign;
+sub dollar.tf by dollar;
+sub dong.tf by dong;
+sub euro.tf by euro;
+sub florin.tf by florin;
+sub franc.tf by franc;
+sub lira.tf by lira;
+sub liraTurkish.tf by liraTurkish;
+sub rupeeIndian.tf by rupeeIndian;
+sub sterling.tf by sterling;
+sub yen.tf by yen;
 } pnum;
 
 feature tnum {
@@ -225,6 +231,18 @@ sub eight by eight.tf;
 sub nine by nine.tf;
 sub period by period.tf;
 sub comma by comma.tf;
+sub cent by cent.tf;
+sub colonsign by colonsign.tf;
+sub dollar by dollar.tf;
+sub dong by dong.tf;
+sub euro by euro.tf;
+sub florin by florin.tf;
+sub franc by franc.tf;
+sub lira by lira.tf;
+sub liraTurkish by liraTurkish.tf;
+sub rupeeIndian by rupeeIndian.tf;
+sub sterling by sterling.tf;
+sub yen by yen.tf;
 } tnum;
 
 feature onum {
@@ -246,7 +264,6 @@ feature liga {
 sub colon f l a g two colon by colon_f_l_a_g_two_colon.liga;
 sub colon f l a g colon by colon_f_l_a_g_colon.liga;
 sub colon one eight F colon by colon_one_eight_F_colon.liga;
-sub space emdash space by space_emdash_space.liga;
 sub f i by fi;
 sub f l by fl;
 } liga;
@@ -262,4 +279,36 @@ feature ss01 {
 sub g by g.ss01;
 sub l by l.ss01;
 } ss01;
+
+feature calt {
+sub space emdash' space by emdash.alt;
+} calt;
+
+feature tnum {
+# automatic
+sub zero by zero.tf;
+sub one by one.tf;
+sub two by two.tf;
+sub three by three.tf;
+sub four by four.tf;
+sub five by five.tf;
+sub six by six.tf;
+sub seven by seven.tf;
+sub eight by eight.tf;
+sub nine by nine.tf;
+sub period by period.tf;
+sub comma by comma.tf;
+sub cent by cent.tf;
+sub colonsign by colonsign.tf;
+sub dollar by dollar.tf;
+sub dong by dong.tf;
+sub euro by euro.tf;
+sub florin by florin.tf;
+sub franc by franc.tf;
+sub lira by lira.tf;
+sub liraTurkish by liraTurkish.tf;
+sub rupeeIndian by rupeeIndian.tf;
+sub sterling by sterling.tf;
+sub yen by yen.tf;
+} tnum;
 

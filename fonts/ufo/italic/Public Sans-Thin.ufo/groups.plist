@@ -56,6 +56,7 @@
 		<string>Ccircumflex</string>
 		<string>Cdotaccent</string>
 		<string>colonsign</string>
+		<string>colonsign.tf</string>
 	</array>
 	<key>public.kern1.D</key>
 	<array>
@@ -95,6 +96,7 @@
 	<array>
 		<string>F</string>
 		<string>franc</string>
+		<string>franc.tf</string>
 	</array>
 	<key>public.kern1.G</key>
 	<array>
@@ -148,6 +150,7 @@
 		<string>Ntilde</string>
 		<string>won</string>
 		<string>yen</string>
+		<string>yen.tf</string>
 	</array>
 	<key>public.kern1.O</key>
 	<array>
@@ -308,7 +311,7 @@
 	<key>public.kern1.emdash</key>
 	<array>
 		<string>emdash</string>
-		<string>space_emdash_space.liga</string>
+		<string>emdash.alt</string>
 	</array>
 	<key>public.kern1.f</key>
 	<array>
@@ -751,10 +754,12 @@
 	<key>public.kern2.C</key>
 	<array>
 		<string>colonsign</string>
+		<string>colonsign.tf</string>
 	</array>
 	<key>public.kern2.F</key>
 	<array>
 		<string>franc</string>
+		<string>franc.tf</string>
 	</array>
 	<key>public.kern2.J</key>
 	<array>
@@ -835,6 +840,7 @@
 		<string>Rinvertedbreve</string>
 		<string>won</string>
 		<string>yen</string>
+		<string>yen.tf</string>
 		<string>numero</string>
 	</array>
 	<key>public.kern2.O</key>
@@ -1015,7 +1021,7 @@
 	<key>public.kern2.emdash</key>
 	<array>
 		<string>emdash</string>
-		<string>space_emdash_space.liga</string>
+		<string>emdash.alt</string>
 	</array>
 	<key>public.kern2.f</key>
 	<array>

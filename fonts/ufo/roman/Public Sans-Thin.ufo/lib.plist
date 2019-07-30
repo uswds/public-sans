@@ -594,6 +594,7 @@
 		<string>endash</string>
 		<string>emdash</string>
 		<string>underscore</string>
+		<string>emdash.alt</string>
 		<string>quotesinglbase</string>
 		<string>quotedblbase</string>
 		<string>quotedblleft</string>
@@ -613,7 +614,6 @@
 		<string>nbspace</string>
 		<string>CR</string>
 		<string>.notdef</string>
-		<string>space_emdash_space.liga</string>
 		<string>cent</string>
 		<string>colonsign</string>
 		<string>currency</string>
@@ -629,6 +629,18 @@
 		<string>sterling</string>
 		<string>won</string>
 		<string>yen</string>
+		<string>cent.tf</string>
+		<string>colonsign.tf</string>
+		<string>dollar.tf</string>
+		<string>dong.tf</string>
+		<string>euro.tf</string>
+		<string>florin.tf</string>
+		<string>franc.tf</string>
+		<string>lira.tf</string>
+		<string>liraTurkish.tf</string>
+		<string>rupeeIndian.tf</string>
+		<string>sterling.tf</string>
+		<string>yen.tf</string>
 		<string>bulletoperator</string>
 		<string>plus</string>
 		<string>minus</string>
@@ -942,6 +954,8 @@
 		<string>uni03020303</string>
 		<key>colonsign</key>
 		<string>colonmonetary</string>
+		<key>colonsign.tf</key>
+		<string>colonmonetary.tf</string>
 		<key>commaaccentcomb</key>
 		<string>uni0326</string>
 		<key>commaturnedmod</key>
@@ -978,6 +992,8 @@
 		<string>uni1EBD</string>
 		<key>euro</key>
 		<string>Euro</string>
+		<key>euro.tf</key>
+		<string>Euro.tf</string>
 		<key>fivesuperior</key>
 		<string>uni2075</string>
 		<key>foursuperior</key>
@@ -1016,6 +1032,8 @@
 		<string>uni013C</string>
 		<key>liraTurkish</key>
 		<string>uni20BA</string>
+		<key>liraTurkish.tf</key>
+		<string>uni20BA.tf</string>
 		<key>literSign</key>
 		<string>uni2113</string>
 		<key>macroncomb</key>
@@ -1084,6 +1102,8 @@
 		<string>uni0213</string>
 		<key>rupeeIndian</key>
 		<string>uni20B9</string>
+		<key>rupeeIndian.tf</key>
+		<string>uni20B9.tf</string>
 		<key>schwa</key>
 		<string>uni0259</string>
 		<key>scommaaccent</key>
