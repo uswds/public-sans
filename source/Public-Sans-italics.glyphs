@@ -29083,6 +29083,38 @@ rightKerningGroup = u;
 unicode = 016D;
 },
 {
+glyphname = ucaron;
+layers = (
+{
+components = (
+{
+name = u;
+},
+{
+name = caroncomb;
+transform = "{1, 0, 0, 1, 273, 0}";
+}
+);
+layerId = "91AB5BCA-6A50-42DA-B2F7-8181BF189245";
+width = 1049;
+},
+{
+components = (
+{
+name = u;
+},
+{
+name = caroncomb;
+transform = "{1, 0, 0, 1, 181, 0}";
+}
+);
+layerId = "258ED206-D907-4350-8EBA-CBDDA1C16BF7";
+width = 1205;
+}
+);
+unicode = 01D4;
+},
+{
 glyphname = ucircumflex;
 lastChange = "2019-06-12 22:02:12 +0000";
 layers = (
