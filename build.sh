@@ -67,6 +67,9 @@ for file in $statics; do
     ttfautohint -I ${file} ${hintedFile}
     cp ${hintedFile} ${file}
     rm -rf ${hintedFile}
+
+    echo "fix hinting in " ${file}
+    gftools fix-hinting ${file}
 done
 
 
