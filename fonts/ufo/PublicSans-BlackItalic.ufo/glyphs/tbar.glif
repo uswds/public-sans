@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tbar" format="2">
+  <advance width="956"/>
+  <unicode hex="0167"/>
+  <anchor x="464" y="18" name="bottom"/>
+  <anchor x="965" y="1446" name="caron"/>
+  <anchor x="468" y="516" name="center"/>
+  <outline>
+    <contour>
+      <point x="60" y="450" type="line"/>
+      <point x="783" y="450" type="line"/>
+      <point x="783" y="660" type="line"/>
+      <point x="60" y="660" type="line"/>
+    </contour>
+    <component base="t" xOffset="39"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=t+10</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/06/12 20:13:09</string>
+    </dict>
+  </lib>
+</glyph>
