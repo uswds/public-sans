@@ -29,7 +29,8 @@ fontmake -g $thisFont.glyphs -o variable --output-path ../fonts/variable/$thisFo
 fontmake -g $thisFont-italics.glyphs -o variable --output-path ../fonts/variable/$thisFont-Italic-VF.ttf
 
 echo "Replacing old UFOs"
-rm -rf instance_ufo/ ../fonts/ufo
+rm -rf instance_ufo/
+rm -rf ../fonts/ufo
 mv master_ufo/ ../fonts/ufo
 
 echo "Post processing"
