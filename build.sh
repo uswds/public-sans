@@ -18,12 +18,20 @@ mkdir -p ../fonts/webfonts
 fontmake -g $thisFont.glyphs -i -o ttf --output-dir ../fonts/webfonts/
 fontmake -g $thisFont-italics.glyphs -i -o ttf --output-dir ../fonts/webfonts/
 
+echo "Generating OTF binaries"
+mkdir -p ../fonts/otf
+fontmake -g $thisFont.glyphs -i -o otf --output-dir ../fonts/otf/
+fontmake -g $thisFont-italics.glyphs -i -o otf --output-dir ../fonts/otf/
+
 echo "Generating Variable Fonts"
 mkdir -p ../fonts/variable
 fontmake -g $thisFont.glyphs -o variable --output-path ../fonts/variable/$thisFont-Roman-VF.ttf
 fontmake -g $thisFont-italics.glyphs -o variable --output-path ../fonts/variable/$thisFont-Italic-VF.ttf
 
-rm -rf master_ufo/ instance_ufo/
+echo "Replacing old UFOs"
+rm -rf instance_ufo/
+rm -rf ../fonts/ufo
+mv master_ufo/ ../fonts/ufo
 
 echo "Post processing"
 
@@ -67,6 +75,10 @@ for file in $statics; do
     ttfautohint -I ${file} ${hintedFile}
     cp ${hintedFile} ${file}
     rm -rf ${hintedFile}
+
+    echo "fix hinting in " ${file}
+    gftools fix-hinting ${file}
+	  mv "$file.fix" $file;
 done
 
 

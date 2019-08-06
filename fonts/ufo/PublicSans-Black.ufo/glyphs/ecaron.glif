@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ecaron" format="2">
+  <advance width="1148"/>
+  <unicode hex="011B"/>
+  <anchor x="589" y="0" name="bottom"/>
+  <anchor x="839" y="50" name="ogonek"/>
+  <anchor x="583" y="1034" name="top"/>
+  <outline>
+    <component base="e"/>
+    <component base="caroncomb" xOffset="146"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/07/24 01:09:49</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>
