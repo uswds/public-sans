@@ -2,29 +2,12 @@
 <glyph name="franc.tf" format="2">
   <advance width="1400"/>
   <outline>
-    <contour>
-      <point x="778" y="370" type="line"/>
-      <point x="140" y="368" type="line"/>
-      <point x="140" y="294" type="line"/>
-      <point x="778" y="296" type="line"/>
-    </contour>
-    <contour>
-      <point x="334" y="1446" type="line"/>
-      <point x="334" y="0" type="line"/>
-      <point x="424" y="0" type="line"/>
-      <point x="424" y="666" type="line"/>
-      <point x="1136" y="666" type="line"/>
-      <point x="1136" y="744" type="line"/>
-      <point x="424" y="744" type="line"/>
-      <point x="424" y="1368" type="line"/>
-      <point x="1194" y="1368" type="line"/>
-      <point x="1194" y="1446" type="line"/>
-    </contour>
+    <component base="franc" xOffset="155"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/07/30 20:52:15</string>
+      <string>2019/08/07 22:11:26</string>
     </dict>
   </lib>
 </glyph>

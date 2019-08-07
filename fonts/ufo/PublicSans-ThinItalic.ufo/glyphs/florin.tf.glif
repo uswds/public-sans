@@ -2,41 +2,12 @@
 <glyph name="florin.tf" format="2">
   <advance width="1400"/>
   <outline>
-    <contour>
-      <point x="1046" y="1034" type="line"/>
-      <point x="760" y="1034" type="line"/>
-      <point x="792" y="1214" type="line" smooth="yes"/>
-      <point x="810" y="1314"/>
-      <point x="872" y="1378"/>
-      <point x="956" y="1378" type="curve" smooth="yes"/>
-      <point x="1116" y="1378" type="line"/>
-      <point x="1126" y="1446" type="line"/>
-      <point x="976" y="1446" type="line" smooth="yes"/>
-      <point x="830" y="1446"/>
-      <point x="740" y="1366"/>
-      <point x="712" y="1206" type="curve" smooth="yes"/>
-      <point x="682" y="1034" type="line"/>
-      <point x="516" y="1034" type="line"/>
-      <point x="504" y="966" type="line"/>
-      <point x="670" y="966" type="line"/>
-      <point x="486" y="-90" type="line" smooth="yes"/>
-      <point x="464" y="-214"/>
-      <point x="416" y="-262"/>
-      <point x="312" y="-264" type="curve" smooth="yes"/>
-      <point x="200" y="-266" type="line"/>
-      <point x="190" y="-332" type="line"/>
-      <point x="300" y="-332" type="line" smooth="yes"/>
-      <point x="456" y="-332"/>
-      <point x="538" y="-240"/>
-      <point x="566" y="-80" type="curve" smooth="yes"/>
-      <point x="748" y="966" type="line"/>
-      <point x="1034" y="966" type="line"/>
-    </contour>
+    <component base="florin" xOffset="450"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/07/30 21:02:56</string>
+      <string>2019/08/07 22:34:17</string>
     </dict>
   </lib>
 </glyph>
