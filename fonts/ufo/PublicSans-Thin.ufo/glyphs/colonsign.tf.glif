@@ -1,27 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="colonsign.tf" format="2">
-  <advance width="1318"/>
-  <anchor x="693" y="0" name="bottom"/>
-  <anchor x="679" y="1446" name="top"/>
+  <advance width="1400"/>
+  <anchor x="729" y="0" name="bottom"/>
+  <anchor x="715" y="1446" name="top"/>
   <outline>
-    <contour>
-      <point x="717" y="1560" type="line"/>
-      <point x="397" y="-122" type="line"/>
-      <point x="471" y="-122" type="line"/>
-      <point x="791" y="1560" type="line"/>
-    </contour>
-    <contour>
-      <point x="921" y="1560" type="line"/>
-      <point x="601" y="-122" type="line"/>
-      <point x="675" y="-122" type="line"/>
-      <point x="995" y="1560" type="line"/>
-    </contour>
-    <component base="C" xOffset="-7"/>
+    <component base="colonsign" xOffset="29"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/07/30 20:51:16</string>
+      <string>2019/08/07 20:33:04</string>
     </dict>
   </lib>
 </glyph>

@@ -2,34 +2,12 @@
 <glyph name="yen.tf" format="2">
   <advance width="1400"/>
   <outline>
-    <contour>
-      <point x="1596" y="1446" type="line"/>
-      <point x="1190" y="1446" type="line"/>
-      <point x="845" y="942" type="line"/>
-      <point x="636" y="1446" type="line"/>
-      <point x="132" y="1446" type="line"/>
-      <point x="531" y="602" type="line"/>
-      <point x="446" y="0" type="line"/>
-      <point x="888" y="0" type="line"/>
-      <point x="978" y="638" type="line"/>
-    </contour>
-    <contour>
-      <point x="1281" y="714" type="line"/>
-      <point x="255" y="714" type="line"/>
-      <point x="227" y="516" type="line"/>
-      <point x="1253" y="516" type="line"/>
-    </contour>
-    <contour>
-      <point x="1234" y="382" type="line"/>
-      <point x="208" y="382" type="line"/>
-      <point x="181" y="186" type="line"/>
-      <point x="1207" y="186" type="line"/>
-    </contour>
+    <component base="yen" xOffset="3"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/07/30 21:03:46</string>
+      <string>2019/08/07 22:37:48</string>
     </dict>
   </lib>
 </glyph>
