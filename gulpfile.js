@@ -54,7 +54,7 @@ const JS_DEST = './site/assets/uswds/js';
 const CSS_DEST = './site/assets/css';
 
 // Webfonts
-const WEBFONTS_SRC = './fonts/webfonts';
+const WEBFONTS_SRC = './binaries/webfonts';
 const WEBFONTS_DEST = './site/assets/fonts';
 
 /*
