@@ -1,53 +1,38 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Schwa" format="2">
-  <advance width="1329"/>
+  <advance width="1336"/>
   <unicode hex="018F"/>
   <outline>
     <contour>
-      <point x="592" y="-20" type="curve" smooth="yes"/>
-      <point x="1002" y="-20"/>
-      <point x="1180" y="352"/>
-      <point x="1232" y="714" type="curve" smooth="yes"/>
-      <point x="1278" y="1036"/>
-      <point x="1250" y="1466"/>
-      <point x="800" y="1466" type="curve" smooth="yes"/>
-      <point x="392" y="1466"/>
-      <point x="260" y="1092"/>
-      <point x="222" y="1018" type="curve" smooth="yes"/>
-      <point x="218" y="1008"/>
-      <point x="214" y="1002"/>
-      <point x="222" y="1000" type="curve" smooth="yes"/>
-      <point x="286" y="976" type="line" smooth="yes"/>
-      <point x="294" y="974"/>
-      <point x="296" y="972"/>
-      <point x="298" y="976" type="curve" smooth="yes"/>
-      <point x="334" y="1036"/>
-      <point x="414" y="1382"/>
-      <point x="788" y="1382" type="curve" smooth="yes"/>
-      <point x="1178" y="1382"/>
-      <point x="1178" y="982"/>
-      <point x="1146" y="752" type="curve" smooth="yes"/>
-      <point x="1145" y="742"/>
-      <point x="1142" y="742"/>
-      <point x="1132" y="742" type="curve" smooth="yes"/>
-      <point x="172" y="742" type="line" smooth="yes"/>
-      <point x="158" y="742"/>
-      <point x="156" y="732"/>
-      <point x="154" y="720" type="curve" smooth="yes"/>
-      <point x="103" y="340"/>
-      <point x="170" y="-20"/>
+      <point x="597" y="-20" type="curve" smooth="yes"/>
+      <point x="935" y="-20"/>
+      <point x="1173" y="240"/>
+      <point x="1240" y="720" type="curve" smooth="yes"/>
+      <point x="1305" y="1185"/>
+      <point x="1144" y="1466"/>
+      <point x="806" y="1466" type="curve" smooth="yes"/>
+      <point x="468" y="1466"/>
+      <point x="219" y="1185"/>
+      <point x="189" y="972" type="curve"/>
+      <point x="278" y="972" type="line"/>
+      <point x="303" y="1147"/>
+      <point x="493" y="1382"/>
+      <point x="794" y="1382" type="curve" smooth="yes"/>
+      <point x="1095" y="1382"/>
+      <point x="1219" y="1146"/>
+      <point x="1162" y="742" type="curve"/>
+      <point x="160" y="742" type="line"/>
+      <point x="89" y="238"/>
+      <point x="259" y="-20"/>
     </contour>
     <contour>
-      <point x="604" y="64" type="curve" smooth="yes"/>
-      <point x="250" y="64"/>
-      <point x="200" y="374"/>
-      <point x="238" y="648" type="curve" smooth="yes"/>
-      <point x="240" y="656"/>
-      <point x="244" y="660"/>
-      <point x="254" y="660" type="curve" smooth="yes"/>
-      <point x="1132" y="660" type="line"/>
-      <point x="1086" y="372"/>
-      <point x="954" y="64"/>
+      <point x="609" y="64" type="curve" smooth="yes"/>
+      <point x="308" y="64"/>
+      <point x="188" y="320"/>
+      <point x="235" y="660" type="curve"/>
+      <point x="1150" y="660" type="line"/>
+      <point x="1097" y="322"/>
+      <point x="910" y="64"/>
     </contour>
   </outline>
   <lib>
@@ -57,7 +42,7 @@
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>O</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/06/12 20:13:09</string>
+      <string>2019/08/08 21:04:02</string>
     </dict>
   </lib>
 </glyph>
