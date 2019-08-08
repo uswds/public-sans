@@ -6,9 +6,7 @@ DisplayStrings = (
 "good government",
 America,
 "/zero.tf/one.tf/zero.tf/two.tf/zero.tf/three.tf/zero.tf/four.tf/zero.tf/five.tf/zero.tf/six.tf/zero.tf/seven.tf/zero.tf/eight.tf/zero.tf/nine.tf/zero.tf",
-"/zero.tf/period.tf/zero.tf/comma.tf/zero.tf/cent.tf/zero.tf/colonsign.tf/zero.tf/dollar.tf/zero.tf/dong.tf/zero.tf/euro.tf/zero.tf/florin.tf/zero.tf/franc.tf/zero.tf/lira.tf/zero.tf/liraTurkish.tf/zero.tf/rupeeIndian.tf/zero.tf/sterling.tf/zero.tf/yen.tf/zero.tf",
-"/Schwa/schwa",
-"oeO/Schwa e"
+"/zero.tf/period.tf/zero.tf/comma.tf/zero.tf/cent.tf/zero.tf/colonsign.tf/zero.tf/dollar.tf/zero.tf/dong.tf/zero.tf/euro.tf/zero.tf/florin.tf/zero.tf/franc.tf/zero.tf/lira.tf/zero.tf/liraTurkish.tf/zero.tf/rupeeIndian.tf/zero.tf/sterling.tf/zero.tf/yen.tf/zero.tf"
 );
 classes = (
 {
@@ -16,7 +14,7 @@ code = "";
 name = all_but_space;
 }
 );
-copyright = "Copyright 2015 Impallari Type (https://github.com/impallari/Libre-Franklin)";
+copyright = "Copyright (c) 2015, Impallari Type (www.impallari.com)";
 customParameters = (
 {
 name = fsType;
@@ -53,8 +51,8 @@ name = "Use Typo Metrics";
 value = 1;
 }
 );
-date = "2019-08-05 14:55:24 +0000";
-designer = "Pablo Impallari, Rodrigo Fuenzalida (Modified by Dan O. Williams and USWDS)";
+date = "2019-08-08 14:55:24 +0000";
+designer = "The Public Sans Project Authors: Dan O. Williams and USWDS (Libre Franklin designed by Pablo Impallari and Rodrigo Fuenzalida)";
 designerURL = "https://designsystem.digital.gov";
 familyName = "Public Sans";
 featurePrefixes = (
