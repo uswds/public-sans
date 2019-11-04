@@ -1,49 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="OE" format="2">
-  <advance width="2236"/>
+  <advance width="2251"/>
   <unicode hex="0152"/>
+  <anchor x="704" y="0" name="bottom_1"/>
+  <anchor x="1542" y="0" name="bottom_2"/>
+  <anchor x="1354" y="1094" name="horn"/>
+  <anchor x="885" y="20" name="ogonek_1"/>
+  <anchor x="2076" y="20" name="ogonek_2"/>
+  <anchor x="902" y="1446" name="top_1"/>
+  <anchor x="1740" y="1446" name="top_2"/>
   <outline>
-    <contour>
-      <point x="723" y="-20" type="curve" smooth="yes"/>
-      <point x="830" y="-20"/>
-      <point x="922" y="-14"/>
-      <point x="998" y="0" type="curve"/>
-      <point x="1095" y="0" type="line"/>
-      <point x="2068" y="0" type="line"/>
-      <point x="2118" y="320" type="line"/>
-      <point x="1422" y="320" type="line"/>
-      <point x="1460" y="570" type="line"/>
-      <point x="1885" y="570" type="line"/>
-      <point x="1933" y="884" type="line"/>
-      <point x="1509" y="884" type="line"/>
-      <point x="1544" y="1128" type="line"/>
-      <point x="2223" y="1128" type="line"/>
-      <point x="2272" y="1446" type="line"/>
-      <point x="1338" y="1446" type="line"/>
-      <point x="1217" y="1446" type="line"/>
-      <point x="1152" y="1460"/>
-      <point x="1068" y="1466"/>
-      <point x="971" y="1466" type="curve" smooth="yes"/>
-      <point x="504" y="1466"/>
-      <point x="183" y="1172"/>
-      <point x="114" y="720" type="curve" smooth="yes"/>
-      <point x="44" y="270"/>
-      <point x="272" y="-20"/>
-    </contour>
-    <contour>
-      <point x="744" y="284" type="curve" smooth="yes"/>
-      <point x="572" y="284"/>
-      <point x="526" y="402"/>
-      <point x="574" y="714" type="curve" smooth="yes"/>
-      <point x="622" y="1036"/>
-      <point x="710" y="1166"/>
-      <point x="878" y="1166" type="curve" smooth="yes"/>
-      <point x="1044" y="1166"/>
-      <point x="1093" y="1036"/>
-      <point x="1042" y="714" type="curve" smooth="yes"/>
-      <point x="994" y="402"/>
-      <point x="914" y="284"/>
-    </contour>
+    <component base="O"/>
+    <component base="E" xOffset="949"/>
   </outline>
   <lib>
     <dict>
@@ -52,7 +20,12 @@
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>E</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/06/12 20:13:09</string>
+      <string>2019/11/04 23:36:04</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
     </dict>
   </lib>
 </glyph>
