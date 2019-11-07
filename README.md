@@ -82,4 +82,4 @@ Public Sans is a good option for sites that currently use Open Sans, Tahoma, Lib
 
 ## License
 
-To view the copyright and specific terms and conditions please refer to the [Libre Franklin SIL Open Font License 1.1](https://github.com/uswds/public-sans/blob/develop/LICENSE.md#libre-franklin-sil-open-font-license-11). The terms and conditions for modifications made to the original font by USWDS in the USWDS Modified Version can be found at https://github.com/uswds/public-sans/blob/develop/LICENSE.md.
+To view the copyright and specific terms and conditions please refer to the [Libre Franklin SIL Open Font License 1.1](https://github.com/uswds/public-sans/blob/master/LICENSE.md#libre-franklin-sil-open-font-license-11). The terms and conditions for modifications made to the original font by USWDS in the USWDS Modified Version can be found at https://github.com/uswds/public-sans/blob/master/LICENSE.md.
