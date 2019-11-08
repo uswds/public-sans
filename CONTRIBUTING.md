@@ -6,7 +6,7 @@ Before contributing, we encourage you to read our CONTRIBUTING policy (you are h
 
 ## SIL Open Font License v1.1
 
-Public Sans is licensed under the [SIL Open Font License v1.1](http://scripts.sil.org/OFL)
+Public Sans is licensed under the [SIL Open Font License v1.1](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL_web)
 
 To view the copyright and specific terms and conditions please refer to [OFL.txt](https://github.com/impallari/Libre-Franklin/blob/master/OFL.txt). The terms and conditions for modifications made to the original font by USWDS in the USWDS Modified Version can be found at https://github.com/uswds/public-sans/blob/master/LICENSE.md.
 
