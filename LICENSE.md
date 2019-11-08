@@ -14,10 +14,10 @@ This Modified Version (Public Sans) contains both software under the SIL Open Fo
 
 ## License of project USWDS’s Modified Version is based on
 
-- Libre Franklin is licensed under the SIL Open Font License v1.1 (<http://scripts.sil.org/OFL>)
+- Libre Franklin is licensed under the SIL Open Font License, Version 1.1 (<http://scripts.sil.org/OFL>)
 - To view the copyright and specific terms and conditions please refer to [OFL.txt](https://github.com/impallari/Libre-Franklin/blob/master/OFL.txt)
 
-## Libre Franklin SIL Open Font License 1.1
+## Libre Franklin SIL Open Font License, Version 1.1
 
 Copyright (c) 2015, Impallari Type (www.impallari.com)
 
