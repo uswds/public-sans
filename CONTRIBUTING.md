@@ -4,7 +4,7 @@ We're so glad you're thinking about contributing! If you're unsure or afraid of 
 
 Before contributing, we encourage you to read our CONTRIBUTING policy (you are here), our [LICENSE](https://github.com/uswds/public-sans/blob/master/LICENSE.md), and our [README](https://github.com/uswds/public-sans/blob/master/README.md).
 
-## SIL Open Font License v1.1
+## SIL Open Font License, Version 1.1
 
 Public Sans is licensed under the [SIL Open Font License, Version 1.1](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL_web)
 
