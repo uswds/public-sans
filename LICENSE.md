@@ -8,7 +8,7 @@ As a work of the United States Government, the font software modifications made 
 
 The Original Version (as defined in the SIL Open Font License, Version 1.1) remains subject to copyright under the SIL Open Font License, Version 1.1.
 
-This Modified Version (Public Sans) contains both software under the SIL Open Font License (Version 1.1) and software modifications by GSA released as CC0. It is a “joint work” made of the original software and modifications combined into a single work.
+This Modified Version (Public Sans) contains both software under the SIL Open Font License, Version 1.1 and software modifications by GSA released as CC0. It is a “joint work” made of the original software and modifications combined into a single work.
 
 **In practice, users of this Modified Version (Public Sans) should use Public Sans according to the terms of the SIL Open Font License, Version 1.1.** This is because this font is a combination of work subject to copyright and work not subject to copyright, so the more restrictive requirements apply to using the combined work.
 
