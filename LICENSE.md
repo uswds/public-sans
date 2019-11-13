@@ -1,10 +1,31 @@
+This repository is a fork of Libre Franklin: https://github.com/impallari/Libre-Franklin
+
+## License for USWDS’s Modified Version
+
+This repository contains both the original font software for Libre Franklin (the “Original Version”) and font software modifications made by the General Services Administration (GSA). This repository combines the Original Version and these GSA modifications into a piece of font software called Public Sans, which is a “Modified Version” of Libre Franklin.
+
+As a work of the United States Government, the font software modifications made by GSA are not subject to copyright within the United States. Additionally, GSA waives copyright and related rights in its font software modifications worldwide through the [CC0 1.0 Universal public domain dedication](https://creativecommons.org/publicdomain/zero/1.0/).
+
+The Original Version (as defined in the SIL Open Font License, Version 1.1) remains subject to copyright under the SIL Open Font License, Version 1.1.
+
+This Modified Version (Public Sans) contains both software under the SIL Open Font License, Version 1.1 and software modifications by GSA released as CC0. It is a “joint work” made of the original software and modifications combined into a single work.
+
+**In practice, users of this Modified Version (Public Sans) should use Public Sans according to the terms of the SIL Open Font License, Version 1.1.** This is because this font is a combination of work subject to copyright and work not subject to copyright, so the more restrictive requirements apply to using the combined work.
+
+## License of project USWDS’s Modified Version is based on
+
+- Libre Franklin is licensed under the SIL Open Font License, Version 1.1 (<http://scripts.sil.org/OFL>)
+- To view the copyright and specific terms and conditions please refer to [OFL.txt](https://github.com/impallari/Libre-Franklin/blob/master/OFL.txt)
+
+## Libre Franklin SIL Open Font License, Version 1.1
+
 Copyright (c) 2015, Impallari Type (www.impallari.com)
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
-This license is copied below, and is also available with a FAQ at:
-http://scripts.sil.org/OFL
 
+This license is copied below, and is also available with a FAQ at http://scripts.sil.org/OFL
 
+```
 -----------------------------------------------------------
 SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
 -----------------------------------------------------------
@@ -91,3 +112,4 @@ INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL
 DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
 OTHER DEALINGS IN THE FONT SOFTWARE.
+```

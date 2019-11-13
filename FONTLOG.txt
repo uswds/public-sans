@@ -10,7 +10,62 @@ Basic Font Information
 Public Sans is based off of Libre Franklin
 Libre Franklin is an interpretation and expancion based on the 1912 Morris Fuller Benton’s classic.
 
-To contribute to the Libre Franklin project contact Pablo Impallari at https://github.com/impallari/Libre-Franklin/
+To contribute to Public Sans please read [CONTRIBUTING.md](https://github.com/uswds/public-sans/blob/master/CONTRIBUTING.md).
+
+See [the Public Sans releases page](https://github.com/uswds/public-sans/releases) for more details about changes to the typeface.
+
+July 17 2019 (USWDS) Public Sans v1.006
+- https://github.com/uswds/public-sans/releases/tag/v1.006
+- Adds a new python-based build script for generating webfonts and variable fonts. Use /.build.sh from the project directory. Based on https://github.com/thundernixon/googlefonts-qa-template/blob/master/sources/build.sh
+- Moves to 2000 UPM
+- Adjusts kerning overall
+- Improves vertical metrics
+- Rounds counters in b, d, p, and q glyphs
+- Widens o and e glyphs
+- Narrows s glyph
+- Slightly squares curves in rounded lowercase thin glyphs
+- Squares counters on S and C glyphs
+- Aligns C and G glyph upper terminals
+- Improves output of variable fonts
+- Outputs better binaries for Font Bakery (https://github.com/googlefonts/fontbakery)
+
+June 6 2019 (USWDS) Public Sans v1.005
+- https://github.com/uswds/public-sans/releases/tag/v1.005
+- Redraws eth character
+- Improves Vietnamese diacritics with better positioning and shape
+- Fixes bad masters that resulted in faulty interpolation in fractions and some math characters
+- Improves spacing of caron.alt–related glyphs
+
+June 3 2019 (USWDS) Public Sans v1.004
+- https://github.com/uswds/public-sans/releases/tag/v1.004
+- Improved kerning
+- Improved hinting and rendering on Windows
+- Improved fractions and subscript/superscript numerals
+- Improved spacing for hyphens and em/en dashes
+- Fixes the colón character
+
+May 7 2019 (USWDS) Public Sans v1.003
+- https://github.com/uswds/public-sans/releases/tag/v1.003
+- Address some spacing regressions in v1.002
+- Thicken regular weight to 365 from 350
+- Adds explicit underline metadata to address a rendering quirk in Firefox
+
+May 6 2019 (USWDS) Public Sans v1.002
+- https://github.com/uswds/public-sans/releases/tag/v1.002
+- This release tries to simplify the kerning and spacing and make both easier to maintain. There may be some small spacing regressions as we evaluate this version in production and continue to update.
+- Added 'okina character
+- Improved appearance and spacing of diacritic glyphs — especially Czech, Slovak, and Vietnamese
+- Improved consistency between roman and italic
+- Upscaled to 2000 UPM
+- Use 100-900 as range for variable font output
+- Rebalanced numbers
+- Improved kerning in fractions
+- Corrected some spacing issues in tabular figures, especially in italic tabular figures
+- Adjusted position of hcircumflex
+- Removed spur from eszett
+- Simplified spacing and kerning
+- Updated and made better use of sidebearing groups
+- Updated and made better use of kerning groups
 
 October 5 2018 (Dan O. Williams) Public Sans v1.000
 - Release Public Sans as part of USWDS 2.0.0 Beta

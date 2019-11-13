@@ -1,14 +1,17 @@
 # Public Sans
+
 Current font files for the Public Sans typeface.
 This typeface is based off of https://github.com/impallari/Libre-Franklin
 
 ## Usage
+
 - **Webfonts** are available in `binaries/webfonts`
 - **Opentype** fonts for installing locally and for print applications are available in `binaries/otf`
-- **Variable fonts** should be considered experimental, but can be found in  `binaries/variable`
+- **Variable fonts** should be considered experimental, but can be found in `binaries/variable`
 - **Source files** are available in `src` as both [Glyphs](https://glyphsapp.com/) files and as UFO + Designspace.
 
 ## Design principles
+
 - Be available as a free, open source webfont on any platform.
 - Use metrics similar to common system fonts for smoother progressive enhancement.
 - Have a broad range of weights and a good italic.
@@ -20,6 +23,7 @@ This typeface is based off of https://github.com/impallari/Libre-Franklin
 - Encourage continuous improvement — strive to be better, not necessarily perfect.
 
 ## How Public Sans differs from Libre Franklin
+
 Public Sans is a fork of the SIL Open Licensed face Libre Franklin. Public Sans has many similarities with its parent, but differs enough in its particulars that its effect is distinct.
 
 ![sample text](https://raw.githubusercontent.com/uswds/public-sans/master/site/examples/public-sans-featured-images/public-overlay-libre-franklin.png)
@@ -55,6 +59,7 @@ Public Sans is a fork of the SIL Open Licensed face Libre Franklin. Public Sans 
 Overall, Public Sans differs from Libre Franklin in its focus on longform reading and neutral UI applicability. It takes inspiration from geometric sans faces of the 20th century, as well as the original Franklins of the 19th, resulting in something of a mongrel face that retains its American origin.
 
 ## Public Sans and comparable sans-serif faces
+
 Public Sans is designed to be a progressive enhancement webfont, and to work well with Apple and Google system fonts as the base in its font stack. It's designed to have metrics most similar to SF Pro Text (the Apple system font) and to fall somewhere between SF Pro Text and Roboto (the Google system font) in its overall size and appearance. If a user's machine does not display webfonts, sites designed with Public Sans should appear close to the designer's intention.
 
 Public Sans is a good option for sites that currently use Open Sans, Tahoma, Libre Franklin, Arial, or Helvetica.
@@ -72,8 +77,11 @@ Public Sans is a good option for sites that currently use Open Sans, Tahoma, Lib
 ## Additional features
 
 ##### Tabular figures (monospaced numerals)
+
 ![squared](https://raw.githubusercontent.com/uswds/public-sans/master/site/examples/public-sans-featured-images/public-numerals.png)
 
 ## License
-- Public Sans is licensed under the SIL Open Font License v1.1 (https://opensource.org/licenses/OFL-1.1)
-- To view the copyright and specific terms and conditions please refer to ofl.txt
+
+Public Sans is licensed under the [SIL Open Font License, Version 1.1](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL_web)
+
+License of USWDS’s Modified Version is based on the [Libre Franklin SIL Open Font License, Version 1.1](https://github.com/uswds/public-sans/blob/master/LICENSE.md#libre-franklin-sil-open-font-license-11) section of [LICENSE.md](https://github.com/uswds/public-sans/blob/master/LICENSE.md). The terms and conditions for modifications made to the original font by USWDS in the USWDS Modified Version can be found at https://github.com/uswds/public-sans/blob/master/LICENSE.md.
