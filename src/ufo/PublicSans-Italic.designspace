@@ -1,0 +1,281 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.0">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="100" maximum="900" default="100">
+      <map input="100" output="100"/>
+      <map input="200" output="220"/>
+      <map input="300" output="300"/>
+      <map input="400" output="375"/>
+      <map input="500" output="450"/>
+      <map input="600" output="525"/>
+      <map input="700" output="650"/>
+      <map input="800" output="775"/>
+      <map input="900" output="900"/>
+    </axis>
+  </axes>
+  <sources>
+    <source filename="PublicSans-ThinItalic.ufo" name="Public Sans Thin Italic" familyname="Public Sans" stylename="Thin Italic">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="PublicSans-BlackItalic.ufo" name="Public Sans Black Italic" familyname="Public Sans" stylename="Black Italic">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="Public Sans Thin Italic" familyname="Public Sans" stylename="Thin Italic" filename="../instance_ufo/PublicSans-ThinItalic.ufo" stylemapfamilyname="Public Sans Thin" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>openTypeNameCompatibleFullName</string>
+              <string>Public Sans Thin Italic</string>
+            </array>
+            <array>
+              <string>openTypeNamePreferredSubfamilyName</string>
+              <string>Thin Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Public Sans ExtraLight Italic" familyname="Public Sans" stylename="ExtraLight Italic" filename="../instance_ufo/PublicSans-ExtraLightItalic.ufo" stylemapfamilyname="Public Sans ExtraLight" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="220"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>openTypeNameCompatibleFullName</string>
+              <string>Public Sans ExtraLight Italic</string>
+            </array>
+            <array>
+              <string>openTypeNamePreferredSubfamilyName</string>
+              <string>ExtraLight Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Public Sans Light Italic" familyname="Public Sans" stylename="Light Italic" filename="../instance_ufo/PublicSans-LightItalic.ufo" stylemapfamilyname="Public Sans Light" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="300"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>openTypeNameCompatibleFullName</string>
+              <string>Public Sans Light Italic</string>
+            </array>
+            <array>
+              <string>openTypeNamePreferredSubfamilyName</string>
+              <string>Light Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Public Sans Italic" familyname="Public Sans" stylename="Italic" filename="../instance_ufo/PublicSans-Italic.ufo" stylemapfamilyname="Public Sans" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="375"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>openTypeNameCompatibleFullName</string>
+              <string>Public Sans Italic</string>
+            </array>
+            <array>
+              <string>openTypeNamePreferredSubfamilyName</string>
+              <string>Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Public Sans Medium Italic" familyname="Public Sans" stylename="Medium Italic" filename="../instance_ufo/PublicSans-MediumItalic.ufo" stylemapfamilyname="Public Sans Medium" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="450"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>openTypeNameCompatibleFullName</string>
+              <string>Public Sans Medium Italic</string>
+            </array>
+            <array>
+              <string>openTypeNamePreferredSubfamilyName</string>
+              <string>Medium Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Public Sans SemiBold Italic" familyname="Public Sans" stylename="SemiBold Italic" filename="../instance_ufo/PublicSans-SemiBoldItalic.ufo" stylemapfamilyname="Public Sans SemiBold" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="525"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>openTypeNameCompatibleFullName</string>
+              <string>Public Sans SemiBold Italic</string>
+            </array>
+            <array>
+              <string>openTypeNamePreferredSubfamilyName</string>
+              <string>SemiBold Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Public Sans Bold Italic" familyname="Public Sans" stylename="Bold Italic" filename="../instance_ufo/PublicSans-BoldItalic.ufo" stylemapfamilyname="Public Sans" stylemapstylename="bold italic">
+      <location>
+        <dimension name="Weight" xvalue="650"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>openTypeNameCompatibleFullName</string>
+              <string>Public Sans Bold Italic</string>
+            </array>
+            <array>
+              <string>openTypeNamePreferredSubfamilyName</string>
+              <string>Bold Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Public Sans ExtraBold Italic" familyname="Public Sans" stylename="ExtraBold Italic" filename="../instance_ufo/PublicSans-ExtraBoldItalic.ufo" stylemapfamilyname="Public Sans ExtraBold" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="775"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>openTypeNameCompatibleFullName</string>
+              <string>Public Sans ExtraBold Italic</string>
+            </array>
+            <array>
+              <string>openTypeNamePreferredSubfamilyName</string>
+              <string>ExtraBold Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Public Sans Black Italic" familyname="Public Sans" stylename="Black Italic" filename="../instance_ufo/PublicSans-BlackItalic.ufo" stylemapfamilyname="Public Sans Black" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>openTypeNameCompatibleFullName</string>
+              <string>Public Sans Black Italic</string>
+            </array>
+            <array>
+              <string>openTypeNamePreferredSubfamilyName</string>
+              <string>Black Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+  </instances>
+  <lib>
+    <dict>
+      <key>GSDimensionPlugin.Dimensions</key>
+      <dict>
+        <key>258ED206-D907-4350-8EBA-CBDDA1C16BF7</key>
+        <dict>
+          <key>HH</key>
+          <integer>172</integer>
+          <key>HV</key>
+          <integer>227</integer>
+          <key>OH</key>
+          <integer>154</integer>
+          <key>OV</key>
+          <integer>238</integer>
+          <key>nV</key>
+          <integer>200</integer>
+          <key>nd</key>
+          <integer>141</integer>
+          <key>oH</key>
+          <integer>128</integer>
+          <key>oV</key>
+          <integer>202</integer>
+          <key>tH</key>
+          <integer>135</integer>
+        </dict>
+        <key>91AB5BCA-6A50-42DA-B2F7-8181BF189245</key>
+        <dict>
+          <key>HH</key>
+          <integer>40</integer>
+          <key>HV</key>
+          <integer>46</integer>
+          <key>OH</key>
+          <integer>42</integer>
+          <key>OV</key>
+          <integer>48</integer>
+          <key>nV</key>
+          <integer>40</integer>
+          <key>nd</key>
+          <integer>38</integer>
+          <key>oH</key>
+          <integer>38</integer>
+          <key>oV</key>
+          <integer>42</integer>
+          <key>tH</key>
+          <integer>35</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</designspace>

@@ -11,38 +11,47 @@ thisFont="Public-Sans" # must match the name in the font file, e.g. FiraCode-VF.
 source env/bin/activate
 set -e
 
-cd source
+cd src/glyphs
+
+rm -rf ../ufo/
 
 echo "Generating TTF binaries"
-mkdir -p ../fonts/webfonts
-fontmake -g $thisFont.glyphs -i -o ttf --output-dir ../fonts/webfonts/
-fontmake -g $thisFont-italics.glyphs -i -o ttf --output-dir ../fonts/webfonts/
+mkdir -p ../../binaries/webfonts
+fontmake -g $thisFont.glyphs -i -o ttf --output-dir ../../binaries/webfonts/
+fontmake -g $thisFont-italics.glyphs -i -o ttf --output-dir ../../binaries/webfonts/
+
+echo "Generating OTF binaries"
+mkdir -p ../../binaries/otf
+fontmake -g $thisFont.glyphs -i -o otf --output-dir ../../binaries/otf/
+fontmake -g $thisFont-italics.glyphs -i -o otf --output-dir ../../binaries/otf/
 
 echo "Generating Variable Fonts"
-mkdir -p ../fonts/variable
-fontmake -g $thisFont.glyphs -o variable --output-path ../fonts/variable/$thisFont-Roman-VF.ttf
-fontmake -g $thisFont-italics.glyphs -o variable --output-path ../fonts/variable/$thisFont-Italic-VF.ttf
+mkdir -p ../../binaries/variable
+fontmake -g $thisFont.glyphs -o variable --output-path ../../binaries/variable/$thisFont-Roman-VF.ttf
+fontmake -g $thisFont-italics.glyphs -o variable --output-path ../../binaries/variable/$thisFont-Italic-VF.ttf
 
-rm -rf master_ufo/ instance_ufo/
+echo "Replacing old UFOs"
+rm -rf instance_ufo/
+mv master_ufo/ ../ufo
 
 echo "Post processing"
 
-ttfs=$(ls ../fonts/webfonts/*.ttf)
+ttfs=$(ls ../../binaries/webfonts/*.ttf)
 echo $ttfs
 for ttf in $ttfs
 do
 	gftools fix-dsig --autofix $ttf;
 	gftools fix-nonhinting $ttf $ttf;
 done
-rm ../fonts/webfonts/*backup*.ttf
+rm ../../binaries/webfonts/*backup*.ttf
 
-vfs=$(ls ../fonts/variable/*.ttf)
+vfs=$(ls ../../binaries/variable/*.ttf)
 for vf in $vfs
 do
 	gftools fix-dsig --autofix $vf;
 	gftools fix-nonhinting $vf $vf
 done
-rm ../fonts/variable/*backup*.ttf
+rm ../../binaries/variable/*backup*.ttf
 
 gftools fix-vf-meta $vfs;
 for vf in $vfs
@@ -50,12 +59,12 @@ do
 	mv "$vf.fix" $vf;
 done
 
-cd ..
+cd ../..
 
 # ============================================================================
 # Autohinting ================================================================
 
-statics=$(ls fonts/webfonts/*.ttf)
+statics=$(ls binaries/webfonts/*.ttf)
 echo hello
 for file in $statics; do
     echo "fix DSIG in " ${file}
@@ -67,6 +76,10 @@ for file in $statics; do
     ttfautohint -I ${file} ${hintedFile}
     cp ${hintedFile} ${file}
     rm -rf ${hintedFile}
+
+    echo "fix hinting in " ${file}
+    gftools fix-hinting ${file}
+	  mv "$file.fix" $file;
 done
 
 
@@ -75,7 +88,7 @@ done
 
 # requires https://github.com/bramstein/homebrew-webfonttools
 
-ttfs=$(ls fonts/webfonts/*.ttf)
+ttfs=$(ls binaries/webfonts/*.ttf)
 for ttf in $ttfs; do
     woff2_compress $ttf
     sfnt2woff-zopfli $ttf

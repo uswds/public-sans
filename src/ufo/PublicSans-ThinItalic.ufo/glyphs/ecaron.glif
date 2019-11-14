@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ecaron" format="2">
+  <advance width="1050"/>
+  <unicode hex="011B"/>
+  <anchor x="471" y="0" name="bottom"/>
+  <anchor x="574" y="36" name="ogonek"/>
+  <anchor x="609" y="1034" name="top"/>
+  <outline>
+    <component base="e"/>
+    <component base="caroncomb" xOffset="286"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/13 23:25:26</string>
+    </dict>
+  </lib>
+</glyph>

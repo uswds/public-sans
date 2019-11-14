@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="adblgrave" format="2">
+  <advance width="1307"/>
+  <unicode hex="0201"/>
+  <anchor x="651" y="0" name="bottom"/>
+  <anchor x="1065" y="20" name="ogonek"/>
+  <anchor x="811" y="1034" name="top"/>
+  <outline>
+    <component base="a" xOffset="142"/>
+    <component base="dblgravecomb" xOffset="45"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>a</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/06/12 20:14:24</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

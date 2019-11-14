@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uhungarumlaut" format="2">
+  <advance width="1141"/>
+  <unicode hex="0171"/>
+  <anchor x="522" y="0" name="bottom"/>
+  <anchor x="1074" y="714" name="horn"/>
+  <anchor x="973" y="20" name="ogonek"/>
+  <anchor x="677" y="1034" name="top"/>
+  <outline>
+    <component base="u"/>
+    <component base="hungarumlautcomb" xOffset="266"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/06/12 20:13:09</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>
