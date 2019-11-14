@@ -19,19 +19,15 @@ value = (
 },
 {
 name = licenseURL;
-value = "http://scripts.sil.org/OFL";
+value = "SIL Open Font License, Version 1.1: https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL_web; USWDS Modified Version: https://github.com/uswds/public-sans/blob/master/LICENSE.md";
 },
 {
 name = license;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL. \012\012The license for USWDS’s Modified Version, covering USWDS’s modifications to Public Sans, is available at https://github.com/uswds/public-sans/blob/master/LICENSE.md.";
 },
 {
 name = description;
 value = "Public Sans is based on Libre Franklin, which is a reinterpretation and expansion of the 1912 Morris Fuller Benton’s classic.";
-},
-{
-name = note;
-value = "Based on Libre Franklin";
 },
 {
 name = Axes;
@@ -49,7 +45,7 @@ value = 1;
 );
 date = "2019-11-13 15:55:24 +0000";
 designer = "The Public Sans project authors (U.S. Web Design System). Libre Franklin designed by Pablo Impallari and Rodrigo Fuenzalida.";
-designerURL = "https://designsystem.digital.gov";
+designerURL = "https://designsystem.digital.gov and http://www.impallari.com";
 familyName = "Public Sans";
 featurePrefixes = (
 {
