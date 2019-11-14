@@ -14,6 +14,58 @@ To contribute to Public Sans please read [CONTRIBUTING.md](https://github.com/us
 
 See [the Public Sans releases page](https://github.com/uswds/public-sans/releases) for more details about changes to the typeface.
 
+November 13 2019 (USWDS) Public Sans v1.007
+- https://github.com/uswds/public-sans/releases/tag/v1.007
+
+General
+- Rewrite type test to better test unusual combinations
+- Remove AFM files for simplicity
+- Rename `fonts` to `binaries`
+- Keep UFOs and designspace files in `src`
+- Move Glyphs files to `src/glyphs`
+- Update test strings
+- Add Google Analytics code to site
+- Update dependencies
+- Remediate package vulnerabilities in `gulp-notify`
+- Normalized sidebearings to multiples of 5
+- Used sidebearing groups more consistently
+- Update and clarify Public Sans license
+
+Metadata
+- Update description
+- Remove trademark metadata
+- Update copyright and designer information
+
+Metrics changes
+- Changed ascender height to 1900
+
+| Parameter | v1.006 | v1.007
+| --- | --- | ---
+| Ascender | 2000 | 1900
+| typoAscender | 2000 | 1900
+| hheaAscender | 2000 | 1900
+
+Kerning and spacing
+- Improve `Æ` spacing
+- Improve kerning of the following: `s`|`s`, `t`|`t`, `g`|`g`, `r`|`g`, `E`|`t`, `V`|[`a`,`e`], `R`|`e`, 'P'|'e'
+- Fix spacing around U
+- Set width of the colonsign.tf to 1400
+- Use 600 width for tf punctuation
+- Rebalance roman tabular figures
+- Use components for .tf numbers and rebalance
+
+Glyphs
+- Widen `H`
+- Redraw `Þ`
+- Add and synchronize italic tabular figs
+- Add currency to tabular figures
+- Align diacritics
+- Fix faulty dot accents
+- Fix italic `i`
+- Square terminals and regularize shapes in `s`,`e`,`c`
+- Update italic `æ` and `Æ`
+- Update italic `œ` and `Œ`
+
 July 17 2019 (USWDS) Public Sans v1.006
 - https://github.com/uswds/public-sans/releases/tag/v1.006
 - Adds a new python-based build script for generating webfonts and variable fonts. Use /.build.sh from the project directory. Based on https://github.com/thundernixon/googlefonts-qa-template/blob/master/sources/build.sh
