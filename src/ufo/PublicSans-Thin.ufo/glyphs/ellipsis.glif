@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ellipsis" format="2">
-  <advance width="1292"/>
+  <advance width="1281"/>
   <unicode hex="2026"/>
   <outline>
     <component base="period" xOffset="920"/>
@@ -9,8 +9,12 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>period</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>period</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/06/10 22:50:31</string>
+      <string>2019/11/12 21:50:32</string>
     </dict>
   </lib>
 </glyph>
