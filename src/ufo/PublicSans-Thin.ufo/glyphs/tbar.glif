@@ -1,25 +1,25 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tbar" format="2">
-  <advance width="726"/>
+  <advance width="706"/>
   <unicode hex="0167"/>
-  <anchor x="521" y="0" name="bottom"/>
-  <anchor x="649" y="1446" name="caron"/>
-  <anchor x="463" y="620" name="center"/>
+  <anchor x="481" y="0" name="bottom"/>
+  <anchor x="609" y="1446" name="caron"/>
+  <anchor x="423" y="620" name="center"/>
   <outline>
     <contour>
-      <point x="602" y="614" type="line"/>
-      <point x="155" y="614" type="line"/>
-      <point x="155" y="546" type="line"/>
-      <point x="602" y="546" type="line"/>
+      <point x="582" y="614" type="line"/>
+      <point x="135" y="614" type="line"/>
+      <point x="135" y="546" type="line"/>
+      <point x="582" y="546" type="line"/>
     </contour>
-    <component base="t" xOffset="58"/>
+    <component base="t" xOffset="38"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>=t+10</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/06/12 19:41:16</string>
+      <string>2020/01/08 05:45:34</string>
     </dict>
   </lib>
 </glyph>
