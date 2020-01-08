@@ -32,7 +32,7 @@
     "uswds-copy-js": "gulp copy-uswds-js",
     "uswds-copy-theme": "gulp copy-uswds-setup",
     "watch": "gulp watch",
-    "test": "fontbakery check-googlefonts binaries/webfonts/*.ttf"
+    "test": "fontbakery check-googlefonts --json report.json binaries/webfonts/*.ttf"
   },
   "devDependencies": {
     "autoprefixer": "^9.7.1",
