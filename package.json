@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/uswds/public-sans#readme",
   "scripts": {
+    "build": "./build.sh",
     "copy-webfonts": "gulp copy-webfonts",
     "federalist": "npm install && npm install gulp-cli -g && npm run uswds-copy-assets && npm run copy-webfonts && npm run uswds-build-sass",
     "jekyll-install": "gem install bundler && bundle install",
@@ -31,7 +32,7 @@
     "uswds-copy-js": "gulp copy-uswds-js",
     "uswds-copy-theme": "gulp copy-uswds-setup",
     "watch": "gulp watch",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "fontbakery check-googlefonts --json report.json binaries/webfonts/*.ttf"
   },
   "devDependencies": {
     "autoprefixer": "^9.7.1",
