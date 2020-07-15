@@ -1,8 +1,5 @@
 {
 .appVersion = "1342";
-DisplayStrings = (
-"/fi/fl"
-);
 classes = (
 {
 code = "";
@@ -277,6 +274,11 @@ value = 140;
 }
 );
 descender = -450;
+guideLines = (
+{
+position = "{698, 1419}";
+}
+);
 horizontalStems = (
 312,
 332
@@ -37301,7 +37303,7 @@ unicode = 20BA;
 {
 color = 3;
 glyphname = naira;
-lastChange = "2020-07-15 11:12:11 +0000";
+lastChange = "2020-07-15 14:45:21 +0000";
 layers = (
 {
 background = {
@@ -37369,8 +37371,8 @@ closed = 1;
 nodes = (
 "20 1064 LINE",
 "20 888 LINE",
-"1600 888 LINE",
-"1600 1064 LINE"
+"1770 888 LINE",
+"1770 1064 LINE"
 );
 },
 {
@@ -37378,12 +37380,12 @@ closed = 1;
 nodes = (
 "20 596 LINE",
 "20 420 LINE",
-"1600 420 LINE",
-"1600 596 LINE"
+"1770 420 LINE",
+"1770 596 LINE"
 );
 }
 );
-width = 1640;
+width = 1790;
 },
 {
 components = (
@@ -49177,7 +49179,7 @@ width = 280;
 {
 color = 6;
 glyphname = brevecomb_acutecomb;
-lastChange = "2020-07-15 11:54:49 +0000";
+lastChange = "2020-07-15 14:41:45 +0000";
 layers = (
 {
 anchors = (
@@ -49396,7 +49398,7 @@ rightMetricsKey = brevecomb;
 {
 color = 6;
 glyphname = brevecomb_hookabovecomb;
-lastChange = "2020-07-15 11:54:49 +0000";
+lastChange = "2020-07-15 14:44:43 +0000";
 layers = (
 {
 anchors = (
@@ -49626,7 +49628,7 @@ rightMetricsKey = brevecomb;
 {
 color = 6;
 glyphname = circumflexcomb_acutecomb;
-lastChange = "2020-07-15 11:54:49 +0000";
+lastChange = "2020-07-15 14:41:41 +0000";
 layers = (
 {
 anchors = (
