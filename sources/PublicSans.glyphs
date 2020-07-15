@@ -15528,122 +15528,38 @@ rightKerningGroup = g;
 unicode = 011D;
 },
 {
-color = 3;
 glyphname = gcommaaccent;
-lastChange = "2020-07-15 11:12:11 +0000";
+lastChange = "2020-07-15 11:49:57 +0000";
 layers = (
 {
-anchors = (
-{
-name = _top;
-position = "{554, 1072}";
-}
-);
-background = {
-anchors = (
-{
-name = _top;
-position = "{530, 1100}";
-}
-);
 components = (
 {
 name = g;
-transform = "{1, 0, 0, 1, -38, 0}";
-}
-);
-paths = (
+},
 {
-closed = 1;
-nodes = (
-"624 1198 LINE SMOOTH",
-"644 1198 OFFCURVE",
-"660 1210 OFFCURVE",
-"660 1238 CURVE SMOOTH",
-"660 1360 LINE SMOOTH",
-"660 1392 OFFCURVE",
-"648 1404 OFFCURVE",
-"614 1404 CURVE SMOOTH",
-"596 1404 LINE SMOOTH",
-"568 1404 OFFCURVE",
-"556 1434 OFFCURVE",
-"578 1462 CURVE SMOOTH",
-"644 1552 LINE SMOOTH",
-"656 1568 OFFCURVE",
-"642 1592 OFFCURVE",
-"620 1592 CURVE SMOOTH",
-"584 1592 LINE SMOOTH",
-"548 1592 OFFCURVE",
-"534 1586 OFFCURVE",
-"518 1564 CURVE SMOOTH",
-"410 1430 LINE SMOOTH",
-"408 1424 OFFCURVE",
-"402 1414 OFFCURVE",
-"402 1404 CURVE SMOOTH",
-"402 1230 LINE SMOOTH",
-"402 1210 OFFCURVE",
-"414 1198 OFFCURVE",
-"436 1198 CURVE SMOOTH"
-);
-}
-);
-};
-components = (
-{
-name = g;
+name = commaturnedabovecomb;
+transform = "{1, 0, 0, 1, 356, 0}";
 }
 );
 layerId = "258ED206-D907-4350-8EBA-CBDDA1C16BF7";
-paths = (
-{
-closed = 1;
-nodes = (
-"680 1168 LINE",
-"680 1368 LINE",
-"558 1368 LINE",
-"694 1552 LINE",
-"562 1552 LINE",
-"428 1384 LINE",
-"428 1168 LINE"
-);
-}
-);
 width = 1268;
 },
 {
-anchors = (
-{
-name = _top;
-position = "{558, 1072}";
-}
-);
 components = (
 {
 name = g;
+},
+{
+name = commaturnedabovecomb;
+transform = "{1, 0, 0, 1, 404, 0}";
 }
 );
 layerId = "91AB5BCA-6A50-42DA-B2F7-8181BF189245";
-paths = (
-{
-closed = 1;
-nodes = (
-"608 1232 LINE",
-"608 1394 LINE",
-"562 1394 LINE",
-"626 1532 LINE",
-"564 1532 LINE",
-"496 1402 LINE",
-"496 1232 LINE"
-);
-}
-);
 width = 1233;
 }
 );
 leftKerningGroup = g;
-leftMetricsKey = g;
 rightKerningGroup = g;
-rightMetricsKey = g;
 unicode = 0123;
 },
 {
@@ -47493,6 +47409,62 @@ width = 520;
 }
 );
 unicode = 0311;
+},
+{
+color = 6;
+glyphname = commaturnedabovecomb;
+lastChange = "2020-07-15 11:48:52 +0000";
+layers = (
+{
+anchors = (
+{
+name = _top;
+position = "{188, 1034}";
+}
+);
+layerId = "91AB5BCA-6A50-42DA-B2F7-8181BF189245";
+paths = (
+{
+closed = 1;
+nodes = (
+"242 1155 LINE",
+"242 1317 LINE",
+"196 1317 LINE",
+"260 1455 LINE",
+"198 1455 LINE",
+"130 1325 LINE",
+"130 1155 LINE"
+);
+}
+);
+width = 366;
+},
+{
+anchors = (
+{
+name = _top;
+position = "{260, 1034}";
+}
+);
+layerId = "258ED206-D907-4350-8EBA-CBDDA1C16BF7";
+paths = (
+{
+closed = 1;
+nodes = (
+"410 1155 LINE",
+"410 1373 LINE",
+"314 1387 LINE",
+"414 1559 LINE",
+"286 1559 LINE",
+"106 1335 LINE",
+"106 1155 LINE"
+);
+}
+);
+width = 574;
+}
+);
+unicode = 0312;
 },
 {
 color = 6;
