@@ -8724,40 +8724,9 @@ unicode = 0054;
 {
 color = 3;
 glyphname = Tbar;
-lastChange = "2020-07-15 11:12:11 +0000";
+lastChange = "2020-07-15 11:46:29 +0000";
 layers = (
 {
-background = {
-components = (
-{
-name = T;
-transform = "{1, 0, 0, 1, -22, 0}";
-}
-);
-paths = (
-{
-closed = 1;
-nodes = (
-"1064 828 OFFCURVE",
-"1050 844 OFFCURVE",
-"1028 844 CURVE SMOOTH",
-"226 844 LINE SMOOTH",
-"202 844 OFFCURVE",
-"188 828 OFFCURVE",
-"188 798 CURVE SMOOTH",
-"188 612 LINE SMOOTH",
-"188 578 OFFCURVE",
-"200 562 OFFCURVE",
-"240 562 CURVE SMOOTH",
-"998 562 LINE SMOOTH",
-"1044 562 OFFCURVE",
-"1064 578 OFFCURVE",
-"1064 618 CURVE SMOOTH",
-"1064 804 LINE SMOOTH"
-);
-}
-);
-};
 components = (
 {
 name = T;
@@ -21816,44 +21785,18 @@ unicode = 0074;
 {
 color = 3;
 glyphname = tbar;
-lastChange = "2020-07-15 11:12:11 +0000";
+lastChange = "2020-07-15 11:46:25 +0000";
 layers = (
 {
-background = {
+anchors = (
+{
+name = _center;
+position = "{434, 516}";
+}
+);
 components = (
 {
 name = t;
-transform = "{1, 0, 0, 1, -63, 0}";
-}
-);
-paths = (
-{
-closed = 1;
-nodes = (
-"746 662 OFFCURVE",
-"734 676 OFFCURVE",
-"714 676 CURVE SMOOTH",
-"36 676 LINE SMOOTH",
-"17 676 OFFCURVE",
-"4 662 OFFCURVE",
-"4 636 CURVE SMOOTH",
-"4 506 LINE SMOOTH",
-"4 476 OFFCURVE",
-"15 462 OFFCURVE",
-"48 462 CURVE SMOOTH",
-"689 462 LINE SMOOTH",
-"729 462 OFFCURVE",
-"746 476 OFFCURVE",
-"746 510 CURVE SMOOTH",
-"746 640 LINE SMOOTH"
-);
-}
-);
-};
-components = (
-{
-name = t;
-transform = "{1, 0, 0, 1, 21, 0}";
 }
 );
 layerId = "258ED206-D907-4350-8EBA-CBDDA1C16BF7";
@@ -21861,20 +21804,31 @@ paths = (
 {
 closed = 1;
 nodes = (
-"40 660 LINE",
-"40 450 LINE",
-"765 450 LINE",
-"765 660 LINE"
+"58 660 LINE",
+"58 450 LINE",
+"783 450 LINE",
+"783 660 LINE"
 );
 }
 );
-width = 940;
+width = 882;
 },
 {
+anchors = (
+{
+name = _center;
+position = "{365, 620}";
+}
+);
 components = (
 {
 name = t;
-transform = "{1, 0, 0, 1, 38, 0}";
+}
+);
+guideLines = (
+{
+angle = 90;
+position = "{126, 748}";
 }
 );
 layerId = "91AB5BCA-6A50-42DA-B2F7-8181BF189245";
@@ -21882,18 +21836,18 @@ paths = (
 {
 closed = 1;
 nodes = (
-"135 614 LINE",
-"135 546 LINE",
-"582 546 LINE",
-"582 614 LINE"
+"125 654 LINE",
+"125 586 LINE",
+"608 586 LINE",
+"608 654 LINE"
 );
 }
 );
-width = 706;
+width = 724;
 }
 );
 leftKerningGroup = t;
-leftMetricsKey = "=t+10";
+leftMetricsKey = t;
 rightKerningGroup = t;
 unicode = 0167;
 },
