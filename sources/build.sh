@@ -1,95 +1,106 @@
 #!/bin/sh
 
-# -------------------------------------------------------------------
-# UPDATE THIS VARIABLE ----------------------------------------------
+#===========================================================================
+#Update this variable ==========================================================
 
-thisFont="Public-Sans" # must match the name in the font file, e.g. FiraCode-VF.ttf needs the variable "FiraCode"
+thisFont="PublicSans"  #must match the name in the font file
 
-# -------------------------------------------------------------------
-# Update the following as needed ------------------------------------
+#===========================================================================
+#Generating fonts ==========================================================
 
 source env/bin/activate
 set -e
 
-cd src/glyphs
+#echo "CLEAN FONTS FOLDERS"
+#rm -rf ./fonts/ttf/ ./fonts/otf/ ./fonts/variable/ ./fonts/webfonts/
 
-rm -rf ../ufo/
+echo ".
+GENERATING STATIC TTF
+."
+mkdir -p ./fonts/ttf
+fontmake -g ./sources/$thisFont.glyphs -i -o ttf --output-dir ./fonts/ttf/
+fontmake -g ./sources/$thisFont-italics.glyphs -i -o ttf --output-dir ./fonts/ttf/
 
-echo "Generating TTF binaries"
-mkdir -p ../../binaries/webfonts
-fontmake -g $thisFont.glyphs -i -o ttf --output-dir ../../binaries/webfonts/
-fontmake -g $thisFont-italics.glyphs -i -o ttf --output-dir ../../binaries/webfonts/
+echo ".
+GENERATING STATIC OTF
+."
+mkdir -p ./fonts/otf
+fontmake -g ./sources/$thisFont.glyphs -i -o otf --output-dir ./fonts/otf/
+fontmake -g ./sources/$thisFont-italics.glyphs -i -o otf --output-dir ./fonts/otf/
 
-echo "Generating OTF binaries"
-mkdir -p ../../binaries/otf
-fontmake -g $thisFont.glyphs -i -o otf --output-dir ../../binaries/otf/
-fontmake -g $thisFont-italics.glyphs -i -o otf --output-dir ../../binaries/otf/
+echo ".
+GENERATING VARIABLE FONTS
+."
+mkdir -p ./fonts/variable
+fontmake -g ./sources/$thisFont.glyphs -o variable --output-path ./fonts/variable/$thisFont\[wght\].ttf
+fontmake -g ./sources/$thisFont-italics.glyphs -o variable --output-path ./fonts/variable/$thisFont-Italic\[wght\].ttf
 
-echo "Generating Variable Fonts"
-mkdir -p ../../binaries/variable
-fontmake -g $thisFont.glyphs -o variable --output-path ../../binaries/variable/$thisFont-Roman-VF.ttf
-fontmake -g $thisFont-italics.glyphs -o variable --output-path ../../binaries/variable/$thisFont-Italic-VF.ttf
+#============================================================================
+#Post-processing fonts ======================================================
 
-echo "Replacing old UFOs"
-rm -rf instance_ufo/
-mv master_ufo/ ../ufo
-
-echo "Post processing"
-
-ttfs=$(ls ../../binaries/webfonts/*.ttf)
+echo ".
+POST-PROCESSING TTF
+."
+ttfs=$(ls ./fonts/ttf/*.ttf)
 echo $ttfs
 for ttf in $ttfs
 do
-	gftools fix-dsig --autofix $ttf;
-	gftools fix-nonhinting $ttf $ttf;
+	gftools fix-dsig --autofix $ttf
+	ttfautohint $ttf $ttf.fix
+	[ -f $ttf.fix ] && mv $ttf.fix $ttf
+	gftools fix-hinting $ttf
+	[ -f $ttf.fix ] && mv $ttf.fix $ttf
 done
-rm ../../binaries/webfonts/*backup*.ttf
 
-vfs=$(ls ../../binaries/variable/*.ttf)
+echo ".
+POST-PROCESSING OTF
+."
+otfs=$(ls ./fonts/otf/*.otf)
+for otf in $otfs
+do
+	gftools fix-dsig -f $otf
+done
+
+echo ".
+POST-PROCESSING VF
+."
+vfs=$(ls ./fonts/variable/*.ttf)
 for vf in $vfs
 do
-	gftools fix-dsig --autofix $vf;
-	gftools fix-nonhinting $vf $vf
+	gftools fix-dsig --autofix $vf
+	gftools fix-nonhinting $vf $vf.fix
+	mv $vf.fix $vf
+	gftools fix-unwanted-tables --tables MVAR $vf
+	gftools fix-vf-meta $vf
+	mv $vf.fix $vf
+	rm ./fonts/variable/*gasp*
 done
-rm ../../binaries/variable/*backup*.ttf
 
-gftools fix-vf-meta $vfs;
-for vf in $vfs
+
+#============================================================================
+#Build woff and woff2 fonts =================================================
+#requires https://github.com/bramstein/homebrew-webfonttools
+
+echo ".
+BUILD WEBFONTS
+."
+mkdir -p ./fonts/webfonts
+
+ttfs=$(ls ./fonts/ttf/*.ttf)
+for ttf in $ttfs
 do
-	mv "$vf.fix" $vf;
+  woff2_compress $ttf
+  sfnt2woff-zopfli $ttf
 done
 
-cd ../..
-
-# ============================================================================
-# Autohinting ================================================================
-
-statics=$(ls binaries/webfonts/*.ttf)
-echo hello
-for file in $statics; do
-    echo "fix DSIG in " ${file}
-    gftools fix-dsig --autofix ${file}
-
-    echo "TTFautohint " ${file}
-    # autohint with detailed info
-    hintedFile=${file/".ttf"/"-hinted.ttf"}
-    ttfautohint -I ${file} ${hintedFile}
-    cp ${hintedFile} ${file}
-    rm -rf ${hintedFile}
-
-    echo "fix hinting in " ${file}
-    gftools fix-hinting ${file}
-	  mv "$file.fix" $file;
+woffs=$(ls ./fonts/ttf/*.woff*)
+for woff in $woffs
+do
+	mv $woff ./fonts/webfonts/
 done
 
+rm -rf master_ufo/ instance_ufo/
 
-# ============================================================================
-# Build woff and woff2 fonts ==========================================================
-
-# requires https://github.com/bramstein/homebrew-webfonttools
-
-ttfs=$(ls binaries/webfonts/*.ttf)
-for ttf in $ttfs; do
-    woff2_compress $ttf
-    sfnt2woff-zopfli $ttf
-done
+echo ".
+COMPLETE!
+."
