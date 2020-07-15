@@ -1,5 +1,8 @@
 {
 .appVersion = "1342";
+DisplayStrings = (
+"/fi/fl"
+);
 copyright = "Copyright (c) 2015, Impallari Type (www.impallari.com)";
 customParameters = (
 {
@@ -25400,9 +25403,15 @@ rightKerningGroup = u;
 },
 {
 glyphname = fi;
-lastChange = "2020-07-15 12:54:04 +0000";
+lastChange = "2020-07-15 14:40:04 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{683, 0}";
+}
+);
 background = {
 components = (
 {
@@ -25427,6 +25436,12 @@ layerId = "258ED206-D907-4350-8EBA-CBDDA1C16BF7";
 width = 1366;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{596, 0}";
+}
+);
 components = (
 {
 name = f;
@@ -25448,9 +25463,15 @@ unicode = FB01;
 },
 {
 glyphname = fl;
-lastChange = "2020-07-15 11:07:06 +0000";
+lastChange = "2020-07-15 14:40:02 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{748, 0}";
+}
+);
 background = {
 components = (
 {
@@ -25475,6 +25496,12 @@ layerId = "258ED206-D907-4350-8EBA-CBDDA1C16BF7";
 width = 1496;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{639.5, 0}";
+}
+);
 components = (
 {
 name = f;

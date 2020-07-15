@@ -1,5 +1,8 @@
 {
 .appVersion = "1342";
+DisplayStrings = (
+"/fi/fl"
+);
 classes = (
 {
 code = "";
@@ -24728,9 +24731,15 @@ rightKerningGroup = u;
 },
 {
 glyphname = fi;
-lastChange = "2020-07-15 11:07:11 +0000";
+lastChange = "2020-07-15 14:39:48 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{682, 0}";
+}
+);
 background = {
 components = (
 {
@@ -24755,6 +24764,12 @@ layerId = "258ED206-D907-4350-8EBA-CBDDA1C16BF7";
 width = 1364;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{623, 0}";
+}
+);
 components = (
 {
 name = f;
@@ -24776,9 +24791,15 @@ unicode = FB01;
 },
 {
 glyphname = fl;
-lastChange = "2020-07-15 11:07:11 +0000";
+lastChange = "2020-07-15 14:39:46 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{749.5, 0}";
+}
+);
 background = {
 components = (
 {
@@ -24803,6 +24824,12 @@ layerId = "258ED206-D907-4350-8EBA-CBDDA1C16BF7";
 width = 1499;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{672.5, 0}";
+}
+);
 components = (
 {
 name = f;
