@@ -1,8 +1,5 @@
 {
 .appVersion = "1342";
-DisplayStrings = (
-"æ"
-);
 classes = (
 {
 code = "";
@@ -4951,7 +4948,7 @@ unicode = 0136;
 {
 color = 6;
 glyphname = L;
-lastChange = "2020-07-15 11:07:49 +0000";
+lastChange = "2020-07-15 14:36:43 +0000";
 layers = (
 {
 anchors = (
@@ -4961,7 +4958,7 @@ position = "{613, 0}";
 },
 {
 name = caron;
-position = "{731, 1446}";
+position = "{701, 1446}";
 },
 {
 name = top;
@@ -5040,7 +5037,7 @@ position = "{620, 0}";
 },
 {
 name = caron;
-position = "{820, 1458}";
+position = "{630, 1446}";
 },
 {
 name = top;
@@ -5107,7 +5104,7 @@ unicode = 0139;
 },
 {
 glyphname = Lcaron;
-lastChange = "2020-07-15 11:07:11 +0000";
+lastChange = "2020-07-15 14:36:43 +0000";
 layers = (
 {
 components = (
@@ -5116,7 +5113,7 @@ name = L;
 },
 {
 name = caroncomb.alt;
-transform = "{1, 0, 0, 1, 731, 0}";
+transform = "{1, 0, 0, 1, 701, 0}";
 }
 );
 layerId = "258ED206-D907-4350-8EBA-CBDDA1C16BF7";
@@ -5129,7 +5126,7 @@ name = L;
 },
 {
 name = caroncomb.alt;
-transform = "{1, 0, 0, 1, 820, 12}";
+transform = "{1, 0, 0, 1, 630, 0}";
 }
 );
 layerId = "91AB5BCA-6A50-42DA-B2F7-8181BF189245";
@@ -12363,9 +12360,9 @@ rightKerningGroup = n;
 unicode = 00E3;
 },
 {
-color = 3;
+color = 6;
 glyphname = ae;
-lastChange = "2020-07-15 14:29:55 +0000";
+lastChange = "2020-07-15 14:30:04 +0000";
 layers = (
 {
 anchors = (
@@ -13306,7 +13303,7 @@ unicode = 010B;
 {
 color = 6;
 glyphname = d;
-lastChange = "2020-07-15 11:07:49 +0000";
+lastChange = "2020-07-15 14:37:34 +0000";
 layers = (
 {
 anchors = (
@@ -13316,7 +13313,7 @@ position = "{544, 0}";
 },
 {
 name = caron;
-position = "{1149, 1458}";
+position = "{1138, 1486}";
 },
 {
 name = center;
@@ -13451,7 +13448,7 @@ position = "{545, 0}";
 },
 {
 name = caron;
-position = "{981, 1458}";
+position = "{990, 1486}";
 },
 {
 name = center;
@@ -13759,7 +13756,7 @@ unicode = 00F0;
 },
 {
 glyphname = dcaron;
-lastChange = "2020-07-15 11:07:11 +0000";
+lastChange = "2020-07-15 14:37:39 +0000";
 layers = (
 {
 background = {
@@ -13775,17 +13772,15 @@ transform = "{1, 0, 0, 1, 441, -212}";
 };
 components = (
 {
-alignment = -1;
 name = d;
 },
 {
-alignment = -1;
 name = caroncomb.alt;
-transform = "{1, 0, 0, 1, 1162, 2}";
+transform = "{1, 0, 0, 1, 1138, 40}";
 }
 );
 layerId = "258ED206-D907-4350-8EBA-CBDDA1C16BF7";
-width = 1304;
+width = 1238;
 },
 {
 components = (
@@ -13795,7 +13790,7 @@ name = d;
 },
 {
 name = caroncomb.alt;
-transform = "{1, 0, 0, 1, 981, 12}";
+transform = "{1, 0, 0, 1, 990, 40}";
 }
 );
 layerId = "91AB5BCA-6A50-42DA-B2F7-8181BF189245";
@@ -17492,7 +17487,7 @@ unicode = 0138;
 {
 color = 6;
 glyphname = l;
-lastChange = "2020-07-15 11:07:49 +0000";
+lastChange = "2020-07-15 14:37:30 +0000";
 layers = (
 {
 anchors = (
@@ -17502,7 +17497,7 @@ position = "{266, 0}";
 },
 {
 name = caron;
-position = "{493, 1458}";
+position = "{481, 1486}";
 },
 {
 name = top;
@@ -17580,7 +17575,7 @@ position = "{260, 2}";
 },
 {
 name = caron;
-position = "{259, 1446}";
+position = "{258, 1486}";
 },
 {
 name = top;
@@ -17666,7 +17661,7 @@ unicode = 013A;
 },
 {
 glyphname = lcaron;
-lastChange = "2020-07-15 11:07:11 +0000";
+lastChange = "2020-07-15 14:37:30 +0000";
 layers = (
 {
 background = {
@@ -17686,7 +17681,7 @@ name = l;
 },
 {
 name = caroncomb.alt;
-transform = "{1, 0, 0, 1, 493, 12}";
+transform = "{1, 0, 0, 1, 481, 40}";
 }
 );
 layerId = "258ED206-D907-4350-8EBA-CBDDA1C16BF7";
@@ -17699,7 +17694,7 @@ name = l;
 },
 {
 name = caroncomb.alt;
-transform = "{1, 0, 0, 1, 259, 0}";
+transform = "{1, 0, 0, 1, 258, 40}";
 }
 );
 layerId = "91AB5BCA-6A50-42DA-B2F7-8181BF189245";
@@ -21630,7 +21625,7 @@ unicode = 00DF;
 {
 color = 6;
 glyphname = t;
-lastChange = "2020-07-15 11:07:49 +0000";
+lastChange = "2020-07-15 14:37:25 +0000";
 layers = (
 {
 anchors = (
@@ -21640,7 +21635,7 @@ position = "{506, 18}";
 },
 {
 name = caron;
-position = "{797, 1446}";
+position = "{544, 1586}";
 },
 {
 name = center;
@@ -21768,7 +21763,7 @@ position = "{443, 0}";
 },
 {
 name = caron;
-position = "{571, 1446}";
+position = "{361, 1486}";
 },
 {
 name = center;
@@ -21871,7 +21866,7 @@ unicode = 0167;
 },
 {
 glyphname = tcaron;
-lastChange = "2020-07-15 11:07:11 +0000";
+lastChange = "2020-07-15 14:37:25 +0000";
 layers = (
 {
 background = {
@@ -21892,7 +21887,7 @@ name = t;
 },
 {
 name = caroncomb.alt;
-transform = "{1, 0, 0, 1, 797, 0}";
+transform = "{1, 0, 0, 1, 544, 140}";
 }
 );
 layerId = "258ED206-D907-4350-8EBA-CBDDA1C16BF7";
@@ -21906,7 +21901,7 @@ name = t;
 },
 {
 name = caroncomb.alt;
-transform = "{1, 0, 0, 1, 571, 0}";
+transform = "{1, 0, 0, 1, 361, 40}";
 }
 );
 layerId = "91AB5BCA-6A50-42DA-B2F7-8181BF189245";
