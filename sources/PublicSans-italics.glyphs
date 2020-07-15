@@ -5698,9 +5698,19 @@ unicode = 1E44;
 },
 {
 glyphname = Eng;
-lastChange = "2020-07-15 11:07:06 +0000";
+lastChange = "2020-07-15 11:42:37 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{730, 0}";
+},
+{
+name = top;
+position = "{951, 1446}";
+}
+);
 background = {
 paths = (
 {
@@ -5763,31 +5773,81 @@ nodes = (
 }
 );
 };
-components = (
+layerId = "258ED206-D907-4350-8EBA-CBDDA1C16BF7";
+paths = (
 {
-name = N;
-},
-{
-alignment = -1;
-name = "_j-hook";
-transform = "{1, 0, 0, 1, 668, -460}";
+closed = 1;
+nodes = (
+"1221 -480 OFFCURVE",
+"1346 -356 OFFCURVE",
+"1400 0 CURVE SMOOTH",
+"1621 1446 LINE",
+"1232 1446 LINE",
+"1111 640 LINE",
+"673 1446 LINE",
+"283 1446 LINE",
+"62 0 LINE",
+"451 0 LINE",
+"581 862 LINE",
+"1020 57 LINE",
+"1016 32 LINE SMOOTH",
+"999 -74 OFFCURVE",
+"939 -120 OFFCURVE",
+"823 -120 CURVE SMOOTH",
+"781 -120 OFFCURVE",
+"733 -114 OFFCURVE",
+"697 -110 CURVE",
+"645 -460 LINE",
+"703 -472 OFFCURVE",
+"821 -480 OFFCURVE",
+"901 -480 CURVE SMOOTH"
+);
 }
 );
-layerId = "258ED206-D907-4350-8EBA-CBDDA1C16BF7";
 width = 1625;
 },
 {
-components = (
+anchors = (
 {
-name = N;
+name = bottom;
+position = "{569, 0}";
 },
 {
-alignment = -1;
-name = "_j-hook";
-transform = "{1, 0, 0, 1, 610, -460}";
+name = top;
+position = "{817, 1446}";
 }
 );
 layerId = "91AB5BCA-6A50-42DA-B2F7-8181BF189245";
+paths = (
+{
+closed = 1;
+nodes = (
+"961 -480 OFFCURVE",
+"1027 -364 OFFCURVE",
+"1053 -180 CURVE SMOOTH",
+"1283 1446 LINE",
+"1211 1446 LINE",
+"1029 156 LINE",
+"409 1446 LINE",
+"351 1446 LINE",
+"147 0 LINE",
+"219 0 LINE",
+"401 1286 LINE",
+"1011 13 LINE",
+"987 -152 LINE SMOOTH",
+"961 -334 OFFCURVE",
+"911 -398 OFFCURVE",
+"795 -398 CURVE SMOOTH",
+"711 -398 OFFCURVE",
+"653 -363 OFFCURVE",
+"621 -343 CURVE",
+"593 -422 LINE",
+"605 -434 OFFCURVE",
+"683 -480 OFFCURVE",
+"787 -480 CURVE SMOOTH"
+);
+}
+);
 width = 1372;
 }
 );
@@ -18811,7 +18871,7 @@ unicode = 1E45;
 {
 color = 6;
 glyphname = eng;
-lastChange = "2020-07-15 11:07:37 +0000";
+lastChange = "2020-07-15 11:42:37 +0000";
 layers = (
 {
 background = {
