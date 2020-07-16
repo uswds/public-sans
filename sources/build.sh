@@ -4,8 +4,7 @@
 #Update this variable ==========================================================
 
 thisFont="PublicSans"  #must match the name in the font file
-thisFontIt="PublicSans-italics"
-axis="wght"
+axis="wght" #eg with multiple axis "wdth,wght" --> with comma, no space
 
 #===========================================================================
 #Generating fonts ==========================================================
@@ -21,21 +20,23 @@ GENERATING STATIC TTF
 ."
 mkdir -p ../fonts/ttf
 fontmake -g $thisFont.glyphs -i -o ttf --output-dir ../fonts/ttf/
-fontmake -g $thisFontIt.glyphs -i -o ttf --output-dir ../fonts/ttf/
+fontmake -g $thisFont-Italic.glyphs -i -o ttf --output-dir ../fonts/ttf/
 
 echo ".
 GENERATING STATIC OTF
 ."
 mkdir -p ../fonts/otf
 fontmake -g $thisFont.glyphs -i -o otf --output-dir ../fonts/otf/
-fontmake -g $thisFontIt.glyphs -i -o otf --output-dir ../fonts/otf/
+fontmake -g $thisFont-Italic.glyphs -i -o otf --output-dir ../fonts/otf/
 
 echo ".
 GENERATING VARIABLE FONTS
 ."
 mkdir -p ../fonts/variable
-fontmake -g $thisFont.glyphs -o variable --output-path ../fonts/variable/$thisFont\[$axis]\.ttf
-fontmake -g $thisFontIt.glyphs -o variable --output-path ../fonts/variable/$thisFont-Italic\[$axis]\.ttf
+VF_FILE="../fonts/variable/$thisFont[$axis].ttf"
+VF_FILE_IT="../fonts/variable/$thisFont-Italic[$axis].ttf"
+fontmake -g $thisFont.glyphs -o variable --output-path $VF_FILE
+fontmake -g $thisFont-Italic.glyphs -o variable --output-path $VF_FILE_IT
 
 #============================================================================
 #Post-processing fonts ======================================================
@@ -75,11 +76,14 @@ do
 	gftools fix-nonhinting $vf $vf.fix
 	mv $vf.fix $vf
 	gftools fix-unwanted-tables --tables MVAR $vf
-	gftools fix-vf-meta $vf
-	mv $vf.fix $vf
 done
 rm ../fonts/variable/*gasp*
 
+gftools fix-vf-meta $VF_FILE $VF_FILE_IT
+for vf in $vfs
+do
+	mv $vf.fix $vf
+done
 
 #============================================================================
 #Build woff and woff2 fonts =================================================
