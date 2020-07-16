@@ -4,11 +4,13 @@
 #Update this variable ==========================================================
 
 thisFont="PublicSans"  #must match the name in the font file
+thisFontIt="PublicSans-italics"
+axis="wght"
 
 #===========================================================================
 #Generating fonts ==========================================================
 
-source env/bin/activate
+source ../env/bin/activate
 set -e
 
 #echo "CLEAN FONTS FOLDERS"
@@ -17,23 +19,23 @@ set -e
 echo ".
 GENERATING STATIC TTF
 ."
-mkdir -p ./fonts/ttf
-fontmake -g ./sources/$thisFont.glyphs -i -o ttf --output-dir ./fonts/ttf/
-fontmake -g ./sources/$thisFont-italics.glyphs -i -o ttf --output-dir ./fonts/ttf/
+mkdir -p ../fonts/ttf
+fontmake -g $thisFont.glyphs -i -o ttf --output-dir ../fonts/ttf/
+fontmake -g $thisFontIt.glyphs -i -o ttf --output-dir ../fonts/ttf/
 
 echo ".
 GENERATING STATIC OTF
 ."
-mkdir -p ./fonts/otf
-fontmake -g ./sources/$thisFont.glyphs -i -o otf --output-dir ./fonts/otf/
-fontmake -g ./sources/$thisFont-italics.glyphs -i -o otf --output-dir ./fonts/otf/
+mkdir -p ../fonts/otf
+fontmake -g $thisFont.glyphs -i -o otf --output-dir ../fonts/otf/
+fontmake -g $thisFontIt.glyphs -i -o otf --output-dir ../fonts/otf/
 
 echo ".
 GENERATING VARIABLE FONTS
 ."
-mkdir -p ./fonts/variable
-fontmake -g ./sources/$thisFont.glyphs -o variable --output-path ./fonts/variable/$thisFont\[wght\].ttf
-fontmake -g ./sources/$thisFont-italics.glyphs -o variable --output-path ./fonts/variable/$thisFont-Italic\[wght\].ttf
+mkdir -p ../fonts/variable
+fontmake -g $thisFont.glyphs -o variable --output-path ../fonts/variable/$thisFont\[$axis]\.ttf
+fontmake -g $thisFontIt.glyphs -o variable --output-path ../fonts/variable/$thisFont-Italic\[$axis]\.ttf
 
 #============================================================================
 #Post-processing fonts ======================================================
@@ -41,7 +43,7 @@ fontmake -g ./sources/$thisFont-italics.glyphs -o variable --output-path ./fonts
 echo ".
 POST-PROCESSING TTF
 ."
-ttfs=$(ls ./fonts/ttf/*.ttf)
+ttfs=$(ls ../fonts/ttf/*.ttf)
 echo $ttfs
 for ttf in $ttfs
 do
@@ -55,7 +57,7 @@ done
 echo ".
 POST-PROCESSING OTF
 ."
-otfs=$(ls ./fonts/otf/*.otf)
+otfs=$(ls ../fonts/otf/*.otf)
 for otf in $otfs
 do
 	gftools fix-dsig -f $otf
@@ -66,7 +68,7 @@ done
 echo ".
 POST-PROCESSING VF
 ."
-vfs=$(ls ./fonts/variable/*.ttf)
+vfs=$(ls ../fonts/variable/*.ttf)
 for vf in $vfs
 do
 	gftools fix-dsig --autofix $vf
@@ -75,8 +77,8 @@ do
 	gftools fix-unwanted-tables --tables MVAR $vf
 	gftools fix-vf-meta $vf
 	mv $vf.fix $vf
-	rm ./fonts/variable/*gasp*
 done
+rm ../fonts/variable/*gasp*
 
 
 #============================================================================
@@ -86,19 +88,19 @@ done
 echo ".
 BUILD WEBFONTS
 ."
-mkdir -p ./fonts/webfonts
+mkdir -p ../fonts/webfonts
 
-ttfs=$(ls ./fonts/ttf/*.ttf)
+ttfs=$(ls ../fonts/ttf/*.ttf)
 for ttf in $ttfs
 do
   woff2_compress $ttf
   sfnt2woff-zopfli $ttf
 done
 
-woffs=$(ls ./fonts/ttf/*.woff*)
+woffs=$(ls ../fonts/ttf/*.woff*)
 for woff in $woffs
 do
-	mv $woff ./fonts/webfonts/
+	mv $woff ../fonts/webfonts/
 done
 
 rm -rf master_ufo/ instance_ufo/
