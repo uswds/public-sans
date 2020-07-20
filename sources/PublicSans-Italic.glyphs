@@ -1,5 +1,8 @@
 {
 .appVersion = "1342";
+DisplayStrings = (
+"ee/eogonek"
+);
 copyright = "Copyright 2015 The Public Sans Project Authors (https://github.com/uswds/public-sans)";
 customParameters = (
 {
@@ -11698,7 +11701,7 @@ position = "{471, 0}";
 },
 {
 name = ogonek;
-position = "{574, 36}";
+position = "{643, 36}";
 },
 {
 name = top;
@@ -12349,29 +12352,157 @@ unicode = 0113;
 glyphname = eogonek;
 layers = (
 {
-components = (
+anchors = (
 {
-name = e;
+name = bottom;
+position = "{518, 0}";
 },
 {
-name = ogonekcomb;
-transform = "{1, 0, 0, 1, 399, 30}";
+name = ogonek;
+position = "{774, 50}";
+},
+{
+name = top;
+position = "{667, 1034}";
 }
 );
 layerId = "258ED206-D907-4350-8EBA-CBDDA1C16BF7";
+paths = (
+{
+closed = 1;
+nodes = (
+"340 1054 OFFCURVE",
+"108 800 OFFCURVE",
+"64 504 CURVE SMOOTH",
+"20 217 OFFCURVE",
+"171 17 OFFCURVE",
+"442 -15 CURVE",
+"384 -54 OFFCURVE",
+"351 -96 OFFCURVE",
+"344 -140 CURVE SMOOTH",
+"326 -256 OFFCURVE",
+"412 -310 OFFCURVE",
+"554 -310 CURVE SMOOTH",
+"652 -310 OFFCURVE",
+"748 -282 OFFCURVE",
+"792 -256 CURVE",
+"816 -92 LINE",
+"764 -120 OFFCURVE",
+"722 -142 OFFCURVE",
+"664 -142 CURVE SMOOTH",
+"628 -142 OFFCURVE",
+"614 -124 OFFCURVE",
+"618 -86 CURVE",
+"626 -43 OFFCURVE",
+"689 -7 OFFCURVE",
+"784 39 CURVE SMOOTH",
+"929 110 OFFCURVE",
+"1028 199 OFFCURVE",
+"1072 352 CURVE",
+"730 352 LINE",
+"686 272 OFFCURVE",
+"625 252 OFFCURVE",
+"554 252 CURVE SMOOTH",
+"470 252 OFFCURVE",
+"409 304 OFFCURVE",
+"432 428 CURVE",
+"1079 428 LINE",
+"1094 518 LINE SMOOTH",
+"1145 823 OFFCURVE",
+"1006 1054 OFFCURVE",
+"669 1054 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"474 724 OFFCURVE",
+"550 792 OFFCURVE",
+"629 792 CURVE SMOOTH",
+"728 792 OFFCURVE",
+"768 724 OFFCURVE",
+"756 646 CURVE",
+"461 646 LINE"
+);
+}
+);
 width = 1161;
 },
 {
-components = (
+anchors = (
 {
-name = e;
+name = bottom;
+position = "{471, 0}";
 },
 {
-name = ogonekcomb;
-transform = "{1, 0, 0, 1, 375, 12}";
+name = ogonek;
+position = "{643, 36}";
+},
+{
+name = top;
+position = "{609, 1034}";
 }
 );
 layerId = "91AB5BCA-6A50-42DA-B2F7-8181BF189245";
+paths = (
+{
+closed = 1;
+nodes = (
+"347 1054 OFFCURVE",
+"168 850 OFFCURVE",
+"120 508 CURVE SMOOTH",
+"72 173 OFFCURVE",
+"217 -17 OFFCURVE",
+"465 -20 CURVE",
+"425 -49 OFFCURVE",
+"373 -107 OFFCURVE",
+"365 -164 CURVE SMOOTH",
+"353 -252 OFFCURVE",
+"393 -316 OFFCURVE",
+"508 -316 CURVE SMOOTH",
+"571 -316 OFFCURVE",
+"631 -298 OFFCURVE",
+"661 -282 CURVE",
+"671 -220 LINE",
+"653 -230 OFFCURVE",
+"597 -250 OFFCURVE",
+"535 -250 CURVE SMOOTH",
+"461 -250 OFFCURVE",
+"437 -222 OFFCURVE",
+"443 -168 CURVE SMOOTH",
+"455 -92 OFFCURVE",
+"522 -40 OFFCURVE",
+"650 16 CURVE SMOOTH",
+"753 61 OFFCURVE",
+"840 146 OFFCURVE",
+"883 276 CURVE",
+"805 276 LINE",
+"763 140 OFFCURVE",
+"634 56 OFFCURVE",
+"482 56 CURVE SMOOTH",
+"239 56 OFFCURVE",
+"164 264 OFFCURVE",
+"197 498 CURVE",
+"926 498 LINE",
+"933 554 LINE SMOOTH",
+"973 873 OFFCURVE",
+"858 1054 OFFCURVE",
+"611 1054 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"235 768 OFFCURVE",
+"363 978 OFFCURVE",
+"599 978 CURVE SMOOTH",
+"815 978 OFFCURVE",
+"892 804 OFFCURVE",
+"859 574 CURVE",
+"209 574 LINE"
+);
+}
+);
 width = 1050;
 }
 );
