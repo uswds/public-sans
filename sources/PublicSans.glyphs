@@ -1,8 +1,5 @@
 {
-.appVersion = "1342";
-DisplayStrings = (
-"/_ringacute/aringacute"
-);
+.appVersion = "1343";
 classes = (
 {
 code = "";
@@ -62,15 +59,16 @@ featurePrefixes = (
 {
 automatic = 1;
 code = "languagesystem DFLT dflt;
+
 languagesystem latn dflt;
-languagesystem latn CAT;
+languagesystem latn AZE;
+languagesystem latn CRT;
+languagesystem latn KAZ;
+languagesystem latn TAT;
+languagesystem latn TRK;
 languagesystem latn ROM;
 languagesystem latn MOL;
-languagesystem latn KAZ;
-languagesystem cyrl TAT;
-languagesystem latn TRK;
-languagesystem latn CRT;
-languagesystem latn AZE;
+languagesystem latn CAT;
 ";
 name = Languagesystems;
 }
@@ -92,13 +90,15 @@ feature tnum;
 feature onum;
 feature salt;
 feature ss01;
+feature calt;
+feature tnum;
 ";
 name = aalt;
 },
 {
 automatic = 1;
 code = "lookup ccmp_Other_1 {
-	@CombiningTopAccents = [acutecomb brevecomb breveinvertedcomb caroncomb circumflexcomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];
+	@CombiningTopAccents = [acutecomb brevecomb breveinvertedcomb caroncomb circumflexcomb commaturnedabovecomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];
 	@CombiningNonTopAccents = [cedillacomb dotbelowcomb ogonekcomb horncomb];
 	sub [i j]' @CombiningTopAccents by [idotless jdotless];
 	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
@@ -123,32 +123,32 @@ name = ccmp;
 },
 {
 automatic = 1;
-code = "script latn;
-language CAT;
-sub  l' periodcentered' l by ldot;
-sub  L' periodcentered' L by Ldot;
-language ROM;
-sub Scedilla by Scommaaccent;
-sub scedilla by scommaaccent;
-sub Tcedilla by Tcommaaccent;
-sub tcedilla by tcommaaccent;
-language MOL;
-sub Scedilla by Scommaaccent;
-sub scedilla by scommaaccent;
-sub Tcedilla by Tcommaaccent;
-sub tcedilla by tcommaaccent;
-language KAZ;
-sub i by idotaccent;
-language TRK;
-sub i by idotaccent;
-language CRT;
-sub i by idotaccent;
-language AZE;
-sub i by idotaccent;
+code = "lookup locl_latn_0 {
+	script latn;
+	language AZE;
+	language CRT;
+	language KAZ;
+	language TAT;
+	language TRK;
+	sub i by idotaccent;
+} locl_latn_0;
 
-script cyrl;
-language TAT;
-sub i by idotaccent;
+lookup locl_latn_1 {
+	script latn;
+	language ROM;
+	language MOL;
+	sub Scedilla by Scommaaccent;
+	sub scedilla by scommaaccent;
+	sub Tcedilla by Tcommaaccent;
+	sub tcedilla by tcommaaccent;
+} locl_latn_1;
+
+lookup locl_latn_2 {
+	script latn;
+	language CAT;
+	sub  l' periodcentered' l by ldot;
+	sub  L' periodcentered' L by Ldot;
+} locl_latn_2;
 ";
 name = locl;
 },
@@ -279,6 +279,18 @@ sub eight.tf by eight;
 sub nine.tf by nine;
 sub period.tf by period;
 sub comma.tf by comma;
+sub cent.tf by cent;
+sub colonsign.tf by colonsign;
+sub dollar.tf by dollar;
+sub dong.tf by dong;
+sub euro.tf by euro;
+sub florin.tf by florin;
+sub franc.tf by franc;
+sub lira.tf by lira;
+sub liraTurkish.tf by liraTurkish;
+sub rupeeIndian.tf by rupeeIndian;
+sub sterling.tf by sterling;
+sub yen.tf by yen;
 ";
 name = pnum;
 },
@@ -296,6 +308,18 @@ sub eight by eight.tf;
 sub nine by nine.tf;
 sub period by period.tf;
 sub comma by comma.tf;
+sub cent by cent.tf;
+sub colonsign by colonsign.tf;
+sub dollar by dollar.tf;
+sub dong by dong.tf;
+sub euro by euro.tf;
+sub florin by florin.tf;
+sub franc by franc.tf;
+sub lira by lira.tf;
+sub liraTurkish by liraTurkish.tf;
+sub rupeeIndian by rupeeIndian.tf;
+sub sterling by sterling.tf;
+sub yen by yen.tf;
 ";
 name = tnum;
 },
@@ -316,7 +340,8 @@ name = onum;
 },
 {
 automatic = 1;
-code = "sub colon f l a g two colon by colon_f_l_a_g_two_colon.liga;
+code = "lookupflag IgnoreMarks;
+sub colon f l a g two colon by colon_f_l_a_g_two_colon.liga;
 sub colon f l a g colon by colon_f_l_a_g_colon.liga;
 sub colon one eight F colon by colon_one_eight_F_colon.liga;
 sub f i by fi;
