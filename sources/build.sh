@@ -104,8 +104,8 @@ done
 echo "|
 SYNC UFO/DESIGNSPACE TO SOURCES AND CLEANUP
 |"
-rsync master_ufo/ fonts/sources/ufo/
-rm -rf master_ufo/ instance_ufo/
+rsync -avzhr ./master_ufo/ ./sources/ufo/
+rm -rf ./master_ufo/ ./instance_ufo/
 
 echo "|
 COMPLETE!
