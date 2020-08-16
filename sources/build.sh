@@ -13,14 +13,12 @@ set -e
 
 echo "BUILDING PUBLIC SANS
 |"
-echo "|
-CLEANING FONTS FOLDERS
+echo "CLEANING FONTS FOLDERS
 |"
 #rm -rf ./fonts/ttf/ ./fonts/otf/ ./fonts/variable/ ./fonts/webfonts/
 rm -rf ./master_ufo/ ./instance_ufo/
 
-echo "|
-GENERATING STATIC TTF
+echo "GENERATING STATIC TTF
 |"
 mkdir -p ./fonts/ttf
 fontmake -g ./sources/$thisFont.glyphs -i -o ttf --output-dir ./fonts/ttf/
@@ -105,11 +103,15 @@ do
 done
 
 echo "|
-SYNC UFO/DESIGNSPACE TO SOURCES AND CLEANUP
+SYNCING UFO/DESIGNSPACE TO SOURCES DIRECTORY
 |"
 rsync -avzhr ./master_ufo/ ./sources/ufo/
+
+echo "|
+CLEANING UP
+|"
 rm -rf ./master_ufo/ ./instance_ufo/
 
 echo "|
 COMPLETE!
-|"
+"
