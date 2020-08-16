@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/uswds/public-sans#readme",
   "scripts": {
-    "build": "./build.sh",
+    "build": "./sources/build.sh",
     "copy-webfonts": "gulp copy-webfonts",
     "federalist": "npm install && npm install gulp-cli -g && npm run uswds-copy-assets && npm run copy-webfonts && npm run uswds-build-sass",
     "jekyll-install": "gem install bundler && bundle install",
