@@ -35,18 +35,17 @@
     "test": "fontbakery check-googlefonts --json report.json binaries/webfonts/*.ttf"
   },
   "devDependencies": {
-    "autoprefixer": "^9.7.1",
-    "css-mqpacker": "^7.0.0",
-    "cssnano": "^4.1.10",
+    "autoprefixer": "^9.8.6",
     "gulp": "^4.0.2",
     "gulp-postcss": "^8.0.0",
-    "gulp-rename": "^1.4.0",
     "gulp-replace": "^1.0.0",
-    "gulp-sass": "^4.0.2",
+    "gulp-sass": "^4.1.0",
     "gulp-sourcemaps": "^2.6.5",
     "gulp-watch": "^5.0.1",
     "path": "^0.12.7",
-    "uswds": "^2.2.1",
+    "postcss-csso": "^4.0.0",
+    "sass": "^1.26.10",
+    "uswds": "^2.8.0",
     "uswds-gulp": "github:uswds/uswds-gulp"
   }
 }
