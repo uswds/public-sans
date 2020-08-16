@@ -11,7 +11,10 @@ thisFont="PublicSans"  #must match the name in the font file
 source env/bin/activate
 set -e
 
-echo "CLEANING FONTS FOLDERS
+echo "BUILDING PUBLIC SANS
+|"
+echo "|
+CLEANING FONTS FOLDERS
 |"
 #rm -rf ./fonts/ttf/ ./fonts/otf/ ./fonts/variable/ ./fonts/webfonts/
 rm -rf ./master_ufo/ ./instance_ufo/
