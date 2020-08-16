@@ -19,6 +19,7 @@ const replace = require("gulp-replace");
 const sass = require("gulp-sass");
 const sourcemaps = require("gulp-sourcemaps");
 const uswds = require("./node_modules/uswds-gulp/config/uswds");
+const watch = require("gulp-watch");
 
 sass.compiler = require("sass");
 
