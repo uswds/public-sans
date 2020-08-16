@@ -55,7 +55,8 @@ const CSS_DEST = "./site/assets/css";
 const SITE_CSS_DEST = "./_site/assets/css";
 
 // Webfonts
-const WEBFONTS_SRC = "./binaries/webfonts";
+const WEBFONTS_SRC = "./fonts/webfonts";
+const TTF_SRC = "./fonts/ttf";
 const WEBFONTS_DEST = "./site/assets/fonts";
 
 /*
@@ -126,13 +127,15 @@ gulp.task(
 );
 
 gulp.task("copy-webfonts", () => {
-  return gulp.src(`${WEBFONTS_SRC}/**/**`).pipe(gulp.dest(WEBFONTS_DEST));
+  return gulp
+    .src([`${WEBFONTS_SRC}/**/**`, `${TTF_SRC}/**/**`])
+    .pipe(gulp.dest(WEBFONTS_DEST));
 });
 
 gulp.task("watch-webfonts", () => {
   gulp
-    .src(`${WEBFONTS_SRC}/**/*`, { base: WEBFONTS_SRC })
-    .pipe(watch(WEBFONTS_SRC, { base: WEBFONTS_SRC }))
+    .src([`${WEBFONTS_SRC}/**/**`, `${TTF_SRC}/**/**`])
+    .pipe(watch([WEBFONTS_SRC, TTF_SRC]))
     .pipe(gulp.dest(WEBFONTS_DEST));
 });
 

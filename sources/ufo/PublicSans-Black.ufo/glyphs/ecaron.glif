@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ecaron" format="2">
+  <advance width="1148"/>
+  <unicode hex="011B"/>
+  <anchor x="600" y="0" name="bottom"/>
+  <anchor x="850" y="50" name="ogonek"/>
+  <anchor x="594" y="1034" name="top"/>
+  <outline>
+    <component base="e"/>
+    <component base="caroncomb" xOffset="146"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>e</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>caroncomb</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>
