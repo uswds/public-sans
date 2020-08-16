@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Aringacute" format="2">
+  <advance width="1388"/>
+  <unicode hex="01FA"/>
+  <anchor x="694" y="0" name="bottom"/>
+  <anchor x="1274" y="24" name="ogonek"/>
+  <anchor x="694" y="1446" name="top"/>
+  <outline>
+    <component base="A"/>
+    <component base="_ringacute" xOffset="-2"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>A</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>A</string>
+    </dict>
+  </lib>
+</glyph>
