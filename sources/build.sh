@@ -12,39 +12,40 @@ axis="wght" #eg with multiple axis "wdth,wght" --> with comma, no space
 source ../env/bin/activate
 set -e
 
-#echo "CLEAN FONTS FOLDERS"
+echo "BUILDING PUBLIC SANS
+|"
+echo "CLEANING FONTS FOLDERS
+|"
 #rm -rf ./fonts/ttf/ ./fonts/otf/ ./fonts/variable/ ./fonts/webfonts/
+rm -rf ./master_ufo/ ./instance_ufo/
 
-echo ".
-GENERATING STATIC TTF
-."
-mkdir -p ../fonts/ttf
-fontmake -g $thisFont.glyphs -i -o ttf --output-dir ../fonts/ttf/
-fontmake -g $thisFont-Italic.glyphs -i -o ttf --output-dir ../fonts/ttf/
+echo "GENERATING STATIC TTF
+|"
+mkdir -p ./fonts/ttf
+fontmake -g ./sources/$thisFont.glyphs -i -o ttf --output-dir ./fonts/ttf/
+fontmake -g ./sources/$thisFont-italics.glyphs -i -o ttf --output-dir ./fonts/ttf/
 
-echo ".
+echo "|
 GENERATING STATIC OTF
-."
-mkdir -p ../fonts/otf
-fontmake -g $thisFont.glyphs -i -o otf --output-dir ../fonts/otf/
-fontmake -g $thisFont-Italic.glyphs -i -o otf --output-dir ../fonts/otf/
+|"
+mkdir -p ./fonts/otf
+fontmake -g ./sources/$thisFont.glyphs -i -o otf --output-dir ./fonts/otf/
+fontmake -g ./sources/$thisFont-italics.glyphs -i -o otf --output-dir ./fonts/otf/
 
-echo ".
+echo "|
 GENERATING VARIABLE FONTS
-."
-mkdir -p ../fonts/variable
-VF_FILE="../fonts/variable/$thisFont[$axis].ttf"
-VF_FILE_IT="../fonts/variable/$thisFont-Italic[$axis].ttf"
-fontmake -g $thisFont.glyphs -o variable --output-path $VF_FILE
-fontmake -g $thisFont-Italic.glyphs -o variable --output-path $VF_FILE_IT
+|"
+mkdir -p ./fonts/variable
+fontmake -g ./sources/$thisFont.glyphs -o variable --output-path ./fonts/variable/$thisFont\[wght\].ttf
+fontmake -g ./sources/$thisFont-italics.glyphs -o variable --output-path ./fonts/variable/$thisFont-Italic\[wght\].ttf
 
 #============================================================================
 #Post-processing fonts ======================================================
 
-echo ".
+echo "|
 POST-PROCESSING TTF
-."
-ttfs=$(ls ../fonts/ttf/*.ttf)
+|"
+ttfs=$(ls ./fonts/ttf/*.ttf)
 echo $ttfs
 for ttf in $ttfs
 do
@@ -55,10 +56,10 @@ do
 	[ -f $ttf.fix ] && mv $ttf.fix $ttf
 done
 
-echo ".
+echo "|
 POST-PROCESSING OTF
-."
-otfs=$(ls ../fonts/otf/*.otf)
+|"
+otfs=$(ls ./fonts/otf/*.otf)
 for otf in $otfs
 do
 	gftools fix-dsig -f $otf
@@ -66,10 +67,10 @@ do
 	[ -f $otf.fix ] && mv $otf.fix $otf
 done
 
-echo ".
+echo "|
 POST-PROCESSING VF
-."
-vfs=$(ls ../fonts/variable/*.ttf)
+|"
+vfs=$(ls ./fonts/variable/*.ttf)
 for vf in $vfs
 do
 	gftools fix-dsig --autofix $vf
@@ -89,10 +90,10 @@ done
 #Build woff and woff2 fonts =================================================
 #requires https://github.com/bramstein/homebrew-webfonttools
 
-echo ".
-BUILD WEBFONTS
-."
-mkdir -p ../fonts/webfonts
+echo "|
+BUILDING WEBFONTS
+|"
+mkdir -p ./fonts/webfonts
 
 ttfs=$(ls ../fonts/ttf/*.ttf)
 for ttf in $ttfs
@@ -107,8 +108,16 @@ do
 	mv $woff ../fonts/webfonts/
 done
 
-rm -rf master_ufo/ instance_ufo/
+echo "|
+SYNCING UFO/DESIGNSPACE TO SOURCES DIRECTORY
+|"
+rsync -avzhr ./master_ufo/ ./sources/ufo/
 
-echo ".
+echo "|
+CLEANING UP
+|"
+rm -rf ./master_ufo/ ./instance_ufo/
+
+echo "|
 COMPLETE!
-."
+"
