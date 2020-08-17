@@ -21,7 +21,7 @@
   "scripts": {
     "build": "./sources/build.sh",
     "copy-webfonts": "npx gulp copy-webfonts",
-    "federalist": "npm install && npm run uswds-copy-assets && npm run copy-webfonts && npm run uswds-build-sass",
+    "federalist": "pip3 install -r requirements.txt && npm run build && npm install && npm run uswds-copy-assets && npm run copy-webfonts && npm run uswds-build-sass",
     "jekyll-install": "gem install bundler && bundle install",
     "serve": "bundle exec jekyll serve --livereload --host 0.0.0.0",
     "start": "npm install && npm run jekyll-install && npm run uswds-copy-assets && npm run uswds-build-sass",
