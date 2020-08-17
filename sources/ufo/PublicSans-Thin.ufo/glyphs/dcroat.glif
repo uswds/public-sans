@@ -3,14 +3,14 @@
   <advance width="1190"/>
   <unicode hex="0111"/>
   <anchor x="545" y="0" name="bottom"/>
-  <anchor x="981" y="1458" name="caron"/>
+  <anchor x="990" y="1486" name="caron"/>
   <anchor x="598" y="516" name="center"/>
   <outline>
     <contour>
-      <point x="1130" y="1290" type="line"/>
-      <point x="568" y="1290" type="line"/>
       <point x="568" y="1222" type="line"/>
       <point x="1130" y="1222" type="line"/>
+      <point x="1130" y="1290" type="line"/>
+      <point x="568" y="1290" type="line"/>
     </contour>
     <component base="d"/>
   </outline>
@@ -18,6 +18,8 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>d</string>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

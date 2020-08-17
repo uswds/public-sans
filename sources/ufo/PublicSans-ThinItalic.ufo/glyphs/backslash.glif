@@ -2,7 +2,6 @@
 <glyph name="backslash" format="2">
   <advance width="592"/>
   <unicode hex="005C"/>
-  <guideline x="5" y="609" angle="0"/>
   <outline>
     <contour>
       <point x="395" y="-118" type="line"/>
@@ -17,6 +16,8 @@
       <string>slash</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>slash</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

@@ -2,8 +2,6 @@
 <glyph name="A" format="2">
   <advance width="1388"/>
   <unicode hex="0041"/>
-  <guideline x="194" y="0" angle="249.92000000000002"/>
-  <guideline x="1192" y="0" angle="110.0797"/>
   <anchor x="694" y="0" name="bottom"/>
   <anchor x="1274" y="24" name="ogonek"/>
   <anchor x="694" y="1446" name="top"/>
@@ -30,6 +28,8 @@
       <string>X</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>X</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

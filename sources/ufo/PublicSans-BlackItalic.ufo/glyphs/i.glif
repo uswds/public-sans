@@ -3,6 +3,7 @@
   <advance width="571"/>
   <unicode hex="0069"/>
   <anchor x="212" y="0" name="bottom"/>
+  <anchor x="363" y="18" name="ogonek"/>
   <outline>
     <contour>
       <point x="27" y="0" type="line"/>
@@ -23,6 +24,8 @@
       <string>n</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>=|n</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

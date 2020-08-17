@@ -3,7 +3,16 @@
   <advance width="751"/>
   <unicode hex="005D"/>
   <outline>
-    <component base="bracketleft" xScale="-1" yScale="-1" xOffset="764" yOffset="1124"/>
+    <contour>
+      <point x="-38" y="-322" type="line"/>
+      <point x="494" y="-322" type="line"/>
+      <point x="762" y="1446" type="line"/>
+      <point x="230" y="1446" type="line"/>
+      <point x="198" y="1238" type="line"/>
+      <point x="422" y="1238" type="line"/>
+      <point x="218" y="-114" type="line"/>
+      <point x="-6" y="-114" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>
@@ -11,6 +20,8 @@
       <string>=|bracketleft</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>=|bracketleft</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

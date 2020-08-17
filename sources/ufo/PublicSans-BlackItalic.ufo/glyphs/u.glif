@@ -4,7 +4,7 @@
   <unicode hex="0075"/>
   <anchor x="522" y="0" name="bottom"/>
   <anchor x="1074" y="714" name="horn"/>
-  <anchor x="973" y="20" name="ogonek"/>
+  <anchor x="993" y="20" name="ogonek"/>
   <anchor x="677" y="1034" name="top"/>
   <outline>
     <contour>
@@ -36,6 +36,8 @@
       <string>=|n</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>=|n</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

@@ -4,13 +4,13 @@
   <unicode hex="003C"/>
   <outline>
     <contour>
+      <point x="1102" y="144" type="line"/>
       <point x="1102" y="468" type="line"/>
       <point x="522" y="678" type="line"/>
       <point x="1102" y="898" type="line"/>
       <point x="1102" y="1218" type="line"/>
       <point x="110" y="836" type="line"/>
       <point x="110" y="526" type="line"/>
-      <point x="1102" y="144" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -19,6 +19,8 @@
       <string>plus</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>plus</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

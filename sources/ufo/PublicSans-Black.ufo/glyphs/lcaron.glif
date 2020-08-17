@@ -3,11 +3,11 @@
   <advance width="705"/>
   <unicode hex="013E"/>
   <anchor x="266" y="0" name="bottom"/>
-  <anchor x="493" y="1458" name="caron"/>
+  <anchor x="481" y="1486" name="caron"/>
   <anchor x="293" y="1530" name="top"/>
   <outline>
     <component base="l"/>
-    <component base="caroncomb.alt" xOffset="493" yOffset="12"/>
+    <component base="caroncomb.alt" xOffset="481" yOffset="40"/>
   </outline>
   <lib>
     <dict>
@@ -15,8 +15,6 @@
       <string>l</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>caroncomb.alt</string>
-      <key>public.markColor</key>
-      <string>0.99,0.62,0.11,1</string>
     </dict>
   </lib>
 </glyph>

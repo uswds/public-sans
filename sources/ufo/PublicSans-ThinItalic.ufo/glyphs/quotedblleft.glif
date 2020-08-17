@@ -2,11 +2,25 @@
 <glyph name="quotedblleft" format="2">
   <advance width="729"/>
   <unicode hex="201C"/>
-  <guideline x="256" y="1161" angle="90"/>
-  <guideline x="548" y="1161" angle="270"/>
   <outline>
-    <component base="quoteright" xScale="-1" yScale="-1.00983" xOffset="947" yOffset="2556"/>
-    <component base="quoteright" xScale="-1" yScale="-1.00983" xOffset="649" yOffset="2556"/>
+    <contour>
+      <point x="515" y="1096" type="line"/>
+      <point x="681" y="1096" type="line"/>
+      <point x="703" y="1255" type="line"/>
+      <point x="634" y="1255" type="line"/>
+      <point x="770" y="1482" type="line"/>
+      <point x="707" y="1482" type="line"/>
+      <point x="534" y="1233" type="line"/>
+    </contour>
+    <contour>
+      <point x="217" y="1096" type="line"/>
+      <point x="383" y="1096" type="line"/>
+      <point x="405" y="1255" type="line"/>
+      <point x="336" y="1255" type="line"/>
+      <point x="472" y="1482" type="line"/>
+      <point x="409" y="1482" type="line"/>
+      <point x="236" y="1233" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>
@@ -14,6 +28,8 @@
       <string>quoteleft</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>quoteleft</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

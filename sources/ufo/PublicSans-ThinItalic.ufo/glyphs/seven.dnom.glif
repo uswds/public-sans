@@ -2,7 +2,19 @@
 <glyph name="seven.dnom" format="2">
   <advance width="629"/>
   <outline>
-    <component base="seven" xScale="0.629" yScale="0.629" xOffset="-41"/>
+    <contour>
+      <point x="126" y="0" type="curve"/>
+      <point x="176.005" y="0" type="line"/>
+      <point x="233" y="172"/>
+      <point x="445" y="595"/>
+      <point x="646" y="859" type="curve"/>
+      <point x="655" y="910" type="line"/>
+      <point x="104" y="910" type="line"/>
+      <point x="97" y="859" type="line"/>
+      <point x="587" y="859" type="line"/>
+      <point x="361" y="548"/>
+      <point x="190" y="185"/>
+    </contour>
   </outline>
   <lib>
     <dict>
@@ -10,6 +22,8 @@
       <string>seven.numr</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>seven.numr</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

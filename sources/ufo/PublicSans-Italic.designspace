@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<designspace format="4.1">
+<designspace format="4.0">
   <axes>
     <axis tag="wght" name="Weight" minimum="100" maximum="900" default="100">
       <map input="100" output="100"/>
@@ -36,21 +36,6 @@
       </location>
       <kerning/>
       <info/>
-      <lib>
-        <dict>
-          <key>com.schriftgestaltung.customParameters</key>
-          <array>
-            <array>
-              <string>openTypeNameCompatibleFullName</string>
-              <string>Public Sans Thin Italic</string>
-            </array>
-            <array>
-              <string>openTypeNamePreferredSubfamilyName</string>
-              <string>Thin Italic</string>
-            </array>
-          </array>
-        </dict>
-      </lib>
     </instance>
     <instance name="Public Sans ExtraLight Italic" familyname="Public Sans" stylename="ExtraLight Italic" filename="../instance_ufo/PublicSans-ExtraLightItalic.ufo" stylemapfamilyname="Public Sans ExtraLight" stylemapstylename="italic">
       <location>
@@ -58,21 +43,6 @@
       </location>
       <kerning/>
       <info/>
-      <lib>
-        <dict>
-          <key>com.schriftgestaltung.customParameters</key>
-          <array>
-            <array>
-              <string>openTypeNameCompatibleFullName</string>
-              <string>Public Sans ExtraLight Italic</string>
-            </array>
-            <array>
-              <string>openTypeNamePreferredSubfamilyName</string>
-              <string>ExtraLight Italic</string>
-            </array>
-          </array>
-        </dict>
-      </lib>
     </instance>
     <instance name="Public Sans Light Italic" familyname="Public Sans" stylename="Light Italic" filename="../instance_ufo/PublicSans-LightItalic.ufo" stylemapfamilyname="Public Sans Light" stylemapstylename="italic">
       <location>
@@ -80,21 +50,6 @@
       </location>
       <kerning/>
       <info/>
-      <lib>
-        <dict>
-          <key>com.schriftgestaltung.customParameters</key>
-          <array>
-            <array>
-              <string>openTypeNameCompatibleFullName</string>
-              <string>Public Sans Light Italic</string>
-            </array>
-            <array>
-              <string>openTypeNamePreferredSubfamilyName</string>
-              <string>Light Italic</string>
-            </array>
-          </array>
-        </dict>
-      </lib>
     </instance>
     <instance name="Public Sans Italic" familyname="Public Sans" stylename="Italic" filename="../instance_ufo/PublicSans-Italic.ufo" stylemapfamilyname="Public Sans" stylemapstylename="italic">
       <location>
@@ -102,21 +57,6 @@
       </location>
       <kerning/>
       <info/>
-      <lib>
-        <dict>
-          <key>com.schriftgestaltung.customParameters</key>
-          <array>
-            <array>
-              <string>openTypeNameCompatibleFullName</string>
-              <string>Public Sans Italic</string>
-            </array>
-            <array>
-              <string>openTypeNamePreferredSubfamilyName</string>
-              <string>Italic</string>
-            </array>
-          </array>
-        </dict>
-      </lib>
     </instance>
     <instance name="Public Sans Medium Italic" familyname="Public Sans" stylename="Medium Italic" filename="../instance_ufo/PublicSans-MediumItalic.ufo" stylemapfamilyname="Public Sans Medium" stylemapstylename="italic">
       <location>
@@ -124,21 +64,6 @@
       </location>
       <kerning/>
       <info/>
-      <lib>
-        <dict>
-          <key>com.schriftgestaltung.customParameters</key>
-          <array>
-            <array>
-              <string>openTypeNameCompatibleFullName</string>
-              <string>Public Sans Medium Italic</string>
-            </array>
-            <array>
-              <string>openTypeNamePreferredSubfamilyName</string>
-              <string>Medium Italic</string>
-            </array>
-          </array>
-        </dict>
-      </lib>
     </instance>
     <instance name="Public Sans SemiBold Italic" familyname="Public Sans" stylename="SemiBold Italic" filename="../instance_ufo/PublicSans-SemiBoldItalic.ufo" stylemapfamilyname="Public Sans SemiBold" stylemapstylename="italic">
       <location>
@@ -146,21 +71,6 @@
       </location>
       <kerning/>
       <info/>
-      <lib>
-        <dict>
-          <key>com.schriftgestaltung.customParameters</key>
-          <array>
-            <array>
-              <string>openTypeNameCompatibleFullName</string>
-              <string>Public Sans SemiBold Italic</string>
-            </array>
-            <array>
-              <string>openTypeNamePreferredSubfamilyName</string>
-              <string>SemiBold Italic</string>
-            </array>
-          </array>
-        </dict>
-      </lib>
     </instance>
     <instance name="Public Sans Bold Italic" familyname="Public Sans" stylename="Bold Italic" filename="../instance_ufo/PublicSans-BoldItalic.ufo" stylemapfamilyname="Public Sans" stylemapstylename="bold italic">
       <location>
@@ -168,21 +78,6 @@
       </location>
       <kerning/>
       <info/>
-      <lib>
-        <dict>
-          <key>com.schriftgestaltung.customParameters</key>
-          <array>
-            <array>
-              <string>openTypeNameCompatibleFullName</string>
-              <string>Public Sans Bold Italic</string>
-            </array>
-            <array>
-              <string>openTypeNamePreferredSubfamilyName</string>
-              <string>Bold Italic</string>
-            </array>
-          </array>
-        </dict>
-      </lib>
     </instance>
     <instance name="Public Sans ExtraBold Italic" familyname="Public Sans" stylename="ExtraBold Italic" filename="../instance_ufo/PublicSans-ExtraBoldItalic.ufo" stylemapfamilyname="Public Sans ExtraBold" stylemapstylename="italic">
       <location>
@@ -190,21 +85,6 @@
       </location>
       <kerning/>
       <info/>
-      <lib>
-        <dict>
-          <key>com.schriftgestaltung.customParameters</key>
-          <array>
-            <array>
-              <string>openTypeNameCompatibleFullName</string>
-              <string>Public Sans ExtraBold Italic</string>
-            </array>
-            <array>
-              <string>openTypeNamePreferredSubfamilyName</string>
-              <string>ExtraBold Italic</string>
-            </array>
-          </array>
-        </dict>
-      </lib>
     </instance>
     <instance name="Public Sans Black Italic" familyname="Public Sans" stylename="Black Italic" filename="../instance_ufo/PublicSans-BlackItalic.ufo" stylemapfamilyname="Public Sans Black" stylemapstylename="italic">
       <location>
@@ -212,21 +92,6 @@
       </location>
       <kerning/>
       <info/>
-      <lib>
-        <dict>
-          <key>com.schriftgestaltung.customParameters</key>
-          <array>
-            <array>
-              <string>openTypeNameCompatibleFullName</string>
-              <string>Public Sans Black Italic</string>
-            </array>
-            <array>
-              <string>openTypeNamePreferredSubfamilyName</string>
-              <string>Black Italic</string>
-            </array>
-          </array>
-        </dict>
-      </lib>
     </instance>
   </instances>
   <lib>
@@ -276,14 +141,6 @@
           <integer>35</integer>
         </dict>
       </dict>
-      <key>public.skipExportGlyphs</key>
-      <array>
-        <string>__horn</string>
-        <string>_emdash</string>
-        <string>_j-hook</string>
-        <string>_ringacute</string>
-        <string>espaciador</string>
-      </array>
     </dict>
   </lib>
 </designspace>

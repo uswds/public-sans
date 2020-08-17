@@ -2,7 +2,6 @@
 <glyph name="g" format="2">
   <advance width="1148"/>
   <unicode hex="0067"/>
-  <guideline x="234" y="347" angle="90"/>
   <anchor x="583" y="1034" name="top"/>
   <outline>
     <contour>
@@ -95,6 +94,8 @@
       <string>=x</string>
       <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
       <string>=x*1.3</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

@@ -2,16 +2,6 @@
 <glyph name="X" format="2">
   <advance width="1247"/>
   <unicode hex="0058"/>
-  <guideline x="163" y="405" angle="90"/>
-  <guideline x="613" y="345" angle="90"/>
-  <guideline x="133" y="664" angle="0"/>
-  <guideline x="128" y="29" angle="0"/>
-  <guideline x="189" y="421" angle="0"/>
-  <guideline x="187" y="269" angle="0"/>
-  <guideline x="377" y="347" angle="236.602"/>
-  <guideline x="426" y="347" angle="123.344"/>
-  <guideline x="417" y="343" angle="56.5817"/>
-  <guideline x="385" y="343" angle="123.4"/>
   <outline>
     <contour>
       <point x="42" y="0" type="line"/>
@@ -28,4 +18,10 @@
       <point x="606" y="742" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -7,10 +7,10 @@
   <anchor x="260" y="1446" name="top"/>
   <outline>
     <contour>
-      <point x="220" y="1446" type="line"/>
       <point x="220" y="0" type="line"/>
       <point x="298" y="0" type="line"/>
       <point x="298" y="1446" type="line"/>
+      <point x="220" y="1446" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -19,6 +19,8 @@
       <string>H</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>H</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

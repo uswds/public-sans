@@ -2,21 +2,17 @@
 <glyph name="emdash.alt" format="2">
   <advance width="1653"/>
   <outline>
-    <component base="_emdash" xOffset="-352"/>
+    <contour>
+      <point x="0" y="356" type="line"/>
+      <point x="1653" y="356" type="line"/>
+      <point x="1653" y="630" type="line"/>
+      <point x="0" y="630" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>_emdash</string>
-        </dict>
-      </array>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

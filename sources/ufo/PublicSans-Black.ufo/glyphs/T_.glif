@@ -6,14 +6,14 @@
   <anchor x="654" y="1446" name="top"/>
   <outline>
     <contour>
-      <point x="30" y="1104" type="line"/>
-      <point x="440" y="1104" type="line"/>
       <point x="440" y="0" type="line"/>
       <point x="830" y="0" type="line"/>
       <point x="830" y="1104" type="line"/>
       <point x="1244" y="1104" type="line"/>
       <point x="1244" y="1446" type="line"/>
       <point x="30" y="1446" type="line"/>
+      <point x="30" y="1104" type="line"/>
+      <point x="440" y="1104" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -26,6 +26,8 @@
       <string>=X</string>
       <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
       <string>=X</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

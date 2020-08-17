@@ -6,11 +6,17 @@
   <anchor x="867" y="1446" name="top"/>
   <outline>
     <contour>
-      <point x="1668" y="1284" type="line"/>
-      <point x="40" y="1284" type="line"/>
       <point x="40" y="1082" type="line"/>
       <point x="1668" y="1082" type="line"/>
+      <point x="1668" y="1284" type="line"/>
+      <point x="40" y="1284" type="line"/>
     </contour>
     <component base="H" xOffset="90"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
 </glyph>

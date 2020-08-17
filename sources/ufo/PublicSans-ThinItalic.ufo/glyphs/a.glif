@@ -2,7 +2,6 @@
 <glyph name="a" format="2">
   <advance width="1016"/>
   <unicode hex="0061"/>
-  <guideline x="363" y="208" angle="0"/>
   <anchor x="442" y="0" name="bottom"/>
   <anchor x="776" y="28" name="ogonek"/>
   <anchor x="585" y="1034" name="top"/>
@@ -56,24 +55,8 @@
       <string>=|o*1.1</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>n</string>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <integer>7018</integer>
-            <integer>302</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-      </array>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>
