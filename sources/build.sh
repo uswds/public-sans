@@ -12,8 +12,8 @@ axis="wght" #eg with multiple axis "wdth,wght" --> with comma, no space
 source env/bin/activate
 set -e
 
-echo "│  █▄▄ █░█ █ █░░ █▀▄   █▀█ █░█ █▄▄ █░░ █ █▀▀   █▀ ▄▀█ █▄░█ █▀
-│  █▄█ █▄█ █ █▄▄ █▄▀   █▀▀ █▄█ █▄█ █▄▄ █ █▄▄   ▄█ █▀█ █░▀█ ▄█
+echo "│  █▀▄   █▀█ █░█ █▄▄ █░░ █ █▀▀   █▀ ▄▀█ █▄░█ █▀
+│  █▀▀ █▄█ █▄█ █▄▄ █ █▄▄   ▄█ █▀█ █░▀█ ▄█
 │"
 echo "├─ Cleaning font directories
 │"
