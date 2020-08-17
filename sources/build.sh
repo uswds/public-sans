@@ -64,8 +64,8 @@ otfs=$(ls ./fonts/otf/*.otf)
 for otf in $otfs
 do
 	gftools fix-dsig -f $otf
-	gftools fix-weightclass $otf
-	[ -f $otf.fix ] && mv $otf.fix $otf
+	#gftools fix-weightclass $otf
+	#[ -f $otf.fix ] && mv $otf.fix $otf
 done
 
 echo "│
