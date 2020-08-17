@@ -2,7 +2,6 @@
 <glyph name="euro" format="2">
   <advance width="1010"/>
   <unicode hex="20AC"/>
-  <guideline x="498" y="474" angle="90"/>
   <outline>
     <contour>
       <point x="587" y="-20" type="curve" smooth="yes"/>
@@ -45,4 +44,10 @@
       <point x="17" y="920" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
 </glyph>

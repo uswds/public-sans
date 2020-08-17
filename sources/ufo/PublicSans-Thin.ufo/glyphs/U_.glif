@@ -8,6 +8,9 @@
   <anchor x="702" y="1446" name="top"/>
   <outline>
     <contour>
+      <point x="698" y="-20" type="curve" smooth="yes"/>
+      <point x="1020" y="-20"/>
+      <point x="1178" y="134"/>
       <point x="1178" y="448" type="curve" smooth="yes"/>
       <point x="1178" y="1446" type="line"/>
       <point x="1100" y="1446" type="line"/>
@@ -23,9 +26,6 @@
       <point x="220" y="478" type="line" smooth="yes"/>
       <point x="220" y="138"/>
       <point x="370" y="-20"/>
-      <point x="698" y="-20" type="curve" smooth="yes"/>
-      <point x="1020" y="-20"/>
-      <point x="1178" y="134"/>
     </contour>
   </outline>
   <lib>
@@ -34,6 +34,8 @@
       <string>H</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>=H/1.25</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

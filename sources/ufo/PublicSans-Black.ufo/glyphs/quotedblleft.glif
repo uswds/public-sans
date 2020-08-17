@@ -4,15 +4,6 @@
   <unicode hex="201C"/>
   <outline>
     <contour>
-      <point x="550" y="802" type="line"/>
-      <point x="904" y="802" type="line"/>
-      <point x="904" y="1138" type="line"/>
-      <point x="788" y="1152" type="line"/>
-      <point x="908" y="1446" type="line"/>
-      <point x="780" y="1446" type="line"/>
-      <point x="550" y="1100" type="line"/>
-    </contour>
-    <contour>
       <point x="50" y="802" type="line"/>
       <point x="404" y="802" type="line"/>
       <point x="404" y="1138" type="line"/>
@@ -21,6 +12,15 @@
       <point x="280" y="1446" type="line"/>
       <point x="50" y="1100" type="line"/>
     </contour>
+    <contour>
+      <point x="550" y="802" type="line"/>
+      <point x="904" y="802" type="line"/>
+      <point x="904" y="1138" type="line"/>
+      <point x="788" y="1152" type="line"/>
+      <point x="908" y="1446" type="line"/>
+      <point x="780" y="1446" type="line"/>
+      <point x="550" y="1100" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>
@@ -28,6 +28,8 @@
       <string>quoteleft</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>quoteleft</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

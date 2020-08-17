@@ -3,7 +3,12 @@
   <advance width="2170"/>
   <unicode hex="2014"/>
   <outline>
-    <component base="_emdash"/>
+    <contour>
+      <point x="381" y="466" type="line"/>
+      <point x="1789" y="468" type="line"/>
+      <point x="1789" y="546" type="line"/>
+      <point x="381" y="544" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>
@@ -11,6 +16,8 @@
       <string>=hyphen*3</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>=hyphen*3</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

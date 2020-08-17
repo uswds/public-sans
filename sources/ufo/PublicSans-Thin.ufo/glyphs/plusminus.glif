@@ -4,22 +4,24 @@
   <unicode hex="00B1"/>
   <outline>
     <contour>
-      <point x="912" y="238" type="line"/>
-      <point x="130" y="236" type="line"/>
       <point x="130" y="162" type="line"/>
       <point x="912" y="164" type="line"/>
+      <point x="912" y="238" type="line"/>
+      <point x="130" y="236" type="line"/>
     </contour>
     <contour>
-      <point x="912" y="900" type="line"/>
-      <point x="130" y="898" type="line"/>
-      <point x="130" y="824" type="line"/>
-      <point x="912" y="826" type="line"/>
-    </contour>
-    <contour>
-      <point x="558" y="472" type="line"/>
+      <point x="558" y="899" type="line"/>
       <point x="558" y="1254" type="line"/>
       <point x="484" y="1254" type="line"/>
+      <point x="485" y="899" type="line"/>
+      <point x="130" y="898" type="line"/>
+      <point x="130" y="824" type="line"/>
+      <point x="485" y="825" type="line"/>
       <point x="486" y="472" type="line"/>
+      <point x="558" y="472" type="line"/>
+      <point x="558" y="825" type="line"/>
+      <point x="912" y="826" type="line"/>
+      <point x="912" y="900" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -28,6 +30,8 @@
       <string>plus</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>plus</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

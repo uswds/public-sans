@@ -3,12 +3,19 @@
   <unicode hex="0323"/>
   <anchor x="118" y="0" name="_bottom"/>
   <outline>
-    <component base="dotaccentcomb" xOffset="-224" yOffset="-1588"/>
+    <contour>
+      <point x="-124" y="-433" type="line"/>
+      <point x="234" y="-433" type="line"/>
+      <point x="278" y="-142" type="line"/>
+      <point x="-80" y="-142" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
       <integer>381</integer>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

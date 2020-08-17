@@ -13,10 +13,10 @@
       <point x="152" y="738" type="line"/>
     </contour>
     <contour>
+      <point x="40" y="16" type="line"/>
       <point x="1052" y="16" type="line"/>
       <point x="1094" y="290" type="line"/>
       <point x="82" y="290" type="line"/>
-      <point x="40" y="16" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -25,6 +25,8 @@
       <string>plus</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>plus</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

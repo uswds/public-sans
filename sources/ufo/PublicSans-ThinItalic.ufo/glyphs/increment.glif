@@ -2,8 +2,6 @@
 <glyph name="increment" format="2">
   <advance width="1176"/>
   <unicode hex="2206"/>
-  <guideline x="147" y="372" angle="69.8252"/>
-  <guideline x="469" y="371" angle="110.2678"/>
   <outline>
     <contour>
       <point x="-33" y="0" type="line"/>
@@ -16,4 +14,10 @@
       <point x="959" y="84" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -4,16 +4,16 @@
   <unicode hex="003A"/>
   <outline>
     <contour>
-      <point x="242" y="976" type="line"/>
-      <point x="120" y="976" type="line"/>
       <point x="120" y="820" type="line"/>
       <point x="242" y="820" type="line"/>
+      <point x="242" y="976" type="line"/>
+      <point x="120" y="976" type="line"/>
     </contour>
     <contour>
-      <point x="242" y="160" type="line"/>
-      <point x="120" y="160" type="line"/>
       <point x="120" y="6" type="line"/>
       <point x="242" y="6" type="line"/>
+      <point x="242" y="160" type="line"/>
+      <point x="120" y="160" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -22,6 +22,8 @@
       <string>period</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>period</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

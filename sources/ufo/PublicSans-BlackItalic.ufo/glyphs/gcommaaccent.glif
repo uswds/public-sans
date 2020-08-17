@@ -2,19 +2,10 @@
 <glyph name="gcommaaccent" format="2">
   <advance width="1267"/>
   <unicode hex="0123"/>
-  <anchor x="694" y="1034" name="_top"/>
   <anchor x="772" y="1034" name="top"/>
   <outline>
-    <contour>
-      <point x="562" y="1168" type="line"/>
-      <point x="814" y="1168" type="line"/>
-      <point x="842" y="1368" type="line"/>
-      <point x="720" y="1368" type="line"/>
-      <point x="880" y="1552" type="line"/>
-      <point x="748" y="1552" type="line"/>
-      <point x="592" y="1384" type="line"/>
-    </contour>
     <component base="g"/>
+    <component base="commaturnedabovecomb" xOffset="103"/>
   </outline>
   <lib>
     <dict>

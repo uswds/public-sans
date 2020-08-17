@@ -4,6 +4,10 @@
   <unicode hex="0066"/>
   <outline>
     <contour>
+      <point x="196" y="0" type="line"/>
+      <point x="586" y="0" type="line"/>
+      <point x="586" y="770" type="line"/>
+      <point x="774" y="770" type="line"/>
       <point x="774" y="1034" type="line"/>
       <point x="578" y="1034" type="line"/>
       <point x="578" y="1094" type="line" smooth="yes"/>
@@ -20,10 +24,6 @@
       <point x="30" y="1034" type="line"/>
       <point x="30" y="770" type="line"/>
       <point x="196" y="770" type="line"/>
-      <point x="196" y="0" type="line"/>
-      <point x="586" y="0" type="line"/>
-      <point x="586" y="770" type="line"/>
-      <point x="774" y="770" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -36,6 +36,8 @@
       <string>=t</string>
       <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
       <string>=x</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

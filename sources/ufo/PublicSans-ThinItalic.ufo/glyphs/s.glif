@@ -2,9 +2,6 @@
 <glyph name="s" format="2">
   <advance width="917"/>
   <unicode hex="0073"/>
-  <guideline x="79" y="139" angle="0"/>
-  <guideline x="239" y="252" angle="256.651"/>
-  <guideline x="-57" y="392" angle="180"/>
   <anchor x="409" y="0" name="bottom"/>
   <anchor x="548" y="1034" name="top"/>
   <outline>
@@ -61,6 +58,8 @@
       <string>=x*1.25</string>
       <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
       <string>=x*1.15</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

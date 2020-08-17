@@ -2,7 +2,6 @@
 <glyph name="literSign" format="2">
   <advance width="826"/>
   <unicode hex="2113"/>
-  <guideline x="-331" y="242" angle="90"/>
   <outline>
     <contour>
       <point x="368" y="-12" type="curve"/>
@@ -45,4 +44,10 @@
       <point x="411" y="661"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -2,8 +2,6 @@
 <glyph name="exclam" format="2">
   <advance width="432"/>
   <unicode hex="0021"/>
-  <guideline x="153" y="98" angle="90"/>
-  <guideline x="225" y="105" angle="90"/>
   <outline>
     <contour>
       <point x="155" y="288" type="line"/>
@@ -18,4 +16,10 @@
       <point x="109" y="154" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
 </glyph>

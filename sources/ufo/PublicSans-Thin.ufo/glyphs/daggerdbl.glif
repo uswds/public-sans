@@ -4,6 +4,12 @@
   <unicode hex="2021"/>
   <outline>
     <contour>
+      <point x="344" y="-322" type="line"/>
+      <point x="448" y="-322" type="line"/>
+      <point x="434" y="226" type="line"/>
+      <point x="788" y="216" type="line"/>
+      <point x="788" y="310" type="line"/>
+      <point x="428" y="296" type="line"/>
       <point x="428" y="828" type="line"/>
       <point x="788" y="816" type="line"/>
       <point x="788" y="908" type="line"/>
@@ -18,12 +24,6 @@
       <point x="0" y="310" type="line"/>
       <point x="0" y="216" type="line"/>
       <point x="356" y="226" type="line"/>
-      <point x="344" y="-322" type="line"/>
-      <point x="448" y="-322" type="line"/>
-      <point x="434" y="226" type="line"/>
-      <point x="788" y="216" type="line"/>
-      <point x="788" y="310" type="line"/>
-      <point x="428" y="296" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -32,6 +32,8 @@
       <string>dagger</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>dagger</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

@@ -3,14 +3,14 @@
   <advance width="1144"/>
   <unicode hex="0141"/>
   <anchor x="610" y="0" name="bottom"/>
-  <anchor x="810" y="1458" name="caron"/>
+  <anchor x="620" y="1446" name="caron"/>
   <anchor x="256" y="1446" name="top"/>
   <outline>
     <contour>
-      <point x="634" y="856" type="line"/>
-      <point x="60" y="710" type="line"/>
-      <point x="60" y="634" type="line"/>
-      <point x="634" y="784" type="line"/>
+      <point x="30" y="634" type="line"/>
+      <point x="604" y="784" type="line"/>
+      <point x="604" y="856" type="line"/>
+      <point x="30" y="710" type="line"/>
     </contour>
     <component base="L" xOffset="-10"/>
   </outline>
@@ -18,6 +18,8 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>L</string>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

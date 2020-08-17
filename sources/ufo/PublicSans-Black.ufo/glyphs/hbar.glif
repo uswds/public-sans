@@ -6,10 +6,10 @@
   <anchor x="369" y="1446" name="top"/>
   <outline>
     <contour>
-      <point x="762" y="1340" type="line"/>
-      <point x="40" y="1340" type="line"/>
       <point x="40" y="1132" type="line"/>
       <point x="762" y="1132" type="line"/>
+      <point x="762" y="1340" type="line"/>
+      <point x="40" y="1340" type="line"/>
     </contour>
     <component base="h" xOffset="78"/>
   </outline>
@@ -17,6 +17,8 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>h</string>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

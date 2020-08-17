@@ -2,9 +2,8 @@
 <glyph name="e" format="2">
   <advance width="1050"/>
   <unicode hex="0065"/>
-  <guideline x="163" y="483" angle="88.4926"/>
   <anchor x="471" y="0" name="bottom"/>
-  <anchor x="574" y="36" name="ogonek"/>
+  <anchor x="643" y="36" name="ogonek"/>
   <anchor x="609" y="1034" name="top"/>
   <outline>
     <contour>
@@ -46,6 +45,8 @@
       <string>=o*1.1</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>=o*1.1</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,10 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="s" format="2">
-  <advance width="973"/>
+  <advance width="970"/>
   <unicode hex="0073"/>
-  <guideline x="168" y="139" angle="0"/>
-  <guideline x="296" y="252" angle="256.651"/>
-  <guideline x="382" y="270" angle="180"/>
   <anchor x="483" y="0" name="bottom"/>
   <anchor x="509" y="1034" name="top"/>
   <outline>
@@ -60,7 +57,9 @@
       <key>com.schriftgestaltung.Glyphs.layer.leftMetricsKey</key>
       <string>=x*1.25</string>
       <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
-      <string>=x*1.15</string>
+      <string>=x*1.12</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

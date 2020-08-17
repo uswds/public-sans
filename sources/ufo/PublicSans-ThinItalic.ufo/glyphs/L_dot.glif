@@ -3,17 +3,15 @@
   <advance width="1115"/>
   <unicode hex="013F"/>
   <anchor x="515" y="0" name="bottom"/>
-  <anchor x="856" y="1446" name="caron"/>
+  <anchor x="696" y="1446" name="caron"/>
   <anchor x="391" y="1446" name="top"/>
   <outline>
     <component base="L"/>
-    <component base="periodcentered" xOffset="740" yOffset="46"/>
+    <component base="periodcentered" xOffset="640" yOffset="46"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>L</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>L</string>
     </dict>
   </lib>
