@@ -108,7 +108,7 @@ done
 echo "│
 ├─ Syncing ufo/designspace to /sources directory
 │"
-rsync -avzhr ./master_ufo/ ./sources/ufo/
+rsync -avzhr ./master_ufo/ ./sources/ufo/ --delete
 
 echo "│
 ├─ Cleaning up
