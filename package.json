@@ -34,7 +34,7 @@
     "watch": "gulp watch",
     "test": "fontbakery check-googlefonts --json report.json binaries/webfonts/*.ttf"
   },
-  "devDependencies": {
+  "dependencies": {
     "autoprefixer": "^9.7.1",
     "css-mqpacker": "^7.0.0",
     "cssnano": "^4.1.10",
