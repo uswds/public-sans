@@ -10,20 +10,18 @@
 USWDS SASS GULPFILE
 ----------------------------------------
 */
+
 const autoprefixer = require("autoprefixer");
-const autoprefixerOptions = require("./node_modules/uswds-gulp/config/browsers");
-const cssnano = require("cssnano");
+const csso = require("postcss-csso");
 const gulp = require("gulp");
-const mqpacker = require("css-mqpacker");
-const path = require("path");
 const pkg = require("./node_modules/uswds/package.json");
 const postcss = require("gulp-postcss");
-const rename = require("gulp-rename");
 const replace = require("gulp-replace");
 const sass = require("gulp-sass");
 const sourcemaps = require("gulp-sourcemaps");
 const uswds = require("./node_modules/uswds-gulp/config/uswds");
-const watch = require("gulp-watch");
+
+sass.compiler = require("sass");
 
 /*
 ----------------------------------------
@@ -79,25 +77,26 @@ gulp.task("copy-uswds-js", () => {
   return gulp.src(`${uswds}/js/**/**`).pipe(gulp.dest(`${JS_DEST}`));
 });
 
-gulp.task("build-sass", function(done) {
+gulp.task("build-sass", function (done) {
   var plugins = [
     // Autoprefix
-    autoprefixer(autoprefixerOptions),
-    // Pack media queries
-    mqpacker({ sort: true }),
+    autoprefixer({
+      cascade: false,
+      grid: true,
+    }),
     // Minify
-    cssnano({ autoprefixer: { browsers: autoprefixerOptions } })
+    csso({ forceMediaMerge: false }),
   ];
   return gulp
     .src([`${PROJECT_SASS_SRC}/*.scss`])
     .pipe(sourcemaps.init({ largeFile: true }))
     .pipe(
-      sass({
+      sass.sync({
         includePaths: [
           `${PROJECT_SASS_SRC}`,
           `${uswds}/scss`,
-          `${uswds}/scss/packages`
-        ]
+          `${uswds}/scss/packages`,
+        ],
       })
     )
     .pipe(replace(/\buswds @version\b/g, "based on uswds v" + pkg.version))
@@ -129,7 +128,7 @@ gulp.task("watch-webfonts", () => {
     .pipe(gulp.dest(WEBFONTS_DEST));
 });
 
-gulp.task("watch-sass", function() {
+gulp.task("watch-sass", function () {
   gulp.watch(`${PROJECT_SASS_SRC}/**/*.scss`, gulp.series("build-sass"));
 });
 
