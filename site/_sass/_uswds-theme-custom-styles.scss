@@ -203,3 +203,21 @@ h1, h2, h3, h4, h6, h6 {
 h2 {
   font-weight: fw('light');
 }
+
+/*
+----------------------------------------
+Identifier
+----------------------------------------
+*/
+.usa-identifier {
+  font-size: size('sans', '3xs');
+  line-height: lh('sans', 4);
+
+  .usa-identifier__section--required-links {
+    font-size: inherit;
+  }
+
+  .is-home .usa-link:hover & {
+    border-bottom: none;
+  }
+}
