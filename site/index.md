@@ -3,7 +3,7 @@ layout: default
 bodyclasses: is-home bg-ink text-white
 ---
 
-<div class="grid-container padding-top-2 tablet:margin-top-3 desktop:margin-top-8 tablet:padding-bottom-6 desktop:padding-bottom-10">
+<div class="grid-container padding-top-2 tablet:margin-top-3 desktop:margin-top-6 tablet:padding-bottom-6 desktop:padding-bottom-8">
   <h1 class="font-sans-14 tablet:font-sans-17 desktop:font-sans-18 line-height-tight text-ls-neg-1 text-normal tablet:text-ls-neg-1 padding-top-2">A strong, neutral typeface for interfaces, text, and headings.</h1>
 
   <div class="margin-top-2">
