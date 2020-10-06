@@ -13,4 +13,3 @@ bodyclasses: is-home bg-ink text-white
   <p class="line-height-sans-4 margin-top-4 tablet:margin-top-6">Developed by <a class="link-heavy" href="http://v2.designsystem.digital.gov">USWDS.</a> <span class="text-no-wrap">Contribute to its development</span> on <a class="link-heavy" href="https://github.com/uswds/public-sans">GitHub.</a></p>
 
 </div>
-{% include footer.html %}

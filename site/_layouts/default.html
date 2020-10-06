@@ -11,8 +11,9 @@
   <main id="main-content">
     {{ content }}
   </main>
+  {% include footer.html %}
   <script src="{{ "/assets/uswds/js/uswds.min.js" | relative_url }}"></script>
-  
+
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-47271808-2"></script>
   <script>
@@ -22,6 +23,6 @@
 
     gtag('config', 'UA-47271808-2');
   </script>
-  
+
 </body>
 </html>
