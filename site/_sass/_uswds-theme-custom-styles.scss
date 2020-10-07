@@ -39,6 +39,9 @@ h6 {
 
   .is-home & {
     color: color("white");
+    &:hover {
+      color: color("primary-light");
+    }
   }
 }
 
