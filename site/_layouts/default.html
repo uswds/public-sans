@@ -2,13 +2,13 @@
 ---
 
 <!doctype html>
-<html class="" lang="en">
+<html class="height-full" lang="en">
 {% include head.html %}
 
-<body class="{{ page.bodyclasses }}">
+<body class="height-full display-flex flex-column {{ page.bodyclasses }}">
   {% include gov-banner.html %}
   {% include header.html %}
-  <main id="main-content">
+  <main class="flex-fill" id="main-content">
     {{ content }}
   </main>
   {% include footer.html %}
