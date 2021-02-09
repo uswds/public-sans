@@ -20,6 +20,11 @@ const replace = require("gulp-replace");
 const sass = require("gulp-sass");
 const sourcemaps = require("gulp-sourcemaps");
 const uswds = require("./node_modules/uswds-gulp/config/uswds");
+const del = require("del");
+const svgSprite = require("gulp-svg-sprite");
+const rename = require("gulp-rename");
+
+// Required for "watch-webfonts" task.
 const watch = require("gulp-watch");
 
 sass.compiler = require("sass");
@@ -116,6 +121,55 @@ gulp.task("build-sass", function (done) {
   );
 });
 
+// SVG sprite configuration
+config = {
+  shape: {
+    dimension: { // Set maximum dimensions
+      maxWidth: 24,
+      maxHeight: 24
+    },
+    id: {
+      separator: "-"
+    },
+    spacing: { // Add padding
+      padding: 0
+    }
+  },
+  mode: {
+    symbol: true // Activate the «symbol» mode
+  }
+};
+
+gulp.task("build-sprite", function (done) {
+  gulp.src(`${IMG_DEST}/usa-icons/**/*.svg`, {
+    allowEmpty: true,
+  })
+  .pipe(svgSprite(config))
+  .on("error", function (error) {
+    console.log("There was an error");
+  })
+  .pipe(gulp.dest(`${IMG_DEST}`))
+  .on("end", function () {
+    done();
+  });
+});
+
+gulp.task("rename-sprite", function (done) {
+  gulp.src(`${IMG_DEST}/symbol/svg/sprite.symbol.svg`, {
+    allowEmpty: true,
+  })
+  .pipe(rename(`${IMG_DEST}/sprite.svg`))
+  .pipe(gulp.dest(`./`))
+  .on("end", function () {
+    done();
+  });
+});
+
+gulp.task("clean-sprite", function (cb) {
+  cb();
+  return del.sync(`${IMG_DEST}/symbol`);
+});
+
 gulp.task(
   "init",
   gulp.series(
@@ -140,6 +194,7 @@ gulp.task("watch-webfonts", () => {
     .pipe(gulp.dest(WEBFONTS_DEST));
 });
 
+
 gulp.task("watch-sass", function () {
   gulp.watch(`${PROJECT_SASS_SRC}/**/*.scss`, gulp.series("build-sass"));
 });
@@ -154,3 +209,8 @@ gulp.task(
 );
 
 gulp.task("default", gulp.series("watch"));
+
+gulp.task(
+  "svg-sprite",
+  gulp.series("build-sprite", "rename-sprite", "clean-sprite")
+);
