@@ -23,7 +23,7 @@
     "copy-webfonts": "npx gulp copy-webfonts",
     "federalist": "npm run uswds-copy-assets && npm run copy-webfonts && npm run uswds-build-sass",
     "jekyll-install": "gem install bundler && bundle install",
-    "serve": "bundle exec jekyll serve --livereload --host localhost",
+    "serve": "bundle exec jekyll serve --livereload --host localhost & npx gulp watch",
     "start": "npm install && npm run jekyll-install && npm run uswds-copy-assets && npm run uswds-build-sass",
     "uswds-build-sass": "npx gulp build-sass",
     "uswds-copy-assets": "npm run uswds-copy-js && npm run uswds-copy-fonts && npm run uswds-copy-img",
