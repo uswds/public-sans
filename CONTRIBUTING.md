@@ -12,6 +12,36 @@ License of USWDS’s Modified Version is based on the [Libre Franklin SIL Open F
 
 By submitting a pull request, you agree to comply with the terms and conditions of the SIL Open Font License, Version 1.1.
 
+## Building the Font
+
+This package has been updated to use Python [3](https://www.python.org/downloads/)
+
+> if your local version of Python is different from what is noted in `.python-version` you will need to use a version manager like [pyenv](https://github.com/pyenv/pyenv)
+
+```sh
+python3 -m venv .venv
+```
+
+### Activate the virtual env
+```sh
+source .venv/bin/activate
+```
+
+### Install requirements
+```sh
+pip install -r ./requirements.txt
+```
+
+### Install node requirements
+```sh
+npm install
+```
+
+### Run build
+```sh
+npm run build
+```
+
 ## Running the specimen site locally
 
 The specimen site runs on Jekyll and Node, powered by USWDS. The site-related files are distinct from the Public Sans source files and are kept in the following locations:
