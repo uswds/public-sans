@@ -16,14 +16,14 @@ Deprecated==1.2.10
 Flask==1.1.2
 font-v==1.0.2
 fontbakery==0.7.28
-fontmake==2.2.0
+fontmake>=2.2.0
 fontMath==0.6.0
-fonttools==4.13.0
+fonttools>=4.13.0
 fs==2.4.11
 gftools==0.4.1
 gitdb==4.0.5
 GitPython==3.1.7
-glyphsLib==5.1.10
+glyphsLib>=5.1.10
 idna==2.10
 importlib-metadata==1.7.0
 itsdangerous==1.1.0
@@ -31,7 +31,7 @@ Jinja2==2.11.2
 lxml==4.6.2
 MarkupSafe==1.1.1
 opentype-sanitizer==8.0.0.post2
-Pillow==7.1.0
+Pillow>=7.0.0
 protobuf==3.12.2
 pyclipper==1.2.0
 PyGithub==1.51
