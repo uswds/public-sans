@@ -19,7 +19,7 @@ This package has been updated to use Python [3](https://www.python.org/downloads
 > if your local version of Python is different from what is noted in `.python-version` you will need to use a version manager like [pyenv](https://github.com/pyenv/pyenv)
 
 ```sh
-python3 -m venv .venv
+python3.8 -m venv .venv
 ```
 
 ### Activate the virtual env
@@ -29,7 +29,7 @@ source .venv/bin/activate
 
 ### Install requirements
 ```sh
-pip install -r ./requirements.txt
+pip install -r ./requirements.txt --no-cache
 ```
 
 ### Install node requirements
@@ -39,7 +39,8 @@ npm install
 
 ### Install OS requirements
 ```sh
-brew install webfonttools sfnt2woff-zopfli ttfautohint
+brew tap bramstein/webfonttools
+brew install woff2 sfnt2woff-zopfli ttfautohint
 ```
 
 ### Run build
@@ -59,7 +60,6 @@ public-sans/
 ├── _sass/
 ├── pages/
 └── assets/
-
 ```
 
 ## Running code locally
