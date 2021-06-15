@@ -37,6 +37,11 @@ pip install -r ./requirements.txt
 npm install
 ```
 
+### Install OS requirements
+```sh
+brew install webfonttools sfnt2woff-zopfli ttfautohint
+```
+
 ### Run build
 ```sh
 npm run build
