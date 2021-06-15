@@ -9,7 +9,7 @@ axis="wght" #eg with multiple axis "wdth,wght" --> with comma, no space
 #===========================================================================
 #Generating fonts ==========================================================
 
-source env/bin/activate
+source .venv/bin/activate
 set -e
 
 echo "│  █▀█ █░█ █▄▄ █░░ █ █▀▀   █▀ ▄▀█ █▄░█ █▀
@@ -51,7 +51,7 @@ echo $ttfs
 for ttf in $ttfs
 do
 	gftools fix-dsig --autofix $ttf
-	ttfautohint $ttf $ttf.fix
+	ttfautohint $ttf $ttf.fix # brew install ttfautohint
 	[ -f $ttf.fix ] && mv $ttf.fix $ttf
 	gftools fix-hinting $ttf
 	[ -f $ttf.fix ] && mv $ttf.fix $ttf
@@ -95,8 +95,8 @@ mkdir -p ./fonts/webfonts
 ttfs=$(ls ./fonts/ttf/*.ttf)
 for ttf in $ttfs
 do
-  woff2_compress $ttf
-  sfnt2woff-zopfli $ttf
+  woff2_compress $ttf # brew install webfonttools
+  sfnt2woff-zopfli $ttf # brew install sfnt2woff-zopfli
 done
 
 woffs=$(ls ./fonts/ttf/*.woff*)
