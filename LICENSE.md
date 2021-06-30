@@ -1,6 +1,10 @@
-This repository is a fork of Libre Franklin: https://github.com/impallari/Libre-Franklin
+This repository is a fork of Public Sans: https://github.com/uswds/public-sans
 
-## License for USWDS’s Modified Version
+## License for New South Wales' Modified Version of Public sans
+
+This repository is a fork of Public Sans by USWDS, a modified Public Sans package created to add NSW ligatures, and remove USA-centric ligatures.
+
+## License for USWDS’s Modified Version of Libre Franklin:
 
 This repository contains both the original font software for Libre Franklin (the “Original Version”) and font software modifications made by the General Services Administration (GSA). This repository combines the Original Version and these GSA modifications into a piece of font software called Public Sans, which is a “Modified Version” of Libre Franklin.
 
