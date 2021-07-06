@@ -1,0 +1,25 @@
+.circle {
+  border-radius: 100%;
+  height: 4em;
+  width: 4em;
+  text-align: center;
+  background: #1E3178;
+  color: #fff;
+}
+
+.circle p {
+  font-size: 2em;
+  line-height: 2em;
+  font-weight: bold;
+  margin:0;
+}
+
+p.instruction {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  margin:0.5em 0;  
+}
+
+button.icon {
+  line-height:1.5em;
+}
