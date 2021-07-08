@@ -80,6 +80,8 @@ do
 	gftools fix-unwanted-tables --tables MVAR $vf
 	gftools fix-vf-meta $vf
 	mv $vf.fix $vf
+	gftools gen-stat $vf --src ./sources/stat.yaml
+	mv $vf.fix $vf
 done
 rm ./fonts/variable/*gasp*
 
