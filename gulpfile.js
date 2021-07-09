@@ -17,7 +17,7 @@ const gulp = require("gulp");
 const pkg = require("./node_modules/uswds/package.json");
 const postcss = require("gulp-postcss");
 const replace = require("gulp-replace");
-const sass = require("gulp-sass");
+const sass = require("gulp-dart-scss");
 const sourcemaps = require("gulp-sourcemaps");
 const uswds = require("./node_modules/uswds-gulp/config/uswds");
 const watch = require("gulp-watch");
@@ -99,7 +99,7 @@ gulp.task("build-sass", function (done) {
       .src([`${PROJECT_SASS_SRC}/*.scss`])
       .pipe(sourcemaps.init({ largeFile: true }))
       .pipe(
-        sass.sync({
+        sass({
           includePaths: [
             `${PROJECT_SASS_SRC}`,
             `${uswds}/scss`,
