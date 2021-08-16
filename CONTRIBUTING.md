@@ -14,34 +14,7 @@ By submitting a pull request, you agree to comply with the terms and conditions 
 
 ## Building the Font
 
-This package has been updated to use Python [3](https://www.python.org/downloads/)
-
-> if your local version of Python is different from what is noted in `.python-version` you will need to use a version manager like [pyenv](https://github.com/pyenv/pyenv)
-
-```sh
-python3.8 -m venv .venv
-```
-
-### Activate the virtual env
-```sh
-source .venv/bin/activate
-```
-
-### Install requirements
-```sh
-pip install -r ./requirements.txt --no-cache
-```
-
-### Install node requirements
-```sh
-npm install
-```
-
-### Install OS requirements
-```sh
-brew tap bramstein/webfonttools
-brew install woff2 sfnt2woff-zopfli ttfautohint
-```
+This package has been updated to use Python [3](https://www.python.org/downloads/) and [Docker](docker getting started)
 
 ### Run build
 ```sh
