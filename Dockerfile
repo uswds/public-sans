@@ -1,18 +1,21 @@
 # pull official base image
-FROM python:3.8.11-slim
+FROM linuxbrew/brew:latest
 
 # set work directory
 WORKDIR /usr/src/uswds
 
-# set environment variables
-ENV PYTHONDONTWRITEBYTECODE 1
-ENV PYTHONUNBUFFERED 1
+# install environment packages
+RUN apt-get update && apt-get install python3.8 pip rsync -y
 
+# bring in our python requirements
 COPY requirements.txt .
+
+# install python dependencies
 RUN pip install -r requirements.txt
-RUN
-brew tap bramstein/webfonttools
-brew install woff2 sfnt2woff-zopfli ttfautohint
+
+# install webfont tools
+RUN brew tap bramstein/webfonttools \
+    && brew install woff2 sfnt2woff-zopfli ttfautohint
 
 # run
 CMD [ "./sources/build.sh" ]
