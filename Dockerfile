@@ -1,21 +1,23 @@
 # pull official base image
-FROM linuxbrew/brew:latest
+FROM python:3.8.11-slim
 
 # set work directory
-WORKDIR /usr/src/uswds
+WORKDIR /public_sans
 
-# install environment packages
-RUN apt-get update && apt-get install python3.8 pip rsync -y
-
-# bring in our python requirements
 COPY requirements.txt .
-
-# install python dependencies
 RUN pip install -r requirements.txt
 
-# install webfont tools
-RUN brew tap bramstein/webfonttools \
-    && brew install woff2 sfnt2woff-zopfli ttfautohint
+RUN apt-get update && apt-get install git rsync make g++ ttfautohint libz-dev -y
+
+RUN git clone --recursive https://github.com/google/woff2.git ../woff2 \
+    && cd ../woff2 \
+    && make
+
+RUN git clone --recursive https://github.com/bramstein/sfnt2woff-zopfli.git ../sfnt2woff-zopfli \
+    && cd ../sfnt2woff-zopfli \
+    && make
+
+ENV PATH "${PATH}:/sfnt2woff-zopfli:/woff2"
 
 # run
 CMD [ "./sources/build.sh" ]
