@@ -3,8 +3,8 @@
   height: 4em;
   width: 4em;
   text-align: center;
-  background: #1E3178;
-  color: #fff;
+  background: var(--nsw-brand-dark);
+  color: var(--nsw-text-light);
 }
 
 .circle p {
@@ -12,14 +12,4 @@
   line-height: 2em;
   font-weight: bold;
   margin:0;
-}
-
-p.instruction {
-  font-size: 1.5em;
-  line-height: 1.5em;
-  margin:0.5em 0;  
-}
-
-button.icon {
-  line-height:1.5em;
 }
