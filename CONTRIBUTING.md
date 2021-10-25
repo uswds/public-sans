@@ -14,7 +14,7 @@ By submitting a pull request, you agree to comply with the terms and conditions 
 
 ## Building the Font
 
-This package has been updated to use Python [3](https://www.python.org/downloads/) and [Docker](https://www.docker.com/get-started)
+This package has been updated to use [Python 3](https://www.python.org/downloads/) and [Docker](https://www.docker.com/get-started). You'll need to install Docker to run the build script and build the font. Docker will take care of all the Python dependencies.
 
 ### Run build
 ```sh
