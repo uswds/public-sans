@@ -1,7 +1,7 @@
 #!/bin/sh
 
 #===========================================================================
-#Update this variable ==========================================================
+#Update this variable ======================================================
 
 thisFont="PublicSans"  #must match the name in the font file
 axis="wght" #eg with multiple axis "wdth,wght" --> with comma, no space
@@ -9,11 +9,9 @@ axis="wght" #eg with multiple axis "wdth,wght" --> with comma, no space
 #===========================================================================
 #Generating fonts ==========================================================
 
-source .venv/bin/activate
-set -e
-
-echo "│  █▀█ █░█ █▄▄ █░░ █ █▀▀   █▀ ▄▀█ █▄░█ █▀
-│  █▀▀ █▄█ █▄█ █▄▄ █ █▄▄   ▄█ █▀█ █░▀█ ▄█
+echo "│
+└─ █▀█ █░█ █▄▄ █░░ █ █▀▀   █▀ ▄▀█ █▄░█ █▀
+   █▀▀ █▄█ █▄█ █▄▄ █ █▄▄   ▄█ █▀█ █░▀█ ▄█
 │"
 echo "├─ Cleaning font directories
 │"
@@ -51,7 +49,7 @@ echo $ttfs
 for ttf in $ttfs
 do
 	gftools fix-dsig --autofix $ttf
-	ttfautohint $ttf $ttf.fix # brew install ttfautohint
+	ttfautohint $ttf $ttf.fix
 	[ -f $ttf.fix ] && mv $ttf.fix $ttf
 	gftools fix-hinting $ttf
 	[ -f $ttf.fix ] && mv $ttf.fix $ttf
@@ -85,7 +83,6 @@ rm ./fonts/variable/*gasp*
 
 #============================================================================
 #Build woff and woff2 fonts =================================================
-#requires https://github.com/bramstein/homebrew-webfonttools
 
 echo "│
 ├─ Building webfonts
@@ -95,8 +92,8 @@ mkdir -p ./fonts/webfonts
 ttfs=$(ls ./fonts/ttf/*.ttf)
 for ttf in $ttfs
 do
-  woff2_compress $ttf # brew install webfonttools
-  sfnt2woff-zopfli $ttf # brew install sfnt2woff-zopfli
+  woff2_compress $ttf
+  sfnt2woff-zopfli $ttf
 done
 
 woffs=$(ls ./fonts/ttf/*.woff*)
