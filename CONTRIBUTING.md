@@ -4,14 +4,6 @@ We're so glad you're thinking about contributing! If you're unsure or afraid of 
 
 Before contributing, we encourage you to read our CONTRIBUTING policy (you are here), our [LICENSE](https://github.com/uswds/public-sans/blob/master/LICENSE.md), and our [README](https://github.com/uswds/public-sans/blob/master/README.md).
 
-## SIL Open Font License, Version 1.1
-
-Public Sans is licensed under the [SIL Open Font License, Version 1.1](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL_web)
-
-License of USWDS’s Modified Version is based on the [Libre Franklin SIL Open Font License, Version 1.1](https://github.com/uswds/public-sans/blob/master/LICENSE.md#libre-franklin-sil-open-font-license-11) section of [LICENSE.md](https://github.com/uswds/public-sans/blob/master/LICENSE.md). The terms and conditions for modifications made to the original font by USWDS in the USWDS Modified Version can be found at https://github.com/uswds/public-sans/blob/master/LICENSE.md.
-
-By submitting a pull request, you agree to comply with the terms and conditions of the SIL Open Font License, Version 1.1. Public Sans is a GSA project — while GSA's contributions public domain, new contributions and derivative work must be licensed under the SIL Open Font License, Version 1.1.
-
 ## Contribution guidelines
 
 Public Sans is a principles-driven open source typeface, maintained by the General Services Administration (GSA). We encourage contributions consistent with the project's design principles:
@@ -30,7 +22,7 @@ We accept pull requests that improve Public Sans and are in the service of these
 
 -   Compiles without errors
 -   Passes code scanning and continuous integration tests
--   Is legibile and understandable
+-   Is legible and understandable
 -   Is consistent with the existing codebase
 
 Any contributors will be responsible for updating `AUTHORS.txt` and `CONTRIBUTORS.txt` as necessary. We'll review these files as part of the code review process.
@@ -40,6 +32,16 @@ Any contributors will be responsible for updating `AUTHORS.txt` and `CONTRIBUTOR
 [`CONTRIBUTORS.txt`](https://github.com/uswds/public-sans/blob/master/CONTRIBUTORS.txt) is the list of people who have contributed to this project, and includes those not listed in `AUTHORS.txt` because they are not copyright authors. For example, company employees may be listed here because their company holds the copyright and is listed in `AUTHORS.txt`.
 
 We may request changes from the author for any contributions that do not pass this evaluation. Contributions that do not pass this evaluation may be rejected. If you're unsure about anything, just ask.
+
+## SIL Open Font License, Version 1.1
+
+Public Sans is licensed under the [SIL Open Font License, Version 1.1](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL_web)
+
+License of USWDS’s Modified Version is based on the [Libre Franklin SIL Open Font License, Version 1.1](https://github.com/uswds/public-sans/blob/master/LICENSE.md#libre-franklin-sil-open-font-license-11) section of [LICENSE.md](https://github.com/uswds/public-sans/blob/master/LICENSE.md). The terms and conditions for modifications made to the original font by USWDS in the USWDS Modified Version can be found at https://github.com/uswds/public-sans/blob/master/LICENSE.md.
+
+By submitting a pull request, you agree to comply with the terms and conditions of the SIL Open Font License, Version 1.1. 
+
+Public Sans is a GSA project. While GSA's contributions public domain, new contributions and derivative work must be licensed under the SIL Open Font License, Version 1.1.
 
 ## Running the specimen site locally
 
