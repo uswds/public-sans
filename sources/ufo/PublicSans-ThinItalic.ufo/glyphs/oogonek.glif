@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="oogonek" format="2">
+  <advance width="1044"/>
+  <unicode hex="01EB"/>
+  <anchor x="531" y="20" name="_ogonek"/>
+  <anchor x="426" y="0" name="bottom"/>
+  <anchor x="842" y="714" name="horn"/>
+  <anchor x="531" y="20" name="ogonek"/>
+  <anchor x="561" y="1034" name="top"/>
+  <outline>
+    <contour>
+      <point x="396" y="-332" type="curve" smooth="yes"/>
+      <point x="459" y="-332"/>
+      <point x="519" y="-314"/>
+      <point x="549" y="-298" type="curve"/>
+      <point x="559" y="-236" type="line"/>
+      <point x="541" y="-246"/>
+      <point x="485" y="-266"/>
+      <point x="423" y="-266" type="curve" smooth="yes"/>
+      <point x="349" y="-266"/>
+      <point x="325" y="-238"/>
+      <point x="331" y="-184" type="curve" smooth="yes"/>
+      <point x="343" y="-108"/>
+      <point x="411" y="-60"/>
+      <point x="539" y="0" type="curve"/>
+      <point x="479" y="18" type="line"/>
+      <point x="323" y="-30"/>
+      <point x="265" y="-94"/>
+      <point x="253" y="-180" type="curve" smooth="yes"/>
+      <point x="241" y="-268"/>
+      <point x="281" y="-332"/>
+    </contour>
+    <component base="o"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

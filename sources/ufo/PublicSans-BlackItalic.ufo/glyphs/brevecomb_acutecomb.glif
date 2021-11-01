@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="brevecomb_acutecomb" format="2">
+  <anchor x="434" y="1034" name="_top"/>
+  <outline>
+    <contour>
+      <point x="519" y="1156" type="curve" smooth="yes"/>
+      <point x="695" y="1156"/>
+      <point x="867" y="1250"/>
+      <point x="955" y="1446" type="curve"/>
+      <point x="745" y="1446" type="line"/>
+      <point x="697" y="1378"/>
+      <point x="633" y="1330"/>
+      <point x="545" y="1330" type="curve" smooth="yes"/>
+      <point x="459" y="1330"/>
+      <point x="409" y="1378"/>
+      <point x="381" y="1446" type="curve"/>
+      <point x="171" y="1446" type="line"/>
+      <point x="199" y="1244"/>
+      <point x="347" y="1156"/>
+    </contour>
+    <contour>
+      <point x="472" y="1563" type="line"/>
+      <point x="661" y="1563" type="line"/>
+      <point x="889" y="1821" type="line"/>
+      <point x="609" y="1821" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>brevecomb</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>brevecomb</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>864</integer>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

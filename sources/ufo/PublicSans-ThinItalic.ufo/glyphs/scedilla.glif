@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="scedilla" format="2">
+  <advance width="917"/>
+  <unicode hex="015F"/>
+  <anchor x="409" y="0" name="_bottom"/>
+  <anchor x="409" y="0" name="bottom"/>
+  <anchor x="548" y="1034" name="top"/>
+  <outline>
+    <contour>
+      <point x="307" y="-398" type="curve" smooth="yes"/>
+      <point x="403" y="-398"/>
+      <point x="491" y="-350"/>
+      <point x="505" y="-252" type="curve" smooth="yes"/>
+      <point x="513" y="-190"/>
+      <point x="491" y="-124"/>
+      <point x="381" y="-114" type="curve"/>
+      <point x="445" y="10" type="line"/>
+      <point x="383" y="10" type="line"/>
+      <point x="295" y="-154" type="line" smooth="yes"/>
+      <point x="291" y="-158"/>
+      <point x="291" y="-162"/>
+      <point x="301" y="-162" type="curve" smooth="yes"/>
+      <point x="393" y="-166"/>
+      <point x="435" y="-194"/>
+      <point x="425" y="-256" type="curve" smooth="yes"/>
+      <point x="417" y="-310"/>
+      <point x="383" y="-340"/>
+      <point x="307" y="-340" type="curve" smooth="yes"/>
+      <point x="251" y="-340"/>
+      <point x="225" y="-322"/>
+      <point x="203" y="-296" type="curve"/>
+      <point x="175" y="-352" type="line"/>
+      <point x="209" y="-382"/>
+      <point x="251" y="-398"/>
+    </contour>
+    <component base="s"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

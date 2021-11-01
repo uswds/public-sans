@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="question" format="2">
+  <advance width="1014"/>
+  <unicode hex="003F"/>
+  <outline>
+    <contour>
+      <point x="430" y="292" type="curve"/>
+      <point x="512" y="292" type="line"/>
+      <point x="512" y="656"/>
+      <point x="924" y="760"/>
+      <point x="924" y="1112" type="curve" smooth="yes"/>
+      <point x="924" y="1328"/>
+      <point x="764" y="1466"/>
+      <point x="512" y="1466" type="curve" smooth="yes"/>
+      <point x="326" y="1466"/>
+      <point x="154" y="1368"/>
+      <point x="70" y="1216" type="curve"/>
+      <point x="152" y="1178" type="line"/>
+      <point x="196" y="1288"/>
+      <point x="360" y="1384"/>
+      <point x="512" y="1384" type="curve" smooth="yes"/>
+      <point x="708" y="1384"/>
+      <point x="834" y="1280"/>
+      <point x="834" y="1112" type="curve" smooth="yes"/>
+      <point x="834" y="788"/>
+      <point x="430" y="682"/>
+    </contour>
+    <contour>
+      <point x="412" y="0" type="line"/>
+      <point x="532" y="0" type="line"/>
+      <point x="532" y="154" type="line"/>
+      <point x="412" y="154" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>z</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

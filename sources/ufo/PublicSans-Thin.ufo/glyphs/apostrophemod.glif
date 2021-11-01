@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="apostrophemod" format="2">
+  <advance width="366"/>
+  <unicode hex="02BC"/>
+  <outline>
+    <contour>
+      <point x="100" y="1070" type="line"/>
+      <point x="168" y="1054"/>
+      <point x="266" y="1148"/>
+      <point x="266" y="1280" type="curve"/>
+      <point x="266" y="1418" type="line"/>
+      <point x="100" y="1418" type="line"/>
+      <point x="100" y="1262" type="line"/>
+      <point x="194" y="1262" type="line"/>
+      <point x="194" y="1254" type="line"/>
+      <point x="194" y="1194"/>
+      <point x="156" y="1124"/>
+      <point x="110" y="1124" type="curve"/>
+      <point x="100" y="1124" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>commaturnedmod</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>commaturnedmod</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

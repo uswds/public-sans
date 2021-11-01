@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lslash" format="2">
+  <advance width="944"/>
+  <unicode hex="0142"/>
+  <anchor x="365" y="0" name="bottom"/>
+  <anchor x="804" y="1486" name="caron"/>
+  <anchor x="624" y="1530" name="top"/>
+  <outline>
+    <contour>
+      <point x="94" y="364" type="line"/>
+      <point x="925" y="842" type="line"/>
+      <point x="925" y="1148" type="line"/>
+      <point x="94" y="688" type="line"/>
+    </contour>
+    <component base="l" xOffset="175"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=l-130</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=l+20</string>
+      <key>com.schriftgestaltung.Glyphs.layer.leftMetricsKey</key>
+      <string>=l-30</string>
+      <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
+      <string>=l</string>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

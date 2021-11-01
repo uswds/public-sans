@@ -14,6 +14,59 @@ To contribute to Public Sans please read [CONTRIBUTING.md](https://github.com/us
 
 See [the Public Sans releases page](https://github.com/uswds/public-sans/releases) for more details about changes to the typeface.
 
+November 1 2021 Public Sans v2.000
+- https://github.com/uswds/public-sans/releases/tag/v2.000
+
+General
+- Rename `PublicSans-italics` → `PublicSans-Italic`
+- Fixed language feature encoding
+- Update to 2.000
+
+Glyphs
+- Modified `eth` contours
+- Adjusted curves of `S` and `Thorn`
+- Corrected 
+  - `Eng`, `eng`
+  - `Ldot`, '`ldot`
+  - `Tbar`, `tbar`
+  - `gcommaaccent`
+- Removed unnecessary anchors
+- Decomposed and transformed components
+- Corrected dot accent position in thin masters
+- Slightly shifted position of `acute` and `grave`
+- Adjusted percent and perthousand
+- Corrected positon of `caron.alt`
+- Added caret anchors
+- Corrected Naira currency
+- Decomposed nested components
+- Corrected kerning group inconsistencies in caps and lowercases
+- Corrected position of `breve_hookabove`
+- Adjusted alignment zones
+- Renamed narrow acutecomb variants `acutecomb.001` → `acutecomb.narrow`
+- Added `gravecomb.narrow`
+- Fixed contour directons
+- Added `_ringacute` in `aringacute` italic, decomposed and merged `_ringacute`
+- Decomposed overlapping components
+
+Structure
+- Renames `/src` directory to `/sources`, which includes the build script and the Glyphs sources
+- Renames `/binaries` directory to `/fonts` adding TTF fonts as a `/fonts/ttf` directory separate from webfonts
+- Adds `AUTHORS.txt` for copyright-holding authors
+- Adds `CONTRIBUTORS.txt` for contributors who are not copyright authors
+- Adds explicit description file
+- Adds `requirements.txt` for python 3.x `pip3 install -r requirements.txt`
+- Moves old version binaries to an `/old` directory
+- Removes dash from `Public-Sans` in source files → `PublicSans`
+
+Build
+- Add weight class fix in build script
+- Added new fontbakery tools to `requirements.txt` and build script
+- Uses new locations
+- Removes autohinting
+- Updates build process to build with Docker
+- Adds gftools gen-stat to the build process, as well as a stat.yaml file
+
+
 January 8 2020 (USWDS) Public Sans v1.008
 - https://github.com/uswds/public-sans/releases/tag/v1.008
 

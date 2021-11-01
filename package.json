@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/uswds/public-sans#readme",
   "scripts": {
-    "build": "./build.sh",
+    "build": "sh build.sh",
     "copy-webfonts": "npx gulp copy-webfonts",
     "federalist": "npm run uswds-copy-assets && npm run copy-webfonts && npm run uswds-build-sass",
     "jekyll-install": "gem install bundler && bundle install",
@@ -49,7 +49,7 @@
     "postcss": "^8.2.6",
     "postcss-csso": "^5.0.0",
     "sass": "^1.32.8",
-    "uswds": "^2.10.1",
+    "uswds": "^2.12.2",
     "uswds-gulp": "github:uswds/uswds-gulp"
   },
   "devDependencies": {

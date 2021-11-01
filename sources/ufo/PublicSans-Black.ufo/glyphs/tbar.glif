@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tbar" format="2">
+  <advance width="882"/>
+  <unicode hex="0167"/>
+  <anchor x="506" y="18" name="bottom"/>
+  <anchor x="544" y="1586" name="caron"/>
+  <anchor x="434" y="516" name="center"/>
+  <outline>
+    <contour>
+      <point x="58" y="450" type="line"/>
+      <point x="783" y="450" type="line"/>
+      <point x="783" y="660" type="line"/>
+      <point x="58" y="660" type="line"/>
+    </contour>
+    <component base="t"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>t</string>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

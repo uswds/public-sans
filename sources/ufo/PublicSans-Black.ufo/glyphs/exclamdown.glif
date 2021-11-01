@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="exclamdown" format="2">
+  <advance width="622"/>
+  <unicode hex="00A1"/>
+  <outline>
+    <contour>
+      <point x="70" y="-322" type="line"/>
+      <point x="522" y="-322" type="line"/>
+      <point x="416" y="514" type="line"/>
+      <point x="180" y="514" type="line"/>
+    </contour>
+    <contour>
+      <point x="90" y="650" type="line"/>
+      <point x="500" y="650" type="line"/>
+      <point x="500" y="1034" type="line"/>
+      <point x="90" y="1034" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>exclam</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>exclam</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

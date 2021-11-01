@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="commaturnedmod" format="2">
+  <advance width="366"/>
+  <unicode hex="02BB"/>
+  <outline>
+    <contour>
+      <point x="100" y="1068" type="line"/>
+      <point x="266" y="1068" type="line"/>
+      <point x="266" y="1224" type="line"/>
+      <point x="172" y="1224" type="line"/>
+      <point x="172" y="1232" type="line"/>
+      <point x="172" y="1292"/>
+      <point x="210" y="1362"/>
+      <point x="256" y="1362" type="curve"/>
+      <point x="266" y="1362" type="line"/>
+      <point x="266" y="1416" type="line"/>
+      <point x="198" y="1432"/>
+      <point x="100" y="1338"/>
+      <point x="100" y="1206" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>quoteright</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>quoteright</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>
