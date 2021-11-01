@@ -43,6 +43,15 @@ By submitting a pull request, you agree to comply with the terms and conditions 
 
 Public Sans is a GSA project. While GSA's contributions are not subject to copyright in the United States, contributors must license new contributions and derivative works under the SIL Open Font License, Version 1.1, as required under Section 5 of the SIL Open Font License, Version 1.1.
 
+## Building the Font
+
+This package has been updated to use [Python 3](https://www.python.org/downloads/) and [Docker](https://www.docker.com/get-started). You'll need to install Docker to run the build script and build the font. Docker will take care of all the Python dependencies.
+
+### Run build
+```sh
+npm run build
+```
+
 ## Running the specimen site locally
 
 The specimen site runs on Jekyll and Node, powered by USWDS. The site-related files are distinct from the Public Sans source files and are kept in the following locations:
@@ -55,7 +64,6 @@ public-sans/
 ├── _sass/
 ├── pages/
 └── assets/
-
 ```
 
 ## Running code locally

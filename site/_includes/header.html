@@ -1,4 +1,4 @@
-<header class="grid-container margin-top-3 tablet:margin-top-4" role="banner">
+<header class="grid-container width-full margin-top-3 tablet:margin-top-4" role="banner">
   <div class="site-title font-sans-13">
     {% if page.url == "/" %}
     Public Sans
@@ -6,7 +6,7 @@
     <a class="inline-block" href="{{ "/" | relative_url }}" title="Home" aria-label="Home">Public Sans</a>
     {% endif %}
   </div>
-  <nav class="margin-top-0" role="navigation">
+  <nav class="site-nav margin-top-0" role="navigation">
     <ul class="">
       {% for instance in site.data.weights %}
         <li class="text-{{ instance.weight }}"><a href="{{ instance.url | relative_url }}"{% if page.url contains instance.url %} class="border-ink"{% endif %}>{{ instance.weight }}</a></li>
