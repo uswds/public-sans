@@ -17,7 +17,7 @@ const gulp = require("gulp");
 const pkg = require("./node_modules/uswds/package.json");
 const postcss = require("gulp-postcss");
 const replace = require("gulp-replace");
-const sass = require("gulp-dart-scss");
+const sass = require("gulp-sass");
 const sourcemaps = require("gulp-sourcemaps");
 const uswds = require("./node_modules/uswds-gulp/config/uswds");
 const del = require("del");
@@ -55,14 +55,8 @@ const JS_DEST = "./site/assets/uswds/js";
 // Compiled CSS destination
 const CSS_DEST = "./site/assets/css";
 
-// Site CSS destination
-// Like the _site/assets/css directory in Jekyll, if necessary.
-// If using, uncomment line 106
-const SITE_CSS_DEST = "./_site/assets/css";
-
 // Webfonts
-const WEBFONTS_SRC = "./fonts/webfonts";
-const TTF_SRC = "./fonts/ttf";
+const WEBFONTS_SRC = "./binaries/webfonts";
 const WEBFONTS_DEST = "./site/assets/fonts";
 
 /*
@@ -99,26 +93,23 @@ gulp.task("build-sass", function (done) {
     // Minify
     csso({ forceMediaMerge: false }),
   ];
-  return (
-    gulp
-      .src([`${PROJECT_SASS_SRC}/*.scss`])
-      .pipe(sourcemaps.init({ largeFile: true }))
-      .pipe(
-        sass({
-          includePaths: [
-            `${PROJECT_SASS_SRC}`,
-            `${uswds}/scss`,
-            `${uswds}/scss/packages`,
-          ],
-        })
-      )
-      .pipe(replace(/\buswds @version\b/g, "based on uswds v" + pkg.version))
-      .pipe(postcss(plugins))
-      .pipe(sourcemaps.write("."))
-      // uncomment the next line if necessary for Jekyll to build properly
-      .pipe(gulp.dest(`${SITE_CSS_DEST}`))
-      .pipe(gulp.dest(`${CSS_DEST}`))
-  );
+  return gulp
+    .src([`${PROJECT_SASS_SRC}/*.scss`])
+    .pipe(sourcemaps.init({ largeFile: true }))
+    .pipe(
+      sass.sync({
+        includePaths: [
+          `${PROJECT_SASS_SRC}`,
+          `${uswds}/scss`,
+          `${uswds}/scss/packages`,
+        ],
+      })
+    )
+    .pipe(replace(/\buswds @version\b/g, "based on uswds v" + pkg.version))
+    .pipe(postcss(plugins))
+    .pipe(sourcemaps.write("."))
+    .pipe(gulp.dest(`${CSS_DEST}`))
+    .pipe(gulp.dest("./_site/assets/css"));
 });
 
 // SVG sprite configuration
@@ -182,15 +173,13 @@ gulp.task(
 );
 
 gulp.task("copy-webfonts", () => {
-  return gulp
-    .src([`${WEBFONTS_SRC}/**/**`, `${TTF_SRC}/**/**`])
-    .pipe(gulp.dest(WEBFONTS_DEST));
+  return gulp.src(`${WEBFONTS_SRC}/**/**`).pipe(gulp.dest(WEBFONTS_DEST));
 });
 
 gulp.task("watch-webfonts", () => {
   gulp
-    .src([`${WEBFONTS_SRC}/**/**`, `${TTF_SRC}/**/**`])
-    .pipe(watch([WEBFONTS_SRC, TTF_SRC]))
+    .src(`${WEBFONTS_SRC}/**/*`, { base: WEBFONTS_SRC })
+    .pipe(watch(WEBFONTS_SRC, { base: WEBFONTS_SRC }))
     .pipe(gulp.dest(WEBFONTS_DEST));
 });
 
