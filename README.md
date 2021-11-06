@@ -1,7 +1,7 @@
 # Public Sans
 
 Current font files for the Public Sans typeface.
-This typeface is based off of https://github.com/impallari/Libre-Franklin
+This typeface is based off of https://github.com/impallari/Libre-Franklin. Public Sans is a Latin-only font.
 
 ## Usage
 
