@@ -5,10 +5,10 @@ This typeface is based off of https://github.com/impallari/Libre-Franklin
 
 ## Usage
 
-- **Webfonts** are available in `binaries/webfonts`
-- **Opentype** fonts for installing locally and for print applications are available in `binaries/otf`
-- **Variable fonts** should be considered experimental, but can be found in `binaries/variable`
-- **Source files** are available in `src` as both [Glyphs](https://glyphsapp.com/) files and as UFO + Designspace.
+- **Webfonts** are available in `fonts/webfonts`
+- **Opentype** fonts for installing locally and for print applications are available in `fonts/otf`
+- **Variable fonts** should be considered experimental, but can be found in `fonts/variable`
+- **Source files** are available in `sources` as both [Glyphs](https://glyphsapp.com/) files and as UFO + Designspace.
 
 ## Design principles
 
