@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uhorntilde" format="2">
+  <advance width="1188"/>
+  <unicode hex="1EEF"/>
+  <anchor x="558" y="0" name="bottom"/>
+  <anchor x="922" y="856" name="horn"/>
+  <anchor x="934" y="22" name="ogonek"/>
+  <anchor x="560" y="1034" name="top"/>
+  <anchor x="1058" y="936" name="topright"/>
+  <outline>
+    <component base="tildecomb" xOffset="298"/>
+    <component base="uhorn"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>uhorn</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>uhorn</string>
+    </dict>
+  </lib>
+</glyph>

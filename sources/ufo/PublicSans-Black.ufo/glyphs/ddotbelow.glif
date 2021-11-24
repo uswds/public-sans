@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ddotbelow" format="2">
+  <advance width="1238"/>
+  <unicode hex="1E0D"/>
+  <anchor x="544" y="0" name="bottom"/>
+  <anchor x="1138" y="1486" name="caron"/>
+  <anchor x="607" y="516" name="center"/>
+  <outline>
+    <component base="d"/>
+    <component base="dotbelowcomb" xOffset="354"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>d</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>d</string>
+    </dict>
+  </lib>
+</glyph>

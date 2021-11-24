@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ohorngrave" format="2">
+  <advance width="1354"/>
+  <unicode hex="1EDD"/>
+  <anchor x="579" y="0" name="bottom"/>
+  <anchor x="953" y="714" name="horn"/>
+  <anchor x="738" y="20" name="ogonek"/>
+  <anchor x="586" y="1034" name="top"/>
+  <anchor x="1146" y="894" name="topright"/>
+  <outline>
+    <component base="gravecomb" xOffset="100"/>
+    <component base="ohorn"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>ohorn</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>ohorn</string>
+    </dict>
+  </lib>
+</glyph>

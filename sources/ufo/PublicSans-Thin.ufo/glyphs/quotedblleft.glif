@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="quotedblleft" format="2">
+  <advance width="718"/>
+  <unicode hex="201C"/>
+  <outline>
+    <contour>
+      <point x="135" y="1064" type="line"/>
+      <point x="301" y="1064" type="line"/>
+      <point x="301" y="1224" type="line"/>
+      <point x="231" y="1224" type="line"/>
+      <point x="339" y="1446" type="line"/>
+      <point x="275" y="1446" type="line"/>
+      <point x="135" y="1202" type="line"/>
+    </contour>
+    <contour>
+      <point x="421" y="1064" type="line"/>
+      <point x="587" y="1064" type="line"/>
+      <point x="587" y="1224" type="line"/>
+      <point x="515" y="1224" type="line"/>
+      <point x="623" y="1446" type="line"/>
+      <point x="559" y="1446" type="line"/>
+      <point x="421" y="1202" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>quoteleft</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>quoteleft</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

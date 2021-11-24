@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Uhorn" format="2">
+  <advance width="1520"/>
+  <unicode hex="01AF"/>
+  <anchor x="696" y="4" name="bottom"/>
+  <anchor x="1148" y="1212" name="horn"/>
+  <anchor x="838" y="18" name="ogonek"/>
+  <anchor x="702" y="1446" name="top"/>
+  <anchor x="1274" y="1292" name="topright"/>
+  <outline>
+    <contour>
+      <point x="698" y="-20" type="curve" smooth="yes"/>
+      <point x="1020" y="-20"/>
+      <point x="1178" y="134"/>
+      <point x="1178" y="448" type="curve" smooth="yes"/>
+      <point x="1178" y="1210" type="line"/>
+      <point x="1330" y="1205"/>
+      <point x="1404" y="1291"/>
+      <point x="1404" y="1470" type="curve"/>
+      <point x="1302" y="1470" type="line"/>
+      <point x="1298" y="1338"/>
+      <point x="1267" y="1288"/>
+      <point x="1178" y="1281" type="curve"/>
+      <point x="1178" y="1446" type="line"/>
+      <point x="1100" y="1446" type="line"/>
+      <point x="1100" y="444" type="line" smooth="yes"/>
+      <point x="1100" y="188"/>
+      <point x="966" y="56"/>
+      <point x="698" y="56" type="curve" smooth="yes"/>
+      <point x="432" y="56"/>
+      <point x="306" y="192"/>
+      <point x="306" y="444" type="curve" smooth="yes"/>
+      <point x="306" y="1446" type="line"/>
+      <point x="220" y="1446" type="line"/>
+      <point x="220" y="478" type="line" smooth="yes"/>
+      <point x="220" y="138"/>
+      <point x="370" y="-20"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>U</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=U-60</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

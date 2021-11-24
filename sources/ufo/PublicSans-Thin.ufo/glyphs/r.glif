@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="r" format="2">
+  <advance width="739"/>
+  <unicode hex="0072"/>
+  <anchor x="218" y="0" name="bottom"/>
+  <anchor x="397" y="1034" name="top"/>
+  <outline>
+    <contour>
+      <point x="180" y="0" type="line"/>
+      <point x="258" y="0" type="line"/>
+      <point x="258" y="720" type="line" smooth="yes"/>
+      <point x="258" y="926"/>
+      <point x="438" y="972"/>
+      <point x="537" y="972" type="curve"/>
+      <point x="566" y="972"/>
+      <point x="621" y="967"/>
+      <point x="649" y="954" type="curve"/>
+      <point x="649" y="1034" type="line"/>
+      <point x="623" y="1048"/>
+      <point x="578" y="1054"/>
+      <point x="537" y="1054" type="curve"/>
+      <point x="438" y="1054"/>
+      <point x="306" y="1020"/>
+      <point x="252" y="880" type="curve"/>
+      <point x="252" y="1034" type="line"/>
+      <point x="180" y="1034" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>n</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>x*1.1</string>
+      <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
+      <string>=x</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,27 +1,11 @@
 {
-.appVersion = "3091";
-copyright = "Copyright (c) 2015, Impallari Type (www.impallari.com)";
+.appVersion = "1346";
+copyright = "Copyright 2015 The Public Sans Project Authors (https://github.com/uswds/public-sans)";
 customParameters = (
 {
 name = fsType;
 value = (
 );
-},
-{
-name = "Use Typo Metrics";
-value = 1;
-},
-{
-name = "Variable Font Origin";
-value = "91AB5BCA-6A50-42DA-B2F7-8181BF189245";
-},
-{
-name = "Disable Last Change";
-value = 1;
-},
-{
-name = "Use Line Breaks";
-value = 1;
 },
 {
 name = licenseURL;
@@ -43,12 +27,28 @@ Name = Weight;
 Tag = wght;
 }
 );
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+name = "Variable Font Origin";
+value = "91AB5BCA-6A50-42DA-B2F7-8181BF189245";
+},
+{
+name = "Disable Last Change";
+value = 1;
+},
+{
+name = "Use Line Breaks";
+value = 1;
 }
 );
 date = "2020-07-15 15:46:30 +0000";
 designer = "The Public Sans project authors (U.S. Web Design System). Libre Franklin designed by Pablo Impallari and Rodrigo Fuenzalida.";
 designerURL = "https://designsystem.digital.gov and http://www.impallari.com";
-familyName = "Public Sans (NSW)";
+familyName = "Public Sans";
 featurePrefixes = (
 {
 automatic = 1;
@@ -392,7 +392,6 @@ fontMaster = (
 {
 alignmentZones = (
 "{1446, 40}",
-"{1446, 40}",
 "{1155, 10}",
 "{1034, 22}",
 "{0, -22}",
@@ -463,7 +462,6 @@ xHeight = 1034;
 },
 {
 alignmentZones = (
-"{1446, 40}",
 "{1446, 40}",
 "{1155, 10}",
 "{1034, 22}",
@@ -4468,11 +4466,9 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = L;
 },
 {
-alignment = -1;
 name = periodcentered;
 transform = "{1, 0, 0, 1, 694, 86}";
 }
@@ -4483,11 +4479,9 @@ width = 1217;
 {
 components = (
 {
-alignment = -1;
 name = L;
 },
 {
-alignment = -1;
 name = periodcentered;
 transform = "{1, 0, 0, 1, 640, 46}";
 }
@@ -6968,13 +6962,11 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = R;
 },
 {
-alignment = -1;
 name = breveinvertedcomb;
-transform = "{1, 0, 0, 1, 202, 412}";
+transform = "{1, 0, 0.14054, 1, 202, 412}";
 }
 );
 layerId = "258ED206-D907-4350-8EBA-CBDDA1C16BF7";
@@ -14945,11 +14937,9 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = l;
 },
 {
-alignment = -1;
 name = periodcentered;
 transform = "{1, 0, 0, 1, 527, 86}";
 }
@@ -14960,11 +14950,9 @@ width = 983;
 {
 components = (
 {
-alignment = -1;
 name = l;
 },
 {
-alignment = -1;
 name = periodcentered;
 transform = "{1, 0, 0, 1, 305, 46}";
 }
@@ -21840,11 +21828,11 @@ layers = (
 components = (
 {
 name = three;
-transform = "{1, 0, 0, 1, 1, 10}";
+transform = "{1, 0, 0, 1, 2, 10}";
 }
 );
 layerId = "91AB5BCA-6A50-42DA-B2F7-8181BF189245";
-width = 1118;
+width = 1119;
 },
 {
 components = (
@@ -22029,7 +22017,6 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = zero;
 transform = "{1, 0, 0, 1, 25, 0}";
 }
@@ -22040,7 +22027,6 @@ width = 1400;
 {
 components = (
 {
-alignment = -1;
 name = zero;
 transform = "{1, 0, 0, 1, 156, 0}";
 }
@@ -22120,7 +22106,6 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = two;
 transform = "{1, 0, 0, 1, 47, 0}";
 }
@@ -22131,7 +22116,6 @@ width = 1400;
 {
 components = (
 {
-alignment = -1;
 name = two;
 transform = "{1, 0, 0, 1, 170, 0}";
 }
@@ -22149,7 +22133,6 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = three;
 transform = "{1, 0, 0, 1, 14, 0}";
 }
@@ -22160,7 +22143,6 @@ width = 1400;
 {
 components = (
 {
-alignment = -1;
 name = three;
 transform = "{1, 0, 0, 1, 139, 0}";
 }
@@ -22178,7 +22160,6 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = four;
 transform = "{1, 0, 0, 1, 17, 0}";
 }
@@ -22189,7 +22170,6 @@ width = 1400;
 {
 components = (
 {
-alignment = -1;
 name = four;
 transform = "{1, 0, 0, 1, 114, 0}";
 }
@@ -22207,8 +22187,8 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = five;
+transform = "{1, 0, 0, 1, -8, 0}";
 }
 );
 layerId = "258ED206-D907-4350-8EBA-CBDDA1C16BF7";
@@ -22217,7 +22197,6 @@ width = 1400;
 {
 components = (
 {
-alignment = -1;
 name = five;
 transform = "{1, 0, 0, 1, 111, 0}";
 }
@@ -22235,7 +22214,6 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = six;
 transform = "{1, 0, 0, 1, 133, 0}";
 }
@@ -22246,7 +22224,6 @@ width = 1400;
 {
 components = (
 {
-alignment = -1;
 name = six;
 transform = "{1, 0, 0, 1, 18, 0}";
 }
@@ -22316,7 +22293,6 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = eight;
 transform = "{1, 0, 0, 1, 14, 0}";
 }
@@ -22327,7 +22303,6 @@ width = 1400;
 {
 components = (
 {
-alignment = -1;
 name = eight;
 transform = "{1, 0, 0, 1, 118, 0}";
 }
@@ -22345,7 +22320,6 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = nine;
 transform = "{1, 0, 0, 1, 53, 0}";
 }
@@ -22356,7 +22330,6 @@ width = 1400;
 {
 components = (
 {
-alignment = -1;
 name = nine;
 transform = "{1, 0, 0, 1, 146, 0}";
 }

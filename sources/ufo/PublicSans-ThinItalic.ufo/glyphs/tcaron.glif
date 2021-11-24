@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tcaron" format="2">
+  <advance width="689"/>
+  <unicode hex="0165"/>
+  <anchor x="350" y="0" name="bottom"/>
+  <anchor x="500" y="1486" name="caron"/>
+  <anchor x="382" y="620" name="center"/>
+  <outline>
+    <component base="t"/>
+    <component base="caroncomb.alt" xOffset="369" yOffset="40"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>t</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="jdotless" format="2">
+  <advance width="624"/>
+  <unicode hex="0237"/>
+  <anchor x="329" y="1034" name="top"/>
+  <outline>
+    <contour>
+      <point x="114" y="-332" type="curve"/>
+      <point x="391" y="-332"/>
+      <point x="524" y="-200"/>
+      <point x="524" y="56" type="curve" smooth="yes"/>
+      <point x="524" y="1034" type="line"/>
+      <point x="135" y="1034" type="line"/>
+      <point x="135" y="56" type="line"/>
+      <point x="135" y="14"/>
+      <point x="112" y="-12"/>
+      <point x="39" y="-28" type="curve"/>
+      <point x="-20" y="-38" type="line"/>
+      <point x="-18" y="-298" type="line"/>
+      <point x="-18" y="-298"/>
+      <point x="11" y="-332"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>j</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>j</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

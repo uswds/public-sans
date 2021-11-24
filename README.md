@@ -1,6 +1,6 @@
 # Public Sans
 
-Current font files for the *(trial)* NSW distribution of USWDS's Public Sans typeface. (https://github.com/uswds/public-sans)
+Current font files for the Public Sans typeface.
 This typeface is based off of https://github.com/impallari/Libre-Franklin
 
 ## Usage
@@ -21,10 +21,6 @@ This typeface is based off of https://github.com/impallari/Libre-Franklin
 - Allow for good data design with tabular figures.
 - Be strong and neutral.
 - Encourage continuous improvement — strive to be better, not necessarily perfect.
-
-## How Public Sans (NSW) differs from Public Sans
-
-Public Sans (NSW) adds NSW-specific ligatures to Public Sans.
 
 ## How Public Sans differs from Libre Franklin
 
