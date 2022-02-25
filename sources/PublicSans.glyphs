@@ -1,5 +1,5 @@
 {
-.appVersion = "1346";
+.appVersion = "3114";
 classes = (
 {
 code = "";
@@ -12,6 +12,22 @@ customParameters = (
 name = fsType;
 value = (
 );
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+name = "Variable Font Origin";
+value = "91AB5BCA-6A50-42DA-B2F7-8181BF189245";
+},
+{
+name = "Disable Last Change";
+value = 1;
+},
+{
+name = "Use Line Breaks";
+value = 1;
 },
 {
 name = licenseURL;
@@ -33,22 +49,6 @@ Name = Weight;
 Tag = wght;
 }
 );
-},
-{
-name = "Use Typo Metrics";
-value = 1;
-},
-{
-name = "Variable Font Origin";
-value = "91AB5BCA-6A50-42DA-B2F7-8181BF189245";
-},
-{
-name = "Disable Last Change";
-value = 1;
-},
-{
-name = "Use Line Breaks";
-value = 1;
 }
 );
 date = "2020-07-15 15:46:26 +0000";
@@ -398,6 +398,7 @@ fontMaster = (
 {
 alignmentZones = (
 "{1446, 40}",
+"{1446, 40}",
 "{1155, 10}",
 "{1034, 22}",
 "{0, -22}",
@@ -468,6 +469,7 @@ xHeight = 1034;
 },
 {
 alignmentZones = (
+"{1446, 40}",
 "{1446, 40}",
 "{1155, 10}",
 "{1034, 22}",
@@ -14629,9 +14631,11 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = l;
 },
 {
+alignment = -1;
 name = periodcentered;
 transform = "{1, 0, 0, 1, 510, 46}";
 }
@@ -21687,6 +21691,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = zero;
 transform = "{1, 0, 0, 1, 25, 0}";
 }
@@ -21697,6 +21702,7 @@ width = 1400;
 {
 components = (
 {
+alignment = -1;
 name = zero;
 transform = "{1, 0, 0, 1, 121, 0}";
 }
@@ -21776,6 +21782,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = two;
 transform = "{1, 0, 0, 1, 43, 0}";
 }
@@ -21786,6 +21793,7 @@ width = 1400;
 {
 components = (
 {
+alignment = -1;
 name = two;
 transform = "{1, 0, 0, 1, 160, 0}";
 }
@@ -21803,6 +21811,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = three;
 transform = "{1, 0, 0, 1, 14, 0}";
 }
@@ -21813,6 +21822,7 @@ width = 1400;
 {
 components = (
 {
+alignment = -1;
 name = three;
 transform = "{1, 0, 0, 1, 113, 0}";
 }
@@ -21830,6 +21840,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = four;
 transform = "{1, 0, 0, 1, 3, 0}";
 }
@@ -21840,6 +21851,7 @@ width = 1400;
 {
 components = (
 {
+alignment = -1;
 name = four;
 transform = "{1, 0, 0, 1, 81, 0}";
 }
@@ -21857,6 +21869,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = five;
 transform = "{1, 0, 0, 1, 42, 0}";
 }
@@ -21867,6 +21880,7 @@ width = 1400;
 {
 components = (
 {
+alignment = -1;
 name = five;
 transform = "{1, 0, 0, 1, 106, 0}";
 }
@@ -21884,6 +21898,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = six;
 transform = "{1, 0, 0, 1, 116, 0}";
 }
@@ -21894,6 +21909,7 @@ width = 1400;
 {
 components = (
 {
+alignment = -1;
 name = six;
 transform = "{1, 0, 0, 1, 6, 0}";
 }
@@ -21963,6 +21979,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = eight;
 transform = "{1, 0, 0, 1, 8, 0}";
 }
@@ -21973,6 +21990,7 @@ width = 1400;
 {
 components = (
 {
+alignment = -1;
 name = eight;
 transform = "{1, 0, 0, 1, 76, 0}";
 }
@@ -21990,6 +22008,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = nine;
 transform = "{1, 0, 0, 1, 17, 0}";
 }
@@ -22000,6 +22019,7 @@ width = 1400;
 {
 components = (
 {
+alignment = -1;
 name = nine;
 transform = "{1, 0, 0, 1, 116, 0}";
 }
@@ -38326,5 +38346,5 @@ tH = 35;
 };
 };
 versionMajor = 2;
-versionMinor = 0;
+versionMinor = 1;
 }
