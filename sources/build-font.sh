@@ -72,12 +72,12 @@ echo "│
 vfs=$(ls ./fonts/variable/*.ttf)
 for vf in $vfs
 do
-	gftools fix-dsig --autofix $vf
+	#gftools fix-dsig --autofix $vf
 	gftools fix-nonhinting $vf $vf.fix
 	mv $vf.fix $vf
 	gftools fix-unwanted-tables --tables MVAR $vf
-	gftools fix-vf-meta $vf
-	mv $vf.fix $vf
+	#gftools fix-vf-meta $vf
+	#mv $vf.fix $vf
 	gftools gen-stat $vf --src ./sources/stat.yaml
 	mv $vf.fix $vf
 done
