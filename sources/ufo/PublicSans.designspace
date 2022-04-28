@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<designspace format="4.1">
+<designspace format="5.0">
   <axes>
     <axis tag="wght" name="Weight" minimum="100" maximum="900" default="100">
       <map input="100" output="100"/>
@@ -34,64 +34,46 @@
       <location>
         <dimension name="Weight" xvalue="100"/>
       </location>
-      <kerning/>
-      <info/>
     </instance>
     <instance name="Public Sans ExtraLight" familyname="Public Sans" stylename="ExtraLight" filename="../instance_ufo/PublicSans-ExtraLight.ufo" stylemapfamilyname="Public Sans ExtraLight" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="220"/>
       </location>
-      <kerning/>
-      <info/>
     </instance>
     <instance name="Public Sans Light" familyname="Public Sans" stylename="Light" filename="../instance_ufo/PublicSans-Light.ufo" stylemapfamilyname="Public Sans Light" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="300"/>
       </location>
-      <kerning/>
-      <info/>
     </instance>
     <instance name="Public Sans Regular" familyname="Public Sans" stylename="Regular" filename="../instance_ufo/PublicSans-Regular.ufo" stylemapfamilyname="Public Sans" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="375"/>
       </location>
-      <kerning/>
-      <info/>
     </instance>
     <instance name="Public Sans Medium" familyname="Public Sans" stylename="Medium" filename="../instance_ufo/PublicSans-Medium.ufo" stylemapfamilyname="Public Sans Medium" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="450"/>
       </location>
-      <kerning/>
-      <info/>
     </instance>
     <instance name="Public Sans SemiBold" familyname="Public Sans" stylename="SemiBold" filename="../instance_ufo/PublicSans-SemiBold.ufo" stylemapfamilyname="Public Sans SemiBold" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="525"/>
       </location>
-      <kerning/>
-      <info/>
     </instance>
     <instance name="Public Sans Bold" familyname="Public Sans" stylename="Bold" filename="../instance_ufo/PublicSans-Bold.ufo" stylemapfamilyname="Public Sans" stylemapstylename="bold">
       <location>
         <dimension name="Weight" xvalue="650"/>
       </location>
-      <kerning/>
-      <info/>
     </instance>
     <instance name="Public Sans ExtraBold" familyname="Public Sans" stylename="ExtraBold" filename="../instance_ufo/PublicSans-ExtraBold.ufo" stylemapfamilyname="Public Sans ExtraBold" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="775"/>
       </location>
-      <kerning/>
-      <info/>
     </instance>
     <instance name="Public Sans Black" familyname="Public Sans" stylename="Black" filename="../instance_ufo/PublicSans-Black.ufo" stylemapfamilyname="Public Sans Black" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="900"/>
       </location>
-      <kerning/>
-      <info/>
     </instance>
   </instances>
   <lib>
