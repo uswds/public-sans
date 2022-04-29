@@ -31,6 +31,7 @@ exports.watch = series(
 );
 
 exports.compileIcons = uswds.compileIcons;
+exports.copyWebfonts = copyWebfonts;
 exports.copyFonts = uswds.copyFonts;
 exports.copyImages = uswds.copyImages;
 exports.copyJS = uswds.copyJS;
