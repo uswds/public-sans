@@ -36,21 +36,20 @@
     "test:a11y": "npx axe http://localhost:4000/, http://localhost:4000/public-sans-100/ --tags wcag2a"
   },
   "dependencies": {
+    "@uswds/uswds": "3.0.0",
     "autoprefixer": "^10.2.4",
     "gulp": "^4.0.2",
     "gulp-postcss": "^9.0.0",
     "gulp-rename": "^2.0.0",
     "gulp-replace": "^1.0.0",
-    "gulp-sass": "^4.1.0",
+    "gulp-sass": "^5.1.0",
     "gulp-sourcemaps": "^3.0.0",
     "gulp-svg-sprite": "^1.5.0",
     "gulp-watch": "^5.0.1",
     "path": "^0.12.7",
     "postcss": "^8.2.6",
     "postcss-csso": "^5.0.0",
-    "sass": "^1.32.8",
-    "uswds": "^2.12.2",
-    "uswds-gulp": "github:uswds/uswds-gulp"
+    "sass-embedded": "^1.50.1"
   },
   "devDependencies": {
     "@axe-core/cli": "^4.0.0"

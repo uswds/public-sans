@@ -14,12 +14,12 @@ USWDS SASS GULPFILE
 const autoprefixer = require("autoprefixer");
 const csso = require("postcss-csso");
 const gulp = require("gulp");
-const pkg = require("./node_modules/uswds/package.json");
+const pkg = require("./node_modules/@uswds/uswds/package.json");
 const postcss = require("gulp-postcss");
 const replace = require("gulp-replace");
-const sass = require("gulp-sass");
+const sass = require("gulp-sass")(require("sass-embedded"));
 const sourcemaps = require("gulp-sourcemaps");
-const uswds = require("./node_modules/uswds-gulp/config/uswds");
+const uswds = "node_modules/@uswds/uswds";
 const del = require("del");
 const svgSprite = require("gulp-svg-sprite");
 const rename = require("gulp-rename");
@@ -67,20 +67,20 @@ TASKS
 
 gulp.task("copy-uswds-setup", () => {
   return gulp
-    .src(`${uswds}/scss/theme/**/**`)
+    .src(`${uswds}/dist/theme/**/**`)
     .pipe(gulp.dest(`${PROJECT_SASS_SRC}`));
 });
 
 gulp.task("copy-uswds-fonts", () => {
-  return gulp.src(`${uswds}/fonts/**/**`).pipe(gulp.dest(`${FONTS_DEST}`));
+  return gulp.src(`${uswds}/dist/fonts/**/**`).pipe(gulp.dest(`${FONTS_DEST}`));
 });
 
 gulp.task("copy-uswds-images", () => {
-  return gulp.src(`${uswds}/img/**/**`).pipe(gulp.dest(`${IMG_DEST}`));
+  return gulp.src(`${uswds}/dist/img/**/**`).pipe(gulp.dest(`${IMG_DEST}`));
 });
 
 gulp.task("copy-uswds-js", () => {
-  return gulp.src(`${uswds}/js/**/**`).pipe(gulp.dest(`${JS_DEST}`));
+  return gulp.src(`${uswds}/dist/js/**/**`).pipe(gulp.dest(`${JS_DEST}`));
 });
 
 gulp.task("build-sass", function (done) {
@@ -97,11 +97,11 @@ gulp.task("build-sass", function (done) {
     .src([`${PROJECT_SASS_SRC}/*.scss`])
     .pipe(sourcemaps.init({ largeFile: true }))
     .pipe(
-      sass.sync({
+      sass({
         includePaths: [
           `${PROJECT_SASS_SRC}`,
-          `${uswds}/scss`,
-          `${uswds}/scss/packages`,
+          `${uswds}`,
+          `${uswds}/packages`,
         ],
       })
     )
