@@ -4,8 +4,19 @@
   <dict>
     <key>GSCornerRadius</key>
     <integer>7</integer>
+    <key>com.github.googlei18n.ufo2ft.filters</key>
+    <array>
+      <dict>
+        <key>name</key>
+        <string>eraseOpenCorners</string>
+        <key>namespace</key>
+        <string>glyphsLib.filters</string>
+        <key>pre</key>
+        <true/>
+      </dict>
+    </array>
     <key>com.schriftgestaltung.appVersion</key>
-    <string>1346</string>
+    <string>3114</string>
     <key>com.schriftgestaltung.customName</key>
     <string>Black</string>
     <key>com.schriftgestaltung.customParameter.GSFont.Axes</key>
