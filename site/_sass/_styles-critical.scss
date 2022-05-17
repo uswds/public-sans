@@ -1,0 +1,15 @@
+@forward "uswds-theme";
+
+@forward "usa-banner"; //.................. 28 KB (70%)
+@forward "usa-button"; //.................. 18 KB
+@forward "usa-identifier"; //.............. 11 KB
+@forward "usa-layout-grid"; //............. 11 KB (47%)
+@forward "usa-prose"; //................... 31 KB
+@forward "usa-skipnav"; //.................  9 KB
+@forward "uswds-utilities"; //.............  2 KB (1%)
+@forward "uswds-global"; //................ 11 KB
+
+@forward "uswds-theme-custom-styles"; //...  9 KB (+ 7 KB)
+
+// TOTAL .................................. 77 KB (15%)
+// Compile time ...........................    3s (46%)

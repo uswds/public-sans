@@ -1,4 +1,6 @@
 @use "uswds-core" with (
+  $theme-show-compile-warnings: false,
+  $theme-show-notifications: false,
   $theme-color-primary-darkest: "blue-warm-90",
   $theme-link-hover-color: "primary-darker",
   $theme-banner-max-width: "desktop-lg",
@@ -9,7 +11,7 @@
   $theme-identifier-identity-domain-color: "primary-light",
   $theme-identifier-max-width: "desktop-lg",
   $theme-site-alert-max-width: "desktop-lg",
-  $theme-image-path: '../uswds/img',
+  $theme-image-path: "../uswds/img",
   $theme-grid-container-max-width: "desktop-lg",
   $theme-site-margins-breakpoint: "tablet-lg",
   $theme-font-path: "..",
@@ -71,18 +73,33 @@
   $theme-generate-all-weights: true,
   $utilities-use-important: true,
   $global-color-palettes: ("palette-color-theme"),
-  // removed 14 KB by removing grid breakpoints
+
+  // Breakpoints with all utilities............ 247 KB
+  // Breakpoints with layout-grid..............  29 KB
   $theme-utility-breakpoints: (
-    "card": false,
-    "card-lg": false,
-    "mobile": false,
-    "mobile-lg": false,
+    "mobile-lg": true,
     "tablet": true,
-    "tablet-lg": false,
-    "desktop": false,
-    "desktop-lg": false,
-    "widescreen": false
+    "tablet-lg": true,
+    "desktop": true,
   ),
+
+  // Breakpoints with all utilities............ 202 KB (81%)
+  // Breakpoints with layout-grid..............  23 KB (80%)
+  // Breakpoints with optimized utilities...... 136 KB
+  // Breakpoints with critical utilities.......   3 KB
+  // $theme-utility-breakpoints: (
+  //   "tablet": true,
+  //   "tablet-lg": true,
+  //   "desktop": true,
+  // ),
+
+  // Breakpoints with all utilities............ 114 KB (46%)
+  // Breakpoints with layout-grid..............  11 KB (37%)
+  // Breakpoints with optimized utilities......  72 KB (53%)
+  // Breakpoints with critical utilities.......   2 KB (66%)
+  // $theme-utility-breakpoints: (
+  //   "tablet": true,
+  // ),
   $letter-spacing-settings: (
     output: true,
     responsive: true,
@@ -100,45 +117,56 @@
     visited: false,
   ),
   $font-palettes: (
-    'palette-font-system-sans',
-    'palette-font-system-mono-small',
+    "palette-font-system-sans",
+    "palette-font-system-mono-small",
   ),
   $font-weight-palettes: (
-    'palette-font-weight-default',
-    'palette-font-weight-system'
+    "palette-font-weight-default",
+    "palette-font-weight-system"
   ),
-  $line-height-palettes: ('palette-line-height-default'),
+  $line-height-palettes: ("palette-line-height-default"),
   $line-height-manual-values: (
-    'tight': 1.15,
+    "tight": 1.15,
   ),
-  // Utilities: 140 KB / Saves 66 KB
-  // With additional optimizations: 3 KB
-  $output-these-utilities: (
-    // "align-items",
-    // "background-color",
-    // "border",
-    // "border-color",
-    // "border-width",
-    // "bottom",
-    // "color",
-    // "display",
-    // "height",
-    "flex",
-    "flex-direction",
-    // "font",
-    // "font-feature",
-    // "font-style",
-    "font-weight",
-    // "justify-content",
-    // "letter-spacing",
-    // "line-height",
-    // "margin-vertical",
-    // "max-width",
-    // "measure",
-    // "overflow",
-    // "padding",
-    // "position",
-    // "whitespace",
-    // "width"
-  )
+  // All utilities............................. 247 KB
+  $output-these-utilities: default,
+
+  // Optimized utilities....................... 168 KB (68%)
+  // Optimized utilities and breakpoints....... 136 KB (55%)
+  // $output-these-utilities: (
+  //   "align-items",
+  //   "background-color",
+  //   "border",
+  //   "border-color",
+  //   "border-width",
+  //   "bottom",
+  //   "color",
+  //   "display",
+  //   "height",
+  //   "flex",
+  //   "flex-direction",
+  //   "font",
+  //   "font-feature",
+  //   "font-style",
+  //   "font-weight",
+  //   "justify-content",
+  //   "letter-spacing",
+  //   "line-height",
+  //   "margin-vertical",
+  //   "max-width",
+  //   "measure",
+  //   "overflow",
+  //   "padding",
+  //   "position",
+  //   "whitespace",
+  //   "width"
+  // ),
+
+  // Critical utilities........................ 3 KB (1%)
+  // Critical utilities and breakpoints........ 2 KB (1%)
+  // $output-these-utilities: (
+  //   "flex",
+  //   "flex-direction",
+  //   "font-weight"
+  // )
 );
