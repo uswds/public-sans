@@ -461,3 +461,59 @@ main {
     }
   }
 }
+
+body.is-home {
+  @include u-bg("ink");
+  @include u-text("white");
+}
+
+.site-home {
+  @include u-padding-top(2);
+  @include at-media("tablet") {
+    @include u-margin-top(3);
+    @include u-padding-bottom(6);
+  }
+  @include at-media("desktop") {
+    @include u-margin-top(6);
+    @include u-padding-bottom(8);
+  }
+
+  h1 {
+    @include u-font("sans", 14);
+    @include u-padding-top(2);
+    @include u-text("ls-neg-1");
+    @include u-text("normal");
+    @include at-media("tablet") {
+      @include u-font("sans", 17);
+      @include u-text("ls-neg-1");
+    }
+    @include at-media("desktop") {
+      @include u-font("sans", 18);
+    }
+  }
+
+  .button-container {
+    margin-top: units(2);
+  }
+  
+  .usa-button {
+    @include u-bg("primary-vivid");
+    @include u-text("normal");
+    @include u-font("sans", "sm");
+    @include u-margin-top(1);
+    @include u-radius("sm");
+    &:hover {
+      @include u-bg("primary-light");
+      @include u-text("ink");
+    }
+  }
+
+  .attribution {
+    @include u-line-height("sans", 4);
+    @include u-margin-top(4);
+  }
+}
+
+.noWrap {
+  @include u-text("no-wrap");
+}
