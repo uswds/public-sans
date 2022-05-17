@@ -6,12 +6,13 @@
 {% include head.html %}
 
 <body class="height-full display-flex flex-column {{ page.bodyclasses }}">
-  {% include gov-banner.html %}
+  {% include usa-skipnav.html %}
+  {% include usa-banner.html %}
   {% include header.html %}
   <main class="flex-fill" id="main-content">
     {{ content }}
   </main>
-  {% include footer.html %}
+  {% include usa-identifier.html %}
   <script src="{{ "/assets/uswds/js/uswds.min.js" | relative_url }}"></script>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->

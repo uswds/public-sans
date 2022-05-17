@@ -83,51 +83,51 @@
     "widescreen": false
   ),
   $letter-spacing-settings: (
-   output: true,
-   responsive: true,
-   active: false,
-   focus: false,
-   hover: false,
-   visited: false,
+    output: true,
+    responsive: true,
+    active: false,
+    focus: false,
+    hover: false,
+    visited: false,
   ),
   $width-settings: (
-   output: true,
-   responsive: false,
-   active: false,
-   focus: false,
-   hover: false,
-   visited: false,
+    output: true,
+    responsive: false,
+    active: false,
+    focus: false,
+    hover: false,
+    visited: false,
   ),
   $font-palettes: (
-   'palette-font-system-sans',
-   'palette-font-system-mono-small',
-   ),
-   $font-weight-palettes: (
+    'palette-font-system-sans',
+    'palette-font-system-mono-small',
+  ),
+  $font-weight-palettes: (
     'palette-font-weight-default',
     'palette-font-weight-system'
-   ),
-   $line-height-palettes: ('palette-line-height-default'),
-   $line-height-manual-values: (
+  ),
+  $line-height-palettes: ('palette-line-height-default'),
+  $line-height-manual-values: (
     'tight': 1.15,
-   ),
-   $output-these-utilities: (
-    "height",
-    "display",
+  ),
+  // Utilities: 140 KB / Saves 66 KB
+  $output-these-utilities: (
     "align-items",
-    "flex",
-    "flex-direction",
-    "justify-content",
     "background-color",
     "border",
     "border-color",
     "border-width",
     "bottom",
     "color",
+    "display",
+    "height",
+    "flex",
+    "flex-direction",
+    "font",
     "font-feature",
     "font-style",
     "font-weight",
-    "whitespace",
-    "font",
+    "justify-content",
     "letter-spacing",
     "line-height",
     "margin-vertical",
@@ -136,6 +136,7 @@
     "overflow",
     "padding",
     "position",
+    "whitespace",
     "width"
-   )
+  )
 );

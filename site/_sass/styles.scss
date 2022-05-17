@@ -9,17 +9,21 @@
 */
 
 @forward "uswds-theme";
+// @forward "uswds"; // 448 KB / 7.2s
+
 // Packages
-@forward "usa-accordion";
+// Components // 76 KB
 @forward "usa-banner";
 @forward "usa-button";
 @forward "usa-identifier";
-@forward "usa-link";
-@forward "usa-skipnav";
-@forward "usa-media-block";
 @forward "usa-prose";
-@forward "uswds-utilities";
-@forward "uswds-global";
+@forward "usa-skipnav";
 
-@forward "uswds-theme-custom-styles";
+// Bundles // 147 KB
+@forward "uswds-utilities"; // 136 KB
+@forward "uswds-global"; // 11 KB
 
+// Custom // 2 KB
+@forward "uswds-theme-custom-styles"; 
+
+// TOTAL: 217 KB

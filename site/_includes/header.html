@@ -1,17 +1,17 @@
-<header class="grid-container width-full margin-top-3 tablet:margin-top-4" role="banner">
-  <div class="site-title font-sans-13">
+<header class="site-header grid-container" role="banner">
+  <div class="site-title ">
     {% if page.url == "/" %}
     Public Sans
     {% else %}
-    <a class="inline-block" href="{{ "/" | relative_url }}" title="Home" aria-label="Home">Public Sans</a>
+    <a href="{{ "/" | relative_url }}" title="Home" aria-label="Home">Public Sans</a>
     {% endif %}
   </div>
-  <nav class="site-nav margin-top-0" role="navigation">
+  <nav class="site-nav" role="navigation">
     <ul class="">
       {% for instance in site.data.weights %}
-        <li class="text-{{ instance.weight }}"><a href="{{ instance.url | relative_url }}"{% if page.url contains instance.url %} class="border-ink"{% endif %}>{{ instance.weight }}</a></li>
+        <li class="text-{{ instance.weight }}"><a href="{{ instance.url | relative_url }}"{% if page.url contains instance.url %} class="active"{% endif %}>{{ instance.weight }}</a></li>
       {% endfor %}
-      <li class="text-400"><a href="{{ 'reading' | relative_url }}"{% if page.url contains "reading" %} class="border-ink"{% endif %}>Example</a></li>
+      <li class="text-400"><a href="{{ 'reading' | relative_url }}"{% if page.url contains "reading" %} class="active"{% endif %}>Example</a></li>
     </ul>
   </nav>
 </header>
