@@ -1,1 +1,8 @@
-@forward "styles-original";
+@forward "uswds-theme";
+
+@forward "uswds"; //....................... 499 KB
+
+@forward "uswds-theme-custom-styles"; //...   9 KB
+
+// TOTAL .................................. 508 KB
+// Compile time ...........................   6.5s
