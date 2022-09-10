@@ -1,0 +1,28 @@
+---
+---
+
+<!doctype html>
+<html class="height-full" lang="es">
+{% include head.html %}
+
+<body class="height-full display-flex flex-column {{ page.bodyclasses }}">
+  {% include gov-banner.html %}
+  {% include header-es.html %}
+  <main class="flex-fill" id="main-content">
+    {{ content }}
+  </main>
+  {% include footer.html %}
+  <script src="{{ "/assets/uswds/js/uswds.min.js" | relative_url }}"></script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-47271808-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-47271808-2');
+  </script>
+
+</body>
+</html>
