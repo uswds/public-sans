@@ -46,5 +46,8 @@
   },
   "devDependencies": {
     "@axe-core/cli": "^4.8.2"
+  },
+  "overrides": {
+    "glob-parent": "6.0.2"
   }
 }
