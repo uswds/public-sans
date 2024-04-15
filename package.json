@@ -45,7 +45,8 @@
     "sass-embedded": "^1.74.1"
   },
   "devDependencies": {
-    "@axe-core/cli": "^4.9.0"
+    "@axe-core/cli": "^4.9.0",
+    "chromedriver": "123.0.3"
   },
   "overrides": {
     "glob-parent": "6.0.2"
