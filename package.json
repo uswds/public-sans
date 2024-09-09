@@ -36,17 +36,17 @@
     "test:a11y": "npx axe http://localhost:4000/, http://localhost:4000/public-sans-100/ --tags wcag2a"
   },
   "dependencies": {
-    "@uswds/compile": "^1.1.0",
-    "@uswds/uswds": "3.8.0",
+    "@uswds/compile": "1.2.0",
+    "@uswds/uswds": "3.8.1",
     "gulp": "^4.0.2",
     "gulp-sass": "^5.1.0",
     "path": "^0.12.7",
-    "postcss": "^8.4.38",
-    "sass-embedded": "^1.77.0"
+    "postcss": "^8.4.41",
+    "sass-embedded": "^1.77.8"
   },
   "devDependencies": {
-    "@axe-core/cli": "^4.9.0",
-    "chromedriver": "125.0.3"
+    "@axe-core/cli": "^4.9.1",
+    "chromedriver": "127.0.1"
   },
   "overrides": {
     "glob-parent": "6.0.2"
