@@ -37,15 +37,15 @@
   },
   "dependencies": {
     "@uswds/compile": "1.2.0",
-    "@uswds/uswds": "3.8.1",
+    "@uswds/uswds": "3.8.2",
     "gulp": "^4.0.2",
     "gulp-sass": "^5.1.0",
     "path": "^0.12.7",
-    "postcss": "^8.4.41",
-    "sass-embedded": "^1.77.8"
+    "postcss": "^8.4.45",
+    "sass-embedded": "^1.78.0"
   },
   "devDependencies": {
-    "@axe-core/cli": "^4.9.1",
+    "@axe-core/cli": "^4.10.0",
     "chromedriver": "127.0.1"
   },
   "overrides": {
