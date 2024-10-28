@@ -13,8 +13,9 @@ const WEBFONTS_SRC = "./fonts/webfonts";
 const WEBFONTS_DEST = "./site/assets/fonts";
 
 function copyWebfonts() {
-  return src(`${WEBFONTS_SRC}/**/**`)
-    .pipe(dest(WEBFONTS_DEST));
+  return src(`${WEBFONTS_SRC}/**/**`, {
+    encoding: false,
+  }).pipe(dest(WEBFONTS_DEST));
 }
 
 function watchWebfonts() {
