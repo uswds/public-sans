@@ -1,3 +1,5 @@
+As of February 2026, the team (currently solely Anne Petersen) plans to retire the [Public Sans site](https://public-sans.digital.gov/). This repo still maintains the font files for Public Sans. For more information about this change, see the [relevant GitHub issue](https://github.com/uswds/public-sans/issues/363).
+
 # Public Sans
 
 Current font files for the Public Sans typeface.
