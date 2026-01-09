@@ -1,3 +1,9 @@
+:exclamation: **Site retiring** :exclamation:
+
+As of February 2026, the team (currently solely Anne Petersen) plans to retire the [Public Sans website](https://public-sans.digital.gov/). 
+
+This repo still contains the source font files, currently **[Public Sans v2.001](https://designsystem.digital.gov/)**, but the font is not being actively developed or maintained. For more information about the site decommissioning, see the [relevant GitHub issue](https://github.com/uswds/public-sans/issues/363).
+
 # Public Sans
 
 Current font files for the Public Sans typeface.
