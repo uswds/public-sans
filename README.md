@@ -1,3 +1,5 @@
+[![DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/uswds/public-sans)
+
 :exclamation: **Site retiring** :exclamation:
 
 As of February 2026, the team (currently solely Anne Petersen) plans to retire the [Public Sans website](https://public-sans.digital.gov/). 
