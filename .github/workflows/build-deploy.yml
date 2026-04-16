@@ -50,6 +50,7 @@ jobs:
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         run: |
+          bundle config set frozen false
           npm start
           bundle exec jekyll build --baseurl "/public-sans"
         env:
