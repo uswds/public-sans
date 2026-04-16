@@ -1,0 +1,38 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - develop
+
+permissions:
+  pages: write
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '19.x'
+    
+      - name: Install dependencies and build site
+        run: |
+          npm start
+          npm run build
+    
+      - name: Setup GitHub pages
+        uses: actions/configure-pages@v5
+    
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./_site
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
