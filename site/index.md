@@ -1,6 +1,7 @@
 ---
 layout: default
 bodyclasses: is-home bg-ink text-white
+redirect_to: https://digital.gov/resources/an-introduction-to-typography
 ---
 
 <div class="grid-container padding-top-2 tablet:margin-top-3 desktop:margin-top-6 tablet:padding-bottom-6 desktop:padding-bottom-8">
