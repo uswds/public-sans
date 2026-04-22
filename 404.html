@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Redirecting</title>
+  <meta name="robots" content="noindex">
+  <link rel="canonical" href="http://public-sans.digital.nsw.gov.au/">
+  <meta http-equiv="refresh" content="0; url=http://public-sans.digital.nsw.gov.au/">
+  <script>
+    (function () {
+      var targetOrigin = "http://public-sans.digital.nsw.gov.au";
+      var repoBasePath = "/public-sans";
+      var pathname = window.location.pathname || "/";
+
+      if (window.location.hostname.endsWith("github.io") && pathname.indexOf(repoBasePath) === 0) {
+        pathname = pathname.slice(repoBasePath.length) || "/";
+      }
+
+      var destination = new URL(pathname.replace(/^\/+/, "/"), targetOrigin);
+      destination.search = window.location.search;
+      destination.hash = window.location.hash;
+      window.location.replace(destination.toString());
+    })();
+  </script>
+</head>
+<body>
+  <p>Redirecting to <a href="http://public-sans.digital.nsw.gov.au/">public-sans.digital.nsw.gov.au</a>...</p>
+</body>
+</html>
