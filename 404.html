@@ -9,18 +9,8 @@
   <meta http-equiv="refresh" content="0; url=https://public-sans.digital.nsw.gov.au/">
   <script>
     (function () {
-      var targetOrigin = "https://public-sans.digital.nsw.gov.au";
-      var repoBasePath = "/public-sans";
-      var pathname = window.location.pathname || "/";
-
-      if (window.location.hostname.endsWith("github.io") && pathname.indexOf(repoBasePath) === 0) {
-        pathname = pathname.slice(repoBasePath.length) || "/";
-      }
-
-      var destination = new URL(pathname.replace(/^\/+/, "/"), targetOrigin);
-      destination.search = window.location.search;
-      destination.hash = window.location.hash;
-      window.location.replace(destination.toString());
+      var targetUrl = "https://public-sans.digital.nsw.gov.au/";
+      window.location.replace(targetUrl);
     })();
   </script>
 </head>
