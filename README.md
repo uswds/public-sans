@@ -1,8 +1,10 @@
-:exclamation: **Site retiring** :exclamation:
+**Site retired**
 
-As of February 2026, the team (currently solely @annepetersen) plans to retire the live [Public Sans website](https://public-sans.digital.gov/), though the URL will resolve to [Digital.gov](https://digital.gov/)'s [Introduction to Typography page](https://digital.gov/resources/an-introduction-to-typography), hopefully in May 2026. [The Open Source Program Office of the Centers for Medicare and Medicaid Services](https://dsacms.github.io/ospo-guide/) has kindly volunteered to create a mirror in its absence.
+The Public Sans website has been retired. Its old URL (public-sans.digital.gov) now redirects to Digital.gov’s [An introduction to typography](https://digital.gov/resources/an-introduction-to-typography), which includes a note about Public Sans and its current unmaintained status at the bottom of the page. If you arrived here from there, welcome! :wave:
 
-This repo still contains the source font files, currently **[Public Sans v2.001]([https://designsystem.digital.gov/](https://designsystem.digital.gov/components/typography/#public-sans))**, but this font is not being actively developed or maintained. For more information about the site decommissioning, see the [relevant GitHub issue](https://github.com/uswds/public-sans/issues/363).
+[The Open Source Program Office of the Centers for Medicare and Medicaid Services](https://dsacms.github.io/ospo-guide/) has kindly volunteered to create a mirror in the site's absence. More to come on that.
+
+This repo still contains the source font files, currently **[Public Sans v2.001]([https://designsystem.digital.gov/](https://designsystem.digital.gov/components/typography/#public-sans))**, but Public Sans as a font is not currently being actively developed or maintained. 
 
 # Public Sans
 
