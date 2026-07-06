@@ -49,43 +49,5 @@ This package has been updated to use [Python 3](https://www.python.org/downloads
 
 ### Run build
 ```sh
-npm run build
-```
-
-## Running the specimen site locally
-
-The specimen site runs on Jekyll and Node, powered by USWDS. The site-related files are distinct from the Public Sans source files and are kept in the following locations:
-
-```
-public-sans/
-├── _data/
-├── _includes/
-├── _layouts/
-├── _sass/
-├── pages/
-└── assets/
-```
-
-## Running code locally
-
-After cloning the repo, navigate to the correct folder and install USWDS, Jekyll, and any necessary dependencies using:
-
-```
-npm start
-```
-
-Then, to run the site locally:
-
-```
-npm run serve
-```
-
-If all goes well, visit the site at http://localhost:4000.
-
-USWDS assets are in `assets/uswds/fonts` and `assets/uswds/img`.
-
-SASS files are kept in the `/_sass` directory. To watch for changes and recompile the styles, run:
-
-```
-npm run watch
+./build.sh
 ```
